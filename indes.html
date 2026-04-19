@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Live Cricket Schedule | Global Match Center </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main-wrapper">
+        <header class="app-header">
+            <div class="header-content">
+                <h1>🏏 GLOBAL MATCH CENTER</h1>
+                <p>Live Updates • International & Domestic Schedule</p>
+                <div class="search-box">
+                    <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search teams or leagues (e.g. PSL, IPL, Zalmi)...">
+                </div>
+            </div>
+        </header>
+
+        <main id="fixtures-container">
+            <div id="fixtures-list">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading Live Schedule...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
