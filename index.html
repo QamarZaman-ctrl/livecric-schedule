@@ -3,7 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Live Cricket Schedule | Global Match Center </title>
+    
+    <title>Live Cricket Schedule | Global Match Center</title>
+    <meta name="description" content="Check live cricket schedule, upcoming matches for PSL, IPL, BBL, and ICC International events. Get real-time updates and GMT/PKT timings.">
+    <meta name="keywords" content="cricket schedule, live psl schedule, ipl 2026 matches, international cricket fixtures, cricket match center, psl 11, live cricket updates">
+    <meta name="author" content="QZ Global Match Center">
+    <link rel="canonical" href="https://livecricschedule.live/" />
+    
+    <meta property="og:title" content="Live Cricket Schedule | Global Match Center">
+    <meta property="og:description" content="Get the latest cricket fixtures and schedules for all major leagues and international matches.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="favicon" href="icon.png">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,9 +23,23 @@
         <header class="app-header">
             <div class="header-content">
                 <h1>🏏 GLOBAL MATCH CENTER</h1>
-                <p>Live Updates • International & Domestic Schedule</p>
+                <p>Live Updates • International & Domestic Schedule up to next 3 days</p>
+                
                 <div class="search-box">
-                    <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search teams or leagues (e.g. PSL, IPL, Zalmi)...">
+                    <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search teams or leagues...">
+                </div>
+
+                <div class="filter-bar">
+                    <button class="filter-btn active" onclick="filterByCategory('all', event)">All</button>
+                    <button class="filter-btn" onclick="filterByCategory('icc', event)">International</button>
+                    <button class="filter-btn" onclick="filterByCategory('psl', event)">PSL</button>
+                    <button class="filter-btn" onclick="filterByCategory('ipl', event)">IPL</button>
+                    <button class="filter-btn" onclick="filterByCategory('bbl', event)">BBL</button>
+                    <button class="filter-btn" onclick="filterByCategory('cpl', event)">CPL</button>
+                    <button class="filter-btn" onclick="filterByCategory('bpl', event)">BPL</button>
+                    <button class="filter-btn" onclick="filterByCategory('t10', event)">T10</button>
+                    <button class="filter-btn" onclick="filterByCategory('women', event)">Women</button>
+                    <button class="filter-btn" onclick="filterByCategory('other', event)">Other</button>
                 </div>
             </div>
         </header>
