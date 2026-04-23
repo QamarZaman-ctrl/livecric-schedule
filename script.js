@@ -23,27 +23,52 @@ function filterMatches() {
     }
 }
 
-// --- SMART FLAG LOGIC FOR GITHUB ---
+/**
+ * SMART FLAG FALLBACK LOGIC
+ * Ye function check karega:
+ * 1. Afghanistan.png (Original)
+ * 2. afghanistan.png (Lowercase)
+ * 3. south-africa.png (Slug version)
+ */
 function setFlagWithFallback(imgElement, nameRaw) {
-    let clean = nameRaw.toLowerCase()
-        .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
-        .replace(/\s+w\b/gi, "").replace(/\b-w\b/gi, "").replace(/\(w\)/gi, "")
-        .replace(/[^a-z0-9\s]/gi, '').trim().replace(/\s+/g, '-');
+    let base = "assets/flags/";
+    let original = nameRaw.trim();
+    let capitalized = original.charAt(0).toUpperCase() + original.slice(1).toLowerCase();
+    let slug = original.toLowerCase().replace(/\s+/g, '-');
+    let pureLower = original.toLowerCase();
 
-    let smallName = `assets/flags/${clean}.png`;
-    let capitalName = `assets/flags/${clean.charAt(0).toUpperCase() + clean.slice(1)}.png`;
+    // Priority list for filenames
+    let sources = [
+        `${base}${original}.png`,
+        `${base}${capitalized}.png`,
+        `${base}${slug}.png`,
+        `${base}${pureLower}.png`
+    ];
 
-    // Pehle chota naam try karo, agar error aaye to barra naam try karo
-    imgElement.src = smallName;
-    imgElement.onerror = function() {
-        if (this.src.includes(smallName)) {
-            this.src = capitalName; // Try Capitalized version
+    let index = 0;
+
+    function tryNext() {
+        if (index < sources.length) {
+            let currentSrc = sources[index];
+            index++;
+            
+            let tempImg = new Image();
+            tempImg.src = currentSrc;
+            
+            tempImg.onload = function() {
+                imgElement.src = currentSrc; // Image mil gayi!
+            };
+            
+            tempImg.onerror = function() {
+                tryNext(); // Agli koshish
+            };
         } else {
-            // Agar dono na milein to Avatar dikhao
-            this.onerror = null;
-            this.src = `https://ui-avatars.com/api/?name=${nameRaw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5`;
+            // Kuch nahi mila to UI Avatar dikhao
+            imgElement.src = `https://ui-avatars.com/api/?name=${nameRaw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5`;
         }
-    };
+    }
+
+    tryNext();
 }
 
 async function getFastSchedule() {
@@ -83,6 +108,7 @@ async function getFastSchedule() {
                         let isShowable = false;
                         let isInternational = (countries.some(c => t1Raw.toLowerCase().includes(c)) && countries.some(c => t2Raw.toLowerCase().includes(c)));
 
+                        // Filtering Logic
                         if (snm.includes("women") || t1Raw.toLowerCase().includes("women") || t1Raw.toLowerCase().endsWith(" w") || t2Raw.toLowerCase().endsWith(" w")) { 
                             if (isInternational || snm.includes("ipl") || snm.includes("psl") || snm.includes("big bash") || snm.includes("world cup")) {
                                 type = "women"; label = "WOMEN CRICKET"; category = "women"; isShowable = true;
@@ -125,12 +151,14 @@ async function getFastSchedule() {
         });
         container.innerHTML = html || "<p style='text-align:center; color:white;'>No major matches found.</p>";
         
-        // Flags Load Karne ka Function Call
+        // Loop to trigger flag loading with multiple tries
         document.querySelectorAll('.flag-img').forEach(img => {
             setFlagWithFallback(img, img.getAttribute('data-team'));
         });
 
-    } catch (e) { container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>Updating live scores...</p>"; }
+    } catch (e) { 
+        container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>Updating live scores...</p>"; 
+    }
 }
 
 document.addEventListener('DOMContentLoaded', getFastSchedule);
