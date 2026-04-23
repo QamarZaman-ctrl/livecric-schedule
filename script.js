@@ -5,12 +5,10 @@ function filterByCategory(category, event) {
     let buttons = document.getElementsByClassName('filter-btn');
     for (let btn of buttons) { btn.classList.remove('active'); }
     event.target.classList.add('active');
-
     let cards = document.getElementsByClassName('match-card');
     for (let card of cards) {
-        if (category === 'all') {
-            card.style.display = "flex";
-        } else {
+        if (category === 'all') { card.style.display = "flex"; } 
+        else {
             let cardCat = card.getAttribute('data-category');
             card.style.display = (cardCat === category) ? "flex" : "none";
         }
@@ -23,6 +21,29 @@ function filterMatches() {
     for (let card of cards) {
         card.style.display = card.innerText.toLowerCase().includes(input) ? "flex" : "none";
     }
+}
+
+// --- SMART FLAG LOGIC FOR GITHUB ---
+function setFlagWithFallback(imgElement, nameRaw) {
+    let clean = nameRaw.toLowerCase()
+        .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
+        .replace(/\s+w\b/gi, "").replace(/\b-w\b/gi, "").replace(/\(w\)/gi, "")
+        .replace(/[^a-z0-9\s]/gi, '').trim().replace(/\s+/g, '-');
+
+    let smallName = `assets/flags/${clean}.png`;
+    let capitalName = `assets/flags/${clean.charAt(0).toUpperCase() + clean.slice(1)}.png`;
+
+    // Pehle chota naam try karo, agar error aaye to barra naam try karo
+    imgElement.src = smallName;
+    imgElement.onerror = function() {
+        if (this.src.includes(smallName)) {
+            this.src = capitalName; // Try Capitalized version
+        } else {
+            // Agar dono na milein to Avatar dikhao
+            this.onerror = null;
+            this.src = `https://ui-avatars.com/api/?name=${nameRaw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5`;
+        }
+    };
 }
 
 async function getFastSchedule() {
@@ -58,30 +79,10 @@ async function getFastSchedule() {
                         let t1Raw = match.T1[0].Nm;
                         let t2Raw = match.T2[0].Nm;
                         
-                        // --- FINAL FLAG CLEANER ---
-                        function getFlagPath(name) {
-                            let clean = name.toLowerCase()
-                                .replace(/\bwomen's\b/gi, "")
-                                .replace(/\bwomen\b/gi, "")
-                                .replace(/\bu19\b/gi, "")
-                                .replace(/\s+w\b/gi, "") 
-                                .replace(/\b-w\b/gi, "")
-                                .replace(/\(w\)/gi, "")
-                                .replace(/[^a-z0-9\s]/gi, '')
-                                .trim()
-                                .replace(/\s+/g, '-');
-                            return `assets/flags/${clean}.png`;
-                        }
-
-                        let t1File = getFlagPath(t1Raw);
-                        let t2File = getFlagPath(t2Raw);
-                        
                         let type = "default", label = stage.Snm, category = "other";
                         let isShowable = false;
-
                         let isInternational = (countries.some(c => t1Raw.toLowerCase().includes(c)) && countries.some(c => t2Raw.toLowerCase().includes(c)));
 
-                        // Filtering Logic
                         if (snm.includes("women") || t1Raw.toLowerCase().includes("women") || t1Raw.toLowerCase().endsWith(" w") || t2Raw.toLowerCase().endsWith(" w")) { 
                             if (isInternational || snm.includes("ipl") || snm.includes("psl") || snm.includes("big bash") || snm.includes("world cup")) {
                                 type = "women"; label = "WOMEN CRICKET"; category = "women"; isShowable = true;
@@ -99,35 +100,23 @@ async function getFastSchedule() {
                         if (isShowable) {
                             html += `
                                 <div class="match-card card-${type}" data-category="${category}">
-                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
                                         <span class="tag">${label}</span>
                                         <div class="pkt-time">🕒 ${pktTime} PKT</div>
                                     </div>
-                                    <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 25px;">
-                                        
+                                    <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 12px;">
                                         <div style="text-align: center; width: 44%;">
-                                            <img src="${t1File}" 
-                                                 onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=${t1Raw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5';" 
-                                                 class="team-logo" alt="${t1Raw}">
+                                            <img src="" data-team="${t1Raw}" class="team-logo flag-img" alt="${t1Raw}">
                                             <div class="team-name">${t1Raw}</div>
                                         </div>
-
                                         <div class="vs-badge">VS</div>
-
                                         <div style="text-align: center; width: 44%;">
-                                            <img src="${t2File}" 
-                                                 onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=${t2Raw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5';" 
-                                                 class="team-logo" alt="${t2Raw}">
+                                            <img src="" data-team="${t2Raw}" class="team-logo flag-img" alt="${t2Raw}">
                                             <div class="team-name">${t2Raw}</div>
                                         </div>
-
                                     </div>
-                                    <div class="match-meta">
-                                        <div class="global-time">🌍 ${gmtTime} GMT</div>
-                                    </div>
-                                    <div class="match-date" style="margin-top: 12px;">
-                                        🗓️ ${displayDate}
-                                    </div>
+                                    <div class="match-meta"><div class="global-time">🌍 ${gmtTime} GMT</div></div>
+                                    <div class="match-date" style="margin-top: 5px;">🗓️ ${displayDate}</div>
                                 </div>`;
                         }
                     });
@@ -135,9 +124,13 @@ async function getFastSchedule() {
             }
         });
         container.innerHTML = html || "<p style='text-align:center; color:white;'>No major matches found.</p>";
-    } catch (e) { 
-        container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>Updating live scores...</p>"; 
-    }
+        
+        // Flags Load Karne ka Function Call
+        document.querySelectorAll('.flag-img').forEach(img => {
+            setFlagWithFallback(img, img.getAttribute('data-team'));
+        });
+
+    } catch (e) { container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>Updating live scores...</p>"; }
 }
 
 document.addEventListener('DOMContentLoaded', getFastSchedule);
