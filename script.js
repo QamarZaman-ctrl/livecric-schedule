@@ -1,4 +1,4 @@
-const API_KEY = 'b25a1936c4mshe2e95cb8d90273bp1884e0jsna764ae6fe293';
+const API_KEY = 'dc0307cd96msh07ab535c76c479ap13e41fjsn50dadc069240';
 const API_HOST = 'livescore6.p.rapidapi.com';
 
 function filterByCategory(category, event) {
