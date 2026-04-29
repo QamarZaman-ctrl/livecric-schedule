@@ -23,26 +23,21 @@ function filterMatches() {
     }
 }
 
-// --- SMART FLAG LOGIC FOR GITHUB ---
+// --- OPTIMIZED FLAG LOGIC (NO 404 ERRORS) ---
 function setFlagWithFallback(imgElement, nameRaw) {
     let clean = nameRaw.toLowerCase()
         .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
         .replace(/\s+w\b/gi, "").replace(/\b-w\b/gi, "").replace(/\(w\)/gi, "")
         .replace(/[^a-z0-9\s]/gi, '').trim().replace(/\s+/g, '-');
 
-    let smallName = `assets/flags/${clean}.png`;
-    let capitalName = `assets/flags/${clean.charAt(0).toUpperCase() + clean.slice(1)}.png`;
+    // Folder mein Pehla Harf Capital hai aur dashes hain
+    let fileName = clean.charAt(0).toUpperCase() + clean.slice(1) + ".png";
+    imgElement.src = `assets/flags/${fileName}`;
 
-    // Pehle chota naam try karo, agar error aaye to barra naam try karo
-    imgElement.src = smallName;
+    // Agar file folder mein maujood hi nahi hai, to direct Avatar pe jao
     imgElement.onerror = function() {
-        if (this.src.includes(smallName)) {
-            this.src = capitalName; // Try Capitalized version
-        } else {
-            // Agar dono na milein to Avatar dikhao
-            this.onerror = null;
-            this.src = `https://ui-avatars.com/api/?name=${nameRaw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5`;
-        }
+        this.onerror = null; 
+        this.src = `https://ui-avatars.com/api/?name=${nameRaw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5`;
     };
 }
 
