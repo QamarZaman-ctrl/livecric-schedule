@@ -82,71 +82,80 @@
 
     <div id="main-wrapper">
 
-        <header class="app-header">
+<section style="
+    background-color: #0f0f12; 
+    height: 45vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-family: 'Segoe UI', Roboto, sans-serif; 
+    position: relative; 
+    padding: 0 5%;
+    border-bottom: 1px solid #035263;
+">
 
-            <div class="header-content">
-
-                <h1>🏏 GLOBAL MATCH CENTER</h1>
-
-                <p>Live Updates • International & Domestic Schedule up to next 3 days</p>
-
-                <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; margin-top: 1rem;">
-
-            <a href="https://tamashaweb.com/" target="_blank" 
-
-               style="background: linear-gradient(45deg, #372d33, #000000, #1d285c); color: white; padding: 10px 20px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 13px; box-shadow: 0 4px 15px rgba(42, 26, 78, 0.4); transition: transform 0.2s ease;">
-
-               🔴 Watch Live on Tamasha
-
-            </a>
-
-            
-
-            <a href="https://www.tensportstv.com/" target="_blank" 
-
-               style="background: linear-gradient(45deg, #020202, #2a2c18); color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 13px; box-shadow: 0 4px 15px rgba(5, 57, 68, 0.4); transition: transform 0.2s ease;">
-
-               📺Watch Live on Ten Sports
-
-            </a>
-
+    <!-- LEFT STACK: Search Bar & Categories (Fixed at Top Left) -->
+    <div style="position: absolute; left: 3%; top: 20px; width: 200px; display: flex; flex-direction: column; gap: 5px; z-index: 10;">
+        <div style="position: relative;">
+            <i class="fas fa-search" style="position: absolute; left: 10px; top: 9px; color: rgba(0,210,255,0.5); font-size: 11px;"></i>
+            <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search..." 
+                   style="width: 100%; padding: 6px 10px 6px 30px; border-radius: 5px; border: 1px solid rgba(0,210,255,0.2); background: rgba(255,255,255,0.03); color: white; outline: none; font-size: 11px;">
         </div>
 
-                <div class="search-box">
+        <div style="position: relative;">
+            <select onchange="filterByCategory(this.value, event)" style="
+                width: 100%; 
+                padding: 6px 25px 6px 10px; 
+                border-radius: 5px; 
+                border: 1px solid rgba(0,210,255,0.3); 
+                background: #0b141d; 
+                color: #00d2ff; 
+                outline: none; 
+                font-weight: 700; 
+                cursor: pointer;
+                appearance: none;
+                -webkit-appearance: none;
+                font-size: 10px;
+                text-transform: uppercase;
+            ">
+                <option value="all">CATEGORIES</option>
+                <option value="icc">International</option>
+                <option value="psl">PSL</option>
+                <option value="ipl">IPL</option>
+                <option value="bbl">BBL</option>
+                <option value="cpl">CPL</option>
+                <option value="bpl">BPL</option>
+                <option value="t10">T10</option>
+                <option value="women">Women</option>
+                <option value="other">Other</option>
+            </select>
+            <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 9px; color: #00d2ff; pointer-events: none; font-size: 9px;"></i>
+        </div>
+    </div>
 
-                    <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search teams or leagues...">
+    <!-- RIGHT STACK: Streaming Buttons (Fixed at Top Right) -->
+    <div style="position: absolute; right: 3%; top: 20px; display: flex; flex-direction: column; gap: 8px; z-index: 10; width: 140px;">
+        <a href="https://tamashaweb.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 12px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+            <span style="height: 6px; width: 6px; background: #ff0000; border-radius: 50%; margin-right: 8px; box-shadow: 0 0 5px #ff0000;"></span> Watch on Tamasha
+        </a>
+        <a href="https://www.tensportstv.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 12px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+            <i class="fas fa-tv" style="margin-right: 8px; color: #92B558;"></i>Ten Sports
+        </a>
+    </div>
 
-                </div>
+    <!-- CENTER BRANDING: Auto-Centered because of Flexbox parent -->
+    <div style="margin-top: 20px;">
+        <h1 style="margin: 0; font-size: 2.8rem; color: #ffffff; letter-spacing: 1px; font-weight: 900; text-transform: uppercase;">
+            🏏 Global Match Center
+        </h1>
+        <p style="margin: 15px 0 0; font-size: 14px; color: rgba(255,255,255,0.6); font-weight: 500;">
+            Live Updates • International & Domestic Schedule
+        </p>
+    </div>
 
-
-
-                <div class="filter-bar">
-
-                    <button class="filter-btn active" onclick="filterByCategory('all', event)">All</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('icc', event)">ICC</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('psl', event)">PSL</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('ipl', event)">IPL</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('bbl', event)">BBL</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('cpl', event)">CPL</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('bpl', event)">BPL</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('t10', event)">T10</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('women', event)">Women</button>
-
-                    <button class="filter-btn" onclick="filterByCategory('other', event)">Other</button>
-
-                </div>
-
-            </div>
-
-        </header>
+</section>
 
 
 
