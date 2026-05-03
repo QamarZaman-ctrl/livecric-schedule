@@ -9,25 +9,35 @@ function filterByCategory(category, event) {
     const searchInput = document.getElementById('matchSearch').value.toLowerCase();
     let found = false;
 
+    // Button keywords mapping (Specific leagues ko handle karne ke liye)
+    const leagueKeywords = {
+        'psl': ['psl', 'pakistan super league'],
+        'ipl': ['ipl', 'indian premier league'],
+        'bbl': ['bbl', 'big bash'],
+        'cpl': ['cpl', 'caribbean premier'],
+        'bpl': ['bpl', 'bangladesh premier'],
+        't10': ['t10']
+    };
+
     for (let card of cards) {
-        const cardCat = card.getAttribute('data-category');
+        const cardCat = card.getAttribute('data-category'); // 'league', 'international', etc.
         const seriesName = card.querySelector('.tag').innerText.toLowerCase();
         const matchText = card.innerText.toLowerCase();
 
-        // Check if it's a specific league button (like PSL, IPL, BBL)
-        const specificLeagues = ['psl', 'ipl', 'bbl', 'cpl', 'bpl', 't10'];
-        const isSpecificLeagueBtn = specificLeagues.includes(category.toLowerCase());
-        
         let matchesCategory = false;
+        const targetCategory = category.toLowerCase();
 
-        if (category === 'all') {
+        if (targetCategory === 'all') {
             matchesCategory = true;
-        } else if (isSpecificLeagueBtn) {
-            // Agar PSL/IPL ka button hai to series ke naam mein wo word dhoondo
-            matchesCategory = seriesName.includes(category.toLowerCase());
+        } else if (leagueKeywords[targetCategory]) {
+            // Agar PSL/IPL button hai, to keywords check karo series ke naam mein
+            matchesCategory = leagueKeywords[targetCategory].some(keyword => seriesName.includes(keyword));
+        } else if (targetCategory === 'other') {
+            // Jo kisi category mein na aaye
+            matchesCategory = (cardCat === 'other' || cardCat === 'domestic');
         } else {
-            // General categories (international, women, league, domestic)
-            matchesCategory = (cardCat === category);
+            // General categories like 'international' or 'women'
+            matchesCategory = (cardCat === targetCategory);
         }
 
         // Search filter ke sath combine karna
@@ -49,7 +59,7 @@ function filterByCategory(category, event) {
         if (!noMatchMsg) {
             noMatchMsg = document.createElement('p');
             noMatchMsg.id = 'no-match-msg';
-            noMatchMsg.style.cssText = "text-align:center; color:white; padding:20px; width:100%;";
+            noMatchMsg.style.cssText = "text-align:center; color:white; padding:20px; width:100%; font-weight:bold;";
             fixturesList.appendChild(noMatchMsg);
         }
         noMatchMsg.innerText = "Filhal is category mein koi matches schedule nahi hain.";
@@ -60,13 +70,11 @@ function filterByCategory(category, event) {
 
 // 2. Search Logic (Input box ke liye)
 function filterMatches() {
-    const input = document.getElementById('matchSearch').value.toLowerCase();
     const activeBtn = document.querySelector('.filter-btn.active');
-    const activeCategory = activeBtn ? activeBtn.innerText.toLowerCase() : 'all';
+    const activeCategory = activeBtn ? activeBtn.getAttribute('data-cat') || activeBtn.innerText.toLowerCase() : 'all';
     
-    // Fake event object to reuse filter logic
-    const fakeEvent = { target: activeBtn };
-    filterByCategory(activeCategory === 'all' ? 'all' : activeCategory, fakeEvent);
+    // Purane filter logic ko call karna (fake event ke sath)
+    filterByCategory(activeCategory, { target: activeBtn });
 }
 
 // 3. Flags Logic (Original Fallback Support)
@@ -147,7 +155,6 @@ function renderUI(data) {
 
     container.innerHTML = html || "<p style='text-align:center; color:white;'>No matches found.</p>";
     
-    // Flags load karein
     document.querySelectorAll('.flag-img').forEach(img => {
         setFlagWithFallback(img, img.getAttribute('data-team'));
     });
