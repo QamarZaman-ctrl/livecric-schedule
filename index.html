@@ -16,27 +16,36 @@
     <link rel="icon" type="favicon" href="icon.png">
     
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div id="main-wrapper">
         <header class="app-header">
+            <div class="header-overlay"></div>
             <div class="header-content">
-                <h1>🏏 GLOBAL MATCH CENTER</h1>
-                <p>Live Updates • International & Domestic Schedule up to next 3 days</p>
-                <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; margin-top: 1rem;">
-            <a href="https://tamashaweb.com/" target="_blank" 
-               style="background: linear-gradient(45deg, #372d33, #000000, #1d285c); color: white; padding: 10px 20px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 13px; box-shadow: 0 4px 15px rgba(42, 26, 78, 0.4); transition: transform 0.2s ease;">
-               🔴 Watch Live on Tamasha
-            </a>
-            
-            <a href="https://www.tensportstv.com/" target="_blank" 
-               style="background: linear-gradient(45deg, #020202, #2a2c18); color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 13px; box-shadow: 0 4px 15px rgba(5, 57, 68, 0.4); transition: transform 0.2s ease;">
-               📺Watch Live on Ten Sports
-            </a>
-        </div>
-                <div class="search-box">
-                    <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search teams or leagues...">
+                <div class="brand">
+                    <span class="bat-icon">🏏</span>
+                    <h1>GLOBAL MATCH CENTER</h1>
+                </div>
+                <p class="subtitle">Live Updates • International & Domestic Schedule</p>
+                
+                <div class="live-links-container">
+                    <a href="https://tamashaweb.com/" target="_blank" class="live-btn tamasha">
+                        <span class="live-dot"></span> Watch Live on Tamasha
+                    </a>
+                    
+                    <a href="https://www.tensportstv.com/" target="_blank" class="live-btn ten-sports">
+                        <span class="tv-icon">📺</span> Watch Live on Ten Sports
+                    </a>
+                </div>
+
+                <div class="search-wrapper">
+                    <div class="search-inner">
+                        <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search teams, leagues or series...">
+                        <span class="search-icon">🔍</span>
+                    </div>
                 </div>
 
                 <div class="filter-bar">
@@ -63,70 +72,68 @@
             </div>
         </main>
     </div>
-    <section id="cricket-laws-guide" style="margin-top: 40px; padding: 25px; background: rgba(255, 255, 255, 0.05); border-radius: 15px; border: 1px solid rgba(0, 210, 255, 0.3); font-family: sans-serif; color: #e0e0e0;">
-    
-    <h2 style="color: #00d2ff; text-align: center; border-bottom: 2px solid #00d2ff; padding-bottom: 15px; margin-bottom: 30px;">Detailed Technical Laws of Cricket</h2>
 
-    <div style="margin-bottom: 25px;">
-        <h3 style="color: #92B558;">The Bat and Ball Specifications</h3>
-        <p><strong>The Ball:</strong> Must weigh between 155.9g to 163g. In Test matches, a red ball is used; in limited overs, a white ball.</p>
-        <p><strong>The Bat:</strong> The width of the bat cannot exceed 4.25 inches, and the total length cannot be more than 38 inches.</p>
-    </div>
+    <section id="cricket-laws-guide">
+        <h2>Detailed Technical Laws of Cricket</h2>
 
-    <div style="margin-bottom: 25px;">
-        <h3 style="color: #92B558;">Intervals and Game Timing</h3>
-        <ul>
-            <li><strong>Drinks Break:</strong> Usually taken after one hour of play in Tests or at scheduled times in ODIs.</li>
-            <li><strong>Tea & Lunch:</strong> Only in Test cricket. Lunch is 40 minutes and Tea is 20 minutes.</li>
-            <li><strong>Innings Break:</strong> In T20s, it is 10-15 minutes; in ODIs, it is 45 minutes.</li>
-        </ul>
-    </div>
+        <div class="law-item">
+            <h3>The Bat and Ball Specifications</h3>
+            <p><strong>The Ball:</strong> Must weigh between 155.9g to 163g. In Test matches, a red ball is used; in limited overs, a white ball.</p>
+            <p><strong>The Bat:</strong> The width of the bat cannot exceed 4.25 inches, and the total length cannot be more than 38 inches.</p>
+        </div>
 
-    <div style="margin-bottom: 25px;">
-        <h3 style="color: #92B558;">Rare Dismissals (Special Ways of Getting Out)</h3>
-        <p><strong>Obstructing the Field:</strong> If a batsman deliberately distracts or prevents a fielder from catching the ball or throwing it at the stumps.</p>
-        <p><strong>Retired Out:</strong> If a batsman leaves the field without the Umpire's permission and doesn't return, they are considered "Retired Out."</p>
-        <p><strong>Hit the Ball Twice:</strong> A batsman cannot hit the ball twice with their bat unless they are defending their stumps. They cannot score runs from the second hit.</p>
-    </div>
+        <div class="law-item">
+            <h3>Intervals and Game Timing</h3>
+            <ul>
+                <li><strong>Drinks Break:</strong> Usually taken after one hour of play in Tests or at scheduled times in ODIs.</li>
+                <li><strong>Tea & Lunch:</strong> Only in Test cricket. Lunch is 40 minutes and Tea is 20 minutes.</li>
+                <li><strong>Innings Break:</strong> In T20s, it is 10-15 minutes; in ODIs, it is 45 minutes.</li>
+            </ul>
+        </div>
 
-    <div style="margin-bottom: 25px;">
-        <h3 style="color: #92B558;">Dead Ball Rules</h3>
-        <p>A ball becomes "Dead" (no runs or wickets can happen) when:</p>
-        <ul style="list-style-type: square; padding-left: 20px;">
-            <li>The ball is finally settled in the hands of the wicketkeeper or bowler.</li>
-            <li>A boundary is scored or a batsman is out.</li>
-            <li>The umpire calls "Over" or "Time."</li>
-            <li>The ball hits a Spider-cam or a wire above the field.</li>
-        </ul>
-    </div>
+        <div class="law-item">
+            <h3>Rare Dismissals (Special Ways of Getting Out)</h3>
+            <p><strong>Obstructing the Field:</strong> If a batsman deliberately distracts or prevents a fielder from catching the ball or throwing it at the stumps.</p>
+            <p><strong>Retired Out:</strong> If a batsman leaves the field without the Umpire's permission and doesn't return, they are considered "Retired Out."</p>
+            <p><strong>Hit the Ball Twice:</strong> A batsman cannot hit the ball twice with their bat unless they are defending their stumps. They cannot score runs from the second hit.</p>
+        </div>
 
-    <div style="margin-bottom: 10px;">
-        <h3 style="color: #92B558;">Penalty Runs for Fair/Unfair Play</h3>
-        <p><strong>Fake Fielding:</strong> If a fielder pretends to throw or field the ball to deceive the batsmen, the umpire can award 5 penalty runs to the batting team.</p>
-        <p><strong>Ball Hitting Helmet:</strong> If the ball hits a fielder's helmet placed on the ground behind the keeper, 5 penalty runs are awarded to the batting team.</p>
-        <p><strong>Damaging the Pitch:</strong> If batsmen run on the protected area (center) of the pitch after warnings, the bowling team gets 5 penalty runs.</p>
-    </div>
+        <div class="law-item">
+            <h3>Dead Ball Rules</h3>
+            <p>A ball becomes "Dead" (no runs or wickets can happen) when:</p>
+            <ul>
+                <li>The ball is finally settled in the hands of the wicketkeeper or bowler.</li>
+                <li>A boundary is scored or a batsman is out.</li>
+                <li>The umpire calls "Over" or "Time."</li>
+                <li>The ball hits a Spider-cam or a wire above the field.</li>
+            </ul>
+        </div>
 
-</section>
+        <div class="law-item">
+            <h3>Penalty Runs for Fair/Unfair Play</h3>
+            <p><strong>Fake Fielding:</strong> If a fielder pretends to throw or field the ball to deceive the batsmen, the umpire can award 5 penalty runs to the batting team.</p>
+            <p><strong>Ball Hitting Helmet:</strong> If the ball hits a fielder's helmet placed on the ground behind the keeper, 5 penalty runs are awarded to the batting team.</p>
+            <p><strong>Damaging the Pitch:</strong> If batsmen run on the protected area (center) of the pitch after warnings, the bowling team gets 5 penalty runs.</p>
+        </div>
+    </section>
 
     <script src="script.js"></script>
-    <footer style="margin-top: 50px; padding: 30px 20px; background: rgba(3, 35, 47, 0.9); border-top: 2px solid #00d2ff; text-align: center; color: #ffffff;">
-    <div style="margin-bottom: 20px;">
-        <h3 style="color: #00d2ff; letter-spacing: 1px; margin-bottom: 10px;">🏏 GLOBAL MATCH CENTER</h3>
-        <p style="font-size: 13px; opacity: 0.8;">Live Cricket Updates & Upcoming Match Schedules</p>
-    </div>
 
-    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
-        <a href="about.html" style="color: #ffffff; text-decoration: none; font-size: 14px; font-weight: 600; transition: 0.3s;" onmouseover="this.style.color='#00d2ff'" onmouseout="this.style.color='#ffffff'">About Us</a>
-        <a href="contact.html" style="color: #ffffff; text-decoration: none; font-size: 14px; font-weight: 600; transition: 0.3s;" onmouseover="this.style.color='#00d2ff'" onmouseout="this.style.color='#ffffff'">Contact Us</a>
-        <a href="privacy.html" style="color: #ffffff; text-decoration: none; font-size: 14px; font-weight: 600; transition: 0.3s;" onmouseover="this.style.color='#00d2ff'" onmouseout="this.style.color='#ffffff'">Privacy Policy</a>
-    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>🏏 GLOBAL MATCH CENTER</h3>
+            <p>Live Cricket Updates & Upcoming Match Schedules</p>
+        </div>
 
-    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 20px auto; max-width: 600px;">
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
 
-    <p style="font-size: 12px; opacity: 0.6;">
-        &copy; 2026 QZ Global Match Center. All Rights Reserved.
-    </p>
-</footer>
+        <hr class="footer-divider">
+
+        <p class="copyright">&copy; 2026 QZ Global Match Center. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
