@@ -1,8 +1,9 @@
-// 1. Filter & Search Logic (Aapka purana logic)
+// 1. Filter & Search Logic
 function filterByCategory(category, event) {
     let buttons = document.getElementsByClassName('filter-btn');
     for (let btn of buttons) { btn.classList.remove('active'); }
     event.target.classList.add('active');
+    
     let cards = document.getElementsByClassName('match-card');
     for (let card of cards) {
         if (category === 'all') { card.style.display = "flex"; }
@@ -13,7 +14,7 @@ function filterByCategory(category, event) {
     }
 }
 
-// 2. Flags Logic (Aapka original logic jo images handle karta hai)
+// 2. Flags Logic (Original logic with folder support)
 function setFlagWithFallback(imgElement, nameRaw) {
     let clean = nameRaw.toLowerCase()
         .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
@@ -29,7 +30,7 @@ function setFlagWithFallback(imgElement, nameRaw) {
     };
 }
 
-// 3. Main Fetch Function (Ab ye sirf file read karega)
+// 3. Main Fetch Function
 async function getFastSchedule() {
     const container = document.getElementById('fixtures-list');
     try {
@@ -38,31 +39,41 @@ async function getFastSchedule() {
         const data = await response.json();
         renderUI(data);
     } catch (e) {
+        console.error("Data load error:", e);
         container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>Schedules are being updated...</p>";
     }
 }
 
-// 4. UI Rendering Function
+// 4. UI Rendering Function (Updated for the new JSON structure)
 function renderUI(data) {
     const container = document.getElementById('fixtures-list');
     let html = "";
+
     if (data.matchScheduleMap) {
-        data.matchScheduleMap.forEach(schedule => {
-            if (schedule.scheduleAdWrapper) {
-                const dateStr = schedule.scheduleAdWrapper.date;
-                schedule.scheduleAdWrapper.matchDetails.forEach(detail => {
-                    if (detail.matchPlanInfo) {
-                        const match = detail.matchPlanInfo.matchBrief;
+        data.matchScheduleMap.forEach(item => {
+            // Hum sirf un items ko dekh rahe hain jin mein schedule data hai
+            if (item.scheduleAdWrapper) {
+                const dateStr = item.scheduleAdWrapper.date;
+                
+                // matchScheduleList ke andar series ki list hoti hai
+                item.scheduleAdWrapper.matchScheduleList.forEach(series => {
+                    // matchInfo ke andar har series ke individual matches hote hain
+                    series.matchInfo.forEach(match => {
                         const t1Raw = match.team1.teamName;
                         const t2Raw = match.team2.teamName;
+                        
+                        // Time Conversion (Unix timestamp to PKT/GMT)
                         let dateObj = new Date(parseInt(match.startDate));
                         let pktTime = dateObj.toLocaleTimeString('en-PK', { hour: '2-digit', minute: '2-digit', hour12: true });
                         let gmtTime = dateObj.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'GMT' });
 
+                        // Tag select karna (International ya Domestic)
+                        const category = series.seriesCategory ? series.seriesCategory.toLowerCase() : "other";
+
                         html += `
-                            <div class="match-card card-icc" data-category="icc">
+                            <div class="match-card card-icc" data-category="${category}">
                                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
-                                    <span class="tag">INTERNATIONAL</span>
+                                    <span class="tag">${series.seriesName.toUpperCase()}</span>
                                     <div class="pkt-time">🕒 ${pktTime} PKT</div>
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 25px;">
@@ -76,15 +87,18 @@ function renderUI(data) {
                                         <div class="team-name">${t2Raw}</div>
                                     </div>
                                 </div>
-                                <div class="match-meta">🌍 ${gmtTime} GMT</div>
+                                <div class="match-meta">🌍 ${gmtTime} GMT | 🏟️ ${match.venueInfo.ground}, ${match.venueInfo.city}</div>
                                 <div class="match-date" style="margin-top: 12px;">🗓️ ${dateStr}</div>
                             </div>`;
-                    }
+                    });
                 });
             }
         });
     }
-    container.innerHTML = html || "<p style='text-align:center; color:white;'>No matches found.</p>";
+
+    container.innerHTML = html || "<p style='text-align:center; color:white;'>No matches found at the moment.</p>";
+    
+    // Flags apply karna
     document.querySelectorAll('.flag-img').forEach(img => {
         setFlagWithFallback(img, img.getAttribute('data-team'));
     });
