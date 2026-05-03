@@ -9,18 +9,19 @@ function filterByCategory(category, event) {
     const searchInput = document.getElementById('matchSearch').value.toLowerCase();
     let found = false;
 
-    // Button keywords mapping (Specific leagues ko handle karne ke liye)
-    const leagueKeywords = {
+    // League aur International keywords mapping
+    const keywords = {
         'psl': ['psl', 'pakistan super league'],
         'ipl': ['ipl', 'indian premier league'],
         'bbl': ['bbl', 'big bash'],
         'cpl': ['cpl', 'caribbean premier'],
         'bpl': ['bpl', 'bangladesh premier'],
-        't10': ['t10']
+        't10': ['t10'],
+        'international': ['international', 'icc', 'world cup', 'tour of', 'trophy']
     };
 
     for (let card of cards) {
-        const cardCat = card.getAttribute('data-category'); // 'league', 'international', etc.
+        const cardCat = card.getAttribute('data-category').toLowerCase(); 
         const seriesName = card.querySelector('.tag').innerText.toLowerCase();
         const matchText = card.innerText.toLowerCase();
 
@@ -29,14 +30,19 @@ function filterByCategory(category, event) {
 
         if (targetCategory === 'all') {
             matchesCategory = true;
-        } else if (leagueKeywords[targetCategory]) {
-            // Agar PSL/IPL button hai, to keywords check karo series ke naam mein
-            matchesCategory = leagueKeywords[targetCategory].some(keyword => seriesName.includes(keyword));
-        } else if (targetCategory === 'other') {
-            // Jo kisi category mein na aaye
+        } 
+        // International Filter (Smart Check)
+        else if (targetCategory === 'international') {
+            matchesCategory = (cardCat === 'international' || keywords.international.some(k => seriesName.includes(k)));
+        }
+        // Specific Leagues Filter
+        else if (keywords[targetCategory]) {
+            matchesCategory = keywords[targetCategory].some(k => seriesName.includes(k));
+        } 
+        else if (targetCategory === 'other') {
             matchesCategory = (cardCat === 'other' || cardCat === 'domestic');
-        } else {
-            // General categories like 'international' or 'women'
+        } 
+        else {
             matchesCategory = (cardCat === targetCategory);
         }
 
@@ -57,12 +63,13 @@ function filterByCategory(category, event) {
     
     if (!found) {
         if (!noMatchMsg) {
-            noMatchMsg = document.createElement('p');
+            noMatchMsg = document.createElement('div');
             noMatchMsg.id = 'no-match-msg';
-            noMatchMsg.style.cssText = "text-align:center; color:white; padding:20px; width:100%; font-weight:bold;";
+            noMatchMsg.style.cssText = "text-align:center; color:#00d2ff; padding:40px; width:100%; font-size:1.2rem; font-weight:500;";
             fixturesList.appendChild(noMatchMsg);
         }
-        noMatchMsg.innerText = "Filhal is category mein koi matches schedule nahi hain.";
+        // Aapka bataya hua message
+        noMatchMsg.innerHTML = `<div style="opacity:0.7;">No matches scheduled next</div>`;
     } else if (noMatchMsg) {
         noMatchMsg.remove();
     }
@@ -71,9 +78,7 @@ function filterByCategory(category, event) {
 // 2. Search Logic (Input box ke liye)
 function filterMatches() {
     const activeBtn = document.querySelector('.filter-btn.active');
-    const activeCategory = activeBtn ? activeBtn.getAttribute('data-cat') || activeBtn.innerText.toLowerCase() : 'all';
-    
-    // Purane filter logic ko call karna (fake event ke sath)
+    const activeCategory = activeBtn ? activeBtn.getAttribute('onclick').match(/'([^']+)'/)[1] : 'all';
     filterByCategory(activeCategory, { target: activeBtn });
 }
 
@@ -102,7 +107,6 @@ async function getFastSchedule() {
         const data = await response.json();
         renderUI(data);
     } catch (e) {
-        console.error("Fetch Error:", e);
         container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>Schedules are being updated...</p>";
     }
 }
@@ -125,7 +129,6 @@ function renderUI(data) {
                         
                         let dateObj = new Date(parseInt(match.startDate));
                         let pktTime = dateObj.toLocaleTimeString('en-PK', { hour: '2-digit', minute: '2-digit', hour12: true });
-                        let gmtTime = dateObj.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'GMT' });
 
                         html += `
                             <div class="match-card" data-category="${catType}">
@@ -144,7 +147,7 @@ function renderUI(data) {
                                         <div class="team-name">${t2Raw}</div>
                                     </div>
                                 </div>
-                                <div class="match-meta">🌍 ${gmtTime} GMT | 🏟️ ${match.venueInfo.city}</div>
+                                <div class="match-meta">🏟️ ${match.venueInfo.city}, ${match.venueInfo.country}</div>
                                 <div class="match-date" style="margin-top: 12px;">🗓️ ${dateStr}</div>
                             </div>`;
                     });
@@ -152,13 +155,10 @@ function renderUI(data) {
             }
         });
     }
-
     container.innerHTML = html || "<p style='text-align:center; color:white;'>No matches found.</p>";
-    
     document.querySelectorAll('.flag-img').forEach(img => {
         setFlagWithFallback(img, img.getAttribute('data-team'));
     });
 }
 
-// Initial Load
 document.addEventListener('DOMContentLoaded', getFastSchedule);
