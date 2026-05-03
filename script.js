@@ -26,7 +26,7 @@ function filterByCategory(category, event) {
 
     for (let card of cards) {
         const cardCat = card.getAttribute('data-category').toLowerCase(); 
-        const seriesName = card.querySelector('.tag').innerText.toLowerCase();
+        const seriesName = card.querySelector('.tag').textContent.toLowerCase();
         const matchText = card.innerText.toLowerCase();
 
         let matchesCategory = false;
