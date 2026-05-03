@@ -14,7 +14,6 @@ function filterByCategory(category, event) {
     const searchInput = document.getElementById('matchSearch') ? document.getElementById('matchSearch').value.toLowerCase() : "";
     let found = false;
 
-    // ICC aur Leagues ke liye keywords
     const keywords = {
         'psl': ['psl', 'pakistan super league'],
         'ipl': ['ipl', 'indian premier league'],
@@ -22,7 +21,6 @@ function filterByCategory(category, event) {
         'cpl': ['cpl', 'caribbean premier'],
         'bpl': ['bpl', 'bangladesh premier'],
         't10': ['t10'],
-        // ICC button ke liye keywords
         'icc': ['icc', 'world cup', 'international', 'tour of', 'v ', 'vs ', 'trophy', 'odi', 't20i', 'test match', 'champions trophy']
     };
 
@@ -37,7 +35,6 @@ function filterByCategory(category, event) {
         if (targetCategory === 'all') {
             matchesCategory = true;
         } 
-        // ICC Button Logic
         else if (targetCategory === 'icc') {
             const hasICCWord = keywords.icc.some(k => seriesName.includes(k));
             matchesCategory = (cardCat === 'international' || hasICCWord);
@@ -82,7 +79,7 @@ function filterMatches() {
     filterByCategory(activeCategory, { target: activeBtn });
 }
 
-// 3. Flag Logic
+// 3. Flag Logic (Backup Fallback)
 function setFlagWithFallback(imgElement, nameRaw) {
     let clean = nameRaw.toLowerCase()
         .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
@@ -111,7 +108,7 @@ async function getFastSchedule() {
     }
 }
 
-// 5. Rendering HTML
+// 5. Rendering HTML (Updated with Official Logo Logic)
 function renderUI(data) {
     const container = document.getElementById('fixtures-list');
     let html = "";
@@ -123,12 +120,16 @@ function renderUI(data) {
                 const catType = item.category_type || "other"; 
 
                 item.scheduleAdWrapper.matchScheduleList.forEach(series => {
-                    // International series tagging
                     const isIntSeries = (series.seriesCategory === "International" || series.seriesName.toLowerCase().includes("tour of") || series.seriesName.toLowerCase().includes("icc")) ? "international" : catType;
 
                     series.matchInfo.forEach(match => {
                         const t1Raw = match.team1.teamName;
                         const t2Raw = match.team2.teamName;
+                        
+                        // Smart Logo URL generation using Cricbuzz imageId
+                        const t1Logo = match.team1.imageId ? `https://static.cricbuzz.com/a/img/v1/i1/c1/${match.team1.imageId}/team.jpg` : "";
+                        const t2Logo = match.team2.imageId ? `https://static.cricbuzz.com/a/img/v1/i1/c1/${match.team2.imageId}/team.jpg` : "";
+
                         let dateObj = new Date(parseInt(match.startDate));
                         let pktTime = dateObj.toLocaleTimeString('en-PK', { hour: '2-digit', minute: '2-digit', hour12: true });
 
@@ -140,12 +141,12 @@ function renderUI(data) {
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 25px;">
                                     <div style="text-align: center; width: 44%;">
-                                        <img src="" data-team="${t1Raw}" class="team-logo flag-img" alt="${t1Raw}">
+                                        <img src="${t1Logo}" data-team="${t1Raw}" class="team-logo flag-img" alt="${t1Raw}">
                                         <div class="team-name">${t1Raw}</div>
                                     </div>
                                     <div class="vs-badge">VS</div>
                                     <div style="text-align: center; width: 44%;">
-                                        <img src="" data-team="${t2Raw}" class="team-logo flag-img" alt="${t2Raw}">
+                                        <img src="${t2Logo}" data-team="${t2Raw}" class="team-logo flag-img" alt="${t2Raw}">
                                         <div class="team-name">${t2Raw}</div>
                                     </div>
                                 </div>
@@ -159,8 +160,18 @@ function renderUI(data) {
     }
     container.innerHTML = html;
     filterByCategory('all', null);
+
+    // Dynamic Image Error Handling
     document.querySelectorAll('.flag-img').forEach(img => {
-        setFlagWithFallback(img, img.getAttribute('data-team'));
+        // Agar imageId nahi hai to foran fallback function chalaye
+        if (!img.getAttribute('src') || img.getAttribute('src').includes('undefined')) {
+            setFlagWithFallback(img, img.getAttribute('data-team'));
+        }
+        
+        // Agar link load hotay waqt error de (Cricbuzz server error), to fallback chalaye
+        img.onerror = function() {
+            setFlagWithFallback(this, this.getAttribute('data-team'));
+        };
     });
 }
 
