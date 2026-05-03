@@ -1,13 +1,11 @@
-// 1. Filter Logic (International aur Leagues ke liye Smart Search)
+// 1. Filter Logic (ICC aur Leagues ke liye Smart Search)
 function filterByCategory(category, event) {
     let buttons = document.getElementsByClassName('filter-btn');
     for (let btn of buttons) { btn.classList.remove('active'); }
     
-    // Check if event exists (for manual button clicks)
     if (event && event.target) {
         event.target.classList.add('active');
     } else {
-        // Default 'All' button ko active karein agar page load ho raha ho
         const allBtn = document.querySelector("button[onclick*='all']");
         if (allBtn) allBtn.classList.add('active');
     }
@@ -16,6 +14,7 @@ function filterByCategory(category, event) {
     const searchInput = document.getElementById('matchSearch') ? document.getElementById('matchSearch').value.toLowerCase() : "";
     let found = false;
 
+    // ICC aur Leagues ke liye keywords
     const keywords = {
         'psl': ['psl', 'pakistan super league'],
         'ipl': ['ipl', 'indian premier league'],
@@ -23,7 +22,8 @@ function filterByCategory(category, event) {
         'cpl': ['cpl', 'caribbean premier'],
         'bpl': ['bpl', 'bangladesh premier'],
         't10': ['t10'],
-        'international': ['international', 'icc', 'world cup', 'tour of', 'v ', 'vs ', 'trophy', 'series', 'odi', 't20i', 'test match']
+        // ICC button ke liye keywords
+        'icc': ['icc', 'world cup', 'international', 'tour of', 'v ', 'vs ', 'trophy', 'odi', 't20i', 'test match', 'champions trophy']
     };
 
     for (let card of cards) {
@@ -36,14 +36,16 @@ function filterByCategory(category, event) {
 
         if (targetCategory === 'all') {
             matchesCategory = true;
-        } else if (targetCategory === 'international') {
-            const hasIntWord = keywords.international.some(k => seriesName.includes(k));
-            matchesCategory = (cardCat === 'international' || hasIntWord);
-        } else if (keywords[targetCategory]) {
+        } 
+        // ICC Button Logic
+        else if (targetCategory === 'icc') {
+            const hasICCWord = keywords.icc.some(k => seriesName.includes(k));
+            matchesCategory = (cardCat === 'international' || hasICCWord);
+        } 
+        else if (keywords[targetCategory]) {
             matchesCategory = keywords[targetCategory].some(k => seriesName.includes(k));
-        } else if (targetCategory === 'other') {
-            matchesCategory = (cardCat === 'other' || cardCat === 'domestic');
-        } else {
+        } 
+        else {
             matchesCategory = (cardCat === targetCategory);
         }
 
@@ -105,7 +107,6 @@ async function getFastSchedule() {
         const data = await response.json();
         renderUI(data);
     } catch (e) {
-        console.error(e);
         container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>No matches scheduled next</p>";
     }
 }
@@ -122,7 +123,8 @@ function renderUI(data) {
                 const catType = item.category_type || "other"; 
 
                 item.scheduleAdWrapper.matchScheduleList.forEach(series => {
-                    const isIntSeries = (series.seriesCategory === "International" || series.seriesName.toLowerCase().includes("tour of")) ? "international" : catType;
+                    // International series tagging
+                    const isIntSeries = (series.seriesCategory === "International" || series.seriesName.toLowerCase().includes("tour of") || series.seriesName.toLowerCase().includes("icc")) ? "international" : catType;
 
                     series.matchInfo.forEach(match => {
                         const t1Raw = match.team1.teamName;
@@ -156,14 +158,10 @@ function renderUI(data) {
         });
     }
     container.innerHTML = html;
-    
-    // UI render honey ke baad pehli baar filtering automatically karein
     filterByCategory('all', null);
-
     document.querySelectorAll('.flag-img').forEach(img => {
         setFlagWithFallback(img, img.getAttribute('data-team'));
     });
 }
 
-// Start
 document.addEventListener('DOMContentLoaded', getFastSchedule);
