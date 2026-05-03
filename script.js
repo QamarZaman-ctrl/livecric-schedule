@@ -1,14 +1,21 @@
-// 1. Filter Logic (International aur Leagues ke liye behtar logic)
+// 1. Filter Logic (International aur Leagues ke liye Smart Search)
 function filterByCategory(category, event) {
     let buttons = document.getElementsByClassName('filter-btn');
     for (let btn of buttons) { btn.classList.remove('active'); }
-    event.target.classList.add('active');
+    
+    // Check if event exists (for manual button clicks)
+    if (event && event.target) {
+        event.target.classList.add('active');
+    } else {
+        // Default 'All' button ko active karein agar page load ho raha ho
+        const allBtn = document.querySelector("button[onclick*='all']");
+        if (allBtn) allBtn.classList.add('active');
+    }
 
     const cards = document.getElementsByClassName('match-card');
-    const searchInput = document.getElementById('matchSearch').value.toLowerCase();
+    const searchInput = document.getElementById('matchSearch') ? document.getElementById('matchSearch').value.toLowerCase() : "";
     let found = false;
 
-    // Smart Keywords
     const keywords = {
         'psl': ['psl', 'pakistan super league'],
         'ipl': ['ipl', 'indian premier league'],
@@ -16,8 +23,7 @@ function filterByCategory(category, event) {
         'cpl': ['cpl', 'caribbean premier'],
         'bpl': ['bpl', 'bangladesh premier'],
         't10': ['t10'],
-        // International ke liye mazeed keywords
-        'international': ['international', 'icc', 'world cup', 'tour of', 'v ', 'vs ', 'trophy', 'series']
+        'international': ['international', 'icc', 'world cup', 'tour of', 'v ', 'vs ', 'trophy', 'series', 'odi', 't20i', 'test match']
     };
 
     for (let card of cards) {
@@ -30,21 +36,14 @@ function filterByCategory(category, event) {
 
         if (targetCategory === 'all') {
             matchesCategory = true;
-        } 
-        // Mazeed Behtar International Filter
-        else if (targetCategory === 'international') {
-            // 1. Agar API ne category 'international' bheji ho
-            // 2. Ya series ke naam mein koi international keyword ho
+        } else if (targetCategory === 'international') {
             const hasIntWord = keywords.international.some(k => seriesName.includes(k));
             matchesCategory = (cardCat === 'international' || hasIntWord);
-        }
-        else if (keywords[targetCategory]) {
+        } else if (keywords[targetCategory]) {
             matchesCategory = keywords[targetCategory].some(k => seriesName.includes(k));
-        } 
-        else if (targetCategory === 'other') {
+        } else if (targetCategory === 'other') {
             matchesCategory = (cardCat === 'other' || cardCat === 'domestic');
-        } 
-        else {
+        } else {
             matchesCategory = (cardCat === targetCategory);
         }
 
@@ -74,7 +73,44 @@ function filterByCategory(category, event) {
     }
 }
 
-// 2. UI Rendering (Tagging ko behtar kiya)
+// 2. Search Box Filter
+function filterMatches() {
+    const activeBtn = document.querySelector('.filter-btn.active');
+    const activeCategory = activeBtn ? activeBtn.getAttribute('onclick').match(/'([^']+)'/)[1] : 'all';
+    filterByCategory(activeCategory, { target: activeBtn });
+}
+
+// 3. Flag Logic
+function setFlagWithFallback(imgElement, nameRaw) {
+    let clean = nameRaw.toLowerCase()
+        .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
+        .replace(/\s+w\b/gi, "").replace(/\b-w\b/gi, "").replace(/\(w\)/gi, "")
+        .replace(/[^a-z0-9\s]/gi, '').trim().replace(/\s+/g, '-');
+
+    let fileName = clean.charAt(0).toUpperCase() + clean.slice(1) + ".png";
+    imgElement.src = `assets/flags/${fileName}`;
+
+    imgElement.onerror = function() {
+        this.onerror = null; 
+        this.src = `https://ui-avatars.com/api/?name=${nameRaw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5`;
+    };
+}
+
+// 4. Main Data Fetch
+async function getFastSchedule() {
+    const container = document.getElementById('fixtures-list');
+    try {
+        const response = await fetch('matches.json');
+        if (!response.ok) throw new Error('File not found');
+        const data = await response.json();
+        renderUI(data);
+    } catch (e) {
+        console.error(e);
+        container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>No matches scheduled next</p>";
+    }
+}
+
+// 5. Rendering HTML
 function renderUI(data) {
     const container = document.getElementById('fixtures-list');
     let html = "";
@@ -83,12 +119,10 @@ function renderUI(data) {
         data.matchScheduleMap.forEach(item => {
             if (item.scheduleAdWrapper && item.scheduleAdWrapper.matchScheduleList) {
                 const dateStr = item.scheduleAdWrapper.date;
-                // Python script se aane wali category
                 const catType = item.category_type || "other"; 
 
                 item.scheduleAdWrapper.matchScheduleList.forEach(series => {
-                    // Agar series category 'International' hai to card ko mark karein
-                    const isIntSeries = series.seriesCategory === "International" ? "international" : catType;
+                    const isIntSeries = (series.seriesCategory === "International" || series.seriesName.toLowerCase().includes("tour of")) ? "international" : catType;
 
                     series.matchInfo.forEach(match => {
                         const t1Raw = match.team1.teamName;
@@ -122,7 +156,14 @@ function renderUI(data) {
         });
     }
     container.innerHTML = html;
+    
+    // UI render honey ke baad pehli baar filtering automatically karein
+    filterByCategory('all', null);
+
     document.querySelectorAll('.flag-img').forEach(img => {
         setFlagWithFallback(img, img.getAttribute('data-team'));
     });
 }
+
+// Start
+document.addEventListener('DOMContentLoaded', getFastSchedule);
