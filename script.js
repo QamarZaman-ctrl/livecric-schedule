@@ -1,20 +1,75 @@
-// 1. Filter & Search Logic
+// 1. Filter Logic (Buttons ke liye)
 function filterByCategory(category, event) {
+    // Buttons ki active class handle karna
     let buttons = document.getElementsByClassName('filter-btn');
     for (let btn of buttons) { btn.classList.remove('active'); }
     event.target.classList.add('active');
-    
-    let cards = document.getElementsByClassName('match-card');
+
+    const cards = document.getElementsByClassName('match-card');
+    const searchInput = document.getElementById('matchSearch').value.toLowerCase();
+    let found = false;
+
     for (let card of cards) {
-        if (category === 'all') { card.style.display = "flex"; }
-        else {
-            let cardCat = card.getAttribute('data-category');
-            card.style.display = (cardCat === category) ? "flex" : "none";
+        const cardCat = card.getAttribute('data-category');
+        const seriesName = card.querySelector('.tag').innerText.toLowerCase();
+        const matchText = card.innerText.toLowerCase();
+
+        // Check if it's a specific league button (like PSL, IPL, BBL)
+        const specificLeagues = ['psl', 'ipl', 'bbl', 'cpl', 'bpl', 't10'];
+        const isSpecificLeagueBtn = specificLeagues.includes(category.toLowerCase());
+        
+        let matchesCategory = false;
+
+        if (category === 'all') {
+            matchesCategory = true;
+        } else if (isSpecificLeagueBtn) {
+            // Agar PSL/IPL ka button hai to series ke naam mein wo word dhoondo
+            matchesCategory = seriesName.includes(category.toLowerCase());
+        } else {
+            // General categories (international, women, league, domestic)
+            matchesCategory = (cardCat === category);
         }
+
+        // Search filter ke sath combine karna
+        const matchesSearch = matchText.includes(searchInput);
+
+        if (matchesCategory && matchesSearch) {
+            card.style.display = "flex";
+            found = true;
+        } else {
+            card.style.display = "none";
+        }
+    }
+
+    // No Match Message handle karna
+    const fixturesList = document.getElementById('fixtures-list');
+    let noMatchMsg = document.getElementById('no-match-msg');
+    
+    if (!found) {
+        if (!noMatchMsg) {
+            noMatchMsg = document.createElement('p');
+            noMatchMsg.id = 'no-match-msg';
+            noMatchMsg.style.cssText = "text-align:center; color:white; padding:20px; width:100%;";
+            fixturesList.appendChild(noMatchMsg);
+        }
+        noMatchMsg.innerText = "Filhal is category mein koi matches schedule nahi hain.";
+    } else if (noMatchMsg) {
+        noMatchMsg.remove();
     }
 }
 
-// 2. Flags Logic (Original logic with folder support)
+// 2. Search Logic (Input box ke liye)
+function filterMatches() {
+    const input = document.getElementById('matchSearch').value.toLowerCase();
+    const activeBtn = document.querySelector('.filter-btn.active');
+    const activeCategory = activeBtn ? activeBtn.innerText.toLowerCase() : 'all';
+    
+    // Fake event object to reuse filter logic
+    const fakeEvent = { target: activeBtn };
+    filterByCategory(activeCategory === 'all' ? 'all' : activeCategory, fakeEvent);
+}
+
+// 3. Flags Logic (Original Fallback Support)
 function setFlagWithFallback(imgElement, nameRaw) {
     let clean = nameRaw.toLowerCase()
         .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
@@ -30,7 +85,7 @@ function setFlagWithFallback(imgElement, nameRaw) {
     };
 }
 
-// 3. Main Fetch Function
+// 4. Main Fetch Function
 async function getFastSchedule() {
     const container = document.getElementById('fixtures-list');
     try {
@@ -39,39 +94,33 @@ async function getFastSchedule() {
         const data = await response.json();
         renderUI(data);
     } catch (e) {
-        console.error("Data load error:", e);
+        console.error("Fetch Error:", e);
         container.innerHTML = "<p style='text-align:center; color:#00d2ff; padding:20px;'>Schedules are being updated...</p>";
     }
 }
 
-// 4. UI Rendering Function (Updated for the new JSON structure)
+// 5. UI Rendering Function
 function renderUI(data) {
     const container = document.getElementById('fixtures-list');
     let html = "";
 
     if (data.matchScheduleMap) {
         data.matchScheduleMap.forEach(item => {
-            // Hum sirf un items ko dekh rahe hain jin mein schedule data hai
-            if (item.scheduleAdWrapper) {
+            if (item.scheduleAdWrapper && item.scheduleAdWrapper.matchScheduleList) {
                 const dateStr = item.scheduleAdWrapper.date;
-                
-                // matchScheduleList ke andar series ki list hoti hai
+                const catType = item.category_type || "other"; 
+
                 item.scheduleAdWrapper.matchScheduleList.forEach(series => {
-                    // matchInfo ke andar har series ke individual matches hote hain
                     series.matchInfo.forEach(match => {
                         const t1Raw = match.team1.teamName;
                         const t2Raw = match.team2.teamName;
                         
-                        // Time Conversion (Unix timestamp to PKT/GMT)
                         let dateObj = new Date(parseInt(match.startDate));
                         let pktTime = dateObj.toLocaleTimeString('en-PK', { hour: '2-digit', minute: '2-digit', hour12: true });
                         let gmtTime = dateObj.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'GMT' });
 
-                        // Tag select karna (International ya Domestic)
-                        const category = series.seriesCategory ? series.seriesCategory.toLowerCase() : "other";
-
                         html += `
-                            <div class="match-card card-icc" data-category="${category}">
+                            <div class="match-card" data-category="${catType}">
                                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
                                     <span class="tag">${series.seriesName.toUpperCase()}</span>
                                     <div class="pkt-time">🕒 ${pktTime} PKT</div>
@@ -87,7 +136,7 @@ function renderUI(data) {
                                         <div class="team-name">${t2Raw}</div>
                                     </div>
                                 </div>
-                                <div class="match-meta">🌍 ${gmtTime} GMT | 🏟️ ${match.venueInfo.ground}, ${match.venueInfo.city}</div>
+                                <div class="match-meta">🌍 ${gmtTime} GMT | 🏟️ ${match.venueInfo.city}</div>
                                 <div class="match-date" style="margin-top: 12px;">🗓️ ${dateStr}</div>
                             </div>`;
                     });
@@ -96,12 +145,13 @@ function renderUI(data) {
         });
     }
 
-    container.innerHTML = html || "<p style='text-align:center; color:white;'>No matches found at the moment.</p>";
+    container.innerHTML = html || "<p style='text-align:center; color:white;'>No matches found.</p>";
     
-    // Flags apply karna
+    // Flags load karein
     document.querySelectorAll('.flag-img').forEach(img => {
         setFlagWithFallback(img, img.getAttribute('data-team'));
     });
 }
 
+// Initial Load
 document.addEventListener('DOMContentLoaded', getFastSchedule);
