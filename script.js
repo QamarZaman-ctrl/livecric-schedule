@@ -79,19 +79,40 @@ function filterMatches() {
     filterByCategory(activeCategory, { target: activeBtn });
 }
 
-// 3. Flag Logic (Backup Fallback)
+// 3. Flag Logic (Smart Cleaning for A, Lions, U19, etc.)
 function setFlagWithFallback(imgElement, nameRaw) {
-    let clean = nameRaw.toLowerCase()
-        .replace(/\bwomen's\b/gi, "").replace(/\bwomen\b/gi, "").replace(/\bu19\b/gi, "")
-        .replace(/\s+w\b/gi, "").replace(/\b-w\b/gi, "").replace(/\(w\)/gi, "")
-        .replace(/[^a-z0-9\s]/gi, '').trim().replace(/\s+/g, '-');
+    let clean = nameRaw.toLowerCase();
 
+    // In lafzon ko team name se remove kiya jayega taake main flag mil sake
+    const extraWords = [
+        /\s+a\b/gi,        // "Pakistan A" -> "pakistan"
+        /\slions\b/gi,     // "England Lions" -> "england"
+        /\s+under-19\b/gi, // "India Under-19" -> "india"
+        /\su19\b/gi, 
+        /\s+women's\b/gi, 
+        /\swomen\b/gi, 
+        /\s+v\b/gi, 
+        /\s+w\b/gi, 
+        /\(w\)/gi
+    ];
+
+    extraWords.forEach(word => {
+        clean = clean.replace(word, "");
+    });
+
+    // Symbols saaf karke hyphen handle karna
+    clean = clean.replace(/[^a-z0-9\s]/gi, '').trim().replace(/\s+/g, '-');
+
+    // Pehla harf Capital karein (e.g., pakistan -> Pakistan.png)
     let fileName = clean.charAt(0).toUpperCase() + clean.slice(1) + ".png";
+    
     imgElement.src = `assets/flags/${fileName}`;
 
+    // Agar flag file nahi milti to auto-generated initials dikhayein
     imgElement.onerror = function() {
         this.onerror = null; 
-        this.src = `https://ui-avatars.com/api/?name=${nameRaw.split(' ').map(n=>n[0]).join('')}&background=fff&color=03232f&bold=true&font-size=0.5`;
+        let initials = nameRaw.split(' ').map(n => n[0]).join('').toUpperCase();
+        this.src = `https://ui-avatars.com/api/?name=${initials}&background=03232f&color=fff&bold=true`;
     };
 }
 
@@ -126,7 +147,6 @@ function renderUI(data) {
                         const t1Raw = match.team1.teamName;
                         const t2Raw = match.team2.teamName;
                         
-                        // Smart Logo URL generation using Cricbuzz imageId
                         const t1Logo = match.team1.imageId ? `https://static.cricbuzz.com/a/img/v1/i1/c1/${match.team1.imageId}/team.jpg` : "";
                         const t2Logo = match.team2.imageId ? `https://static.cricbuzz.com/a/img/v1/i1/c1/${match.team2.imageId}/team.jpg` : "";
 
@@ -161,14 +181,11 @@ function renderUI(data) {
     container.innerHTML = html;
     filterByCategory('all', null);
 
-    // Dynamic Image Error Handling
     document.querySelectorAll('.flag-img').forEach(img => {
-        // Agar imageId nahi hai to foran fallback function chalaye
         if (!img.getAttribute('src') || img.getAttribute('src').includes('undefined')) {
             setFlagWithFallback(img, img.getAttribute('data-team'));
         }
         
-        // Agar link load hotay waqt error de (Cricbuzz server error), to fallback chalaye
         img.onerror = function() {
             setFlagWithFallback(this, this.getAttribute('data-team'));
         };
