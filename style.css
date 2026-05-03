@@ -1,363 +1,106 @@
-/* --- Global Reset & Colors --- */
-
+/* --- Global Reset & Base --- */
 * { 
-
     box-sizing: border-box; 
-
     margin: 0; 
-
     padding: 0; 
-
 }
-
-
 
 body, html { 
-
     background-color: #0b0e11; 
-
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
-
+    font-family: 'Segoe UI', Roboto, sans-serif; 
     width: 100%;
-
     color: white;
-
     overflow-x: hidden;
-
 }
 
-
-
-#main-wrapper { 
-
-    width: 100%; 
-
-    display: flex; 
-
-    flex-direction: column; 
-
-}
-
-
-
-/* --- Header & Search --- */
-
-.app-header { 
-
-    background: linear-gradient(135deg, #1b1c1c 0%, #06090a 100%);
-
-    padding: 40px 20px; 
-
-    color: white; 
-
-    text-align: center;
-
-    width: 100%; 
-
-    border-bottom: 3px solid #00d2ff;
-
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-
-}
-
-
-
-.header-content h1 { 
-
-    font-size: 2.2rem; 
-
-    margin-bottom: 10px; 
-
-    letter-spacing: 2px;
-
-}
-
-
-
-#matchSearch {
-
-    width: 100%; 
-
-    max-width: 600px; 
-
-    padding: 18px 25px; 
-
-    border-radius: 35px; 
-
-    border: 1px solid rgba(255,255,255,0.2); 
-
-    outline: none; 
-
-    font-size: 18px; 
-
-    margin-bottom: 25px;
-
-    background: rgba(255,255,255,0.05);
-
-    color: white;
-
-    backdrop-filter: blur(10px);
-
-}
-
-
-
-/* --- Filter Bar --- */
-
-.filter-bar { 
-
-    display: flex; 
-
-    justify-content: center; 
-
-    gap: 12px; 
-
-    flex-wrap: wrap; 
-
-}
-
-
-
-.filter-btn {
-
-    background: rgba(255,255,255,0.05);
-
-    color: white; 
-
-    border: 1px solid rgba(255,255,255,0.1);
-
-    padding: 10px 20px; 
-
-    border-radius: 25px;
-
-    cursor: pointer; 
-
-    font-size: 14px; 
-
-    font-weight: 700;
-
-    transition: 0.3s;
-
-}
-
-
-
-.filter-btn.active { 
-
-    background: #00d2ff; 
-
-    color: #03232f; 
-
-    box-shadow: 0 0 15px rgba(0, 210, 255, 0.5);
-
-}
-
-
-
-/* --- Match Card Styling --- */
-
+/* --- Match Cards Container --- */
 #fixtures-container { 
-
     padding: 25px 15px; 
-
     width: 100%; 
-
     max-width: 900px;
-
     margin: 0 auto;
-
 }
-
-
 
 #fixtures-list { 
-
     display: flex; 
-
     flex-direction: column; 
-
-    gap: 25px; 
-
-    width: 100%; 
-
+    gap: 20px; 
 }
-
-
 
 .match-card {
-
     width: 100%; 
-
-    border-radius: 22px; 
-
-    padding: 12px 15px; 
-
+    border-radius: 18px; 
+    padding: 15px; 
     display: flex; 
-
     flex-direction: column; 
-
-    transition: 0.3s ease;
-
     border: 1px solid rgba(255,255,255,0.1);
-
+    background: linear-gradient(135deg, #0a0707 20%, #002939 100%);
+    transition: transform 0.2s ease;
 }
 
-
-
-/* Card Colors */
-
-.card-psl { background: linear-gradient(135deg, #0a0707 20%, #002939 100%); box-shadow: 0 8px 25px rgba(29, 46, 3, 0.3); }
-
-.card-ipl { background: linear-gradient(135deg,  #0a0707 20%, #002939 100%); box-shadow: 0 8px 25px rgba(23, 34, 1, 0.3); }
-
-.card-icc { background: linear-gradient(135deg, #0a0707 20%, #002939 100%); box-shadow: 0 8px 25px rgba(1, 16, 42, 0.3); }
-
-.card-women { background: linear-gradient(135deg, #0a0707 20%, #002939 100%); box-shadow: 0 8px 25px rgba(37, 4, 18, 0.3); }
-
-.card-default { background: linear-gradient(135deg, #0a0707 20%, #002939 100%); }
-
-
-
-/* --- Text & UI Elements --- */
-
-.tag { 
-
-    font-size: 13px; 
-
-    font-weight: 800; 
-
-    background: rgba(0,0,0,0.5); 
-
-    color: white; 
-
-    padding: 8px 15px; 
-
-    border-radius: 8px; 
-
-    text-transform: uppercase; 
-
-}
-
-
-
-.pkt-time {
-
-    font-size: 15px; 
-
-    font-weight: 800;
-
-    color: #ffffff;
-
-}
-
-
-
+/* --- Match Content Styling --- */
 .team-logo { 
-
-    width: 75px; 
-
-    height: 75px; 
-
-    background: white; 
-
+    width: 60px; 
+    height: 60px; 
     border-radius: 50%; 
-
-    display: block; 
-
-    margin: 0 auto 15px;
-
-    border: 3px solid rgba(255,255,255,0.3);
-
-    object-fit: cover;
-
+    background: white; 
+    object-fit: cover; 
+    border: 2px solid rgba(0, 210, 255, 0.3);
+    margin-bottom: 10px;
 }
-
-
 
 .team-name {
-
-    font-weight: 800; 
-
-    font-size: 1.15rem; 
-
+    font-weight: 700; 
+    font-size: 1rem; 
     color: white;
-
-    margin-top: 10px;
-
-    letter-spacing: 0.5px;
-
 }
-
-
-
-/* VS Badge Update (No Background) */
 
 .vs-badge {
-
-    background: transparent; 
-
-    font-size: 24px; 
-
-    font-weight: 900;
-
-    color: #ffffff; 
-
-    text-shadow: 0 0 15px rgba(255,255,255,0.6);
-
-    margin: 0 10px;
-
+    font-size: 22px; 
+    font-weight: 900; 
+    color: #00d2ff; 
+    margin: 0 15px;
+    text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
 }
 
-
-
-.match-meta {
-
-    display: flex;
-
-    justify-content: flex-end;
-
-    border-top: 1px solid rgba(255,255,255,0.15);
-
-    padding-top: 15px;
-
-    margin-top: 15px;
-
+.tag { 
+    font-size: 10px; 
+    font-weight: 800; 
+    background: rgba(0,0,0,0.4); 
+    color: #00d2ff;
+    padding: 4px 10px; 
+    border-radius: 4px; 
+    text-transform: uppercase; 
+    display: inline-block;
 }
 
-
-
-.global-time {
-
-    font-size: 12px; 
-
-    font-weight: 800;
-
-    color: rgba(255,255,255,0.9);
-
+.match-meta { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.1); 
+    padding-top: 12px; 
+    margin-top: 12px; 
+    font-size: 12px;
+    color: rgba(255,255,255,0.7);
 }
 
-
-
-.match-date {
-
-    font-size: 14px;
-
-    font-weight: 800;
-
-    opacity: 1;
-
+/* --- Loading Spinner --- */
+.loading-state { text-align: center; padding: 60px; }
+.spinner { 
+    border: 3px solid rgba(0, 210, 255, 0.1); 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    border-left-color: #00d2ff; 
+    animation: spin 1s linear infinite; 
+    margin: 0 auto 15px; 
 }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-
-
-/* --- Mobile Fixes --- */
-
-@media (max-width: 600px) {
-
-    .team-logo { width: 60px; height: 60px; }
-
-    .team-name { font-size: 1rem; }
-
-    .header-content h1 { font-size: 1.6rem; }
-
+/* --- Mobile Responsive Fixes --- */
+@media (max-width: 600px) { 
+    .team-logo { width: 50px; height: 50px; } 
+    .vs-badge { font-size: 18px; }
+    .match-card { padding: 12px; }
 }
