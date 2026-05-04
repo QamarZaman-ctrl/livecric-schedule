@@ -1,467 +1,159 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Live Cricket Schedule | Global Match Center</title>
     
-
-    <title>Live Cricket Schedule | Global Match Center | watch live match</title>
-
-    <meta name="description" content="Check live cricket schedule, upcoming matches for PSL, IPL, BBL, and ICC International events. Get real-time updates and GMT/PKT timings.">
-
-    <meta name="keywords" content="cricket schedule, live psl schedule, ipl 2026 matches, international cricket fixtures, cricket match center, psl 11, live cricket updates">
-
-    <meta name="author" content="QZ Global Match Center">
-
-    <link rel="canonical" href="https://livecricschedule.live/" />
-
-    
-
-    <meta property="og:title" content="Live Cricket Schedule | Global Match Center">
-
-    <meta property="og:description" content="Get the latest cricket fixtures and schedules for all major leagues and international matches.">
-
-    <meta property="og:type" content="website">
-
+    <!-- SEO & Icons -->
     <link rel="icon" type="favicon" href="icon.png">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
 
-    
-    <!-- Is optimized code ko apne purane Font Awesome link ki jagah paste karein -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
-    <!-- Font Awesome ke fonts ko pehle se mangwane ke liye (Preload) -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
     <style>
         /* --- Global Reset & Base --- */
-* { 
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
-}
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body, html { background-color: #0b0e11; font-family: 'Segoe UI', Roboto, sans-serif; width: 100%; color: white; overflow-x: hidden; }
 
-body, html { 
-    background-color: #0b0e11; 
-    font-family: 'Segoe UI', Roboto, sans-serif; 
-    width: 100%;
-    color: white;
-    overflow-x: hidden;
-}
+        /* --- Hero Section Responsive Logic --- */
+        .hero-section {
+            background-color: #011214; 
+            min-height: 45vh; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center; 
+            position: relative; 
+            padding: 40px 5%;
+            border-bottom: 1px solid #035263;
+        }
 
-/* --- Match Cards Container --- */
-#fixtures-container { 
-    padding: 25px 15px; 
-    width: 100%; 
-    max-width: 900px;
-    margin: 0 auto;
-}
+        .left-stack {
+            position: absolute; left: 3%; top: 20px; width: 200px; 
+            display: flex; flex-direction: column; gap: 5px; z-index: 10;
+        }
 
-#fixtures-list { 
-    display: flex; 
-    flex-direction: column; 
-    gap: 20px; 
-}
+        .right-stack {
+            position: absolute; right: 3%; top: 20px; width: 140px;
+            display: flex; flex-direction: column; gap: 8px; z-index: 10;
+        }
 
-.match-card {
-    width: 100%; 
-    border-radius: 18px; 
-    padding: 15px; 
-    display: flex; 
-    flex-direction: column; 
-    border: 1px solid rgba(255,255,255,0.1);
-    background: linear-gradient(135deg, #0a0707 20%, #002939 100%);
-    transition: transform 0.2s ease;
-}
+        .center-branding { margin-top: 20px; }
 
-/* --- Match Content Styling --- */
-.team-logo { 
-    width: 60px; 
-    height: 60px; 
-    border-radius: 50%; 
-    background: white; 
-    object-fit: cover; 
-    border: 2px solid rgba(0, 210, 255, 0.3);
-    margin-bottom: 10px;
-}
+        /* --- Mobile Responsive (max-width: 768px) --- */
+        @media (max-width: 768px) {
+            .hero-section { height: auto; padding-top: 20px; }
+            
+            /* Absolute hata kar normal flow mein lana */
+            .left-stack, .right-stack { 
+                position: static; 
+                width: 100%; 
+                max-width: 300px; 
+                margin-bottom: 20px;
+            }
 
-.team-name {
-    font-weight: 700; 
-    font-size: 1rem; 
-    color: white;
-}
+            .right-stack { 
+                flex-direction: row; 
+                width: 100%; 
+                max-width: 100%; 
+                justify-content: center; 
+                order: 3; /* Buttons ko branding ke niche le jana */
+            }
 
-.vs-badge {
-    font-size: 22px; 
-    font-weight: 900; 
-    color: #00d2ff; 
-    margin: 0 15px;
-    text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
-}
+            .right-stack a { flex: 1; max-width: 150px; }
 
-.tag { 
-    font-size: 10px; 
-    font-weight: 800; 
-    background: rgba(0,0,0,0.4); 
-    color: #00d2ff;
-    padding: 4px 10px; 
-    border-radius: 4px; 
-    text-transform: uppercase; 
-    display: inline-block;
-}
+            .center-branding { order: 2; margin-bottom: 20px; }
+            .center-branding h1 { font-size: 1.8rem !important; }
+            
+            .left-stack { order: 1; } /* Search bar sabse upar */
+        }
 
-.match-meta { 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
-    border-top: 1px solid rgba(255,255,255,0.1); 
-    padding-top: 12px; 
-    margin-top: 12px; 
-    font-size: 12px;
-    color: rgba(255,255,255,0.7);
-}
+        /* --- Match Cards Container --- */
+        #fixtures-container { padding: 25px 15px; width: 100%; max-width: 900px; margin: 0 auto; }
+        #fixtures-list { display: flex; flex-direction: column; gap: 20px; }
+        .match-card {
+            width: 100%; border-radius: 18px; padding: 15px; display: flex; flex-direction: column; 
+            border: 1px solid rgba(255,255,255,0.1); background: linear-gradient(135deg, #0a0707 20%, #002939 100%);
+        }
 
-/* --- Loading Spinner --- */
-.loading-state { text-align: center; padding: 60px; }
-.spinner { 
-    border: 3px solid rgba(0, 210, 255, 0.1); 
-    width: 40px; 
-    height: 40px; 
-    border-radius: 50%; 
-    border-left-color: #00d2ff; 
-    animation: spin 1s linear infinite; 
-    margin: 0 auto 15px; 
-}
-@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        /* --- Team Styling --- */
+        .team-logo { width: 60px; height: 60px; border-radius: 50%; background: white; object-fit: cover; border: 2px solid rgba(0, 210, 255, 0.3); margin-bottom: 10px; }
+        .vs-badge { font-size: 22px; font-weight: 900; color: #00d2ff; margin: 0 15px; text-shadow: 0 0 10px rgba(0, 210, 255, 0.5); }
+        .match-meta { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; margin-top: 12px; font-size: 12px; color: rgba(255,255,255,0.7); }
 
-/* --- Mobile Responsive Fixes --- */
-@media (max-width: 600px) { 
-    .team-logo { width: 50px; height: 50px; } 
-    .vs-badge { font-size: 18px; }
-    .match-card { padding: 12px; }
-}
-
+        /* --- Spinner --- */
+        .loading-state { text-align: center; padding: 60px; }
+        .spinner { border: 3px solid rgba(0, 210, 255, 0.1); width: 40px; height: 40px; border-radius: 50%; border-left-color: #00d2ff; animation: spin 1s linear infinite; margin: 0 auto 15px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     </style>
-
 </head>
 
 <body>
-     <!-- Font Awesome (Icons ke liye - Ye header se pehle aik baar lazmi add karein) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-<header style="background-color: #01080b; padding: 0 5%; height: 75px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(0, 210, 255, 0.2); position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    
-    <!-- Logo Section -->
+<header style="background-color: #01080b; padding: 0 5%; height: 75px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(0, 210, 255, 0.2); position: sticky; top: 0; z-index: 1000; font-family: sans-serif;">
     <div style="display: flex; align-items: center;">
-        <a href="https://livecricschedule.live" style="font-size: 22px; font-weight: 800; color: #00d2ff; text-decoration: none; letter-spacing: 1.5px; text-transform: uppercase;">
-            <i class="fas fa-trophy" style="margin-right: 10px; font-size: 18px;"></i>GLOBAL MATCH CENTER
+        <a href="https://livecricschedule.live" style="font-size: 18px; font-weight: 800; color: #00d2ff; text-decoration: none; text-transform: uppercase;">
+            <i class="fas fa-trophy" style="margin-right: 8px;"></i>GLOBAL MATCH CENTER
         </a>
     </div>
-
-    <!-- Navigation Links -->
-    <nav>
-        <ul style="display: flex; gap: 35px; list-style: none; margin: 0; padding: 0; align-items: center;">
-            <li>
-                <a href="index.html" style="color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center;">
-                    <span style="height: 8px; width: 8px; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>HOME
-                </a>
-            </li>
-            <li>
-                <a href="about.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">ABOUT</a>
-            </li>
-            <li>
-                <a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">CONTACT</a>
-            </li>
-            <li>
-                <a href="privacy.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">PRIVACY</a>
-            </li>
+    <!-- Navigation (Hidden on small mobile for space if needed) -->
+    <nav class="nav-links">
+        <ul style="display: flex; gap: 20px; list-style: none; font-size: 11px; font-weight: 700;">
+            <li><a href="index.html" style="color: #fff; text-decoration: none;">HOME</a></li>
+            <li><a href="contact.html" style="color: #fff; text-decoration: none;">SUPPORT</a></li>
         </ul>
     </nav>
-
-    <!-- Support Button (CTA) -->
-    <div style="display: flex; align-items: center;">
-        <a href="contact.html" style="background-color: #00d2ff; color: #01080b; padding: 10px 22px; border-radius: 6px; font-weight: 800; text-decoration: none; font-size: 12px; text-transform: uppercase; transition: transform 0.2s ease;">
-            <i class="fas fa-headset" style="margin-right: 7px;"></i>SUPPORT
-        </a>
-    </div>
 </header>
 
-
-
-    <div id="main-wrapper">
-
-<section style="
-    background-color: #011214; 
-    height: 45vh; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-    font-family: 'Segoe UI', Roboto, sans-serif; 
-    position: relative; 
-    padding: 0 5%;
-    border-bottom: 1px solid #035263;
-">
-
-    <!-- LEFT STACK: Search Bar & Categories (Fixed at Top Left) -->
-    <div style="position: absolute; left: 3%; top: 20px; width: 200px; display: flex; flex-direction: column; gap: 5px; z-index: 10;">
-        <div style="position: relative;">
-            <i class="fas fa-search" style="position: absolute; left: 10px; top: 9px; color: rgba(0,210,255,0.5); font-size: 11px;"></i>
-            <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search..." 
-                   style="width: 100%; padding: 6px 10px 6px 30px; border-radius: 5px; border: 1px solid rgba(0,210,255,0.2); background: rgba(255,255,255,0.03); color: white; outline: none; font-size: 11px;">
-        </div>
-
-        <div style="position: relative;">
-            <select id="categorySelect" aria-label="Select Match Category" onchange="filterByCategory(this.value, event)" style="
-                width: 100%; 
-                padding: 6px 25px 6px 10px; 
-                border-radius: 5px; 
-                border: 1px solid rgba(0,210,255,0.3); 
-                background: #0b141d; 
-                color: #00d2ff; 
-                outline: none; 
-                font-weight: 700; 
-                cursor: pointer;
-                appearance: none;
-                -webkit-appearance: none;
-                font-size: 10px;
-                text-transform: uppercase;
-            ">
-                <option value="all">CATEGORIES</option>
-                <option value="icc">International</option>
-                <option value="psl">PSL</option>
-                <option value="ipl">IPL</option>
-                <option value="bbl">BBL</option>
-                <option value="cpl">CPL</option>
-                <option value="bpl">BPL</option>
-                <option value="t10">T10</option>
-                <option value="women">Women</option>
-                <option value="other">Other</option>
-            </select>
-            <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 9px; color: #00d2ff; pointer-events: none; font-size: 9px;"></i>
-        </div>
-    </div>
-
-    <!-- RIGHT STACK: Streaming Buttons (Fixed at Top Right) -->
-    <div style="position: absolute; right: 3%; top: 20px; display: flex; flex-direction: column; gap: 8px; z-index: 10; width: 140px;">
-        <a href="https://tamashaweb.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 12px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-            <span style="height: 6px; width: 6px; background: #ff0000; border-radius: 50%; margin-right: 8px; box-shadow: 0 0 5px #ff0000;"></span> Watch on Tamasha
-        </a>
-        <a href="https://www.tensportstv.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 12px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-            <i class="fas fa-tv" style="margin-right: 8px; color: #92B558;"></i>Ten Sports
-        </a>
-    </div>
-
-    <!-- CENTER BRANDING: Auto-Centered because of Flexbox parent -->
-    <div style="margin-top: 20px;">
-        <h1 style="margin: 0; font-size: 2.8rem; color: #ffffff; letter-spacing: 1px; font-weight: 900; text-transform: uppercase;">
-            🏏 Global Match Center
-        </h1>
-        <p style="margin: 15px 0 0; font-size: 14px; color: rgba(255,255,255,0.6); font-weight: 500;">
-            Live Updates • International & Domestic Schedule
-        </p>
-    </div>
-
-</section>
-
-
-
-        <main id="fixtures-container">
-
-            <div id="fixtures-list">
-
-                <div class="loading-state">
-
-                    <div class="spinner"></div>
-
-                    <p>Loading Live Schedule...</p>
-
-                </div>
-
+<div id="main-wrapper">
+    <section class="hero-section">
+        <!-- LEFT STACK -->
+        <div class="left-stack">
+            <div style="position: relative;">
+                <i class="fas fa-search" style="position: absolute; left: 10px; top: 9px; color: rgba(0,210,255,0.5); font-size: 11px;"></i>
+                <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search..." 
+                       style="width: 100%; padding: 6px 10px 6px 30px; border-radius: 5px; border: 1px solid rgba(0,210,255,0.2); background: rgba(255,255,255,0.03); color: white; outline: none; font-size: 11px;">
             </div>
-
-        </main>
-
-    </div>
-
-    <section id="cricket-laws-guide" style="margin-top: 40px; padding: 25px; background: rgba(255, 255, 255, 0.05); border-radius: 15px; border: 1px solid rgba(0, 210, 255, 0.3); font-family: sans-serif; color: #e0e0e0;">
-
-    
-
-    <h2 style="color: #00d2ff; text-align: center; border-bottom: 2px solid #00d2ff; padding-bottom: 15px; margin-bottom: 30px;">Detailed Technical Laws of Cricket</h2>
-
-
-
-    <div style="margin-bottom: 25px;">
-
-        <h3 style="color: #92B558;">The Bat and Ball Specifications</h3>
-
-        <p><strong>The Ball:</strong> Must weigh between 155.9g to 163g. In Test matches, a red ball is used; in limited overs, a white ball.</p>
-
-        <p><strong>The Bat:</strong> The width of the bat cannot exceed 4.25 inches, and the total length cannot be more than 38 inches.</p>
-
-    </div>
-
-
-
-    <div style="margin-bottom: 25px;">
-
-        <h3 style="color: #92B558;">Intervals and Game Timing</h3>
-
-        <ul>
-
-            <li><strong>Drinks Break:</strong> Usually taken after one hour of play in Tests or at scheduled times in ODIs.</li>
-
-            <li><strong>Tea & Lunch:</strong> Only in Test cricket. Lunch is 40 minutes and Tea is 20 minutes.</li>
-
-            <li><strong>Innings Break:</strong> In T20s, it is 10-15 minutes; in ODIs, it is 45 minutes.</li>
-
-        </ul>
-
-    </div>
-
-
-
-    <div style="margin-bottom: 25px;">
-
-        <h3 style="color: #92B558;">Rare Dismissals (Special Ways of Getting Out)</h3>
-
-        <p><strong>Obstructing the Field:</strong> If a batsman deliberately distracts or prevents a fielder from catching the ball or throwing it at the stumps.</p>
-
-        <p><strong>Retired Out:</strong> If a batsman leaves the field without the Umpire's permission and doesn't return, they are considered "Retired Out."</p>
-
-        <p><strong>Hit the Ball Twice:</strong> A batsman cannot hit the ball twice with their bat unless they are defending their stumps. They cannot score runs from the second hit.</p>
-
-    </div>
-
-
-
-    <div style="margin-bottom: 25px;">
-
-        <h3 style="color: #92B558;">Dead Ball Rules</h3>
-
-        <p>A ball becomes "Dead" (no runs or wickets can happen) when:</p>
-
-        <ul style="list-style-type: square; padding-left: 20px;">
-
-            <li>The ball is finally settled in the hands of the wicketkeeper or bowler.</li>
-
-            <li>A boundary is scored or a batsman is out.</li>
-
-            <li>The umpire calls "Over" or "Time."</li>
-
-            <li>The ball hits a Spider-cam or a wire above the field.</li>
-
-        </ul>
-
-    </div>
-
-
-
-    <div style="margin-bottom: 10px;">
-
-        <h3 style="color: #92B558;">Penalty Runs for Fair/Unfair Play</h3>
-
-        <p><strong>Fake Fielding:</strong> If a fielder pretends to throw or field the ball to deceive the batsmen, the umpire can award 5 penalty runs to the batting team.</p>
-
-        <p><strong>Ball Hitting Helmet:</strong> If the ball hits a fielder's helmet placed on the ground behind the keeper, 5 penalty runs are awarded to the batting team.</p>
-
-        <p><strong>Damaging the Pitch:</strong> If batsmen run on the protected area (center) of the pitch after warnings, the bowling team gets 5 penalty runs.</p>
-
-    </div>
-
-
-
-</section>
-
-
-
-
-    <footer style="background-color: #01080b; padding: 80px 20px 40px; border-top: 1px solid rgba(0, 210, 255, 0.15); font-family: 'Inter', -apple-system, sans-serif; color: #ffffff;">
-    <div style="max-width: 1200px; margin: 0 auto;">
-        
-        <!-- Main Footer Content -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 50px; margin-bottom: 60px;">
-            
-            <!-- Brand Column -->
-            <div style="grid-column: span 1.5;">
-                <h2 style="color: #00d2ff; font-size: 1.6rem; font-weight: 800; margin-bottom: 20px; letter-spacing: 1px;">GLOBAL MATCH CENTER</h2>
-                <p style="color: rgba(255, 255, 255, 0.5); font-size: 14px; line-height: 1.8; margin-bottom: 25px; max-width: 320px;">
-                    The world's most advanced cricket scheduling platform. Delivering real-time match fixtures, domestic leagues, and ICC tournament updates with surgical precision.
-                </p>
-                <!-- REAL SOCIAL ICONS -->
-                <div style="display: flex; gap: 15px;">
-                    <a href="https://www.facebook.com/share/1Em1c6dEnB/" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: white; text-decoration: none; border: 1px solid rgba(255,255,255,0.1); transition: 0.3s;" onmouseover="this.style.background='#00d2ff'; this.style.color='#03232f';" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.color='white';">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://x.com/m_zaman35269" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: white; text-decoration: none; border: 1px solid rgba(255,255,255,0.1); transition: 0.3s;" onmouseover="this.style.background='#00d2ff'; this.style.color='#03232f';" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.color='white';">
-                        <i class="fab fa-x-twitter"></i>
-                    </a>
-                    <a href="https://youtube.com/@qamarsdevlog?si=KmB5bTzzZ_4l6kR2" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: white; text-decoration: none; border: 1px solid rgba(255,255,255,0.1); transition: 0.3s;" onmouseover="this.style.background='#ff0000'; this.style.color='white';" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.color='white';">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Leagues Column -->
-            <div>
-                <h4 style="font-size: 15px; font-weight: 700; color: #ffffff; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 25px;">Major Leagues</h4>
-                <ul style="list-style: none; padding: 0; margin: 0; font-size: 14px;">
-                    <li style="margin-bottom: 12px;"><a href="#" style="color: rgba(255,255,255,0.5); text-decoration: none;">Pakistan Super League</a></li>
-                    <li style="margin-bottom: 12px;"><a href="#" style="color: rgba(255,255,255,0.5); text-decoration: none;">Indian Premier League</a></li>
-                    <li style="margin-bottom: 12px;"><a href="#" style="color: rgba(255,255,255,0.5); text-decoration: none;">Big Bash League</a></li>
-                    <li style="margin-bottom: 12px;"><a href="#" style="color: rgba(255,255,255,0.5); text-decoration: none;">CPL & BPL</a></li>
-                </ul>
-            </div>
-
-            <!-- Quick Links -->
-            <div>
-                <h4 style="font-size: 15px; font-weight: 700; color: #ffffff; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 25px;">Platform</h4>
-                <ul style="list-style: none; padding: 0; margin: 0; font-size: 14px;">
-                    <li style="margin-bottom: 12px;"><a href="about.html" style="color: rgba(255,255,255,0.5); text-decoration: none;">About Network</a></li>
-                    <li style="margin-bottom: 12px;"><a href="privacy.html" style="color: rgba(255,255,255,0.5); text-decoration: none;">Privacy Protocol</a></li>
-                    <li style="margin-bottom: 12px;"><a href="contact.html" style="color: rgba(255,255,255,0.5); text-decoration: none;">Contact Support</a></li>
-                    <li style="margin-bottom: 12px;"><a href="#" style="color: rgba(255,255,255,0.5); text-decoration: none;">Terms of Use</a></li>
-                </ul>
-            </div>
-
-            <!-- Support -->
-            <div>
-                <h4 style="font-size: 15px; font-weight: 700; color: #ffffff; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 25px;">Support</h4>
-                <div style="background: rgba(0, 210, 255, 0.03); border: 1px solid rgba(0, 210, 255, 0.1); padding: 15px; border-radius: 12px;">
-                    <p style="font-size: 13px; color: rgba(255,255,255,0.7); margin-bottom: 8px;">Technical Assistance:</p>
-                    <a href="mailto:support@livecricschedule.live" style="color: #00d2ff; text-decoration: none; font-size: 14px; font-weight: 600;">support@livecricschedule.live</a>
-                    <div style="margin-top: 15px; display: flex; align-items: center; gap: 8px;">
-                        <span style="width: 8px; height: 8px; background: #92B558; border-radius: 50%;"></span>
-                        <span style="font-size: 11px; color: #92B558; font-weight: 800; text-transform: uppercase;">Server Status: Stable</span>
-                    </div>
-                </div>
+            <div style="position: relative;">
+                <select id="categorySelect" aria-label="Select Category" onchange="filterByCategory(this.value, event)" style="width: 100%; padding: 6px 10px; border-radius: 5px; border: 1px solid rgba(0,210,255,0.3); background: #0b141d; color: #00d2ff; font-size: 10px; font-weight: 700; text-transform: uppercase;">
+                    <option value="all">CATEGORIES</option>
+                    <option value="icc">International</option>
+                    <option value="psl">PSL</option>
+                    <option value="ipl">IPL</option>
+                </select>
             </div>
         </div>
 
-        <!-- Divider -->
-        <div style="height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.05), transparent); margin-bottom: 30px;"></div>
+        <!-- RIGHT STACK -->
+        <div class="right-stack">
+            <a href="https://tamashaweb.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 10px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center;">
+                <span style="height: 6px; width: 6px; background: #ff0000; border-radius: 50%; margin-right: 8px;"></span> Tamasha
+            </a>
+            <a href="https://www.tensportstv.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 10px; text-decoration: none; border-radius: 50px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-tv" style="margin-right: 8px; color: #92B558;"></i> Ten Sports
+            </a>
+        </div>
 
-        <!-- Bottom Bar -->
-        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
-            <div style="display: flex; align-items: center; gap: 15px;">
-                <p style="font-size: 11px; color: rgba(255,255,255,0.3); text-transform: uppercase;">&copy; 2026 GLOBAL MATCH CENTER. ALL RIGHTS RESERVED.</p>
-                <span style="height: 12px; width: 1px; background: rgba(255,255,255,0.1);"></span>
-                <p style="font-size: 11px; color: rgba(255,255,255,0.3); text-transform: uppercase;">POWERED BY QZ NETWORK</p>
-            </div>
-            <div style="display: flex; gap: 20px;">
-                <p style="font-size: 11px; color: rgba(255,255,255,0.3);">V3.2.0 (LIVE)</p>
-                <p style="font-size: 11px; color: rgba(255,255,255,0.3);">BUILT WITH ❤️ IN PAKISTAN</p>
+        <!-- CENTER CONTENT -->
+        <div class="center-branding">
+            <h1 style="margin: 0; font-size: 2.8rem; color: #ffffff; font-weight: 900; text-transform: uppercase;">🏏 Global Match Center</h1>
+            <p style="margin: 10px 0 0; font-size: 13px; color: rgba(255,255,255,0.6);">Live Updates • Schedule</p>
+        </div>
+    </section>
+
+    <main id="fixtures-container">
+        <div id="fixtures-list">
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Loading Live Schedule...</p>
             </div>
         </div>
-    </div>
-</footer>
- <script src="script.js" defer></script>
+    </main>
+</div>
+
+<script src="script.js" defer></script>
 </body>
-
 </html>
