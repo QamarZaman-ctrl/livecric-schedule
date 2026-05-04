@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Cricket Schedule | Global Match Center</title>
     
-    <!-- SEO & Icons -->
     <link rel="icon" type="favicon" href="icon.png">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -13,11 +12,29 @@
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></noscript>
 
     <style>
-        /* --- Global Reset & Base --- */
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body, html { background-color: #0b0e11; font-family: 'Segoe UI', Roboto, sans-serif; width: 100%; color: white; overflow-x: hidden; }
 
-        /* --- Hero Section (Desktop as it was) --- */
+        /* --- Header Styling --- */
+        header {
+            background-color: #01080b; 
+            padding: 0 5%; 
+            height: 75px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 1px solid rgba(0, 210, 255, 0.2); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .nav-links { display: flex; gap: 25px; list-style: none; align-items: center; }
+        .nav-links a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; transition: 0.3s; }
+        .nav-links a:hover { color: #00d2ff; }
+
+        /* --- Hero Section --- */
         .hero-section {
             background-color: #011214; 
             height: 45vh; 
@@ -31,107 +48,83 @@
             border-bottom: 1px solid #035263;
         }
 
-        .left-stack {
-            position: absolute; left: 3%; top: 20px; width: 200px; 
-            display: flex; flex-direction: column; gap: 5px; z-index: 10;
-        }
+        .left-stack { position: absolute; left: 3%; top: 20px; width: 200px; display: flex; flex-direction: column; gap: 5px; z-index: 10; }
+        .right-stack { position: absolute; right: 3%; top: 20px; width: 140px; display: flex; flex-direction: column; gap: 8px; z-index: 10; }
 
-        .right-stack {
-            position: absolute; right: 3%; top: 20px; width: 140px;
-            display: flex; flex-direction: column; gap: 8px; z-index: 10;
-        }
-
-        /* --- Mobile Responsive Fixes --- */
-        @media (max-width: 850px) {
+        /* --- Mobile Adjustments --- */
+        @media (max-width: 950px) {
+            header { height: auto; padding: 15px 5%; flex-wrap: wrap; justify-content: center; gap: 15px; }
+            .nav-links { gap: 15px; order: 3; width: 100%; justify-content: center; }
+            .support-btn { order: 2; }
+            
             .hero-section { height: auto; padding: 100px 5% 40px; }
-            
-            .left-stack { 
-                position: absolute; left: 50%; top: 20px; transform: translateX(-50%);
-                width: 90%; max-width: 350px; 
-            }
-
-            .right-stack { 
-                position: relative; right: auto; top: 20px; width: 100%;
-                flex-direction: row; justify-content: center; margin-top: 15px;
-            }
-            
-            .right-stack a { width: 140px; }
-
-            .hero-section h1 { font-size: 1.8rem !important; margin-top: 10px; }
+            .left-stack { position: absolute; left: 50%; top: 20px; transform: translateX(-50%); width: 90%; max-width: 350px; }
+            .right-stack { position: relative; right: auto; top: 20px; width: 100%; flex-direction: row; justify-content: center; }
+            .right-stack a { width: 130px; }
+            .hero-section h1 { font-size: 1.8rem !important; }
         }
 
-        /* --- Match Cards Styling --- */
+        /* --- Match Cards & UI --- */
         #fixtures-container { padding: 25px 15px; width: 100%; max-width: 900px; margin: 0 auto; }
-        #fixtures-list { display: flex; flex-direction: column; gap: 20px; }
-        .match-card {
-            width: 100%; border-radius: 18px; padding: 15px; display: flex; flex-direction: column; 
-            border: 1px solid rgba(255,255,255,0.1); background: linear-gradient(135deg, #0a0707 20%, #002939 100%);
-        }
-
-        /* --- Team Styling --- */
-        .team-logo { width: 60px; height: 60px; border-radius: 50%; background: white; object-fit: cover; border: 2px solid rgba(0, 210, 255, 0.3); margin-bottom: 10px; }
-        .vs-badge { font-size: 22px; font-weight: 900; color: #00d2ff; margin: 0 15px; text-shadow: 0 0 10px rgba(0, 210, 255, 0.5); }
-        .match-meta { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; margin-top: 12px; font-size: 12px; color: rgba(255,255,255,0.7); }
-
-        /* --- Spinner --- */
-        .loading-state { text-align: center; padding: 60px; }
+        .match-card { width: 100%; border-radius: 18px; padding: 15px; border: 1px solid rgba(255,255,255,0.1); background: linear-gradient(135deg, #0a0707 20%, #002939 100%); margin-bottom: 20px; }
+        .team-logo { width: 60px; height: 60px; border-radius: 50%; background: white; object-fit: cover; border: 2px solid rgba(0, 210, 255, 0.3); }
         .spinner { border: 3px solid rgba(0, 210, 255, 0.1); width: 40px; height: 40px; border-radius: 50%; border-left-color: #00d2ff; animation: spin 1s linear infinite; margin: 0 auto 15px; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     </style>
 </head>
-
 <body>
 
-<header style="background-color: #01080b; padding: 0 5%; height: 75px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(0, 210, 255, 0.2); position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: 'Segoe UI', Roboto, sans-serif;">
-    <div style="display: flex; align-items: center;">
-        <a href="https://livecricschedule.live" style="font-size: 22px; font-weight: 800; color: #00d2ff; text-decoration: none; letter-spacing: 1.5px; text-transform: uppercase;">
-            <i class="fas fa-trophy" style="margin-right: 10px; font-size: 18px;"></i>GLOBAL MATCH CENTER
+<header>
+    <div class="logo">
+        <a href="https://livecricschedule.live" style="font-size: 20px; font-weight: 800; color: #00d2ff; text-decoration: none; text-transform: uppercase;">
+            <i class="fas fa-trophy" style="margin-right: 8px;"></i>GLOBAL MATCH CENTER
         </a>
     </div>
-    <nav style="display: none; display: flex;"> <!-- Desktop Nav -->
-        <ul style="display: flex; gap: 20px; list-style: none; font-size: 13px; font-weight: 700;">
-            <li><a href="index.html" style="color: #ffffff; text-decoration: none;">HOME</a></li>
-            <li><a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">CONTACT</a></li>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="privacy.html">PRIVACY</a></li>
         </ul>
     </nav>
+
+    <div class="support-btn">
+        <a href="contact.html" style="background-color: #00d2ff; color: #01080b; padding: 8px 18px; border-radius: 6px; font-weight: 800; text-decoration: none; font-size: 12px; text-transform: uppercase;">
+            <i class="fas fa-headset" style="margin-right: 5px;"></i>SUPPORT
+        </a>
+    </div>
 </header>
 
 <div id="main-wrapper">
     <section class="hero-section">
-        <!-- LEFT STACK (Desktop: Top Left | Mobile: Center Top) -->
         <div class="left-stack">
             <div style="position: relative;">
                 <i class="fas fa-search" style="position: absolute; left: 10px; top: 9px; color: rgba(0,210,255,0.5); font-size: 11px;"></i>
                 <input type="text" id="matchSearch" onkeyup="filterMatches()" placeholder="Search..." 
                        style="width: 100%; padding: 6px 10px 6px 30px; border-radius: 5px; border: 1px solid rgba(0,210,255,0.2); background: rgba(255,255,255,0.03); color: white; outline: none; font-size: 11px;">
             </div>
-            <div style="position: relative;">
-                <select id="categorySelect" aria-label="Select Category" onchange="filterByCategory(this.value, event)" style="width: 100%; padding: 6px 10px; border-radius: 5px; border: 1px solid rgba(0,210,255,0.3); background: #0b141d; color: #00d2ff; font-size: 10px; font-weight: 700; text-transform: uppercase; appearance: none;">
-                    <option value="all">CATEGORIES</option>
-                    <option value="icc">International</option>
-                    <option value="psl">PSL</option>
-                    <option value="ipl">IPL</option>
-                    <option value="bbl">BBL</option>
-                    <option value="other">Other</option>
-                </select>
-                <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 9px; color: #00d2ff; font-size: 9px; pointer-events: none;"></i>
-            </div>
+            <select id="categorySelect" aria-label="Select Category" onchange="filterByCategory(this.value, event)" style="width: 100%; padding: 6px 10px; border-radius: 5px; border: 1px solid rgba(0,210,255,0.3); background: #0b141d; color: #00d2ff; font-size: 10px; font-weight: 700; text-transform: uppercase;">
+                <option value="all">CATEGORIES</option>
+                <option value="icc">International</option>
+                <option value="psl">PSL</option>
+                <option value="ipl">IPL</option>
+            </select>
         </div>
 
-        <!-- RIGHT STACK (Desktop: Top Right | Mobile: Below Title) -->
         <div class="right-stack">
-            <a href="https://tamashaweb.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 12px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+            <a href="https://tamashaweb.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 10px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center;">
                 <span style="height: 6px; width: 6px; background: #ff0000; border-radius: 50%; margin-right: 8px;"></span> Tamasha
             </a>
-            <a href="https://www.tensportstv.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 12px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+            <a href="https://www.tensportstv.com/" target="_blank" style="background: #111; border: 1px solid #333; color: white; padding: 6px 10px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 10px; display: flex; align-items: center; justify-content: center;">
                 <i class="fas fa-tv" style="margin-right: 8px; color: #92B558;"></i> Ten Sports
             </a>
         </div>
 
-        <!-- CENTER CONTENT -->
-        <div style="margin-top: 20px;">
-            <h1 style="margin: 0; font-size: 2.8rem; color: #ffffff; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;">🏏 Global Match Center</h1>
-            <p style="margin: 10px 0 0; font-size: 14px; color: rgba(255,255,255,0.6); font-weight: 500;">Live Updates • Cricket Schedule</p>
+        <div>
+            <h1 style="margin: 0; font-size: 2.8rem; color: #ffffff; font-weight: 900; text-transform: uppercase;">🏏 Global Match Center</h1>
+            <p style="margin: 10px 0 0; font-size: 14px; color: rgba(255,255,255,0.6);">Live Updates • Cricket Schedule</p>
         </div>
     </section>
 
