@@ -2,290 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUN 20 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Continental Cup 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 161890,
-                                "seriesId": 12617,
-                                "matchDesc": "4th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1781935200000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 1041,
-                                    "teamName": "Romania",
-                                    "teamSName": "ROM",
-                                    "imageId": 247204
-                                },
-                                "team2": {
-                                    "teamId": 550,
-                                    "teamName": "Hungary",
-                                    "teamSName": "HUN",
-                                    "imageId": 172602
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            },
-                            {
-                                "matchId": 161901,
-                                "seriesId": 12617,
-                                "matchDesc": "5th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1781949600000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 541,
-                                    "teamName": "Belgium",
-                                    "teamSName": "BEL",
-                                    "imageId": 776219
-                                },
-                                "team2": {
-                                    "teamId": 550,
-                                    "teamName": "Hungary",
-                                    "teamSName": "HUN",
-                                    "imageId": 172602
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            },
-                            {
-                                "matchId": 161910,
-                                "seriesId": 12617,
-                                "matchDesc": "6th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1781964000000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 541,
-                                    "teamName": "Belgium",
-                                    "teamSName": "BEL",
-                                    "imageId": 776219
-                                },
-                                "team2": {
-                                    "teamId": 1062,
-                                    "teamName": "Switzerland",
-                                    "teamSName": "SUI",
-                                    "imageId": 247207
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12617,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "Afghanistan tour of India 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 148415,
-                                "seriesId": 11641,
-                                "matchDesc": "3rd ODI",
-                                "matchFormat": "ODI",
-                                "startDate": "1781942400000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 2,
-                                    "teamName": "India",
-                                    "teamSName": "IND",
-                                    "isFullMember": true,
-                                    "imageId": 776162
-                                },
-                                "team2": {
-                                    "teamId": 96,
-                                    "teamName": "Afghanistan",
-                                    "teamSName": "AFG",
-                                    "isFullMember": true,
-                                    "imageId": 776177
-                                },
-                                "venueInfo": {
-                                    "ground": "MA Chidambaram Stadium",
-                                    "city": "Chennai",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11641,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Germany tour of Denmark, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 160240,
-                                "seriesId": 12510,
-                                "matchDesc": "4th T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1781946000000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 185,
-                                    "teamName": "Denmark",
-                                    "teamSName": "DEN",
-                                    "imageId": 776232
-                                },
-                                "team2": {
-                                    "teamId": 77,
-                                    "teamName": "Germany",
-                                    "teamSName": "GER",
-                                    "imageId": 776260
-                                },
-                                "venueInfo": {
-                                    "ground": "Svanholm Park",
-                                    "city": "Brondby",
-                                    "country": "Denmark",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12510,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "New Zealand tour of England, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 129563,
-                                "seriesId": 10559,
-                                "matchDesc": "2nd Test, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1781949600000",
-                                "endDate": "1782086399000",
-                                "team1": {
-                                    "teamId": 9,
-                                    "teamName": "England",
-                                    "teamSName": "ENG",
-                                    "isFullMember": true,
-                                    "imageId": 776237
-                                },
-                                "team2": {
-                                    "teamId": 13,
-                                    "teamName": "New Zealand",
-                                    "teamSName": "NZ",
-                                    "isFullMember": true,
-                                    "imageId": 776333
-                                },
-                                "venueInfo": {
-                                    "ground": "Kennington Oval",
-                                    "city": "London",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 10559,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Namibia T20I Tri-Series 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 161586,
-                                "seriesId": 12569,
-                                "matchDesc": "3rd Match",
-                                "matchFormat": "T20",
-                                "startDate": "1781956800000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 161,
-                                    "teamName": "Namibia",
-                                    "teamSName": "NAM",
-                                    "imageId": 776326
-                                },
-                                "team2": {
-                                    "teamId": 536,
-                                    "teamName": "Nigeria",
-                                    "teamSName": "NGA",
-                                    "imageId": 248436
-                                },
-                                "venueInfo": {
-                                    "ground": "Namibia Cricket Ground",
-                                    "city": " Windhoek",
-                                    "country": "Namibia",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12569,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "Sri Lanka tour of West Indies 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 152405,
-                                "seriesId": 11946,
-                                "matchDesc": "4 -Day Warm-up match, Day 3",
-                                "matchFormat": "TEST",
-                                "startDate": "1781964000000",
-                                "endDate": "1782086399000",
-                                "team1": {
-                                    "teamId": 2277,
-                                    "teamName": "West Indies Select XI",
-                                    "teamSName": "WISXI",
-                                    "imageId": 577433
-                                },
-                                "team2": {
-                                    "teamId": 5,
-                                    "teamName": "Sri Lanka",
-                                    "teamSName": "SL",
-                                    "isFullMember": true,
-                                    "imageId": 776254
-                                },
-                                "venueInfo": {
-                                    "ground": "Coolidge Cricket Ground",
-                                    "city": "Antigua",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11946,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1781913600000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SUN, JUN 21 2026",
                 "matchScheduleList": [
                     {
@@ -579,6 +295,20 @@
                 "longDate": "1782000000000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -913,189 +643,210 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUN 20 2026",
+                "date": "THU, JUN 25 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Major League Cricket 2026",
+                        "seriesName": " Asia Pacific Cricket Champions Trophy 2026",
                         "matchInfo": [
                             {
-                                "matchId": 150641,
-                                "seriesId": 11793,
-                                "matchDesc": "3rd Match",
+                                "matchId": 162037,
+                                "seriesId": 12635,
+                                "matchDesc": "5th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1781915400000",
-                                "endDate": "1781913599000",
+                                "startDate": "1782365400000",
+                                "endDate": "1782431999000",
                                 "team1": {
-                                    "teamId": 1594,
-                                    "teamName": "Seattle Orcas",
-                                    "teamSName": "SOR",
-                                    "imageId": 825030
+                                    "teamId": 384,
+                                    "teamName": "Thailand",
+                                    "teamSName": "THAI",
+                                    "imageId": 172437
                                 },
                                 "team2": {
-                                    "teamId": 1591,
-                                    "teamName": "Washington Freedom",
-                                    "teamSName": "WAF",
-                                    "imageId": 825012
+                                    "teamId": 3433,
+                                    "teamName": "Uzbekistan",
+                                    "teamSName": "UZ",
+                                    "isFullMember": true,
+                                    "imageId": 1011873
                                 },
                                 "venueInfo": {
-                                    "ground": "Grand Prairie Stadium",
-                                    "city": "Dallas",
-                                    "country": "United States",
-                                    "timezone": "-05:00"
+                                    "ground": "Singapore National Cricket Ground",
+                                    "city": "Singapore",
+                                    "country": "Singapore",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 162044,
+                                "seriesId": 12635,
+                                "matchDesc": "6th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1782383400000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 190,
+                                    "teamName": "Singapore",
+                                    "teamSName": "SIN",
+                                    "imageId": 776275
+                                },
+                                "team2": {
+                                    "teamId": 566,
+                                    "teamName": "Indonesia",
+                                    "teamSName": "IDN",
+                                    "imageId": 172618
+                                },
+                                "venueInfo": {
+                                    "ground": "Singapore National Cricket Ground",
+                                    "city": "Singapore",
+                                    "country": "Singapore",
+                                    "timezone": "+08:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12635,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "New Zealand tour of England, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 129574,
+                                "seriesId": 10559,
+                                "matchDesc": "3rd Test, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1782381600000",
+                                "endDate": "1782777599000",
+                                "team1": {
+                                    "teamId": 9,
+                                    "teamName": "England",
+                                    "teamSName": "ENG",
+                                    "isFullMember": true,
+                                    "imageId": 776237
+                                },
+                                "team2": {
+                                    "teamId": 13,
+                                    "teamName": "New Zealand",
+                                    "teamSName": "NZ",
+                                    "isFullMember": true,
+                                    "imageId": 776333
+                                },
+                                "venueInfo": {
+                                    "ground": "Trent Bridge",
+                                    "city": "Nottingham",
+                                    "country": "England",
+                                    "timezone": "+01:00"
                                 },
                                 "isLiveStreamEnabled": true
                             }
                         ],
-                        "seriesId": 11793,
-                        "seriesHomeCountry": 15,
-                        "seriesCategory": "League",
+                        "seriesId": 10559,
+                        "seriesCategory": "International",
                         "isLiveStreamEnabled": true
                     },
                     {
-                        "seriesName": "Maharaja Trophy KSCA T20 2026",
+                        "seriesName": "ICC Mens T20 World Cup Americas Sub Regional Qualifier 2026",
                         "matchInfo": [
                             {
-                                "matchId": 160834,
-                                "seriesId": 12541,
-                                "matchDesc": "1st Match",
+                                "matchId": 161527,
+                                "seriesId": 12565,
+                                "matchDesc": "7th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1781946000000",
-                                "endDate": "1781999999000",
+                                "startDate": "1782392400000",
+                                "endDate": "1782431999000",
                                 "team1": {
-                                    "teamId": 423,
-                                    "teamName": "Kalyani Bengaluru Blasters",
-                                    "teamSName": "KBB",
-                                    "imageId": 172473
+                                    "teamId": 25,
+                                    "teamName": "Bermuda",
+                                    "teamSName": "BER",
+                                    "imageId": 776221
                                 },
                                 "team2": {
-                                    "teamId": 1123,
-                                    "teamName": "Gulbarga Mystics",
-                                    "teamSName": "GBM",
-                                    "imageId": 338072
+                                    "teamId": 546,
+                                    "teamName": "Panama",
+                                    "teamSName": "PAN",
+                                    "imageId": 172597
                                 },
                                 "venueInfo": {
-                                    "ground": "Srikantadatta Narasimha Raja Wadeyar Ground",
-                                    "city": "Mysore",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "White Hill Field, Sandys Parish",
+                                    "city": "Hamilton",
+                                    "country": "Bermuda",
+                                    "timezone": "-03:00"
                                 }
                             },
                             {
-                                "matchId": 160845,
-                                "seriesId": 12541,
-                                "matchDesc": "2nd Match",
+                                "matchId": 161538,
+                                "seriesId": 12565,
+                                "matchDesc": "8th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1781962200000",
-                                "endDate": "1781999999000",
+                                "startDate": "1782408600000",
+                                "endDate": "1782431999000",
                                 "team1": {
-                                    "teamId": 309,
-                                    "teamName": "Shivamogga Yodhas",
-                                    "teamSName": "SMY",
-                                    "imageId": 338074
+                                    "teamId": 1018,
+                                    "teamName": "Bahamas",
+                                    "teamSName": "BHM",
+                                    "imageId": 248394
                                 },
                                 "team2": {
-                                    "teamId": 307,
-                                    "teamName": "Mysore Warriors",
-                                    "teamSName": "MW",
-                                    "imageId": 172356
+                                    "teamId": 560,
+                                    "teamName": "Brazil",
+                                    "teamSName": "BRAZIL",
+                                    "imageId": 172612
                                 },
                                 "venueInfo": {
-                                    "ground": "Srikantadatta Narasimha Raja Wadeyar Ground",
-                                    "city": "Mysore",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "White Hill Field, Sandys Parish",
+                                    "city": "Hamilton",
+                                    "country": "Bermuda",
+                                    "timezone": "-03:00"
                                 }
                             }
                         ],
-                        "seriesId": 12541,
-                        "seriesCategory": "League"
+                        "seriesId": 12565,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Sri Lanka tour of West Indies 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 152416,
+                                "seriesId": 11946,
+                                "matchDesc": "1st Test, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1782396000000",
+                                "endDate": "1782777599000",
+                                "team1": {
+                                    "teamId": 10,
+                                    "teamName": "West Indies",
+                                    "teamSName": "WI",
+                                    "isFullMember": true,
+                                    "imageId": 776191
+                                },
+                                "team2": {
+                                    "teamId": 5,
+                                    "teamName": "Sri Lanka",
+                                    "teamSName": "SL",
+                                    "isFullMember": true,
+                                    "imageId": 776254
+                                },
+                                "venueInfo": {
+                                    "ground": "Sir Vivian Richards Stadium",
+                                    "city": "North Sound, Antigua",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11946,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1781913600000"
+                "longDate": "1782345600000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
                 "date": "SUN, JUN 21 2026",
                 "matchScheduleList": [
-                    {
-                        "seriesName": "Major League Cricket 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 150652,
-                                "seriesId": 11793,
-                                "matchDesc": "4th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1781987400000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 1577,
-                                    "teamName": "Texas Super Kings",
-                                    "teamSName": "TSK",
-                                    "imageId": 825031
-                                },
-                                "team2": {
-                                    "teamId": 1584,
-                                    "teamName": "San Francisco Unicorns",
-                                    "teamSName": "SFU",
-                                    "imageId": 825029
-                                },
-                                "venueInfo": {
-                                    "ground": "Grand Prairie Stadium",
-                                    "city": "Dallas",
-                                    "country": "United States",
-                                    "timezone": "-05:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 150663,
-                                "seriesId": 11793,
-                                "matchDesc": "5th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1782001800000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 1591,
-                                    "teamName": "Washington Freedom",
-                                    "teamSName": "WAF",
-                                    "imageId": 825012
-                                },
-                                "team2": {
-                                    "teamId": 1573,
-                                    "teamName": "MI New York",
-                                    "teamSName": "MINY",
-                                    "imageId": 825028
-                                },
-                                "venueInfo": {
-                                    "ground": "Grand Prairie Stadium",
-                                    "city": "Dallas",
-                                    "country": "United States",
-                                    "timezone": "-05:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11793,
-                        "seriesHomeCountry": 15,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
-                    },
                     {
                         "seriesName": "Maharaja Trophy KSCA T20 2026",
                         "matchInfo": [
@@ -1218,6 +969,20 @@
                 "longDate": "1782000000000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1660,6 +1425,169 @@
                     }
                 ],
                 "longDate": "1782259200000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "THU, JUN 25 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Major League Cricket 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 150690,
+                                "seriesId": 11793,
+                                "matchDesc": "8th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1782351000000",
+                                "endDate": "1782345599000",
+                                "team1": {
+                                    "teamId": 1584,
+                                    "teamName": "San Francisco Unicorns",
+                                    "teamSName": "SFU",
+                                    "imageId": 825029
+                                },
+                                "team2": {
+                                    "teamId": 1577,
+                                    "teamName": "Texas Super Kings",
+                                    "teamSName": "TSK",
+                                    "imageId": 825031
+                                },
+                                "venueInfo": {
+                                    "ground": "Oakland Coliseum",
+                                    "city": "California",
+                                    "country": "United States",
+                                    "timezone": "-07:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11793,
+                        "seriesHomeCountry": 15,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Maharaja Trophy KSCA T20 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 160942,
+                                "seriesId": 12541,
+                                "matchDesc": "11th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1782378000000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 122,
+                                    "teamName": "Coastal Kings Mangaluru",
+                                    "teamSName": "CKM",
+                                    "imageId": 338073
+                                },
+                                "team2": {
+                                    "teamId": 307,
+                                    "teamName": "Mysore Warriors",
+                                    "teamSName": "MW",
+                                    "imageId": 172356
+                                },
+                                "venueInfo": {
+                                    "ground": "Srikantadatta Narasimha Raja Wadeyar Ground",
+                                    "city": "Mysore",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 160953,
+                                "seriesId": 12541,
+                                "matchDesc": "12th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1782394200000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 310,
+                                    "teamName": "Hubli Tigers",
+                                    "teamSName": "HT",
+                                    "imageId": 172359
+                                },
+                                "team2": {
+                                    "teamId": 1123,
+                                    "teamName": "Gulbarga Mystics",
+                                    "teamSName": "GBM",
+                                    "imageId": 338072
+                                },
+                                "venueInfo": {
+                                    "ground": "Srikantadatta Narasimha Raja Wadeyar Ground",
+                                    "city": "Mysore",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12541,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "Madhya Pradesh Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 160810,
+                                "seriesId": 12530,
+                                "matchDesc": "Semi Final 1",
+                                "matchFormat": "T20",
+                                "startDate": "1782379800000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "Holkar Stadium",
+                                    "city": "Indore",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 160821,
+                                "seriesId": 12530,
+                                "matchDesc": "Semi Final 2",
+                                "matchFormat": "T20",
+                                "startDate": "1782396000000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "Holkar Stadium",
+                                    "city": "Indore",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12530,
+                        "seriesCategory": "League"
+                    }
+                ],
+                "longDate": "1782345600000"
             },
             "category_type": "league"
         },
@@ -2639,217 +2567,6 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUN 20 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Kwibuka Women's T20I Tournament, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 160141,
-                                "seriesId": 12485,
-                                "matchDesc": "3rd Place Play off",
-                                "matchFormat": "T20",
-                                "startDate": "1781940600000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 491,
-                                    "teamName": "Brazil Women",
-                                    "teamSName": "BRAW",
-                                    "imageId": 172539
-                                },
-                                "team2": {
-                                    "teamId": 1482,
-                                    "teamName": "Nigeria Women",
-                                    "teamSName": "NGAW",
-                                    "imageId": 273957
-                                },
-                                "venueInfo": {
-                                    "ground": "Gahanga International Cricket Stadium",
-                                    "city": "Kigali City",
-                                    "country": "Rwanda",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12485,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "Malta Women tour of Cyprus, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 161744,
-                                "seriesId": 12585,
-                                "matchDesc": "5th T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1781940600000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 1992,
-                                    "teamName": "Cyprus Women",
-                                    "teamSName": "CYPW",
-                                    "imageId": 502582
-                                },
-                                "team2": {
-                                    "teamId": 1500,
-                                    "teamName": "Malta Women",
-                                    "teamSName": "MALW",
-                                    "imageId": 297979
-                                },
-                                "venueInfo": {
-                                    "ground": "Happy Valley Ground",
-                                    "city": "Episkopi",
-                                    "country": "Cyprus",
-                                    "timezone": "+03:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12585,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "ICC Women's T20 World Cup 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 121879,
-                                "seriesId": 10119,
-                                "matchDesc": "14th Match, Group A",
-                                "matchFormat": "T20",
-                                "startDate": "1781947800000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 100,
-                                    "teamName": "Australia Women",
-                                    "teamSName": "AUSW",
-                                    "imageId": 776205
-                                },
-                                "team2": {
-                                    "teamId": 188,
-                                    "teamName": "Netherlands Women",
-                                    "teamSName": "NEDW",
-                                    "imageId": 776337
-                                },
-                                "venueInfo": {
-                                    "ground": "The Rose Bowl",
-                                    "city": "Southampton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 121890,
-                                "seriesId": 10119,
-                                "matchDesc": "15th Match, Group A",
-                                "matchFormat": "T20",
-                                "startDate": "1781962200000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 259,
-                                    "teamName": "Pakistan Women",
-                                    "teamSName": "PAKW",
-                                    "imageId": 776311
-                                },
-                                "team2": {
-                                    "teamId": 329,
-                                    "teamName": "Bangladesh Women",
-                                    "teamSName": "BANW",
-                                    "imageId": 776213
-                                },
-                                "venueInfo": {
-                                    "ground": "The Rose Bowl",
-                                    "city": "Southampton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 121901,
-                                "seriesId": 10119,
-                                "matchDesc": "16th Match, Group B",
-                                "matchFormat": "T20",
-                                "startDate": "1781976600000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 99,
-                                    "teamName": "England Women",
-                                    "teamSName": "ENGW",
-                                    "imageId": 776241
-                                },
-                                "team2": {
-                                    "teamId": 389,
-                                    "teamName": "Scotland Women",
-                                    "teamSName": "SCOW",
-                                    "imageId": 776283
-                                },
-                                "venueInfo": {
-                                    "ground": "Headingley",
-                                    "city": "Leeds",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 10119,
-                        "seriesCategory": "Women",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "India A Women tour of England 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 155111,
-                                "seriesId": 12144,
-                                "matchDesc": "Unofficial 1st T20",
-                                "matchFormat": "T20",
-                                "startDate": "1781976600000",
-                                "endDate": "1781999999000",
-                                "team1": {
-                                    "teamId": 3212,
-                                    "teamName": "England A Women",
-                                    "teamSName": "ENGAW",
-                                    "imageId": 949008
-                                },
-                                "team2": {
-                                    "teamId": 440,
-                                    "teamName": "India A Women",
-                                    "teamSName": "INDWA",
-                                    "imageId": 776184
-                                },
-                                "venueInfo": {
-                                    "ground": "County Ground",
-                                    "city": "Northampton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12144,
-                        "seriesCategory": "Women"
-                    }
-                ],
-                "longDate": "1781913600000"
-            },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SUN, JUN 21 2026",
                 "matchScheduleList": [
                     {
@@ -2918,6 +2635,20 @@
                 "longDate": "1782000000000"
             },
             "category_type": "women"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -3166,6 +2897,110 @@
                     }
                 ],
                 "longDate": "1782259200000"
+            },
+            "category_type": "women"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "THU, JUN 25 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "ICC Women's T20 World Cup 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 121961,
+                                "seriesId": 10119,
+                                "matchDesc": "23rd Match, Group A",
+                                "matchFormat": "T20",
+                                "startDate": "1782394200000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 97,
+                                    "teamName": "India Women",
+                                    "teamSName": "INDW",
+                                    "imageId": 776182
+                                },
+                                "team2": {
+                                    "teamId": 329,
+                                    "teamName": "Bangladesh Women",
+                                    "teamSName": "BANW",
+                                    "imageId": 776213
+                                },
+                                "venueInfo": {
+                                    "ground": "Emirates Old Trafford",
+                                    "city": "Manchester",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            },
+                            {
+                                "matchId": 121967,
+                                "seriesId": 10119,
+                                "matchDesc": "24th Match, Group A",
+                                "matchFormat": "T20",
+                                "startDate": "1782408600000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 260,
+                                    "teamName": "South Africa Women",
+                                    "teamSName": "RSAW",
+                                    "imageId": 776293
+                                },
+                                "team2": {
+                                    "teamId": 188,
+                                    "teamName": "Netherlands Women",
+                                    "teamSName": "NEDW",
+                                    "imageId": 776337
+                                },
+                                "venueInfo": {
+                                    "ground": "County Ground",
+                                    "city": "Bristol",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 10119,
+                        "seriesCategory": "Women",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "India A Women tour of England 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 155133,
+                                "seriesId": 12144,
+                                "matchDesc": "Unofficial 3rd T20",
+                                "matchFormat": "T20",
+                                "startDate": "1782408600000",
+                                "endDate": "1782431999000",
+                                "team1": {
+                                    "teamId": 3212,
+                                    "teamName": "England A Women",
+                                    "teamSName": "ENGAW",
+                                    "imageId": 949008
+                                },
+                                "team2": {
+                                    "teamId": 440,
+                                    "teamName": "India A Women",
+                                    "teamSName": "INDWA",
+                                    "imageId": 776184
+                                },
+                                "venueInfo": {
+                                    "ground": "County Ground",
+                                    "city": "Chelmsford",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12144,
+                        "seriesCategory": "Women"
+                    }
+                ],
+                "longDate": "1782345600000"
             },
             "category_type": "women"
         }
