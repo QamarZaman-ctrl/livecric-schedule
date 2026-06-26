@@ -3,273 +3,315 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricket Blog & Match Previews | Global Match Center</title>
-    <link rel="icon" type="favicon" href="icon.png">
+    
+    <!-- 100% SEO Master Tags -->
+    <title>Cricket Insights & Match Analytics Hub | Global Match Center</title>
+    <meta name="description" content="Access premium cricket previews, player analytics, tournament rules, world records, and historical breakdowns. Read the ultimate expert guides on global cricket.">
+    <meta name="keywords" content="cricket statistics, player records, world cup winners list, ipl streaming guide, t20 international records">
+    <meta name="author" content="Global Match Center Network">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body, html { background-color: #0b0e11; font-family: 'Segoe UI', Roboto, sans-serif; width: 100%; color: white; overflow-x: hidden; }
 
-        /* --- Blog Content Area --- */
-        .blog-wrapper { max-width: 900px; margin: 40px auto; padding: 0 15px; min-height: 60vh; }
-        .blog-title { font-size: 2.5rem; font-weight: 900; text-transform: uppercase; text-align: center; margin-bottom: 10px; color: #fff; }
-        .blog-subtitle { font-size: 14px; color: rgba(255,255,255,0.6); text-align: center; margin-bottom: 40px; }
-        
+        /* --- Header Navigation --- */
+        header {
+            background-color: #01080b; padding: 0 5%; height: 75px; 
+            display: flex; justify-content: space-between; align-items: center; 
+            border-bottom: 1px solid rgba(0, 210, 255, 0.2); position: sticky; top: 0; z-index: 1000;
+        }
+        .nav-links { display: flex; gap: 35px; list-style: none; align-items: center; }
+        .nav-links a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 700; text-transform: uppercase; }
+        .nav-links a:hover, .nav-links .active-link { color: #00d2ff; }
+        .support-btn { background-color: #00d2ff; color: #01080b; padding: 10px 22px; border-radius: 6px; font-weight: 800; text-decoration: none; font-size: 12px; text-transform: uppercase; }
+
+        /* --- Hero Section --- */
+        .hero-section { padding: 50px 20px 30px; text-align: center; }
+        .hero-section h1 { font-size: 2.3rem; font-weight: 900; text-transform: uppercase; margin-bottom: 10px; color: #ffffff; }
+        .hero-section p { font-size: 15px; color: rgba(255,255,255,0.6); }
+
+        /* --- Professional Blog Container --- */
+        .blog-wrapper { max-width: 900px; margin: 20px auto 60px; padding: 0 15px; min-height: 60vh; }
         .article-hub { display: flex; flex-direction: column; gap: 20px; }
         
-        /* Article Row Item */
+        /* Fixed Professional Card Row Item */
         .blog-item {
             background: linear-gradient(135deg, #0a0707 20%, #002939 100%);
             border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px;
-            padding: 20px; display: flex; justify-content: space-between; align-items: center;
-            text-decoration: none; color: white; transition: 0.2s ease;
+            padding: 22px; display: flex; justify-content: space-between; align-items: center;
+            text-decoration: none; color: white; transition: all 0.2s ease;
         }
-        .blog-item:hover { transform: translateY(-2px); border-color: #00d2ff; }
-        .blog-text h3 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 5px; }
-        .blog-text p { font-size: 12px; color: rgba(255,255,255,0.5); }
-        .blog-btn { background: #01080b; color: #00d2ff; padding: 8px 16px; border-radius: 6px; font-size: 12px; font-weight: 700; border: 1px solid rgba(0, 210, 255, 0.2); text-transform: uppercase; }
+        .blog-item:hover { transform: translateY(-2px); border-color: #00d2ff; background: linear-gradient(135deg, #110d0d 20%, #00364d 100%); }
+        
+        .blog-text { display: flex; flex-direction: column; gap: 6px; padding-right: 15px; }
+        .blog-text h3 { font-size: 17px; font-weight: 700; color: #ffffff; line-height: 1.4; transition: color 0.2s ease; }
+        .blog-item:hover .blog-text h3 { color: #00d2ff; }
+        .blog-text p { font-size: 12px; color: rgba(255,255,255,0.5); display: flex; align-items: center; gap: 6px; }
+        .blog-text p i { color: #00d2ff; }
+        
+        .blog-btn { 
+            background: #01080b; color: #00d2ff; padding: 10px 18px; border-radius: 6px; 
+            font-size: 11px; font-weight: 700; border: 1px solid rgba(0, 210, 255, 0.25); 
+            text-transform: uppercase; white-space: nowrap; transition: all 0.2s ease;
+        }
+        .blog-item:hover .blog-btn { background: #00d2ff; color: #01080b; border-color: #00d2ff; }
 
         @media (max-width: 768px) {
             header { height: auto; flex-direction: column; padding: 15px 5%; gap: 15px; }
             header nav ul { gap: 15px !important; flex-wrap: wrap; justify-content: center; }
             .blog-item { flex-direction: column; align-items: flex-start; gap: 15px; }
             .blog-btn { width: 100%; text-align: center; }
-            .blog-title { font-size: 1.8rem; }
+            .hero-section h1 { font-size: 1.8rem; }
         }
     </style>
 </head>
 <body>
 
-<header style="background-color: #01080b; padding: 0 5%; height: 75px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(0, 210, 255, 0.2); position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<header>
     <div style="display: flex; align-items: center;">
         <a href="https://livecricschedule.live" style="font-size: 22px; font-weight: 800; color: #00d2ff; text-decoration: none; letter-spacing: 1.5px; text-transform: uppercase;">
-            <i class="fas fa-trophy" style="margin-right: 10px; font-size: 18px;"></i>GLOBAL MATCH CENTER
+            <i class="fas fa-trophy" style="margin-right: 10px;"></i>GLOBAL MATCH CENTER
         </a>
     </div>
-    <nav>
-        <ul style="display: flex; gap: 35px; list-style: none; margin: 0; padding: 0; align-items: center;">
-            <li><a href="index.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">HOME</a></li>
-            <li><a href="blog.html" style="color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center;"><span style="height: 8px; width: 8px; border-radius: 50%; display: inline-block; margin-right: 8px; background-color: #00d2ff;"></span>BLOG</a></li>
-            <li><a href="about.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">ABOUT</a></li>
-            <li><a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">CONTACT</a></li>
-            <li><a href="privacy.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">PRIVACY</a></li>
-        </ul>
-    </nav>
+    <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="blog.html" style="color: #00d2ff;">BLOG</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="privacy.html">PRIVACY</a></li>
+    </ul>
     <div style="display: flex; align-items: center;">
-        <a href="contact.html" style="background-color: #00d2ff; color: #01080b; padding: 10px 22px; border-radius: 6px; font-weight: 800; text-decoration: none; font-size: 12px; text-transform: uppercase;">
-            <i class="fas fa-headset" style="margin-right: 7px;"></i>SUPPORT
-        </a>
+        <a href="contact.html" class="support-btn"><i class="fas fa-headset" style="margin-right: 7px;"></i>SUPPORT</a>
     </div>
 </header>
 
-<div class="blog-wrapper">
+<section class="hero-section">
     <h1 class="blog-title">🏏 Cricket Insights & Analysis</h1>
     <p class="blog-subtitle">Latest Previews, Expert Predictions, and Match Analytics</p>
+</section>
 
+<div class="blog-wrapper">
     <div class="article-hub" id="articles-list-container">
+        
         <!-- ARTICLE 1 -->
-<a href="virat-kohli-stats.html" class="article-card">
-    <div class="article-details">
-        <h3>Virat Kohli Career Stats, Records & All-Format Analysis</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Player Analytics</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="virat-kohli-stats.html" class="blog-item">
+            <div class="blog-text">
+                <h3>Virat Kohli Career Stats, Records & All-Format Analysis</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Player Analytics</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 2 -->
-<a href="babar-azam-records.html" class="article-card">
-    <div class="article-details">
-        <h3>King Babar Cricket Records: Ultimate Career Stats & Rankings</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Player Analytics</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="babar-azam-records.html" class="blog-item">
+            <div class="blog-text">
+                <h3>King Babar Cricket Records: Ultimate Career Stats & Rankings</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Player Analytics</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 3 -->
-<a href="wtc-points-system.html" class="article-card">
-    <div class="article-details">
-        <h3>How Does the World Test Championship Points System Work? The Ultimate Guide</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Tournament Rules</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="wtc-points-system.html" class="blog-item">
+            <div class="blog-text">
+                <h3>How Does the World Test Championship Points System Work? The Ultimate Guide</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Tournament Rules</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 4 -->
-<a href="cricket-world-cup-winners.html" class="article-card">
-    <div class="article-details">
-        <h3>All Cricket World Cup Winners List: Complete ODI, T20 & WTC History (1975-2026)</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • World Cup Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="cricket-world-cup-winners.html" class="blog-item">
+            <div class="blog-text">
+                <h3>All Cricket World Cup Winners List: Complete ODI, T20 & WTC History (1975-2026)</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • World Cup Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 5 -->
-<a href="t20-world-cup-history.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate History of ICC Men’s T20 World Cup: Year-Wise Deep-Dive (2007 - 2026)</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • World Cup Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="t20-world-cup-history.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate History of ICC Men’s T20 World Cup: Year-Wise Deep-Dive (2007 - 2026)</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • World Cup Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 6 -->
-<a href="the-hundred-cricket-rules.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to The Hundred Cricket: Format, Rules, Teams & Standings</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Tournament Rules</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="the-hundred-cricket-rules.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to The Hundred Cricket: Format, Rules, Teams & Standings</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Tournament Rules</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 7 -->
-<a href="fantasy-cricket-guide.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Fantasy Cricket Masterclass: How It Works, Rules & Strategies to Win</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Fantasy Strategy</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="fantasy-cricket-guide.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Fantasy Cricket Masterclass: How It Works, Rules & Strategies to Win</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Fantasy Strategy</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 8 -->
-<a href="super-over-rules.html" class="article-card">
-    <div class="article-details">
-        <h3>What is a Super Over in Cricket? Rules, History & Famous Matches Explained</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Tournament Rules</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="super-over-rules.html" class="blog-item">
+            <div class="blog-text">
+                <h3>What is a Super Over in Cricket? Rules, History & Famous Matches Explained</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Tournament Rules</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 9 -->
-<a href="olympic-cricket-2028.html" class="article-card">
-    <div class="article-details">
-        <h3>Cricket at 2028 Los Angeles Olympics: Format, Teams & Qualification Process</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Olympic Cricket</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="olympic-cricket-2028.html" class="blog-item">
+            <div class="blog-text">
+                <h3>Cricket at 2028 Los Angeles Olympics: Format, Teams & Qualification Process</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Olympic Cricket</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 10 -->
-<a href="test-highest-wicket-takers.html" class="article-card">
-    <div class="article-details">
-        <h3>Top 10 Highest Wicket Takers in Test Cricket: Ultimate All-Time Guide</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Bowling Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="test-highest-wicket-takers.html" class="blog-item">
+            <div class="blog-text">
+                <h3>Top 10 Highest Wicket Takers in Test Cricket: Ultimate All-Time Guide</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Bowling Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 11 -->
-<a href="cricket-hat-tricks-history.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to Famous Hat-Tricks in Cricket History: Meaning, Rules & Records</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Bowling Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="cricket-hat-tricks-history.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to Famous Hat-Tricks in Cricket History: Meaning, Rules & Records</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Bowling Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 12 -->
-<a href="cricket-scoring-rules.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to Cricket Scoring: Rules, Systems, Formats & Scorecards Explained</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Analytics & Rules</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
-        <!-- ARTICLE 13 -->
-<a href="olympic-cricket-2028.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate History of ICC Men’s T20 World Cup & Olympic Cricket Return (2007-2026)</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Olympic Cricket</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="cricket-scoring-rules.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to Cricket Scoring: Rules, Systems, Formats & Scorecards Explained</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Analytics & Rules</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 14 -->
-<a href="cricket-leagues-salaries.html" class="article-card">
-    <div class="article-details">
-        <h3>Which Cricket League Pays the Most? Franchise Salaries, Revenue Models & Contracts Revealed</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Cricket Economics</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="cricket-leagues-salaries.html" class="blog-item">
+            <div class="blog-text">
+                <h3>Which Cricket League Pays the Most? Franchise Salaries, Revenue Models & Contracts Revealed</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Cricket Economics</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 15 -->
-<a href="india-vs-pakistan-t20-records.html" class="article-card">
-    <div class="article-details">
-        <h3>India vs Pakistan T20 Head to Head: All Match Results, Records & Rivalry History</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Rivalry Analytics</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="india-vs-pakistan-t20-records.html" class="blog-item">
+            <div class="blog-text">
+                <h3>India vs Pakistan T20 Head to Head: All Match Results, Records & Rivalry History</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Rivalry Analytics</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 16 -->
-<a href="t20-highest-scores-records.html" class="article-card">
-    <div class="article-details">
-        <h3>Highest Score in T20 International: Ultimate Team & Individual World Records</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • World Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="t20-highest-scores-records.html" class="blog-item">
+            <div class="blog-text">
+                <h3>Highest Score in T20 International: Ultimate Team & Individual World Records</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • World Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 17 -->
-<a href="greatest-cricketers-all-time.html" class="article-card">
-    <div class="article-details">
-        <h3>The Top 10 Greatest Cricketers of All Time: History, Stats & Legends Ranked</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Cricket Legends</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="greatest-cricketers-all-time.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Top 10 Greatest Cricketers of All Time: History, Stats & Legends Ranked</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Cricket Legends</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 18 -->
-<a href="global-cricket-channels.html" class="article-card">
-    <div class="article-details">
-        <h3>Where to Watch Live Cricket: Complete Guide to Cricket Channels (UK, USA & UAE)</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Broadcasting Hub</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="global-cricket-channels.html" class="blog-item">
+            <div class="blog-text">
+                <h3>Where to Watch Live Cricket: Complete Guide to Cricket Channels (UK, USA & UAE)</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Broadcasting Hub</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 19 -->
-<a href="watch-ipl-outside-india.html" class="article-card">
-    <div class="article-details">
-        <h3>How to Watch IPL Live Outside India Legally: The Ultimate Global Streaming Guide</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Live Streaming Guide</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="watch-ipl-outside-india.html" class="blog-item">
+            <div class="blog-text">
+                <h3>How to Watch IPL Live Outside India Legally: The Ultimate Global Streaming Guide</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Live Streaming Guide</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 20 -->
-<a href="best-free-cricket-apps.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to the Best Apps to Watch Live Cricket Free on Mobile Legally</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Mobile Streaming</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="best-free-cricket-apps.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to the Best Apps to Watch Live Cricket Free on Mobile Legally</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Mobile Streaming</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 21 -->
-<a href="dls-method-rules.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to the Duckworth-Lewis-Stern (DLS) Method in Cricket: Rules & Math Explained</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Tournament Rules</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="dls-method-rules.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to the Duckworth-Lewis-Stern (DLS) Method in Cricket: Rules & Math Explained</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Tournament Rules</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 22 -->
-<a href="cricket-maiden-overs-rules.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to Famous Hat-Tricks, Maiden Overs & Cricket Scoring Systems</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Bowling Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="cricket-maiden-overs-rules.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to the Maiden Over in Cricket: Meaning, Rules, Strategy & All-Time Records</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Bowling Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 23 -->
-<a href="cricket-drs-rules.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to the Decision Review System (DRS) in Cricket: Rules & Technology Explained</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • Cricket Technology</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
+        <a href="cricket-drs-rules.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to the Decision Review System (DRS) in Cricket: Rules, Technology & History Explained</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • Cricket Technology</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
         <!-- ARTICLE 24 -->
-<a href="fastest-t20-centuries-records.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to the Fastest Centuries in T20 Cricket: All-Time List & Records</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • World Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
-        <!-- ARTICLE 22 -->
-<a href="t20i-highest-run-scorers.html" class="article-card">
-    <div class="article-details">
-        <h3>The Ultimate Guide to the Top 10 Highest Run Scorers in T20 International History</h3>
-        <p><i class="far fa-calendar-alt" style="margin-right: 5px; color: #00d2ff;"></i> June 2026 • World Records</p>
-    </div>
-    <div class="read-btn">Read Article</div>
-</a>
-        <!-- Hamare 27 articles ke links yahan aik aik kar k ayenge -->
-        <p style="text-align: center; color: rgba(255,255,255,0.4); font-size: 14px;">Articles are being updated...</p>
+        <a href="fastest-t20-centuries-records.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to the Fastest Centuries in T20 Cricket: All-Time List & Records</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • World Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
+        <!-- ARTICLE 25 -->
+        <a href="t20i-highest-run-scorers.html" class="blog-item">
+            <div class="blog-text">
+                <h3>The Ultimate Guide to the Top 10 Highest Run Scorers in T20 International History</h3>
+                <p><i class="far fa-calendar-alt"></i> June 2026 • World Records</p>
+            </div>
+            <div class="blog-btn">Read Article</div>
+        </a>
+
+        <p style="text-align: center; color: rgba(255,255,255,0.4); font-size: 14px; margin-top: 10px;">All elite articles fully structured and synced.</p>
     </div>
 </div>
 
