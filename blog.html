@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Blog & Match Previews | Global Match Center</title>
+    <link rel="icon" type="favicon" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body, html { background-color: #0b0e11; font-family: 'Segoe UI', Roboto, sans-serif; width: 100%; color: white; overflow-x: hidden; }
+
+        /* --- Blog Content Area --- */
+        .blog-wrapper { max-width: 900px; margin: 40px auto; padding: 0 15px; min-height: 60vh; }
+        .blog-title { font-size: 2.5rem; font-weight: 900; text-transform: uppercase; text-align: center; margin-bottom: 10px; color: #fff; }
+        .blog-subtitle { font-size: 14px; color: rgba(255,255,255,0.6); text-align: center; margin-bottom: 40px; }
+        
+        .article-hub { display: flex; flex-direction: column; gap: 20px; }
+        
+        /* Article Row Item */
+        .blog-item {
+            background: linear-gradient(135deg, #0a0707 20%, #002939 100%);
+            border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px;
+            padding: 20px; display: flex; justify-content: space-between; align-items: center;
+            text-decoration: none; color: white; transition: 0.2s ease;
+        }
+        .blog-item:hover { transform: translateY(-2px); border-color: #00d2ff; }
+        .blog-text h3 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 5px; }
+        .blog-text p { font-size: 12px; color: rgba(255,255,255,0.5); }
+        .blog-btn { background: #01080b; color: #00d2ff; padding: 8px 16px; border-radius: 6px; font-size: 12px; font-weight: 700; border: 1px solid rgba(0, 210, 255, 0.2); text-transform: uppercase; }
+
+        @media (max-width: 768px) {
+            header { height: auto; flex-direction: column; padding: 15px 5%; gap: 15px; }
+            header nav ul { gap: 15px !important; flex-wrap: wrap; justify-content: center; }
+            .blog-item { flex-direction: column; align-items: flex-start; gap: 15px; }
+            .blog-btn { width: 100%; text-align: center; }
+            .blog-title { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header style="background-color: #01080b; padding: 0 5%; height: 75px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(0, 210, 255, 0.2); position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <div style="display: flex; align-items: center;">
+        <a href="https://livecricschedule.live" style="font-size: 22px; font-weight: 800; color: #00d2ff; text-decoration: none; letter-spacing: 1.5px; text-transform: uppercase;">
+            <i class="fas fa-trophy" style="margin-right: 10px; font-size: 18px;"></i>GLOBAL MATCH CENTER
+        </a>
+    </div>
+    <nav>
+        <ul style="display: flex; gap: 35px; list-style: none; margin: 0; padding: 0; align-items: center;">
+            <li><a href="index.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">HOME</a></li>
+            <li><a href="blog.html" style="color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center;"><span style="height: 8px; width: 8px; border-radius: 50%; display: inline-block; margin-right: 8px; background-color: #00d2ff;"></span>BLOG</a></li>
+            <li><a href="about.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">ABOUT</a></li>
+            <li><a href="contact.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">CONTACT</a></li>
+            <li><a href="privacy.html" style="color: rgba(255,255,255,0.8); text-decoration: none; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">PRIVACY</a></li>
+        </ul>
+    </nav>
+    <div style="display: flex; align-items: center;">
+        <a href="contact.html" style="background-color: #00d2ff; color: #01080b; padding: 10px 22px; border-radius: 6px; font-weight: 800; text-decoration: none; font-size: 12px; text-transform: uppercase;">
+            <i class="fas fa-headset" style="margin-right: 7px;"></i>SUPPORT
+        </a>
+    </div>
+</header>
+
+<div class="blog-wrapper">
+    <h1 class="blog-title">🏏 Cricket Insights & Analysis</h1>
+    <p class="blog-subtitle">Latest Previews, Expert Predictions, and Match Analytics</p>
+
+    <div class="article-hub" id="articles-list-container">
+        <!-- Hamare 27 articles ke links yahan aik aik kar k ayenge -->
+        <p style="text-align: center; color: rgba(255,255,255,0.4); font-size: 14px;">Articles are being updated...</p>
+    </div>
+</div>
+
+<footer style="background-color: #01080b; padding: 40px 20px; border-top: 1px solid rgba(0, 210, 255, 0.15); font-family: 'Inter', sans-serif; color: #ffffff; text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto; font-size: 11px; color: rgba(255,255,255,0.3);">
+        <p>&copy; 2026 GLOBAL MATCH CENTER. ALL RIGHTS RESERVED. POWERED BY QZ NETWORK</p>
+    </div>
+</footer>
+
+</body>
+</html>
