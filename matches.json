@@ -559,220 +559,8 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "MON, JUN 29 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Major League Cricket 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 150745,
-                                "seriesId": 11793,
-                                "matchDesc": "15th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1782696600000",
-                                "endDate": "1782691199000",
-                                "team1": {
-                                    "teamId": 1584,
-                                    "teamName": "San Francisco Unicorns",
-                                    "teamSName": "SFU",
-                                    "imageId": 825029
-                                },
-                                "team2": {
-                                    "teamId": 1591,
-                                    "teamName": "Washington Freedom",
-                                    "teamSName": "WAF",
-                                    "imageId": 825012
-                                },
-                                "venueInfo": {
-                                    "ground": "Oakland Coliseum",
-                                    "city": "Oakland",
-                                    "country": "United States",
-                                    "timezone": "-07:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11793,
-                        "seriesHomeCountry": 15,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "TG20 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 162536,
-                                "seriesId": 12664,
-                                "matchDesc": "15th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1782722700000",
-                                "endDate": "1782777599000",
-                                "team1": {
-                                    "teamId": 3498,
-                                    "teamName": "Anurag Nalgonda Knights",
-                                    "teamSName": "ANGK",
-                                    "imageId": 1017359
-                                },
-                                "team2": {
-                                    "teamId": 3487,
-                                    "teamName": "Palamuru Strikers",
-                                    "teamSName": "PMSK",
-                                    "imageId": 1017373
-                                },
-                                "venueInfo": {
-                                    "ground": "Rajiv Gandhi International Stadium",
-                                    "city": "Hyderabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 162547,
-                                "seriesId": 12664,
-                                "matchDesc": "16th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1782740700000",
-                                "endDate": "1782777599000",
-                                "team1": {
-                                    "teamId": 3542,
-                                    "teamName": "Hyderabad E Champions",
-                                    "teamSName": "HYDC",
-                                    "imageId": 1017310
-                                },
-                                "team2": {
-                                    "teamId": 3476,
-                                    "teamName": "Anvita Khammam Aces",
-                                    "teamSName": "AKA",
-                                    "imageId": 1017611
-                                },
-                                "venueInfo": {
-                                    "ground": "Rajiv Gandhi International Stadium",
-                                    "city": "Hyderabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12664,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "League"
-                    },
-                    {
-                        "seriesName": "Maharaja Trophy KSCA T20 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 160996,
-                                "seriesId": 12541,
-                                "matchDesc": "16th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1782723600000",
-                                "endDate": "1782777599000",
-                                "team1": {
-                                    "teamId": 1123,
-                                    "teamName": "Gulbarga Mystics",
-                                    "teamSName": "GBM",
-                                    "imageId": 338072
-                                },
-                                "team2": {
-                                    "teamId": 310,
-                                    "teamName": "Hubli Tigers",
-                                    "teamSName": "HT",
-                                    "imageId": 172359
-                                },
-                                "venueInfo": {
-                                    "ground": "KSCA Hubli Cricket Ground",
-                                    "city": "Hubli",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 161007,
-                                "seriesId": 12541,
-                                "matchDesc": "17th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1782739800000",
-                                "endDate": "1782777599000",
-                                "team1": {
-                                    "teamId": 423,
-                                    "teamName": "Kalyani Bengaluru Blasters",
-                                    "teamSName": "KBB",
-                                    "imageId": 172473
-                                },
-                                "team2": {
-                                    "teamId": 122,
-                                    "teamName": "Coastal Kings Mangaluru",
-                                    "teamSName": "CKM",
-                                    "imageId": 338073
-                                },
-                                "venueInfo": {
-                                    "ground": "KSCA Hubli Cricket Ground",
-                                    "city": "Hubli",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12541,
-                        "seriesCategory": "League"
-                    }
-                ],
-                "longDate": "1782691200000"
-            },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "TUE, JUN 30 2026",
                 "matchScheduleList": [
-                    {
-                        "seriesName": "TG20 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 162558,
-                                "seriesId": 12664,
-                                "matchDesc": "17th match",
-                                "matchFormat": "T20",
-                                "startDate": "1782809100000",
-                                "endDate": "1782863999000",
-                                "team1": {
-                                    "teamId": 3553,
-                                    "teamName": "Karimnagar Diamonds",
-                                    "teamSName": "KNDM",
-                                    "imageId": 1017309
-                                },
-                                "team2": {
-                                    "teamId": 3531,
-                                    "teamName": "Medak Falcons",
-                                    "teamSName": "MDF",
-                                    "imageId": 1017315
-                                },
-                                "venueInfo": {
-                                    "ground": "Rajiv Gandhi International Stadium",
-                                    "city": "Hyderabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12664,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "League"
-                    },
                     {
                         "seriesName": "Maharaja Trophy KSCA T20 2026",
                         "matchInfo": [
@@ -781,7 +569,7 @@
                                 "seriesId": 12541,
                                 "matchDesc": "18th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1782810000000",
+                                "startDate": "1782808200000",
                                 "endDate": "1782863999000",
                                 "team1": {
                                     "teamId": 309,
@@ -831,11 +619,59 @@
                         ],
                         "seriesId": 12541,
                         "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "TG20 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 162558,
+                                "seriesId": 12664,
+                                "matchDesc": "17th match",
+                                "matchFormat": "T20",
+                                "startDate": "1782809100000",
+                                "endDate": "1782863999000",
+                                "team1": {
+                                    "teamId": 3553,
+                                    "teamName": "Karimnagar Diamonds",
+                                    "teamSName": "KNDM",
+                                    "imageId": 1017309
+                                },
+                                "team2": {
+                                    "teamId": 3531,
+                                    "teamName": "Medak Falcons",
+                                    "teamSName": "MDF",
+                                    "imageId": 1017315
+                                },
+                                "venueInfo": {
+                                    "ground": "Rajiv Gandhi International Stadium",
+                                    "city": "Hyderabad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12664,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "League"
                     }
                 ],
                 "longDate": "1782777600000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1504,6 +1340,192 @@
         },
         {
             "scheduleAdWrapper": {
+                "date": "SAT, JUL 04 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Major League Cricket 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 150778,
+                                "seriesId": 11793,
+                                "matchDesc": "18th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1783128600000",
+                                "endDate": "1783123199000",
+                                "team1": {
+                                    "teamId": 1570,
+                                    "teamName": "Los Angeles Knight Riders",
+                                    "teamSName": "LAKR",
+                                    "imageId": 825025
+                                },
+                                "team2": {
+                                    "teamId": 1577,
+                                    "teamName": "Texas Super Kings",
+                                    "teamSName": "TSK",
+                                    "imageId": 825031
+                                },
+                                "venueInfo": {
+                                    "ground": "Knight Riders Cricket Field",
+                                    "city": "Pomona",
+                                    "country": "United States",
+                                    "timezone": "-07:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11793,
+                        "seriesHomeCountry": 15,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "TG20 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 162613,
+                                "seriesId": 12664,
+                                "matchDesc": "23rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1783154700000",
+                                "endDate": "1783209599000",
+                                "team1": {
+                                    "teamId": 3476,
+                                    "teamName": "Anvita Khammam Aces",
+                                    "teamSName": "AKA",
+                                    "imageId": 1017611
+                                },
+                                "team2": {
+                                    "teamId": 3509,
+                                    "teamName": "Ranga Reddy Risers",
+                                    "teamSName": "RRR",
+                                    "imageId": 1017353
+                                },
+                                "venueInfo": {
+                                    "ground": "Rajiv Gandhi International Stadium",
+                                    "city": "Hyderabad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 162616,
+                                "seriesId": 12664,
+                                "matchDesc": "24th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1783172700000",
+                                "endDate": "1783209599000",
+                                "team1": {
+                                    "teamId": 3542,
+                                    "teamName": "Hyderabad E Champions",
+                                    "teamSName": "HYDC",
+                                    "imageId": 1017310
+                                },
+                                "team2": {
+                                    "teamId": 3553,
+                                    "teamName": "Karimnagar Diamonds",
+                                    "teamSName": "KNDM",
+                                    "imageId": 1017309
+                                },
+                                "venueInfo": {
+                                    "ground": "Rajiv Gandhi International Stadium",
+                                    "city": "Hyderabad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12664,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "T20 Blast 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 159298,
+                                "seriesId": 11284,
+                                "matchDesc": "77th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1783188000000",
+                                "endDate": "1783209599000",
+                                "team1": {
+                                    "teamId": 151,
+                                    "teamName": "Gloucestershire",
+                                    "teamSName": "GLOUCS",
+                                    "imageId": 172218
+                                },
+                                "team2": {
+                                    "teamId": 148,
+                                    "teamName": "Surrey",
+                                    "teamSName": "SUR",
+                                    "imageId": 172215
+                                },
+                                "venueInfo": {
+                                    "ground": "County Ground",
+                                    "city": "Bristol",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11284,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1783123200000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "SUN, JUL 05 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Major League Cricket 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 150789,
+                                "seriesId": 11793,
+                                "matchDesc": "19th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1783200600000",
+                                "endDate": "1783209599000",
+                                "team1": {
+                                    "teamId": 1591,
+                                    "teamName": "Washington Freedom",
+                                    "teamSName": "WAF",
+                                    "imageId": 825012
+                                },
+                                "team2": {
+                                    "teamId": 1584,
+                                    "teamName": "San Francisco Unicorns",
+                                    "teamSName": "SFU",
+                                    "imageId": 825029
+                                },
+                                "venueInfo": {
+                                    "ground": "Knight Riders Cricket Field",
+                                    "city": "Pomona",
+                                    "country": "United States",
+                                    "timezone": "-07:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11793,
+                        "seriesHomeCountry": 15,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1783209600000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
                 "date": "THU, JUL 02 2026",
                 "matchScheduleList": [
                     {
@@ -1870,7 +1892,7 @@
                                     "imageId": 776270
                                 },
                                 "venueInfo": {
-                                    "ground": "Cricket Association Puducherry Siechem Ground",
+                                    "ground": "Cricket Association Puducherry Ground 2",
                                     "city": "Puducherry",
                                     "country": "India",
                                     "timezone": "+05:30"
