@@ -2,177 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "TUE, JUL 14 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "ICC Men's T20 World Cup Europe Sub Regional Qualifier B, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 166487,
-                                "seriesId": 12662,
-                                "matchDesc": "7th Place Play-off",
-                                "matchFormat": "T20",
-                                "startDate": "1784017800000",
-                                "endDate": "1784073599000",
-                                "team1": {
-                                    "teamId": 1067,
-                                    "teamName": "Serbia",
-                                    "teamSName": "SRB",
-                                    "imageId": 247205
-                                },
-                                "team2": {
-                                    "teamId": 526,
-                                    "teamName": "Estonia",
-                                    "teamSName": "EST",
-                                    "imageId": 172576
-                                },
-                                "venueInfo": {
-                                    "ground": "Koge Cricket Club",
-                                    "city": "Koge",
-                                    "country": "Denmark",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 166483,
-                                "seriesId": 12662,
-                                "matchDesc": "3rd Place Play-off",
-                                "matchFormat": "T20",
-                                "startDate": "1784017800000",
-                                "endDate": "1784073599000",
-                                "team1": {
-                                    "teamId": 541,
-                                    "teamName": "Belgium",
-                                    "teamSName": "BEL",
-                                    "imageId": 776219
-                                },
-                                "team2": {
-                                    "teamId": 550,
-                                    "teamName": "Hungary",
-                                    "teamSName": "HUN",
-                                    "imageId": 172602
-                                },
-                                "venueInfo": {
-                                    "ground": "Svanholm Park",
-                                    "city": "Brondby",
-                                    "country": "Denmark",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 166493,
-                                "seriesId": 12662,
-                                "matchDesc": "5th Place Play-off",
-                                "matchFormat": "T20",
-                                "startDate": "1784035800000",
-                                "endDate": "1784073599000",
-                                "team1": {
-                                    "teamId": 564,
-                                    "teamName": "Gibraltar",
-                                    "teamSName": "GIB",
-                                    "imageId": 172616
-                                },
-                                "team2": {
-                                    "teamId": 1027,
-                                    "teamName": "Norway",
-                                    "teamSName": "NOR",
-                                    "imageId": 247201
-                                },
-                                "venueInfo": {
-                                    "ground": "Svanholm Park",
-                                    "city": "Brondby",
-                                    "country": "Denmark",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 166503,
-                                "seriesId": 12662,
-                                "matchDesc": "Final",
-                                "matchFormat": "T20",
-                                "startDate": "1784035800000",
-                                "endDate": "1784073599000",
-                                "team1": {
-                                    "teamId": 1041,
-                                    "teamName": "Romania",
-                                    "teamSName": "ROM",
-                                    "imageId": 247204
-                                },
-                                "team2": {
-                                    "teamId": 185,
-                                    "teamName": "Denmark",
-                                    "teamSName": "DEN",
-                                    "imageId": 776232
-                                },
-                                "venueInfo": {
-                                    "ground": "Koge Cricket Club",
-                                    "city": "Koge",
-                                    "country": "Denmark",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12662,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "India tour of England, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 129458,
-                                "seriesId": 10532,
-                                "matchDesc": "1st ODI",
-                                "matchFormat": "ODI",
-                                "startDate": "1784023200000",
-                                "endDate": "1784073599000",
-                                "team1": {
-                                    "teamId": 9,
-                                    "teamName": "England",
-                                    "teamSName": "ENG",
-                                    "isFullMember": true,
-                                    "imageId": 776237
-                                },
-                                "team2": {
-                                    "teamId": 2,
-                                    "teamName": "India",
-                                    "teamSName": "IND",
-                                    "isFullMember": true,
-                                    "imageId": 776162
-                                },
-                                "venueInfo": {
-                                    "ground": "Edgbaston",
-                                    "city": "Birmingham",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 10532,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1783987200000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, JUL 15 2026",
                 "matchScheduleList": [
                     {
@@ -214,6 +43,20 @@
                 "longDate": "1784073600000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -384,6 +227,160 @@
                     }
                 ],
                 "longDate": "1784332800000"
+            },
+            "category_type": "international"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "SUN, JUL 19 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "India tour of England, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 129480,
+                                "seriesId": 10532,
+                                "matchDesc": "3rd ODI",
+                                "matchFormat": "ODI",
+                                "startDate": "1784455200000",
+                                "endDate": "1784505599000",
+                                "team1": {
+                                    "teamId": 9,
+                                    "teamName": "England",
+                                    "teamSName": "ENG",
+                                    "isFullMember": true,
+                                    "imageId": 776237
+                                },
+                                "team2": {
+                                    "teamId": 2,
+                                    "teamName": "India",
+                                    "teamSName": "IND",
+                                    "isFullMember": true,
+                                    "imageId": 776162
+                                },
+                                "venueInfo": {
+                                    "ground": "Lord's",
+                                    "city": "London",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 10532,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Bangladesh tour of Zimbabwe, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 158073,
+                                "seriesId": 12354,
+                                "matchDesc": "3rd T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1784457000000",
+                                "endDate": "1784505599000",
+                                "team1": {
+                                    "teamId": 12,
+                                    "teamName": "Zimbabwe",
+                                    "teamSName": "ZIM",
+                                    "isFullMember": true,
+                                    "imageId": 776198
+                                },
+                                "team2": {
+                                    "teamId": 6,
+                                    "teamName": "Bangladesh",
+                                    "teamSName": "BAN",
+                                    "isFullMember": true,
+                                    "imageId": 776210
+                                },
+                                "venueInfo": {
+                                    "ground": "Queens Sports Club",
+                                    "city": "Bulawayo",
+                                    "country": "Zimbabwe",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12354,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Pakistan tour of West Indies, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 152485,
+                                "seriesId": 11968,
+                                "matchDesc": "4 -Day Warm-up match, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1784469600000",
+                                "endDate": "1784678399000",
+                                "team1": {
+                                    "teamId": 2277,
+                                    "teamName": "West Indies Select XI",
+                                    "teamSName": "WISXI",
+                                    "imageId": 577433
+                                },
+                                "team2": {
+                                    "teamId": 3,
+                                    "teamName": "Pakistan",
+                                    "teamSName": "PAK",
+                                    "isFullMember": true,
+                                    "imageId": 776308
+                                },
+                                "venueInfo": {
+                                    "ground": "Brian Lara Stadium",
+                                    "city": "Tarouba, Trinidad",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11968,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "New Zealand tour of West Indies, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 162103,
+                                "seriesId": 11957,
+                                "matchDesc": "4th ODI",
+                                "matchFormat": "ODI",
+                                "startDate": "1784469600000",
+                                "endDate": "1784505599000",
+                                "team1": {
+                                    "teamId": 10,
+                                    "teamName": "West Indies",
+                                    "teamSName": "WI",
+                                    "isFullMember": true,
+                                    "imageId": 776191
+                                },
+                                "team2": {
+                                    "teamId": 13,
+                                    "teamName": "New Zealand",
+                                    "teamSName": "NZ",
+                                    "isFullMember": true,
+                                    "imageId": 776333
+                                },
+                                "venueInfo": {
+                                    "ground": "Kensington Oval",
+                                    "city": "Bridgetown, Barbados",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11957,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1784419200000"
             },
             "category_type": "international"
         },
