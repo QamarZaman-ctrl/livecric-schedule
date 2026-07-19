@@ -2,65 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUL 18 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Pakistan tour of West Indies, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 152485,
-                                "seriesId": 11968,
-                                "matchDesc": "4 -Day Warm-up match, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1784383200000",
-                                "endDate": "1784678399000",
-                                "team1": {
-                                    "teamId": 2277,
-                                    "teamName": "West Indies Select XI",
-                                    "teamSName": "WISXI",
-                                    "imageId": 577433
-                                },
-                                "team2": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "venueInfo": {
-                                    "ground": "Brian Lara Stadium",
-                                    "city": "Tarouba, Trinidad",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11968,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1784332800000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SUN, JUL 19 2026",
                 "matchScheduleList": [
                     {
@@ -149,7 +90,7 @@
                                     "teamId": 2277,
                                     "teamName": "West Indies Select XI",
                                     "teamSName": "WISXI",
-                                    "imageId": 577433
+                                    "imageId": 1038627
                                 },
                                 "team2": {
                                     "teamId": 3,
@@ -214,6 +155,20 @@
             "category_type": "international"
         },
         {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
             "scheduleAdWrapper": {
                 "date": "MON, JUL 20 2026",
                 "matchScheduleList": [
@@ -231,7 +186,7 @@
                                     "teamId": 2277,
                                     "teamName": "West Indies Select XI",
                                     "teamSName": "WISXI",
-                                    "imageId": 577433
+                                    "imageId": 1038627
                                 },
                                 "team2": {
                                     "teamId": 3,
@@ -312,7 +267,7 @@
                                     "teamId": 2277,
                                     "teamName": "West Indies Select XI",
                                     "teamSName": "WISXI",
-                                    "imageId": 577433
+                                    "imageId": 1038627
                                 },
                                 "team2": {
                                     "teamId": 3,
@@ -584,176 +539,84 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUL 18 2026",
+                "date": "SUN, JUL 26 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Lanka Premier League 2026",
+                        "seriesName": "India tour of Zimbabwe 2026",
                         "matchInfo": [
                             {
-                                "matchId": 156955,
-                                "seriesId": 12316,
-                                "matchDesc": "2nd Match",
+                                "matchId": 152720,
+                                "seriesId": 11991,
+                                "matchDesc": "3rd T20I",
                                 "matchFormat": "T20",
-                                "startDate": "1784367000000",
-                                "endDate": "1784419199000",
+                                "startDate": "1785063600000",
+                                "endDate": "1785110399000",
                                 "team1": {
-                                    "teamId": 1608,
-                                    "teamName": "Kandy Falcons",
-                                    "teamSName": "KFS",
-                                    "imageId": 333881
+                                    "teamId": 12,
+                                    "teamName": "Zimbabwe",
+                                    "teamSName": "ZIM",
+                                    "isFullMember": true,
+                                    "imageId": 776198
                                 },
                                 "team2": {
-                                    "teamId": 946,
-                                    "teamName": "Dambulla Sixers",
-                                    "teamSName": "DAS",
-                                    "imageId": 502581
+                                    "teamId": 2,
+                                    "teamName": "India",
+                                    "teamSName": "IND",
+                                    "isFullMember": true,
+                                    "imageId": 776162
                                 },
                                 "venueInfo": {
-                                    "ground": "Sinhalese Sports Club",
-                                    "city": "Colombo",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 156966,
-                                "seriesId": 12316,
-                                "matchDesc": "3rd Match",
-                                "matchFormat": "T20",
-                                "startDate": "1784383200000",
-                                "endDate": "1784419199000",
-                                "team1": {
-                                    "teamId": 1601,
-                                    "teamName": "Galle Marvels",
-                                    "teamSName": "GAM",
-                                    "imageId": 484924
-                                },
-                                "team2": {
-                                    "teamId": 943,
-                                    "teamName": "Colombo Strikers",
-                                    "teamSName": "CLS",
-                                    "imageId": 333883
-                                },
-                                "venueInfo": {
-                                    "ground": "Sinhalese Sports Club",
-                                    "city": "Colombo",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
+                                    "ground": "Harare Sports Club",
+                                    "city": "Harare",
+                                    "country": "Zimbabwe",
+                                    "timezone": "+02:00"
                                 }
                             }
                         ],
-                        "seriesId": 12316,
-                        "seriesHomeCountry": 5,
-                        "seriesCategory": "League"
+                        "seriesId": 11991,
+                        "seriesCategory": "International"
                     },
                     {
-                        "seriesName": "T20 Blast 2026",
+                        "seriesName": "Pakistan tour of West Indies, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 159199,
-                                "seriesId": 11284,
-                                "matchDesc": "Semi Final 1",
-                                "matchFormat": "T20",
-                                "startDate": "1784368800000",
-                                "endDate": "1784419199000",
+                                "matchId": 152496,
+                                "seriesId": 11968,
+                                "matchDesc": "1st Test, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1785074400000",
+                                "endDate": "1785369599000",
                                 "team1": {
-                                    "teamId": 142,
-                                    "teamName": "Northamptonshire",
-                                    "teamSName": "NHNTS",
-                                    "imageId": 172209
+                                    "teamId": 10,
+                                    "teamName": "West Indies",
+                                    "teamSName": "WI",
+                                    "isFullMember": true,
+                                    "imageId": 776191
                                 },
                                 "team2": {
-                                    "teamId": 119,
-                                    "teamName": "Somerset",
-                                    "teamSName": "SOM",
-                                    "imageId": 172199
+                                    "teamId": 3,
+                                    "teamName": "Pakistan",
+                                    "teamSName": "PAK",
+                                    "isFullMember": true,
+                                    "imageId": 776308
                                 },
                                 "venueInfo": {
-                                    "ground": "Edgbaston",
-                                    "city": "Birmingham",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 159221,
-                                "seriesId": 11284,
-                                "matchDesc": "Semi Final 2",
-                                "matchFormat": "T20",
-                                "startDate": "1784381400000",
-                                "endDate": "1784419199000",
-                                "team1": {
-                                    "teamId": 153,
-                                    "teamName": "Hampshire",
-                                    "teamSName": "HAM",
-                                    "imageId": 172220
-                                },
-                                "team2": {
-                                    "teamId": 139,
-                                    "teamName": "Nottinghamshire",
-                                    "teamSName": "NOTTS",
-                                    "imageId": 172206
-                                },
-                                "venueInfo": {
-                                    "ground": "Edgbaston",
-                                    "city": "Birmingham",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 159243,
-                                "seriesId": 11284,
-                                "matchDesc": "Final",
-                                "matchFormat": "T20",
-                                "startDate": "1784396700000",
-                                "endDate": "1784419199000",
-                                "team1": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
-                                },
-                                "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
-                                },
-                                "venueInfo": {
-                                    "ground": "Edgbaston",
-                                    "city": "Birmingham",
-                                    "country": "England",
-                                    "timezone": "+01:00"
+                                    "ground": "Brian Lara Stadium",
+                                    "city": "Tarouba, Trinidad",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
                                 },
                                 "isLiveStreamEnabled": true
                             }
                         ],
-                        "seriesId": 11284,
-                        "seriesHomeCountry": 9,
-                        "seriesCategory": "League",
+                        "seriesId": 11968,
+                        "seriesCategory": "International",
                         "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1784332800000"
+                "longDate": "1785024000000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
@@ -797,8 +660,8 @@
                                 "endDate": "1784505599000",
                                 "team1": {
                                     "teamId": 943,
-                                    "teamName": "Colombo Strikers",
-                                    "teamSName": "CLS",
+                                    "teamName": "Colombo Kaps",
+                                    "teamSName": "CLK",
                                     "imageId": 333883
                                 },
                                 "team2": {
@@ -818,47 +681,25 @@
                         "seriesId": 12316,
                         "seriesHomeCountry": 5,
                         "seriesCategory": "League"
-                    },
-                    {
-                        "seriesName": "Major League Cricket 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 150953,
-                                "seriesId": 11793,
-                                "matchDesc": "Final",
-                                "matchFormat": "T20",
-                                "startDate": "1784460600000",
-                                "endDate": "1784419199000",
-                                "team1": {
-                                    "teamId": 1570,
-                                    "teamName": "Los Angeles Knight Riders",
-                                    "teamSName": "LAKR",
-                                    "imageId": 825025
-                                },
-                                "team2": {
-                                    "teamId": 1591,
-                                    "teamName": "Washington Freedom",
-                                    "teamSName": "WAF",
-                                    "imageId": 825012
-                                },
-                                "venueInfo": {
-                                    "ground": "Oakland Coliseum",
-                                    "city": "Oakland",
-                                    "country": "United States",
-                                    "timezone": "-07:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11793,
-                        "seriesHomeCountry": 15,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
                     }
                 ],
                 "longDate": "1784419200000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -961,8 +802,8 @@
                                 },
                                 "team2": {
                                     "teamId": 943,
-                                    "teamName": "Colombo Strikers",
-                                    "teamSName": "CLS",
+                                    "teamName": "Colombo Kaps",
+                                    "teamSName": "CLK",
                                     "imageId": 333883
                                 },
                                 "venueInfo": {
@@ -987,8 +828,8 @@
                                 },
                                 "team2": {
                                     "teamId": 1601,
-                                    "teamName": "Galle Marvels",
-                                    "teamSName": "GAM",
+                                    "teamName": "Galle Gallants",
+                                    "teamSName": "GAG",
                                     "imageId": 484924
                                 },
                                 "venueInfo": {
@@ -1066,8 +907,8 @@
                                 },
                                 "team2": {
                                     "teamId": 943,
-                                    "teamName": "Colombo Strikers",
-                                    "teamSName": "CLS",
+                                    "teamName": "Colombo Kaps",
+                                    "teamSName": "CLK",
                                     "imageId": 333883
                                 },
                                 "venueInfo": {
@@ -1086,8 +927,8 @@
                                 "endDate": "1784851199000",
                                 "team1": {
                                     "teamId": 1601,
-                                    "teamName": "Galle Marvels",
-                                    "teamSName": "GAM",
+                                    "teamName": "Galle Gallants",
+                                    "teamSName": "GAG",
                                     "imageId": 484924
                                 },
                                 "team2": {
@@ -1214,10 +1055,72 @@
                                     "country": "West Indies",
                                     "timezone": "-04:00"
                                 }
+                            },
+                            {
+                                "matchId": 153849,
+                                "seriesId": 12012,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1784901600000",
+                                "endDate": "1784937599000",
+                                "team1": {
+                                    "teamId": 333,
+                                    "teamName": "Lahore Qalandars",
+                                    "teamSName": "LHQ",
+                                    "imageId": 883181
+                                },
+                                "team2": {
+                                    "teamId": 1326,
+                                    "teamName": "Desert Vipers",
+                                    "teamSName": "DV",
+                                    "imageId": 824994
+                                },
+                                "venueInfo": {
+                                    "ground": "Providence Stadium",
+                                    "city": "Guyana",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                }
                             }
                         ],
                         "seriesId": 12012,
                         "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "The Hundred Men's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 144695,
+                                "seriesId": 11493,
+                                "matchDesc": "4th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1784914200000",
+                                "endDate": "1784937599000",
+                                "team1": {
+                                    "teamId": 607,
+                                    "teamName": "Birmingham Phoenix",
+                                    "teamSName": "BRM",
+                                    "imageId": 825104
+                                },
+                                "team2": {
+                                    "teamId": 612,
+                                    "teamName": "Trent Rockets",
+                                    "teamSName": "TRE",
+                                    "imageId": 825089
+                                },
+                                "venueInfo": {
+                                    "ground": "Edgbaston",
+                                    "city": "Birmingham",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11493,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
                     }
                 ],
                 "longDate": "1784851200000"
