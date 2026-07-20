@@ -2,219 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "SUN, JUL 19 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "India tour of England, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 129480,
-                                "seriesId": 10532,
-                                "matchDesc": "3rd ODI",
-                                "matchFormat": "ODI",
-                                "startDate": "1784455200000",
-                                "endDate": "1784505599000",
-                                "team1": {
-                                    "teamId": 9,
-                                    "teamName": "England",
-                                    "teamSName": "ENG",
-                                    "isFullMember": true,
-                                    "imageId": 776237
-                                },
-                                "team2": {
-                                    "teamId": 2,
-                                    "teamName": "India",
-                                    "teamSName": "IND",
-                                    "isFullMember": true,
-                                    "imageId": 776162
-                                },
-                                "venueInfo": {
-                                    "ground": "Lord's",
-                                    "city": "London",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 10532,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Bangladesh tour of Zimbabwe, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 158073,
-                                "seriesId": 12354,
-                                "matchDesc": "3rd T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1784457000000",
-                                "endDate": "1784505599000",
-                                "team1": {
-                                    "teamId": 12,
-                                    "teamName": "Zimbabwe",
-                                    "teamSName": "ZIM",
-                                    "isFullMember": true,
-                                    "imageId": 776198
-                                },
-                                "team2": {
-                                    "teamId": 6,
-                                    "teamName": "Bangladesh",
-                                    "teamSName": "BAN",
-                                    "isFullMember": true,
-                                    "imageId": 776210
-                                },
-                                "venueInfo": {
-                                    "ground": "Queens Sports Club",
-                                    "city": "Bulawayo",
-                                    "country": "Zimbabwe",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12354,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "Pakistan tour of West Indies, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 152485,
-                                "seriesId": 11968,
-                                "matchDesc": "4 -Day Warm-up match, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1784469600000",
-                                "endDate": "1784678399000",
-                                "team1": {
-                                    "teamId": 2277,
-                                    "teamName": "West Indies Select XI",
-                                    "teamSName": "WISXI",
-                                    "imageId": 1038627
-                                },
-                                "team2": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "venueInfo": {
-                                    "ground": "Brian Lara Stadium",
-                                    "city": "Tarouba, Trinidad",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11968,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "New Zealand tour of West Indies, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 162103,
-                                "seriesId": 11957,
-                                "matchDesc": "4th ODI",
-                                "matchFormat": "ODI",
-                                "startDate": "1784469600000",
-                                "endDate": "1784505599000",
-                                "team1": {
-                                    "teamId": 10,
-                                    "teamName": "West Indies",
-                                    "teamSName": "WI",
-                                    "isFullMember": true,
-                                    "imageId": 776191
-                                },
-                                "team2": {
-                                    "teamId": 13,
-                                    "teamName": "New Zealand",
-                                    "teamSName": "NZ",
-                                    "isFullMember": true,
-                                    "imageId": 776333
-                                },
-                                "venueInfo": {
-                                    "ground": "Kensington Oval",
-                                    "city": "Bridgetown, Barbados",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11957,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1784419200000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
-                "date": "MON, JUL 20 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Pakistan tour of West Indies, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 152485,
-                                "seriesId": 11968,
-                                "matchDesc": "4 -Day Warm-up match, Day 3",
-                                "matchFormat": "TEST",
-                                "startDate": "1784556000000",
-                                "endDate": "1784678399000",
-                                "team1": {
-                                    "teamId": 2277,
-                                    "teamName": "West Indies Select XI",
-                                    "teamSName": "WISXI",
-                                    "imageId": 1038627
-                                },
-                                "team2": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "venueInfo": {
-                                    "ground": "Brian Lara Stadium",
-                                    "city": "Tarouba, Trinidad",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11968,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1784505600000"
-            },
-            "category_type": "international"
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "TUE, JUL 21 2026",
                 "matchScheduleList": [
                     {
@@ -293,6 +80,20 @@
                 "longDate": "1784592000000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -620,86 +421,85 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SUN, JUL 19 2026",
+                "date": "MON, JUL 27 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Lanka Premier League 2026",
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
                         "matchInfo": [
                             {
-                                "matchId": 156977,
-                                "seriesId": 12316,
-                                "matchDesc": "4th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1784453400000",
-                                "endDate": "1784505599000",
+                                "matchId": 155349,
+                                "seriesId": 7572,
+                                "matchDesc": "119th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1785142800000",
+                                "endDate": "1785196799000",
                                 "team1": {
-                                    "teamId": 946,
-                                    "teamName": "Dambulla Sixers",
-                                    "teamSName": "DAS",
-                                    "imageId": 502581
+                                    "teamId": 161,
+                                    "teamName": "Namibia",
+                                    "teamSName": "NAM",
+                                    "imageId": 776326
                                 },
                                 "team2": {
-                                    "teamId": 948,
-                                    "teamName": "Jaffna Kings",
-                                    "teamSName": "JKS",
-                                    "imageId": 219029
+                                    "teamId": 72,
+                                    "teamName": "Nepal",
+                                    "teamSName": "NEP",
+                                    "imageId": 776331
                                 },
                                 "venueInfo": {
-                                    "ground": "Sinhalese Sports Club",
-                                    "city": "Colombo",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 156988,
-                                "seriesId": 12316,
-                                "matchDesc": "5th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1784469600000",
-                                "endDate": "1784505599000",
-                                "team1": {
-                                    "teamId": 943,
-                                    "teamName": "Colombo Kaps",
-                                    "teamSName": "CLK",
-                                    "imageId": 333883
+                                    "ground": "Sportpark Maarschalkerweerd",
+                                    "city": "Utrecht",
+                                    "country": "Netherlands",
+                                    "timezone": "+02:00"
                                 },
-                                "team2": {
-                                    "teamId": 1608,
-                                    "teamName": "Kandy Falcons",
-                                    "teamSName": "KFS",
-                                    "imageId": 333881
-                                },
-                                "venueInfo": {
-                                    "ground": "Sinhalese Sports Club",
-                                    "city": "Colombo",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
-                                }
+                                "isLiveStreamEnabled": true
                             }
                         ],
-                        "seriesId": 12316,
-                        "seriesHomeCountry": 5,
-                        "seriesCategory": "League"
+                        "seriesId": 7572,
+                        "seriesHomeCountry": 1,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Pakistan tour of West Indies, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 152496,
+                                "seriesId": 11968,
+                                "matchDesc": "1st Test, Day 3",
+                                "matchFormat": "TEST",
+                                "startDate": "1785160800000",
+                                "endDate": "1785369599000",
+                                "team1": {
+                                    "teamId": 10,
+                                    "teamName": "West Indies",
+                                    "teamSName": "WI",
+                                    "isFullMember": true,
+                                    "imageId": 776191
+                                },
+                                "team2": {
+                                    "teamId": 3,
+                                    "teamName": "Pakistan",
+                                    "teamSName": "PAK",
+                                    "isFullMember": true,
+                                    "imageId": 776308
+                                },
+                                "venueInfo": {
+                                    "ground": "Brian Lara Stadium",
+                                    "city": "Tarouba, Trinidad",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11968,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1784419200000"
+                "longDate": "1785110400000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
@@ -779,6 +579,20 @@
                 "longDate": "1784592000000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1129,6 +943,180 @@
         },
         {
             "scheduleAdWrapper": {
+                "date": "SAT, JUL 25 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Lanka Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 157050,
+                                "seriesId": 12316,
+                                "matchDesc": "11th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1784971800000",
+                                "endDate": "1785023999000",
+                                "team1": {
+                                    "teamId": 1601,
+                                    "teamName": "Galle Gallants",
+                                    "teamSName": "GAG",
+                                    "imageId": 484924
+                                },
+                                "team2": {
+                                    "teamId": 1608,
+                                    "teamName": "Kandy Falcons",
+                                    "teamSName": "KFS",
+                                    "imageId": 333881
+                                },
+                                "venueInfo": {
+                                    "ground": "Rangiri Dambulla International Stadium",
+                                    "city": "Dambulla",
+                                    "country": "Sri Lanka",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 157061,
+                                "seriesId": 12316,
+                                "matchDesc": "12th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1784988000000",
+                                "endDate": "1785023999000",
+                                "team1": {
+                                    "teamId": 946,
+                                    "teamName": "Dambulla Sixers",
+                                    "teamSName": "DAS",
+                                    "imageId": 502581
+                                },
+                                "team2": {
+                                    "teamId": 943,
+                                    "teamName": "Colombo Kaps",
+                                    "teamSName": "CLK",
+                                    "imageId": 333883
+                                },
+                                "venueInfo": {
+                                    "ground": "Rangiri Dambulla International Stadium",
+                                    "city": "Dambulla",
+                                    "country": "Sri Lanka",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12316,
+                        "seriesHomeCountry": 5,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "The Hundred Men's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 144706,
+                                "seriesId": 11493,
+                                "matchDesc": "5th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1784986200000",
+                                "endDate": "1785023999000",
+                                "team1": {
+                                    "teamId": 610,
+                                    "teamName": "Sunrisers Leeds",
+                                    "teamSName": "SUL",
+                                    "imageId": 839405
+                                },
+                                "team2": {
+                                    "teamId": 611,
+                                    "teamName": "Southern Brave",
+                                    "teamSName": "SOU",
+                                    "imageId": 825073
+                                },
+                                "venueInfo": {
+                                    "ground": "Headingley",
+                                    "city": "Leeds",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            },
+                            {
+                                "matchId": 144717,
+                                "seriesId": 11493,
+                                "matchDesc": "6th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1784998800000",
+                                "endDate": "1785023999000",
+                                "team1": {
+                                    "teamId": 606,
+                                    "teamName": "Welsh Fire",
+                                    "teamSName": "WEF",
+                                    "imageId": 825100
+                                },
+                                "team2": {
+                                    "teamId": 605,
+                                    "teamName": "MI London",
+                                    "teamSName": "MIL",
+                                    "imageId": 839367
+                                },
+                                "venueInfo": {
+                                    "ground": "Sophia Gardens",
+                                    "city": "Cardiff",
+                                    "country": "Wales",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11493,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1784937600000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "SUN, JUL 26 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Global Super League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 153860,
+                                "seriesId": 12012,
+                                "matchDesc": "4th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1785020400000",
+                                "endDate": "1785023999000",
+                                "team1": {
+                                    "teamId": 159,
+                                    "teamName": "Guyana Amazon Warriors",
+                                    "teamSName": "GAW",
+                                    "imageId": 825126
+                                },
+                                "team2": {
+                                    "teamId": 1326,
+                                    "teamName": "Desert Vipers",
+                                    "teamSName": "DV",
+                                    "imageId": 824994
+                                },
+                                "venueInfo": {
+                                    "ground": "Providence Stadium",
+                                    "city": "Guyana",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12012,
+                        "seriesCategory": "League"
+                    }
+                ],
+                "longDate": "1785024000000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
                 "date": "MON, JUL 20 2026",
                 "matchScheduleList": [
                     {
@@ -1139,7 +1127,7 @@
                                 "seriesId": 12327,
                                 "matchDesc": "2nd unofficial Test, Day 1",
                                 "matchFormat": "TEST",
-                                "startDate": "1784520000000",
+                                "startDate": "1784521800000",
                                 "endDate": "1784851199000",
                                 "team1": {
                                     "teamId": 172,
@@ -1154,8 +1142,8 @@
                                     "imageId": 776180
                                 },
                                 "venueInfo": {
-                                    "ground": "Galle International Stadium",
-                                    "city": "Galle",
+                                    "ground": "R.Premadasa Stadium",
+                                    "city": "Colombo",
                                     "country": "Sri Lanka",
                                     "timezone": "+05:30"
                                 }
@@ -1195,7 +1183,7 @@
                                 "seriesId": 12327,
                                 "matchDesc": "2nd unofficial Test, Day 2",
                                 "matchFormat": "TEST",
-                                "startDate": "1784606400000",
+                                "startDate": "1784608200000",
                                 "endDate": "1784851199000",
                                 "team1": {
                                     "teamId": 172,
@@ -1210,8 +1198,8 @@
                                     "imageId": 776180
                                 },
                                 "venueInfo": {
-                                    "ground": "Galle International Stadium",
-                                    "city": "Galle",
+                                    "ground": "R.Premadasa Stadium",
+                                    "city": "Colombo",
                                     "country": "Sri Lanka",
                                     "timezone": "+05:30"
                                 }
@@ -1401,7 +1389,7 @@
                                 "seriesId": 12327,
                                 "matchDesc": "2nd unofficial Test, Day 3",
                                 "matchFormat": "TEST",
-                                "startDate": "1784692800000",
+                                "startDate": "1784694600000",
                                 "endDate": "1784851199000",
                                 "team1": {
                                     "teamId": 172,
@@ -1416,8 +1404,8 @@
                                     "imageId": 776180
                                 },
                                 "venueInfo": {
-                                    "ground": "Galle International Stadium",
-                                    "city": "Galle",
+                                    "ground": "R.Premadasa Stadium",
+                                    "city": "Colombo",
                                     "country": "Sri Lanka",
                                     "timezone": "+05:30"
                                 }
@@ -1503,7 +1491,7 @@
                                 "seriesId": 12327,
                                 "matchDesc": "2nd unofficial Test, Day 4",
                                 "matchFormat": "TEST",
-                                "startDate": "1784779200000",
+                                "startDate": "1784781000000",
                                 "endDate": "1784851199000",
                                 "team1": {
                                     "teamId": 172,
@@ -1518,8 +1506,8 @@
                                     "imageId": 776180
                                 },
                                 "venueInfo": {
-                                    "ground": "Galle International Stadium",
-                                    "city": "Galle",
+                                    "ground": "R.Premadasa Stadium",
+                                    "city": "Colombo",
                                     "country": "Sri Lanka",
                                     "timezone": "+05:30"
                                 }
