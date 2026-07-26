@@ -2,196 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUL 25 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "ECA Men's European Cup, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 168103,
-                                "seriesId": 12751,
-                                "matchDesc": "1st Match",
-                                "matchFormat": "T20",
-                                "startDate": "1784962800000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 1041,
-                                    "teamName": "Romania",
-                                    "teamSName": "ROM",
-                                    "imageId": 247204
-                                },
-                                "team2": {
-                                    "teamId": 539,
-                                    "teamName": "France",
-                                    "teamSName": "FRA",
-                                    "imageId": 172590
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            },
-                            {
-                                "matchId": 168107,
-                                "seriesId": 12751,
-                                "matchDesc": "2nd Match",
-                                "matchFormat": "T20",
-                                "startDate": "1784979000000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 532,
-                                    "teamName": "Austria",
-                                    "teamSName": "AUT",
-                                    "imageId": 172583
-                                },
-                                "team2": {
-                                    "teamId": 897,
-                                    "teamName": "Turkey",
-                                    "teamSName": "TKY",
-                                    "imageId": 247208
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12751,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
-                        "matchInfo": [
-                            {
-                                "matchId": 155338,
-                                "seriesId": 7572,
-                                "matchDesc": "118th Match",
-                                "matchFormat": "ODI",
-                                "startDate": "1784970000000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 161,
-                                    "teamName": "Namibia",
-                                    "teamSName": "NAM",
-                                    "imageId": 776326
-                                },
-                                "team2": {
-                                    "teamId": 24,
-                                    "teamName": "Netherlands",
-                                    "teamSName": "NED",
-                                    "imageId": 776335
-                                },
-                                "venueInfo": {
-                                    "ground": "Sportpark Maarschalkerweerd",
-                                    "city": "Utrecht",
-                                    "country": "Netherlands",
-                                    "timezone": "+02:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 7572,
-                        "seriesHomeCountry": 1,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "India tour of Zimbabwe 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 152709,
-                                "seriesId": 11991,
-                                "matchDesc": "2nd T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1784977200000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 12,
-                                    "teamName": "Zimbabwe",
-                                    "teamSName": "ZIM",
-                                    "isFullMember": true,
-                                    "imageId": 776198
-                                },
-                                "team2": {
-                                    "teamId": 2,
-                                    "teamName": "India",
-                                    "teamSName": "IND",
-                                    "isFullMember": true,
-                                    "imageId": 776162
-                                },
-                                "venueInfo": {
-                                    "ground": "Harare Sports Club",
-                                    "city": "Harare",
-                                    "country": "Zimbabwe",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 11991,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "Pakistan tour of West Indies, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 152496,
-                                "seriesId": 11968,
-                                "matchDesc": "1st Test, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1784988000000",
-                                "endDate": "1785369599000",
-                                "team1": {
-                                    "teamId": 10,
-                                    "teamName": "West Indies",
-                                    "teamSName": "WI",
-                                    "isFullMember": true,
-                                    "imageId": 776191
-                                },
-                                "team2": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "venueInfo": {
-                                    "ground": "Brian Lara Stadium",
-                                    "city": "Tarouba, Trinidad",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11968,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1784937600000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SUN, JUL 26 2026",
                 "matchScheduleList": [
                     {
@@ -329,6 +139,20 @@
                 "longDate": "1785024000000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -745,213 +569,76 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUL 25 2026",
+                "date": "THU, JUL 30 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Lanka Premier League 2026",
+                        "seriesName": "ECA Men's European Cup, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 157050,
-                                "seriesId": 12316,
-                                "matchDesc": "11th Match",
+                                "matchId": 168193,
+                                "seriesId": 12751,
+                                "matchDesc": "Semi Final 2",
                                 "matchFormat": "T20",
-                                "startDate": "1784971800000",
-                                "endDate": "1785023999000",
+                                "startDate": "1785393000000",
+                                "endDate": "1785455999000",
                                 "team1": {
-                                    "teamId": 1601,
-                                    "teamName": "Galle Gallants",
-                                    "teamSName": "GAG",
-                                    "imageId": 484924
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
                                 },
                                 "team2": {
-                                    "teamId": 1608,
-                                    "teamName": "Kandy Royals",
-                                    "teamSName": "KRL",
-                                    "imageId": 333881
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
                                 },
                                 "venueInfo": {
-                                    "ground": "Rangiri Dambulla International Stadium",
-                                    "city": "Dambulla",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
+                                    "ground": "Moara Vlasiei Cricket Ground",
+                                    "city": "Ilfov County",
+                                    "country": "Romania",
+                                    "timezone": "+03:00"
                                 }
                             },
                             {
-                                "matchId": 157061,
-                                "seriesId": 12316,
-                                "matchDesc": "12th Match",
+                                "matchId": 168197,
+                                "seriesId": 12751,
+                                "matchDesc": "Final",
                                 "matchFormat": "T20",
-                                "startDate": "1784988000000",
-                                "endDate": "1785023999000",
+                                "startDate": "1785411000000",
+                                "endDate": "1785455999000",
                                 "team1": {
-                                    "teamId": 946,
-                                    "teamName": "Dambulla Sixers",
-                                    "teamSName": "DAS",
-                                    "imageId": 502581
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
                                 },
                                 "team2": {
-                                    "teamId": 943,
-                                    "teamName": "Colombo Kaps",
-                                    "teamSName": "CLK",
-                                    "imageId": 333883
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
                                 },
                                 "venueInfo": {
-                                    "ground": "Rangiri Dambulla International Stadium",
-                                    "city": "Dambulla",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
+                                    "ground": "Moara Vlasiei Cricket Ground",
+                                    "city": "Ilfov County",
+                                    "country": "Romania",
+                                    "timezone": "+03:00"
                                 }
                             }
                         ],
-                        "seriesId": 12316,
-                        "seriesHomeCountry": 5,
-                        "seriesCategory": "League"
-                    },
-                    {
-                        "seriesName": "The Hundred Men's Competition 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 144706,
-                                "seriesId": 11493,
-                                "matchDesc": "5th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1784986200000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 610,
-                                    "teamName": "Sunrisers Leeds",
-                                    "teamSName": "SUL",
-                                    "imageId": 839405
-                                },
-                                "team2": {
-                                    "teamId": 611,
-                                    "teamName": "Southern Brave",
-                                    "teamSName": "SOU",
-                                    "imageId": 825073
-                                },
-                                "venueInfo": {
-                                    "ground": "Headingley",
-                                    "city": "Leeds",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 144717,
-                                "seriesId": 11493,
-                                "matchDesc": "6th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1784998800000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 606,
-                                    "teamName": "Welsh Fire",
-                                    "teamSName": "WEF",
-                                    "imageId": 825100
-                                },
-                                "team2": {
-                                    "teamId": 605,
-                                    "teamName": "MI London",
-                                    "teamSName": "MIL",
-                                    "imageId": 839367
-                                },
-                                "venueInfo": {
-                                    "ground": "Sophia Gardens",
-                                    "city": "Cardiff",
-                                    "country": "Wales",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11493,
-                        "seriesHomeCountry": 9,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
+                        "seriesId": 12751,
+                        "seriesCategory": "International"
                     }
                 ],
-                "longDate": "1784937600000"
+                "longDate": "1785369600000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
                 "date": "SUN, JUL 26 2026",
                 "matchScheduleList": [
-                    {
-                        "seriesName": "Global Super League 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 153860,
-                                "seriesId": 12012,
-                                "matchDesc": "4th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1785020400000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 159,
-                                    "teamName": "Guyana Amazon Warriors",
-                                    "teamSName": "GAW",
-                                    "imageId": 825126
-                                },
-                                "team2": {
-                                    "teamId": 1326,
-                                    "teamName": "Desert Vipers",
-                                    "teamSName": "DV",
-                                    "imageId": 824994
-                                },
-                                "venueInfo": {
-                                    "ground": "Providence Stadium",
-                                    "city": "Guyana",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                }
-                            },
-                            {
-                                "matchId": 153871,
-                                "seriesId": 12012,
-                                "matchDesc": "5th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1785074400000",
-                                "endDate": "1785110399000",
-                                "team1": {
-                                    "teamId": 1584,
-                                    "teamName": "San Francisco Unicorns",
-                                    "teamSName": "SFU",
-                                    "imageId": 825029
-                                },
-                                "team2": {
-                                    "teamId": 3197,
-                                    "teamName": "Perth Scorchers XI",
-                                    "teamSName": "PRS XI",
-                                    "imageId": 931711
-                                },
-                                "venueInfo": {
-                                    "ground": "Providence Stadium",
-                                    "city": "Guyana",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12012,
-                        "seriesCategory": "League"
-                    },
                     {
                         "seriesName": "Lanka Premier League 2026",
                         "matchInfo": [
@@ -1074,11 +761,58 @@
                         "seriesHomeCountry": 9,
                         "seriesCategory": "League",
                         "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Global Super League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 153871,
+                                "seriesId": 12012,
+                                "matchDesc": "5th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1785074400000",
+                                "endDate": "1785110399000",
+                                "team1": {
+                                    "teamId": 1584,
+                                    "teamName": "San Francisco Unicorns",
+                                    "teamSName": "SFU",
+                                    "imageId": 825029
+                                },
+                                "team2": {
+                                    "teamId": 3197,
+                                    "teamName": "Perth Scorchers XI",
+                                    "teamSName": "PRS XI",
+                                    "imageId": 931711
+                                },
+                                "venueInfo": {
+                                    "ground": "Providence Stadium",
+                                    "city": "Guyana",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12012,
+                        "seriesCategory": "League"
                     }
                 ],
                 "longDate": "1785024000000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1497,6 +1231,109 @@
                         ],
                         "seriesId": 12012,
                         "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "Asian Legends League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 167201,
+                                "seriesId": 12118,
+                                "matchDesc": "1st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1785405600000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 1955,
+                                    "teamName": "Sri Lankan Lions",
+                                    "teamSName": "SLLS",
+                                    "imageId": 384025
+                                },
+                                "team2": {
+                                    "teamId": 1941,
+                                    "teamName": "Afghanistan Pathans",
+                                    "teamSName": "AFGP",
+                                    "imageId": 384023
+                                },
+                                "venueInfo": {
+                                    "ground": "Lotus Sports Club Ground",
+                                    "city": "Lusaka",
+                                    "country": "Zambia",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12118,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "Lanka Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 157127,
+                                "seriesId": 12316,
+                                "matchDesc": "18th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1785420000000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 948,
+                                    "teamName": "Jaffna Kings",
+                                    "teamSName": "JKS",
+                                    "imageId": 219029
+                                },
+                                "team2": {
+                                    "teamId": 1608,
+                                    "teamName": "Kandy Royals",
+                                    "teamSName": "KRL",
+                                    "imageId": 333881
+                                },
+                                "venueInfo": {
+                                    "ground": "Pallekele International Cricket Stadium",
+                                    "city": "Pallekele",
+                                    "country": "Sri Lanka",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12316,
+                        "seriesHomeCountry": 5,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "The Hundred Men's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 144783,
+                                "seriesId": 11493,
+                                "matchDesc": "13th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1785432600000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 611,
+                                    "teamName": "Southern Brave",
+                                    "teamSName": "SOU",
+                                    "imageId": 825073
+                                },
+                                "team2": {
+                                    "teamId": 607,
+                                    "teamName": "Birmingham Phoenix",
+                                    "teamSName": "BRM",
+                                    "imageId": 825104
+                                },
+                                "venueInfo": {
+                                    "ground": "The Rose Bowl",
+                                    "city": "Southampton",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11493,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
                     }
                 ],
                 "longDate": "1785369600000"
@@ -1589,32 +1426,6 @@
                                 }
                             },
                             {
-                                "matchId": 143485,
-                                "seriesId": 11418,
-                                "matchDesc": "Group A",
-                                "matchFormat": "ODI",
-                                "startDate": "1785060000000",
-                                "endDate": "1785110399000",
-                                "team1": {
-                                    "teamId": 151,
-                                    "teamName": "Gloucestershire",
-                                    "teamSName": "GLOUCS",
-                                    "imageId": 172218
-                                },
-                                "team2": {
-                                    "teamId": 150,
-                                    "teamName": "Kent",
-                                    "teamSName": "KENT",
-                                    "imageId": 172217
-                                },
-                                "venueInfo": {
-                                    "ground": "County Ground",
-                                    "city": "Bristol",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
                                 "matchId": 143529,
                                 "seriesId": 11418,
                                 "matchDesc": "Group A",
@@ -1686,10 +1497,10 @@
                                     "imageId": 172216
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Brunton Memorial Ground",
+                                    "city": "Radlett",
+                                    "country": "England",
+                                    "timezone": "+01:00"
                                 }
                             },
                             {
@@ -1714,6 +1525,32 @@
                                 "venueInfo": {
                                     "ground": "County Ground",
                                     "city": "Chelmsford",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 143485,
+                                "seriesId": 11418,
+                                "matchDesc": "Group A",
+                                "matchFormat": "ODI",
+                                "startDate": "1785060000000",
+                                "endDate": "1785110399000",
+                                "team1": {
+                                    "teamId": 151,
+                                    "teamName": "Gloucestershire",
+                                    "teamSName": "GLOUCS",
+                                    "imageId": 172218
+                                },
+                                "team2": {
+                                    "teamId": 150,
+                                    "teamName": "Kent",
+                                    "teamSName": "KENT",
+                                    "imageId": 172217
+                                },
+                                "venueInfo": {
+                                    "ground": "County Ground",
+                                    "city": "Bristol",
                                     "country": "England",
                                     "timezone": "+01:00"
                                 }
@@ -2176,278 +2013,8 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SAT, JUL 25 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Pakistan Women tour of Sri Lanka, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 161843,
-                                "seriesId": 12609,
-                                "matchDesc": "2nd ODI",
-                                "matchFormat": "ODI",
-                                "startDate": "1784953800000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 258,
-                                    "teamName": "Sri Lanka Women",
-                                    "teamSName": "SLW",
-                                    "imageId": 776267
-                                },
-                                "team2": {
-                                    "teamId": 259,
-                                    "teamName": "Pakistan Women",
-                                    "teamSName": "PAKW",
-                                    "imageId": 776311
-                                },
-                                "venueInfo": {
-                                    "ground": "Mahinda Rajapaksa International Stadium",
-                                    "city": "Hambantota",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12609,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "Women's T20I Quadrangular Series in Namibia 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 167370,
-                                "seriesId": 12727,
-                                "matchDesc": "7th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1784964600000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 503,
-                                    "teamName": "Namibia Women",
-                                    "teamSName": "NAMW",
-                                    "imageId": 776329
-                                },
-                                "team2": {
-                                    "teamId": 483,
-                                    "teamName": "Tanzania Women",
-                                    "teamSName": "TANW",
-                                    "imageId": 172531
-                                },
-                                "venueInfo": {
-                                    "ground": "High Performance Oval",
-                                    "city": "Windhoek",
-                                    "country": "Namibia",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 167380,
-                                "seriesId": 12727,
-                                "matchDesc": "8th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1784980800000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 502,
-                                    "teamName": "Hong Kong, China Women",
-                                    "teamSName": "HKC W",
-                                    "imageId": 776276
-                                },
-                                "team2": {
-                                    "teamId": 448,
-                                    "teamName": "Uganda Women",
-                                    "teamSName": "UGAW",
-                                    "imageId": 776236
-                                },
-                                "venueInfo": {
-                                    "ground": "High Performance Oval",
-                                    "city": "Windhoek",
-                                    "country": "Namibia",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12727,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "Finland Women tour of Estonia, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 168350,
-                                "seriesId": 12767,
-                                "matchDesc": "1st T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1784966400000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 1521,
-                                    "teamName": "Estonia Women",
-                                    "teamSName": "ESTW",
-                                    "imageId": 315349
-                                },
-                                "team2": {
-                                    "teamId": 2062,
-                                    "teamName": "Finland Women",
-                                    "teamSName": "FINW",
-                                    "imageId": 539543
-                                },
-                                "venueInfo": {
-                                    "ground": "Estonian National Cricket and Rugby Field",
-                                    "city": "Tallinn",
-                                    "country": "Estonia",
-                                    "timezone": "+03:00"
-                                }
-                            },
-                            {
-                                "matchId": 168357,
-                                "seriesId": 12767,
-                                "matchDesc": "2nd T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1784982600000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 1521,
-                                    "teamName": "Estonia Women",
-                                    "teamSName": "ESTW",
-                                    "imageId": 315349
-                                },
-                                "team2": {
-                                    "teamId": 2062,
-                                    "teamName": "Finland Women",
-                                    "teamSName": "FINW",
-                                    "imageId": 539543
-                                },
-                                "venueInfo": {
-                                    "ground": "Estonian National Cricket and Rugby Field",
-                                    "city": "Tallinn",
-                                    "country": "Estonia",
-                                    "timezone": "+03:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12767,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "The Hundred Women's Competition 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 145066,
-                                "seriesId": 11504,
-                                "matchDesc": "5th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1784973600000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 619,
-                                    "teamName": "Sunrisers Leeds Women",
-                                    "teamSName": "SULW",
-                                    "imageId": 839409
-                                },
-                                "team2": {
-                                    "teamId": 620,
-                                    "teamName": "Southern Brave Women",
-                                    "teamSName": "SOUW",
-                                    "imageId": 825072
-                                },
-                                "venueInfo": {
-                                    "ground": "Headingley",
-                                    "city": "Leeds",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 145077,
-                                "seriesId": 11504,
-                                "matchDesc": "6th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1784986200000",
-                                "endDate": "1785023999000",
-                                "team1": {
-                                    "teamId": 614,
-                                    "teamName": "Welsh Fire Women",
-                                    "teamSName": "WELW",
-                                    "imageId": 825101
-                                },
-                                "team2": {
-                                    "teamId": 613,
-                                    "teamName": "MI London Women",
-                                    "teamSName": "MILW",
-                                    "imageId": 839401
-                                },
-                                "venueInfo": {
-                                    "ground": "Sophia Gardens",
-                                    "city": "Cardiff",
-                                    "country": "Wales",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11504,
-                        "seriesHomeCountry": 9,
-                        "seriesCategory": "Women",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1784937600000"
-            },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SUN, JUL 26 2026",
                 "matchScheduleList": [
-                    {
-                        "seriesName": "Women's T20I Quadrangular Series in Switzerland, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 168361,
-                                "seriesId": 12777,
-                                "matchDesc": "1st Match",
-                                "matchFormat": "T20",
-                                "startDate": "1785051000000",
-                                "endDate": "1785110399000",
-                                "team1": {
-                                    "teamId": 2390,
-                                    "teamName": "Switzerland Women",
-                                    "teamSName": "SUIW",
-                                    "imageId": 692942
-                                },
-                                "team2": {
-                                    "teamId": 1032,
-                                    "teamName": "Jersey Women",
-                                    "teamSName": "JERW",
-                                    "imageId": 776301
-                                },
-                                "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12777,
-                        "seriesCategory": "Women"
-                    },
                     {
                         "seriesName": "The Hundred Women's Competition 2026",
                         "matchInfo": [
@@ -2517,6 +2084,20 @@
             "category_type": "women"
         },
         {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
             "scheduleAdWrapper": {
                 "date": "MON, JUL 27 2026",
                 "matchScheduleList": [
@@ -2583,6 +2164,32 @@
                         "seriesName": "Women's T20I Quadrangular Series in Switzerland, 2026",
                         "matchInfo": [
                             {
+                                "matchId": 168361,
+                                "seriesId": 12777,
+                                "matchDesc": "1st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1785137400000",
+                                "endDate": "1785196799000",
+                                "team1": {
+                                    "teamId": 2390,
+                                    "teamName": "Switzerland Women",
+                                    "teamSName": "SUIW",
+                                    "imageId": 692942
+                                },
+                                "team2": {
+                                    "teamId": 1032,
+                                    "teamName": "Jersey Women",
+                                    "teamSName": "JERW",
+                                    "imageId": 776301
+                                },
+                                "venueInfo": {
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
                                 "matchId": 168363,
                                 "seriesId": 12777,
                                 "matchDesc": "2nd Match",
@@ -2602,10 +2209,10 @@
                                     "imageId": 248449
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
                                 }
                             }
                         ],
@@ -2713,10 +2320,10 @@
                                     "imageId": 248449
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
                                 }
                             },
                             {
@@ -2739,10 +2346,10 @@
                                     "imageId": 776301
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
                                 }
                             }
                         ],
@@ -2939,10 +2546,10 @@
                                     "imageId": 248449
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
                                 }
                             },
                             {
@@ -2965,10 +2572,10 @@
                                     "imageId": 172539
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
                                 }
                             }
                         ],
@@ -3010,6 +2617,202 @@
                     }
                 ],
                 "longDate": "1785283200000"
+            },
+            "category_type": "women"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "THU, JUL 30 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Women's T20I Quadrangular Series in Switzerland, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 168397,
+                                "seriesId": 12777,
+                                "matchDesc": "3rd place play-off",
+                                "matchFormat": "T20",
+                                "startDate": "1785396600000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 168403,
+                                "seriesId": 12777,
+                                "matchDesc": "Final",
+                                "matchFormat": "T20",
+                                "startDate": "1785412800000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "Embrach Cricket Ground",
+                                    "city": "Embrach",
+                                    "country": "Switzerland",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12777,
+                        "seriesCategory": "Women"
+                    },
+                    {
+                        "seriesName": "Women's T20I Quadrangular Series in Namibia 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 167417,
+                                "seriesId": 12727,
+                                "matchDesc": "3rd Place Play-off",
+                                "matchFormat": "T20",
+                                "startDate": "1785396600000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "High Performance Oval",
+                                    "city": "Windhoek",
+                                    "country": "Namibia",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 167423,
+                                "seriesId": 12727,
+                                "matchDesc": "Final",
+                                "matchFormat": "T20",
+                                "startDate": "1785412800000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "High Performance Oval",
+                                    "city": "Windhoek",
+                                    "country": "Namibia",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12727,
+                        "seriesCategory": "Women"
+                    },
+                    {
+                        "seriesName": "The Hundred Women's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 145154,
+                                "seriesId": 11504,
+                                "matchDesc": "13th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1785420000000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 620,
+                                    "teamName": "Southern Brave Women",
+                                    "teamSName": "SOUW",
+                                    "imageId": 825072
+                                },
+                                "team2": {
+                                    "teamId": 615,
+                                    "teamName": "Birmingham Phoenix Women",
+                                    "teamSName": "BRMW",
+                                    "imageId": 825105
+                                },
+                                "venueInfo": {
+                                    "ground": "The Rose Bowl",
+                                    "city": "Southampton",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11504,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "Women",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Canada Women tour of Argentina, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 163470,
+                                "seriesId": 12713,
+                                "matchDesc": "2nd T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1785425400000",
+                                "endDate": "1785455999000",
+                                "team1": {
+                                    "teamId": 489,
+                                    "teamName": "Argentina Women",
+                                    "teamSName": "ARGW",
+                                    "imageId": 172537
+                                },
+                                "team2": {
+                                    "teamId": 1426,
+                                    "teamName": "Canada Women",
+                                    "teamSName": "CANW",
+                                    "imageId": 776230
+                                },
+                                "venueInfo": {
+                                    "ground": "St George's College Ground",
+                                    "city": "Quilmes, Buenos Aires",
+                                    "country": "Argentina",
+                                    "timezone": "-03:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12713,
+                        "seriesCategory": "Women"
+                    }
+                ],
+                "longDate": "1785369600000"
             },
             "category_type": "women"
         }
