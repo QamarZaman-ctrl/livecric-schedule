@@ -2,66 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "SUN, AUG 02 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Pakistan tour of West Indies, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 152507,
-                                "seriesId": 11968,
-                                "matchDesc": "2nd Test, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1785679200000",
-                                "endDate": "1786060799000",
-                                "team1": {
-                                    "teamId": 10,
-                                    "teamName": "West Indies",
-                                    "teamSName": "WI",
-                                    "isFullMember": true,
-                                    "imageId": 776191
-                                },
-                                "team2": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "venueInfo": {
-                                    "ground": "Queen's Park Oval",
-                                    "city": "Port of Spain, Trinidad",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11968,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1785628800000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "MON, AUG 03 2026",
                 "matchScheduleList": [
                     {
@@ -141,6 +81,20 @@
                 "longDate": "1785715200000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -429,7 +383,7 @@
                             {
                                 "matchId": 169497,
                                 "seriesId": 12687,
-                                "matchDesc": "3 days warm-up match, Day 1",
+                                "matchDesc": "3-Day Warm-up Match, Day 1",
                                 "matchFormat": "TEST",
                                 "startDate": "1786077000000",
                                 "endDate": "1786319999000",
@@ -537,183 +491,131 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SUN, AUG 02 2026",
+                "date": "SAT, AUG 08 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Delhi Premier League 2026",
+                        "seriesName": "South American Men's T20I Championship, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 168921,
-                                "seriesId": 12851,
+                                "matchId": 166533,
+                                "seriesId": 12653,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786129200000",
+                                "endDate": "1786233599000",
+                                "team1": {
+                                    "teamId": 546,
+                                    "teamName": "Panama",
+                                    "teamSName": "PAN",
+                                    "imageId": 172597
+                                },
+                                "team2": {
+                                    "teamId": 560,
+                                    "teamName": "Brazil",
+                                    "teamSName": "BRAZIL",
+                                    "imageId": 172612
+                                },
+                                "venueInfo": {
+                                    "ground": "Los Pinos Polo Club 1, Cundinamarca",
+                                    "city": "Bogota",
+                                    "country": "Colombia",
+                                    "timezone": "-05:00"
+                                }
+                            },
+                            {
+                                "matchId": 166537,
+                                "seriesId": 12653,
                                 "matchDesc": "4th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1785657600000",
-                                "endDate": "1785715199000",
+                                "startDate": "1786194000000",
+                                "endDate": "1786233599000",
                                 "team1": {
-                                    "teamId": 2631,
-                                    "teamName": "Outer Delhi Warriors",
-                                    "teamSName": "ODW",
-                                    "imageId": 731748
+                                    "teamId": 544,
+                                    "teamName": "Mexico",
+                                    "teamSName": "MEX",
+                                    "imageId": 172595
                                 },
                                 "team2": {
-                                    "teamId": 2620,
-                                    "teamName": "Central Delhi Kings",
-                                    "teamSName": "CDK",
-                                    "imageId": 731747
+                                    "teamId": 560,
+                                    "teamName": "Brazil",
+                                    "teamSName": "BRAZIL",
+                                    "imageId": 172612
                                 },
                                 "venueInfo": {
-                                    "ground": "Arun Jaitley Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "Los Pinos Polo Club 1, Cundinamarca",
+                                    "city": "Bogota",
+                                    "country": "Colombia",
+                                    "timezone": "-05:00"
                                 }
                             },
                             {
-                                "matchId": 168923,
-                                "seriesId": 12851,
+                                "matchId": 166543,
+                                "seriesId": 12653,
                                 "matchDesc": "5th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1785677400000",
-                                "endDate": "1785715199000",
+                                "startDate": "1786199400000",
+                                "endDate": "1786233599000",
                                 "team1": {
-                                    "teamId": 2601,
-                                    "teamName": "East Delhi Riders",
-                                    "teamSName": "EDR",
-                                    "imageId": 731745
+                                    "teamId": 546,
+                                    "teamName": "Panama",
+                                    "teamSName": "PAN",
+                                    "imageId": 172597
                                 },
                                 "team2": {
-                                    "teamId": 2642,
-                                    "teamName": "New Delhi Tigers",
-                                    "teamSName": "NDT",
-                                    "imageId": 731749
+                                    "teamId": 542,
+                                    "teamName": "Peru",
+                                    "teamSName": "PER",
+                                    "imageId": 172593
                                 },
                                 "venueInfo": {
-                                    "ground": "Arun Jaitley Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "Los Pinos Polo Club 2, Cundinamarca",
+                                    "city": "Bogota",
+                                    "country": "Colombia",
+                                    "timezone": "-05:00"
                                 }
                             }
                         ],
-                        "seriesId": 12851,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "League"
+                        "seriesId": 12653,
+                        "seriesCategory": "International"
                     },
                     {
-                        "seriesName": "The Hundred Men's Competition 2026",
+                        "seriesName": "India tour of Sri Lanka 2026",
                         "matchInfo": [
                             {
-                                "matchId": 144827,
-                                "seriesId": 11493,
-                                "matchDesc": "17th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1785677400000",
-                                "endDate": "1785715199000",
+                                "matchId": 169497,
+                                "seriesId": 12687,
+                                "matchDesc": "3-Day Warm-up Match, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1786163400000",
+                                "endDate": "1786319999000",
                                 "team1": {
-                                    "teamId": 612,
-                                    "teamName": "Trent Rockets",
-                                    "teamSName": "TRE",
-                                    "imageId": 825089
+                                    "teamId": 365,
+                                    "teamName": "Sri Lanka XI",
+                                    "teamSName": "SLXI",
+                                    "imageId": 776268
                                 },
                                 "team2": {
-                                    "teamId": 610,
-                                    "teamName": "Sunrisers Leeds",
-                                    "teamSName": "SUL",
-                                    "imageId": 839405
+                                    "teamId": 2,
+                                    "teamName": "India",
+                                    "teamSName": "IND",
+                                    "isFullMember": true,
+                                    "imageId": 776162
                                 },
                                 "venueInfo": {
-                                    "ground": "Trent Bridge",
-                                    "city": "Nottingham",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 144838,
-                                "seriesId": 11493,
-                                "matchDesc": "18th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1785690000000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 605,
-                                    "teamName": "MI London",
-                                    "teamSName": "MIL",
-                                    "imageId": 839367
-                                },
-                                "team2": {
-                                    "teamId": 609,
-                                    "teamName": "Manchester Super Giants",
-                                    "teamSName": "MSG",
-                                    "imageId": 839374
-                                },
-                                "venueInfo": {
-                                    "ground": "Kennington Oval",
-                                    "city": "London",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11493,
-                        "seriesHomeCountry": 9,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Lanka Premier League 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 157149,
-                                "seriesId": 12316,
-                                "matchDesc": "20th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1785679200000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 948,
-                                    "teamName": "Jaffna Kings",
-                                    "teamSName": "JKS",
-                                    "imageId": 219029
-                                },
-                                "team2": {
-                                    "teamId": 946,
-                                    "teamName": "Dambulla Sixers",
-                                    "teamSName": "DAS",
-                                    "imageId": 502581
-                                },
-                                "venueInfo": {
-                                    "ground": "Pallekele International Cricket Stadium",
-                                    "city": "Pallekele",
+                                    "ground": "Nondescripts Cricket Club Ground",
+                                    "city": "Colombo",
                                     "country": "Sri Lanka",
                                     "timezone": "+05:30"
                                 }
                             }
                         ],
-                        "seriesId": 12316,
-                        "seriesHomeCountry": 5,
-                        "seriesCategory": "League"
+                        "seriesId": 12687,
+                        "seriesCategory": "International"
                     }
                 ],
-                "longDate": "1785628800000"
+                "longDate": "1786147200000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
@@ -819,6 +721,20 @@
                 "longDate": "1785715200000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1034,16 +950,16 @@
                                 "startDate": "1785922200000",
                                 "endDate": "1785974399000",
                                 "team1": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 1601,
+                                    "teamName": "Galle Gallants",
+                                    "teamSName": "GAG",
+                                    "imageId": 484924
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 948,
+                                    "teamName": "Jaffna Kings",
+                                    "teamSName": "JKS",
+                                    "imageId": 219029
                                 },
                                 "venueInfo": {
                                     "ground": "R.Premadasa Stadium",
@@ -1060,16 +976,16 @@
                                 "startDate": "1785938400000",
                                 "endDate": "1785974399000",
                                 "team1": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 943,
+                                    "teamName": "Colombo Kaps",
+                                    "teamSName": "CLK",
+                                    "imageId": 333883
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 1608,
+                                    "teamName": "Kandy Royals",
+                                    "teamSName": "KRL",
+                                    "imageId": 333881
                                 },
                                 "venueInfo": {
                                     "ground": "R.Premadasa Stadium",
@@ -1352,242 +1268,247 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SUN, AUG 02 2026",
+                "date": "FRI, AUG 07 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "England Domestic One-Day Cup 2026",
+                        "seriesName": "Delhi Premier League 2026",
                         "matchInfo": [
                             {
-                                "matchId": 143773,
-                                "seriesId": 11418,
-                                "matchDesc": "Group A",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
+                                "matchId": 168993,
+                                "seriesId": 12851,
+                                "matchDesc": "14th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786089600000",
+                                "endDate": "1786147199000",
                                 "team1": {
-                                    "teamId": 140,
-                                    "teamName": "Warwickshire",
-                                    "teamSName": "WARKS",
-                                    "imageId": 172207
+                                    "teamId": 2601,
+                                    "teamName": "East Delhi Riders",
+                                    "teamSName": "EDR",
+                                    "imageId": 731745
                                 },
                                 "team2": {
-                                    "teamId": 151,
-                                    "teamName": "Gloucestershire",
-                                    "teamSName": "GLOUCS",
-                                    "imageId": 172218
+                                    "teamId": 2656,
+                                    "teamName": "West Delhi Lions",
+                                    "teamSName": "WDL",
+                                    "imageId": 731750
                                 },
                                 "venueInfo": {
-                                    "ground": "Rugby School Ground ",
-                                    "city": "Rugby, Warwickshire ",
-                                    "country": "England",
-                                    "timezone": "+01:00"
+                                    "ground": "Arun Jaitley Stadium",
+                                    "city": "Delhi",
+                                    "country": "India",
+                                    "timezone": "+05:30"
                                 }
                             },
                             {
-                                "matchId": 143762,
-                                "seriesId": 11418,
-                                "matchDesc": "Group A",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
+                                "matchId": 169001,
+                                "seriesId": 12851,
+                                "matchDesc": "15th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786109400000",
+                                "endDate": "1786147199000",
                                 "team1": {
-                                    "teamId": 142,
-                                    "teamName": "Northamptonshire",
-                                    "teamSName": "NHNTS",
-                                    "imageId": 172209
+                                    "teamId": 2631,
+                                    "teamName": "Outer Delhi Warriors",
+                                    "teamSName": "ODW",
+                                    "imageId": 731748
                                 },
                                 "team2": {
-                                    "teamId": 143,
-                                    "teamName": "Lancashire",
-                                    "teamSName": "LANCS",
-                                    "imageId": 172210
+                                    "teamId": 2609,
+                                    "teamName": "North Delhi Strikers",
+                                    "teamSName": "NDS",
+                                    "imageId": 731746
                                 },
                                 "venueInfo": {
-                                    "ground": "County Ground",
-                                    "city": "Northampton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 143760,
-                                "seriesId": 11418,
-                                "matchDesc": "Group B",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 74,
-                                    "teamName": "Middlesex",
-                                    "teamSName": "MDX",
-                                    "imageId": 172170
-                                },
-                                "team2": {
-                                    "teamId": 146,
-                                    "teamName": "Yorkshire",
-                                    "teamSName": "YORKS",
-                                    "imageId": 172213
-                                },
-                                "venueInfo": {
-                                    "ground": "Lord's",
-                                    "city": "London",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 143749,
-                                "seriesId": 11418,
-                                "matchDesc": "Group A",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 145,
-                                    "teamName": "Leicestershire",
-                                    "teamSName": "LEIC",
-                                    "imageId": 172212
-                                },
-                                "team2": {
-                                    "teamId": 119,
-                                    "teamName": "Somerset",
-                                    "teamSName": "SOM",
-                                    "imageId": 172199
-                                },
-                                "venueInfo": {
-                                    "ground": "Grace Road",
-                                    "city": "Leicester",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 143738,
-                                "seriesId": 11418,
-                                "matchDesc": "Group A",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 150,
-                                    "teamName": "Kent",
-                                    "teamSName": "KENT",
-                                    "imageId": 172217
-                                },
-                                "team2": {
-                                    "teamId": 139,
-                                    "teamName": "Nottinghamshire",
-                                    "teamSName": "NOTTS",
-                                    "imageId": 172206
-                                },
-                                "venueInfo": {
-                                    "ground": "Kent County Cricket Ground",
-                                    "city": "Beckenham",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 143727,
-                                "seriesId": 11418,
-                                "matchDesc": "Group B",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 153,
-                                    "teamName": "Hampshire",
-                                    "teamSName": "HAM",
-                                    "imageId": 172220
-                                },
-                                "team2": {
-                                    "teamId": 141,
-                                    "teamName": "Durham",
-                                    "teamSName": "DUR",
-                                    "imageId": 172208
-                                },
-                                "venueInfo": {
-                                    "ground": "The Rose Bowl",
-                                    "city": "Southampton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 143705,
-                                "seriesId": 11418,
-                                "matchDesc": "Group B",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 144,
-                                    "teamName": "Derbyshire",
-                                    "teamSName": "DERBY",
-                                    "imageId": 172211
-                                },
-                                "team2": {
-                                    "teamId": 41,
-                                    "teamName": "Sussex",
-                                    "teamSName": "SUS",
-                                    "imageId": 172148
-                                },
-                                "venueInfo": {
-                                    "ground": "County Ground",
-                                    "city": "Derby",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 143716,
-                                "seriesId": 11418,
-                                "matchDesc": "Group B",
-                                "matchFormat": "ODI",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 152,
-                                    "teamName": "Essex",
-                                    "teamSName": "ESS",
-                                    "imageId": 172219
-                                },
-                                "team2": {
-                                    "teamId": 147,
-                                    "teamName": "Worcestershire",
-                                    "teamSName": "WORCS",
-                                    "imageId": 172214
-                                },
-                                "venueInfo": {
-                                    "ground": "County Ground",
-                                    "city": "Chelmsford",
-                                    "country": "England",
-                                    "timezone": "+01:00"
+                                    "ground": "Arun Jaitley Stadium",
+                                    "city": "Delhi",
+                                    "country": "India",
+                                    "timezone": "+05:30"
                                 }
                             }
                         ],
-                        "seriesId": 11418,
+                        "seriesId": 12851,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "Tamil Nadu Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 166840,
+                                "seriesId": 12620,
+                                "matchDesc": "5th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786096800000",
+                                "endDate": "1786147199000",
+                                "team1": {
+                                    "teamId": 367,
+                                    "teamName": "Chepauk Super Gillies",
+                                    "teamSName": "CSG",
+                                    "imageId": 172420
+                                },
+                                "team2": {
+                                    "teamId": 861,
+                                    "teamName": "IDream Tiruppur Tamizhans",
+                                    "teamSName": "ITT",
+                                    "imageId": 206916
+                                },
+                                "venueInfo": {
+                                    "ground": "NPR College Ground",
+                                    "city": "Dindigul",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 166843,
+                                "seriesId": 12620,
+                                "matchDesc": "6th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786111200000",
+                                "endDate": "1786147199000",
+                                "team1": {
+                                    "teamId": 866,
+                                    "teamName": "Nellai Royal Kings",
+                                    "teamSName": "NRK",
+                                    "imageId": 206917
+                                },
+                                "team2": {
+                                    "teamId": 371,
+                                    "teamName": "Dindigul Dragons",
+                                    "teamSName": "DGD",
+                                    "imageId": 172424
+                                },
+                                "venueInfo": {
+                                    "ground": "NPR College Ground",
+                                    "city": "Dindigul",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12620,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "Lanka Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 157182,
+                                "seriesId": 12316,
+                                "matchDesc": "Qualifier 2 (Looser Q1 vs Winner Eliminator) ",
+                                "matchFormat": "T20",
+                                "startDate": "1786111200000",
+                                "endDate": "1786147199000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "R.Premadasa Stadium",
+                                    "city": "Colombo",
+                                    "country": "Sri Lanka",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12316,
+                        "seriesHomeCountry": 5,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "The Hundred Men's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 144904,
+                                "seriesId": 11493,
+                                "matchDesc": "24th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1786123800000",
+                                "endDate": "1786147199000",
+                                "team1": {
+                                    "teamId": 607,
+                                    "teamName": "Birmingham Phoenix",
+                                    "teamSName": "BRM",
+                                    "imageId": 825104
+                                },
+                                "team2": {
+                                    "teamId": 610,
+                                    "teamName": "Sunrisers Leeds",
+                                    "teamSName": "SUL",
+                                    "imageId": 839405
+                                },
+                                "venueInfo": {
+                                    "ground": "Edgbaston",
+                                    "city": "Birmingham",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11493,
                         "seriesHomeCountry": 9,
-                        "seriesCategory": "Domestic"
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1785628800000"
+                "longDate": "1786060800000"
             },
-            "category_type": "domestic"
+            "category_type": "league"
         },
         {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "scheduleAdWrapper": {
+                "date": "SAT, AUG 08 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Caribbean Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 154315,
+                                "seriesId": 12123,
+                                "matchDesc": "1st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786143600000",
+                                "endDate": "1786147199000",
+                                "team1": {
+                                    "teamId": 3208,
+                                    "teamName": "Jamaica Kingsmen",
+                                    "teamSName": "JKM",
+                                    "imageId": 943098
+                                },
+                                "team2": {
+                                    "teamId": 1978,
+                                    "teamName": "Antigua and Barbuda Falcons",
+                                    "teamSName": "ABF",
+                                    "imageId": 825120
+                                },
+                                "venueInfo": {
+                                    "ground": "Arnos Vale Ground",
+                                    "city": "Kingstown, St Vincent",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12123,
+                        "seriesHomeCountry": 10,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1786147200000"
+            },
+            "category_type": "league"
         },
         {
             "scheduleAdWrapper": {
@@ -1657,6 +1578,20 @@
                 "longDate": "1785888000000"
             },
             "category_type": "domestic"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -2211,181 +2146,287 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SUN, AUG 02 2026",
+                "date": "TUE, AUG 11 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Pakistan Women tour of Sri Lanka, 2026",
+                        "seriesName": "ICC CWC Challenge League B, 2024-26",
                         "matchInfo": [
                             {
-                                "matchId": 161857,
-                                "seriesId": 12609,
-                                "matchDesc": "2nd T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1785645000000",
-                                "endDate": "1785715199000",
+                                "matchId": 168270,
+                                "seriesId": 9001,
+                                "matchDesc": "35th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1786428000000",
+                                "endDate": "1786492799000",
                                 "team1": {
-                                    "teamId": 258,
-                                    "teamName": "Sri Lanka Women",
-                                    "teamSName": "SLW",
-                                    "imageId": 776267
+                                    "teamId": 527,
+                                    "teamName": "Italy",
+                                    "teamSName": "ITA",
+                                    "imageId": 776295
                                 },
                                 "team2": {
-                                    "teamId": 259,
-                                    "teamName": "Pakistan Women",
-                                    "teamSName": "PAKW",
-                                    "imageId": 776311
+                                    "teamId": 44,
+                                    "teamName": "Uganda",
+                                    "teamSName": "UGA",
+                                    "imageId": 776233
                                 },
                                 "venueInfo": {
-                                    "ground": "Rangiri Dambulla International Stadium",
-                                    "city": "Dambulla",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
+                                    "ground": "University of Dar-es-Salaam 2",
+                                    "city": "Dar es Salaam",
+                                    "country": "Tanzania",
+                                    "timezone": "+03:00"
+                                }
+                            },
+                            {
+                                "matchId": 168267,
+                                "seriesId": 9001,
+                                "matchDesc": "34th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1786428000000",
+                                "endDate": "1786492799000",
+                                "team1": {
+                                    "teamId": 535,
+                                    "teamName": "Tanzania",
+                                    "teamSName": "TAN",
+                                    "imageId": 172586
+                                },
+                                "team2": {
+                                    "teamId": 8,
+                                    "teamName": "Hong Kong, China",
+                                    "teamSName": "HKC",
+                                    "imageId": 776271
+                                },
+                                "venueInfo": {
+                                    "ground": "University of Dar-es-Salaam 1",
+                                    "city": "Dar-es-Salaam",
+                                    "country": "Tanzania",
+                                    "timezone": "+03:00"
                                 }
                             }
                         ],
-                        "seriesId": 12609,
-                        "seriesCategory": "Women"
+                        "seriesId": 9001,
+                        "seriesCategory": "Domestic"
                     },
                     {
-                        "seriesName": "The Hundred Women's Competition 2026",
+                        "seriesName": "England Domestic One-Day Cup 2026",
                         "matchInfo": [
                             {
-                                "matchId": 145198,
-                                "seriesId": 11504,
-                                "matchDesc": "17th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1785664800000",
-                                "endDate": "1785715199000",
+                                "matchId": 144043,
+                                "seriesId": 11418,
+                                "matchDesc": "Group B",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
                                 "team1": {
-                                    "teamId": 618,
-                                    "teamName": "Trent Rockets Women",
-                                    "teamSName": "TREW",
-                                    "imageId": 825087
+                                    "teamId": 147,
+                                    "teamName": "Worcestershire",
+                                    "teamSName": "WORCS",
+                                    "imageId": 172214
                                 },
                                 "team2": {
-                                    "teamId": 619,
-                                    "teamName": "Sunrisers Leeds Women",
-                                    "teamSName": "SULW",
-                                    "imageId": 839409
+                                    "teamId": 141,
+                                    "teamName": "Durham",
+                                    "teamSName": "DUR",
+                                    "imageId": 172208
                                 },
                                 "venueInfo": {
-                                    "ground": "Trent Bridge",
-                                    "city": "Nottingham",
+                                    "ground": "New Road",
+                                    "city": "Worcester",
                                     "country": "England",
                                     "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
+                                }
                             },
                             {
-                                "matchId": 145209,
-                                "seriesId": 11504,
-                                "matchDesc": "18th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1785677400000",
-                                "endDate": "1785715199000",
+                                "matchId": 144037,
+                                "seriesId": 11418,
+                                "matchDesc": "Group A",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
                                 "team1": {
-                                    "teamId": 613,
-                                    "teamName": "MI London Women",
-                                    "teamSName": "MILW",
-                                    "imageId": 839401
+                                    "teamId": 140,
+                                    "teamName": "Warwickshire",
+                                    "teamSName": "WARKS",
+                                    "imageId": 172207
                                 },
                                 "team2": {
-                                    "teamId": 617,
-                                    "teamName": "Manchester Super Giants Women",
-                                    "teamSName": "MSGW",
-                                    "imageId": 839377
+                                    "teamId": 150,
+                                    "teamName": "Kent",
+                                    "teamSName": "KENT",
+                                    "imageId": 172217
+                                },
+                                "venueInfo": {
+                                    "ground": "Rugby School Ground ",
+                                    "city": "Rugby, Warwickshire ",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 143971,
+                                "seriesId": 11418,
+                                "matchDesc": "Group B",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
+                                "team1": {
+                                    "teamId": 152,
+                                    "teamName": "Essex",
+                                    "teamSName": "ESS",
+                                    "imageId": 172219
+                                },
+                                "team2": {
+                                    "teamId": 146,
+                                    "teamName": "Yorkshire",
+                                    "teamSName": "YORKS",
+                                    "imageId": 172213
+                                },
+                                "venueInfo": {
+                                    "ground": "County Ground",
+                                    "city": "Chelmsford",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 143982,
+                                "seriesId": 11418,
+                                "matchDesc": "Group A",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
+                                "team1": {
+                                    "teamId": 151,
+                                    "teamName": "Gloucestershire",
+                                    "teamSName": "GLOUCS",
+                                    "imageId": 172218
+                                },
+                                "team2": {
+                                    "teamId": 142,
+                                    "teamName": "Northamptonshire",
+                                    "teamSName": "NHNTS",
+                                    "imageId": 172209
+                                },
+                                "venueInfo": {
+                                    "ground": "College Ground",
+                                    "city": "Cheltenham",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 143993,
+                                "seriesId": 11418,
+                                "matchDesc": "Group B",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
+                                "team1": {
+                                    "teamId": 153,
+                                    "teamName": "Hampshire",
+                                    "teamSName": "HAM",
+                                    "imageId": 172220
+                                },
+                                "team2": {
+                                    "teamId": 144,
+                                    "teamName": "Derbyshire",
+                                    "teamSName": "DERBY",
+                                    "imageId": 172211
+                                },
+                                "venueInfo": {
+                                    "ground": "The Rose Bowl",
+                                    "city": "Southampton",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 144026,
+                                "seriesId": 11418,
+                                "matchDesc": "Group A",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
+                                "team1": {
+                                    "teamId": 148,
+                                    "teamName": "Surrey",
+                                    "teamSName": "SUR",
+                                    "imageId": 172215
+                                },
+                                "team2": {
+                                    "teamId": 139,
+                                    "teamName": "Nottinghamshire",
+                                    "teamSName": "NOTTS",
+                                    "imageId": 172206
                                 },
                                 "venueInfo": {
                                     "ground": "Kennington Oval",
                                     "city": "London",
                                     "country": "England",
                                     "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11504,
-                        "seriesHomeCountry": 9,
-                        "seriesCategory": "Women",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Canada Women tour of Argentina, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 163501,
-                                "seriesId": 12713,
-                                "matchDesc": "6th T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1785675600000",
-                                "endDate": "1785715199000",
-                                "team1": {
-                                    "teamId": 489,
-                                    "teamName": "Argentina Women",
-                                    "teamSName": "ARGW",
-                                    "imageId": 172537
-                                },
-                                "team2": {
-                                    "teamId": 1426,
-                                    "teamName": "Canada Women",
-                                    "teamSName": "CANW",
-                                    "imageId": 776230
-                                },
-                                "venueInfo": {
-                                    "ground": "St George's College Ground",
-                                    "city": "Quilmes, Buenos Aires",
-                                    "country": "Argentina",
-                                    "timezone": "-03:00"
                                 }
                             },
                             {
-                                "matchId": 163511,
-                                "seriesId": 12713,
-                                "matchDesc": "7th T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1785690000000",
-                                "endDate": "1785715199000",
+                                "matchId": 144015,
+                                "seriesId": 11418,
+                                "matchDesc": "Group A",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
                                 "team1": {
-                                    "teamId": 489,
-                                    "teamName": "Argentina Women",
-                                    "teamSName": "ARGW",
-                                    "imageId": 172537
+                                    "teamId": 119,
+                                    "teamName": "Somerset",
+                                    "teamSName": "SOM",
+                                    "imageId": 172199
                                 },
                                 "team2": {
-                                    "teamId": 1426,
-                                    "teamName": "Canada Women",
-                                    "teamSName": "CANW",
-                                    "imageId": 776230
+                                    "teamId": 143,
+                                    "teamName": "Lancashire",
+                                    "teamSName": "LANCS",
+                                    "imageId": 172210
                                 },
                                 "venueInfo": {
-                                    "ground": "St George's College Ground",
-                                    "city": "Quilmes, Buenos Aires",
-                                    "country": "Argentina",
-                                    "timezone": "-03:00"
+                                    "ground": "The Cooper Associates County Ground",
+                                    "city": "Taunton",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 144004,
+                                "seriesId": 11418,
+                                "matchDesc": "Group B",
+                                "matchFormat": "ODI",
+                                "startDate": "1786442400000",
+                                "endDate": "1786492799000",
+                                "team1": {
+                                    "teamId": 74,
+                                    "teamName": "Middlesex",
+                                    "teamSName": "MDX",
+                                    "imageId": 172170
+                                },
+                                "team2": {
+                                    "teamId": 41,
+                                    "teamName": "Sussex",
+                                    "teamSName": "SUS",
+                                    "imageId": 172148
+                                },
+                                "venueInfo": {
+                                    "ground": "Brunton Memorial Ground",
+                                    "city": "Radlett",
+                                    "country": "England",
+                                    "timezone": "+01:00"
                                 }
                             }
                         ],
-                        "seriesId": 12713,
-                        "seriesCategory": "Women"
+                        "seriesId": 11418,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "Domestic"
                     }
                 ],
-                "longDate": "1785628800000"
+                "longDate": "1786406400000"
             },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "domestic"
         },
         {
             "scheduleAdWrapper": {
@@ -2431,6 +2472,20 @@
                 "longDate": "1785715200000"
             },
             "category_type": "women"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -2624,6 +2679,51 @@
                     }
                 ],
                 "longDate": "1785974400000"
+            },
+            "category_type": "women"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "FRI, AUG 07 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "The Hundred Women's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 145267,
+                                "seriesId": 11504,
+                                "matchDesc": "24th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1786111200000",
+                                "endDate": "1786147199000",
+                                "team1": {
+                                    "teamId": 615,
+                                    "teamName": "Birmingham Phoenix Women",
+                                    "teamSName": "BRMW",
+                                    "imageId": 825105
+                                },
+                                "team2": {
+                                    "teamId": 619,
+                                    "teamName": "Sunrisers Leeds Women",
+                                    "teamSName": "SULW",
+                                    "imageId": 839409
+                                },
+                                "venueInfo": {
+                                    "ground": "Edgbaston",
+                                    "city": "Birmingham",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11504,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "Women",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1786060800000"
             },
             "category_type": "women"
         }
