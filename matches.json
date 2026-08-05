@@ -655,159 +655,6 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, AUG 04 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Delhi Premier League 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 168943,
-                                "seriesId": 12851,
-                                "matchDesc": "8th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1785830400000",
-                                "endDate": "1785887999000",
-                                "team1": {
-                                    "teamId": 2642,
-                                    "teamName": "New Delhi Tigers",
-                                    "teamSName": "NDT",
-                                    "imageId": 731749
-                                },
-                                "team2": {
-                                    "teamId": 2631,
-                                    "teamName": "Outer Delhi Warriors",
-                                    "teamSName": "ODW",
-                                    "imageId": 731748
-                                },
-                                "venueInfo": {
-                                    "ground": "Arun Jaitley Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 168953,
-                                "seriesId": 12851,
-                                "matchDesc": "9th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1785850200000",
-                                "endDate": "1785887999000",
-                                "team1": {
-                                    "teamId": 2590,
-                                    "teamName": "South Delhi Superstarz",
-                                    "teamSName": "SDS",
-                                    "imageId": 731744
-                                },
-                                "team2": {
-                                    "teamId": 2656,
-                                    "teamName": "West Delhi Lions",
-                                    "teamSName": "WDL",
-                                    "imageId": 731750
-                                },
-                                "venueInfo": {
-                                    "ground": "Arun Jaitley Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12851,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "League"
-                    },
-                    {
-                        "seriesName": "Tamil Nadu Premier League 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 166810,
-                                "seriesId": 12620,
-                                "matchDesc": "1st Match",
-                                "matchFormat": "T20",
-                                "startDate": "1785852000000",
-                                "endDate": "1785887999000",
-                                "team1": {
-                                    "teamId": 861,
-                                    "teamName": "IDream Tiruppur Tamizhans",
-                                    "teamSName": "ITT",
-                                    "imageId": 206916
-                                },
-                                "team2": {
-                                    "teamId": 371,
-                                    "teamName": "Dindigul Dragons",
-                                    "teamSName": "DGD",
-                                    "imageId": 172424
-                                },
-                                "venueInfo": {
-                                    "ground": "NPR College Ground",
-                                    "city": "Dindigul",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12620,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "League"
-                    },
-                    {
-                        "seriesName": "The Hundred Men's Competition 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 144860,
-                                "seriesId": 11493,
-                                "matchDesc": "20th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1785864600000",
-                                "endDate": "1785887999000",
-                                "team1": {
-                                    "teamId": 610,
-                                    "teamName": "Sunrisers Leeds",
-                                    "teamSName": "SUL",
-                                    "imageId": 839405
-                                },
-                                "team2": {
-                                    "teamId": 608,
-                                    "teamName": "London Spirit",
-                                    "teamSName": "LDN",
-                                    "imageId": 825046
-                                },
-                                "venueInfo": {
-                                    "ground": "Headingley",
-                                    "city": "Leeds",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11493,
-                        "seriesHomeCountry": 9,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1785801600000"
-            },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, AUG 05 2026",
                 "matchScheduleList": [
                     {
@@ -943,13 +790,13 @@
                                 "team1": {
                                     "teamId": 410,
                                     "teamName": "Trichy Grand Cholas",
-                                    "teamSName": "Trichy",
+                                    "teamSName": "TRI",
                                     "imageId": 172460
                                 },
                                 "team2": {
                                     "teamId": 369,
-                                    "teamName": "Siechem Madurai Panthers",
-                                    "teamSName": "MADURAI",
+                                    "teamName": "Madurai Panthers",
+                                    "teamSName": "MDP",
                                     "imageId": 172422
                                 },
                                 "venueInfo": {
@@ -1059,6 +906,20 @@
             "category_type": "league"
         },
         {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
             "scheduleAdWrapper": {
                 "date": "THU, AUG 06 2026",
                 "matchScheduleList": [
@@ -1134,8 +995,8 @@
                                 "endDate": "1786060799000",
                                 "team1": {
                                     "teamId": 867,
-                                    "teamName": "Salem Spartans",
-                                    "teamSName": "SLST",
+                                    "teamName": "SKM Salem Spartans",
+                                    "teamSName": "SAL",
                                     "imageId": 206918
                                 },
                                 "team2": {
@@ -1508,8 +1369,8 @@
                                 "endDate": "1786233599000",
                                 "team1": {
                                     "teamId": 369,
-                                    "teamName": "Siechem Madurai Panthers",
-                                    "teamSName": "MADURAI",
+                                    "teamName": "Madurai Panthers",
+                                    "teamSName": "MDP",
                                     "imageId": 172422
                                 },
                                 "team2": {
@@ -1534,14 +1395,14 @@
                                 "endDate": "1786233599000",
                                 "team1": {
                                     "teamId": 867,
-                                    "teamName": "Salem Spartans",
-                                    "teamSName": "SLST",
+                                    "teamName": "SKM Salem Spartans",
+                                    "teamSName": "SAL",
                                     "imageId": 206918
                                 },
                                 "team2": {
                                     "teamId": 410,
                                     "teamName": "Trichy Grand Cholas",
-                                    "teamSName": "Trichy",
+                                    "teamSName": "TRI",
                                     "imageId": 172460
                                 },
                                 "venueInfo": {
@@ -1697,9 +1558,237 @@
                         "seriesHomeCountry": 10,
                         "seriesCategory": "League",
                         "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Delhi Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 169031,
+                                "seriesId": 12851,
+                                "matchDesc": "18th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786262400000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 2609,
+                                    "teamName": "North Delhi Strikers",
+                                    "teamSName": "NDS",
+                                    "imageId": 731746
+                                },
+                                "team2": {
+                                    "teamId": 2642,
+                                    "teamName": "New Delhi Tigers",
+                                    "teamSName": "NDT",
+                                    "imageId": 731749
+                                },
+                                "venueInfo": {
+                                    "ground": "Arun Jaitley Stadium",
+                                    "city": "Delhi",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 169037,
+                                "seriesId": 12851,
+                                "matchDesc": "19th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786282200000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 2590,
+                                    "teamName": "South Delhi Superstarz",
+                                    "teamSName": "SDS",
+                                    "imageId": 731744
+                                },
+                                "team2": {
+                                    "teamId": 2620,
+                                    "teamName": "Central Delhi Kings",
+                                    "teamSName": "CDK",
+                                    "imageId": 731747
+                                },
+                                "venueInfo": {
+                                    "ground": "Arun Jaitley Stadium",
+                                    "city": "Delhi",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12851,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "Tamil Nadu Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 166873,
+                                "seriesId": 12620,
+                                "matchDesc": "9th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786269600000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 371,
+                                    "teamName": "Dindigul Dragons",
+                                    "teamSName": "DGD",
+                                    "imageId": 172424
+                                },
+                                "team2": {
+                                    "teamId": 367,
+                                    "teamName": "Chepauk Super Gillies",
+                                    "teamSName": "CSG",
+                                    "imageId": 172420
+                                },
+                                "venueInfo": {
+                                    "ground": "NPR College Ground",
+                                    "city": "Dindigul",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 166880,
+                                "seriesId": 12620,
+                                "matchDesc": "10th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786284000000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 861,
+                                    "teamName": "IDream Tiruppur Tamizhans",
+                                    "teamSName": "ITT",
+                                    "imageId": 206916
+                                },
+                                "team2": {
+                                    "teamId": 866,
+                                    "teamName": "Nellai Royal Kings",
+                                    "teamSName": "NRK",
+                                    "imageId": 206917
+                                },
+                                "venueInfo": {
+                                    "ground": "NPR College Ground",
+                                    "city": "Dindigul",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12620,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "The Hundred Men's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 144937,
+                                "seriesId": 11493,
+                                "matchDesc": "27th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1786282200000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 610,
+                                    "teamName": "Sunrisers Leeds",
+                                    "teamSName": "SUL",
+                                    "imageId": 839405
+                                },
+                                "team2": {
+                                    "teamId": 606,
+                                    "teamName": "Welsh Fire",
+                                    "teamSName": "WEF",
+                                    "imageId": 825100
+                                },
+                                "venueInfo": {
+                                    "ground": "Headingley",
+                                    "city": "Leeds",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            },
+                            {
+                                "matchId": 144948,
+                                "seriesId": 11493,
+                                "matchDesc": "28th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1786294800000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 608,
+                                    "teamName": "London Spirit",
+                                    "teamSName": "LDN",
+                                    "imageId": 825046
+                                },
+                                "team2": {
+                                    "teamId": 607,
+                                    "teamName": "Birmingham Phoenix",
+                                    "teamSName": "BRM",
+                                    "imageId": 825104
+                                },
+                                "venueInfo": {
+                                    "ground": "Lord's",
+                                    "city": "London",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11493,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
                     }
                 ],
                 "longDate": "1786233600000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "MON, AUG 10 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Caribbean Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 154337,
+                                "seriesId": 12123,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1786316400000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 1978,
+                                    "teamName": "Antigua and Barbuda Falcons",
+                                    "teamSName": "ABF",
+                                    "imageId": 825120
+                                },
+                                "team2": {
+                                    "teamId": 263,
+                                    "teamName": "Saint Lucia Kings",
+                                    "teamSName": "SLK",
+                                    "imageId": 825106
+                                },
+                                "venueInfo": {
+                                    "ground": "Arnos Vale Ground",
+                                    "city": "Kingstown, St Vincent",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12123,
+                        "seriesHomeCountry": 10,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1786320000000"
             },
             "category_type": "league"
         },
@@ -2623,98 +2712,6 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, AUG 04 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Pakistan Women tour of Sri Lanka, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 161865,
-                                "seriesId": 12609,
-                                "matchDesc": "3rd T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1785817800000",
-                                "endDate": "1785887999000",
-                                "team1": {
-                                    "teamId": 258,
-                                    "teamName": "Sri Lanka Women",
-                                    "teamSName": "SLW",
-                                    "imageId": 776267
-                                },
-                                "team2": {
-                                    "teamId": 259,
-                                    "teamName": "Pakistan Women",
-                                    "teamSName": "PAKW",
-                                    "imageId": 776311
-                                },
-                                "venueInfo": {
-                                    "ground": "Rangiri Dambulla International Stadium",
-                                    "city": "Dambulla",
-                                    "country": "Sri Lanka",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12609,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "The Hundred Women's Competition 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 145223,
-                                "seriesId": 11504,
-                                "matchDesc": "20th Match",
-                                "matchFormat": "HUN",
-                                "startDate": "1785852000000",
-                                "endDate": "1785887999000",
-                                "team1": {
-                                    "teamId": 619,
-                                    "teamName": "Sunrisers Leeds Women",
-                                    "teamSName": "SULW",
-                                    "imageId": 839409
-                                },
-                                "team2": {
-                                    "teamId": 616,
-                                    "teamName": "London Spirit Women",
-                                    "teamSName": "LDNW",
-                                    "imageId": 825047
-                                },
-                                "venueInfo": {
-                                    "ground": "Headingley",
-                                    "city": "Leeds",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11504,
-                        "seriesHomeCountry": 9,
-                        "seriesCategory": "Women",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1785801600000"
-            },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, AUG 05 2026",
                 "matchScheduleList": [
                     {
@@ -2784,6 +2781,20 @@
                 "longDate": "1785888000000"
             },
             "category_type": "women"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -2944,6 +2955,78 @@
                     }
                 ],
                 "longDate": "1786147200000"
+            },
+            "category_type": "women"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "SUN, AUG 09 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "The Hundred Women's Competition 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 145291,
+                                "seriesId": 11504,
+                                "matchDesc": "27th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1786269600000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 619,
+                                    "teamName": "Sunrisers Leeds Women",
+                                    "teamSName": "SULW",
+                                    "imageId": 839409
+                                },
+                                "team2": {
+                                    "teamId": 614,
+                                    "teamName": "Welsh Fire Women",
+                                    "teamSName": "WELW",
+                                    "imageId": 825101
+                                },
+                                "venueInfo": {
+                                    "ground": "Headingley",
+                                    "city": "Leeds",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            },
+                            {
+                                "matchId": 145302,
+                                "seriesId": 11504,
+                                "matchDesc": "28th Match",
+                                "matchFormat": "HUN",
+                                "startDate": "1786282200000",
+                                "endDate": "1786319999000",
+                                "team1": {
+                                    "teamId": 616,
+                                    "teamName": "London Spirit Women",
+                                    "teamSName": "LDNW",
+                                    "imageId": 825047
+                                },
+                                "team2": {
+                                    "teamId": 615,
+                                    "teamName": "Birmingham Phoenix Women",
+                                    "teamSName": "BRMW",
+                                    "imageId": 825105
+                                },
+                                "venueInfo": {
+                                    "ground": "Lord's",
+                                    "city": "London",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11504,
+                        "seriesHomeCountry": 9,
+                        "seriesCategory": "Women",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1786233600000"
             },
             "category_type": "women"
         }
