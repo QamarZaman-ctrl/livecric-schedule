@@ -430,101 +430,8 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, AUG 25 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Delhi Premier League 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 169203,
-                                "seriesId": 12851,
-                                "matchDesc": "40th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1787664600000",
-                                "endDate": "1787702399000",
-                                "team1": {
-                                    "teamId": 2645,
-                                    "teamName": "Purani Dilli 6",
-                                    "teamSName": "PD",
-                                    "imageId": 731751
-                                },
-                                "team2": {
-                                    "teamId": 2601,
-                                    "teamName": "East Delhi Riders",
-                                    "teamSName": "EDR",
-                                    "imageId": 731745
-                                },
-                                "venueInfo": {
-                                    "ground": "Arun Jaitley Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12851,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "League"
-                    }
-                ],
-                "longDate": "1787616000000"
-            },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, AUG 26 2026",
                 "matchScheduleList": [
-                    {
-                        "seriesName": "Caribbean Premier League 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 154474,
-                                "seriesId": 12123,
-                                "matchDesc": "16th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1787698800000",
-                                "endDate": "1787702399000",
-                                "team1": {
-                                    "teamId": 1978,
-                                    "teamName": "Antigua and Barbuda Falcons",
-                                    "teamSName": "ABF",
-                                    "imageId": 825120
-                                },
-                                "team2": {
-                                    "teamId": 262,
-                                    "teamName": "Barbados Tridents",
-                                    "teamSName": "BBT",
-                                    "imageId": 1050666
-                                },
-                                "venueInfo": {
-                                    "ground": "Sir Vivian Richards Stadium",
-                                    "city": "North Sound, Antigua",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 12123,
-                        "seriesHomeCountry": 10,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
-                    },
                     {
                         "seriesName": "Delhi Premier League 2026",
                         "matchInfo": [
@@ -542,10 +449,10 @@
                                     "imageId": 731747
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 2590,
+                                    "teamName": "South Delhi Superstarz",
+                                    "teamSName": "SDS",
+                                    "imageId": 731744
                                 },
                                 "venueInfo": {
                                     "ground": "Arun Jaitley Stadium",
@@ -562,16 +469,16 @@
                                 "startDate": "1787751000000",
                                 "endDate": "1787788799000",
                                 "team1": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 2645,
+                                    "teamName": "Purani Dilli 6",
+                                    "teamSName": "PD",
+                                    "imageId": 731751
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 2631,
+                                    "teamName": "Outer Delhi Warriors",
+                                    "teamSName": "ODW",
+                                    "imageId": 731748
                                 },
                                 "venueInfo": {
                                     "ground": "Arun Jaitley Stadium",
@@ -658,6 +565,20 @@
                 "longDate": "1787702400000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1060,9 +981,150 @@
                         "seriesHomeCountry": 10,
                         "seriesCategory": "League",
                         "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "European T20 Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 169283,
+                                "seriesId": 12870,
+                                "matchDesc": "7th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788082200000",
+                                "endDate": "1788134399000",
+                                "team1": {
+                                    "teamId": 572,
+                                    "teamName": "Amsterdam Flames",
+                                    "teamSName": "ADF",
+                                    "imageId": 1044576
+                                },
+                                "team2": {
+                                    "teamId": 577,
+                                    "teamName": "Belfast Wolves",
+                                    "teamSName": "BFW",
+                                    "imageId": 1044577
+                                },
+                                "venueInfo": {
+                                    "ground": "Sportpark Duivesteijn",
+                                    "city": "Voorburg",
+                                    "country": "Netherlands",
+                                    "timezone": "+02:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            },
+                            {
+                                "matchId": 169293,
+                                "seriesId": 12870,
+                                "matchDesc": "8th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788095700000",
+                                "endDate": "1788134399000",
+                                "team1": {
+                                    "teamId": 574,
+                                    "teamName": "Edinburgh Castle Rockers",
+                                    "teamSName": "ECR",
+                                    "imageId": 1044579
+                                },
+                                "team2": {
+                                    "teamId": 576,
+                                    "teamName": "Dublin Guardians",
+                                    "teamSName": "DBG",
+                                    "imageId": 1044578
+                                },
+                                "venueInfo": {
+                                    "ground": "Sportpark Duivesteijn",
+                                    "city": "Voorburg",
+                                    "country": "Netherlands",
+                                    "timezone": "+02:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12870,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Delhi Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 169231,
+                                "seriesId": 12851,
+                                "matchDesc": "Final",
+                                "matchFormat": "T20",
+                                "startDate": "1788100200000",
+                                "endDate": "1788134399000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "Arun Jaitley Stadium",
+                                    "city": "Delhi",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12851,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "League"
                     }
                 ],
                 "longDate": "1788048000000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "MON, AUG 31 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Caribbean Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 154524,
+                                "seriesId": 12123,
+                                "matchDesc": "21st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788130800000",
+                                "endDate": "1788134399000",
+                                "team1": {
+                                    "teamId": 302,
+                                    "teamName": "St Kitts and Nevis Patriots",
+                                    "teamSName": "SNP",
+                                    "imageId": 825128
+                                },
+                                "team2": {
+                                    "teamId": 1978,
+                                    "teamName": "Antigua and Barbuda Falcons",
+                                    "teamSName": "ABF",
+                                    "imageId": 825120
+                                },
+                                "venueInfo": {
+                                    "ground": "Warner Park",
+                                    "city": "Basseterre, St Kitts",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12123,
+                        "seriesHomeCountry": 10,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1788134400000"
             },
             "category_type": "league"
         },
@@ -1957,10 +2019,10 @@
                                     "imageId": 172290
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 235,
+                                    "teamName": "East Zone",
+                                    "teamSName": "EZONE",
+                                    "imageId": 172288
                                 },
                                 "venueInfo": {
                                     "ground": "BCCI Centre of Excellence Ground 1",
@@ -2365,10 +2427,10 @@
                                     "imageId": 172290
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 235,
+                                    "teamName": "East Zone",
+                                    "teamSName": "EZONE",
+                                    "imageId": 172288
                                 },
                                 "venueInfo": {
                                     "ground": "BCCI Centre of Excellence Ground 1",
@@ -2525,10 +2587,10 @@
                                     "imageId": 172290
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 235,
+                                    "teamName": "East Zone",
+                                    "teamSName": "EZONE",
+                                    "imageId": 172288
                                 },
                                 "venueInfo": {
                                     "ground": "BCCI Centre of Excellence Ground 1",
@@ -2659,10 +2721,10 @@
                                     "imageId": 172290
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 235,
+                                    "teamName": "East Zone",
+                                    "teamSName": "EZONE",
+                                    "imageId": 172288
                                 },
                                 "venueInfo": {
                                     "ground": "BCCI Centre of Excellence Ground 1",
