@@ -2,147 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "SAT, AUG 29 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Pakistan tour of England 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 129585,
-                                "seriesId": 10565,
-                                "matchDesc": "2nd Test, Day 3",
-                                "matchFormat": "TEST",
-                                "startDate": "1787997600000",
-                                "endDate": "1788220799000",
-                                "team1": {
-                                    "teamId": 9,
-                                    "teamName": "England",
-                                    "teamSName": "ENG",
-                                    "isFullMember": true,
-                                    "imageId": 776237
-                                },
-                                "team2": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "venueInfo": {
-                                    "ground": "Lord's",
-                                    "city": "London",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 10565,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Namibia T20I Tri-Series 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 169913,
-                                "seriesId": 12933,
-                                "matchDesc": "2nd Match",
-                                "matchFormat": "T20",
-                                "startDate": "1788004800000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 11,
-                                    "teamName": "South Africa",
-                                    "teamSName": "RSA",
-                                    "isFullMember": true,
-                                    "imageId": 776287
-                                },
-                                "team2": {
-                                    "teamId": 12,
-                                    "teamName": "Zimbabwe",
-                                    "teamSName": "ZIM",
-                                    "isFullMember": true,
-                                    "imageId": 776198
-                                },
-                                "venueInfo": {
-                                    "ground": "Namibia Cricket Ground",
-                                    "city": " Windhoek",
-                                    "country": "Namibia",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12933,
-                        "seriesCategory": "International"
-                    }
-                ],
-                "longDate": "1787961600000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
-                "date": "SUN, AUG 30 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Pakistan tour of England 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 129585,
-                                "seriesId": 10565,
-                                "matchDesc": "2nd Test, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1788084000000",
-                                "endDate": "1788220799000",
-                                "team1": {
-                                    "teamId": 9,
-                                    "teamName": "England",
-                                    "teamSName": "ENG",
-                                    "isFullMember": true,
-                                    "imageId": 776237
-                                },
-                                "team2": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "venueInfo": {
-                                    "ground": "Lord's",
-                                    "city": "London",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 10565,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1788048000000"
-            },
-            "category_type": "international"
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "MON, AUG 31 2026",
                 "matchScheduleList": [
                     {
@@ -220,6 +79,20 @@
                 "longDate": "1788134400000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -353,129 +226,50 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SAT, AUG 29 2026",
+                "date": "SUN, SEP 06 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "European T20 Premier League 2026",
+                        "seriesName": "Namibia T20I Tri-Series 2026",
                         "matchInfo": [
                             {
-                                "matchId": 169270,
-                                "seriesId": 12870,
-                                "matchDesc": "5th Match",
+                                "matchId": 170017,
+                                "seriesId": 12933,
+                                "matchDesc": "Final",
                                 "matchFormat": "T20",
-                                "startDate": "1787995800000",
-                                "endDate": "1788047999000",
+                                "startDate": "1788696000000",
+                                "endDate": "1788739199000",
                                 "team1": {
-                                    "teamId": 575,
-                                    "teamName": "Glasgow Cosmics",
-                                    "teamSName": "GGC",
-                                    "imageId": 1044580
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
                                 },
                                 "team2": {
-                                    "teamId": 576,
-                                    "teamName": "Dublin Guardians",
-                                    "teamSName": "DBG",
-                                    "imageId": 1061703
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
                                 },
                                 "venueInfo": {
-                                    "ground": "Sportpark Duivesteijn",
-                                    "city": "Voorburg",
-                                    "country": "Netherlands",
+                                    "ground": "Namibia Cricket Ground",
+                                    "city": " Windhoek",
+                                    "country": "Namibia",
                                     "timezone": "+02:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 169273,
-                                "seriesId": 12870,
-                                "matchDesc": "6th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1788009300000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 573,
-                                    "teamName": "Rotterdam Dockers",
-                                    "teamSName": "RDD",
-                                    "imageId": 1044574
-                                },
-                                "team2": {
-                                    "teamId": 577,
-                                    "teamName": "Belfast Wolves",
-                                    "teamSName": "BFW",
-                                    "imageId": 1044577
-                                },
-                                "venueInfo": {
-                                    "ground": "Sportpark Duivesteijn",
-                                    "city": "Voorburg",
-                                    "country": "Netherlands",
-                                    "timezone": "+02:00"
-                                },
-                                "isLiveStreamEnabled": true
+                                }
                             }
                         ],
-                        "seriesId": 12870,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
+                        "seriesId": 12933,
+                        "seriesCategory": "International"
                     }
                 ],
-                "longDate": "1787961600000"
+                "longDate": "1788652800000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
                 "date": "SUN, AUG 30 2026",
                 "matchScheduleList": [
-                    {
-                        "seriesName": "Caribbean Premier League 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 154513,
-                                "seriesId": 12123,
-                                "matchDesc": "20th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1788044400000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 271,
-                                    "teamName": "Trinbago Knight Riders",
-                                    "teamSName": "TKR",
-                                    "imageId": 825110
-                                },
-                                "team2": {
-                                    "teamId": 3208,
-                                    "teamName": "Jamaica Kingsmen",
-                                    "teamSName": "JKM",
-                                    "imageId": 943098
-                                },
-                                "venueInfo": {
-                                    "ground": "Brian Lara Stadium",
-                                    "city": "Tarouba, Trinidad",
-                                    "country": "West Indies",
-                                    "timezone": "-04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 12123,
-                        "seriesHomeCountry": 10,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
-                    },
                     {
                         "seriesName": "European T20 Premier League 2026",
                         "matchInfo": [
@@ -539,6 +333,39 @@
                         "isLiveStreamEnabled": true
                     },
                     {
+                        "seriesName": "Sher-E-Punjab T20 League, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 171080,
+                                "seriesId": 13073,
+                                "matchDesc": "1st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788100200000",
+                                "endDate": "1788134399000",
+                                "team1": {
+                                    "teamId": 3567,
+                                    "teamName": "Amritsar Soormas",
+                                    "teamSName": "AMS",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3601,
+                                    "teamName": "Mohali Kings",
+                                    "teamSName": "MHK",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 13073,
+                        "seriesCategory": "League"
+                    },
+                    {
                         "seriesName": "Delhi Premier League 2026",
                         "matchInfo": [
                             {
@@ -576,6 +403,20 @@
                 "longDate": "1788048000000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -616,6 +457,65 @@
                         "seriesHomeCountry": 10,
                         "seriesCategory": "League",
                         "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Sher-E-Punjab T20 League, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 171083,
+                                "seriesId": 13073,
+                                "matchDesc": "2nd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788161400000",
+                                "endDate": "1788220799000",
+                                "team1": {
+                                    "teamId": 3581,
+                                    "teamName": "Jalandhar Warriors",
+                                    "teamSName": "WAR",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3561,
+                                    "teamName": "Fazilka Falcons",
+                                    "teamSName": "FAL",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 171087,
+                                "seriesId": 13073,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788183000000",
+                                "endDate": "1788220799000",
+                                "team1": {
+                                    "teamId": 3601,
+                                    "teamName": "Mohali Kings",
+                                    "teamSName": "MHK",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3571,
+                                    "teamName": "Bathinda Royals",
+                                    "teamSName": "BTR",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 13073,
+                        "seriesCategory": "League"
                     }
                 ],
                 "longDate": "1788134400000"
@@ -626,6 +526,65 @@
             "scheduleAdWrapper": {
                 "date": "TUE, SEP 01 2026",
                 "matchScheduleList": [
+                    {
+                        "seriesName": "Sher-E-Punjab T20 League, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 171097,
+                                "seriesId": 13073,
+                                "matchDesc": "4th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788247800000",
+                                "endDate": "1788307199000",
+                                "team1": {
+                                    "teamId": 3571,
+                                    "teamName": "Bathinda Royals",
+                                    "teamSName": "BTR",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3591,
+                                    "teamName": "Ludhiana Lions",
+                                    "teamSName": "LIO",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 171103,
+                                "seriesId": 13073,
+                                "matchDesc": "5th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788269400000",
+                                "endDate": "1788307199000",
+                                "team1": {
+                                    "teamId": 3581,
+                                    "teamName": "Jalandhar Warriors",
+                                    "teamSName": "WAR",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3567,
+                                    "teamName": "Amritsar Soormas",
+                                    "teamSName": "AMS",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 13073,
+                        "seriesCategory": "League"
+                    },
                     {
                         "seriesName": "European T20 Premier League 2026",
                         "matchInfo": [
@@ -638,7 +597,7 @@
                                 "endDate": "1788307199000",
                                 "team1": {
                                     "teamId": 575,
-                                    "teamName": "Glasgow Cosmics",
+                                    "teamName": "Glasgow Cosmic",
                                     "teamSName": "GGC",
                                     "imageId": 1044580
                                 },
@@ -705,6 +664,65 @@
                         "seriesHomeCountry": 10,
                         "seriesCategory": "League",
                         "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Sher-E-Punjab T20 League, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 171110,
+                                "seriesId": 13073,
+                                "matchDesc": "6th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788334200000",
+                                "endDate": "1788393599000",
+                                "team1": {
+                                    "teamId": 3601,
+                                    "teamName": "Mohali Kings",
+                                    "teamSName": "MHK",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3591,
+                                    "teamName": "Ludhiana Lions",
+                                    "teamSName": "LIO",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 171120,
+                                "seriesId": 13073,
+                                "matchDesc": "7th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788355800000",
+                                "endDate": "1788393599000",
+                                "team1": {
+                                    "teamId": 3561,
+                                    "teamName": "Fazilka Falcons",
+                                    "teamSName": "FAL",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3567,
+                                    "teamName": "Amritsar Soormas",
+                                    "teamSName": "AMS",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 13073,
+                        "seriesCategory": "League"
                     },
                     {
                         "seriesName": "European T20 Premier League 2026",
@@ -812,9 +830,148 @@
                         "seriesHomeCountry": 10,
                         "seriesCategory": "League",
                         "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Sher-E-Punjab T20 League, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 171127,
+                                "seriesId": 13073,
+                                "matchDesc": "8th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788420600000",
+                                "endDate": "1788479999000",
+                                "team1": {
+                                    "teamId": 3571,
+                                    "teamName": "Bathinda Royals",
+                                    "teamSName": "BTR",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3581,
+                                    "teamName": "Jalandhar Warriors",
+                                    "teamSName": "WAR",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 171137,
+                                "seriesId": 13073,
+                                "matchDesc": "9th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788442200000",
+                                "endDate": "1788479999000",
+                                "team1": {
+                                    "teamId": 3561,
+                                    "teamName": "Fazilka Falcons",
+                                    "teamSName": "FAL",
+                                    "imageId": 174284
+                                },
+                                "team2": {
+                                    "teamId": 3601,
+                                    "teamName": "Mohali Kings",
+                                    "teamSName": "MHK",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                                    "city": "Mohali",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 13073,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "European T20 Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 169320,
+                                "seriesId": 12870,
+                                "matchDesc": "12th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788441300000",
+                                "endDate": "1788479999000",
+                                "team1": {
+                                    "teamId": 572,
+                                    "teamName": "Amsterdam Flames",
+                                    "teamSName": "ADF",
+                                    "imageId": 1044576
+                                },
+                                "team2": {
+                                    "teamId": 575,
+                                    "teamName": "Glasgow Cosmic",
+                                    "teamSName": "GGC",
+                                    "imageId": 1044580
+                                },
+                                "venueInfo": {
+                                    "ground": "Sportpark Duivesteijn",
+                                    "city": "Voorburg",
+                                    "country": "Netherlands",
+                                    "timezone": "+02:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12870,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
                     }
                 ],
                 "longDate": "1788393600000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "FRI, SEP 04 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Caribbean Premier League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 154562,
+                                "seriesId": 12123,
+                                "matchDesc": "25th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1788476400000",
+                                "endDate": "1788479999000",
+                                "team1": {
+                                    "teamId": 302,
+                                    "teamName": "St Kitts and Nevis Patriots",
+                                    "teamSName": "SNP",
+                                    "imageId": 825128
+                                },
+                                "team2": {
+                                    "teamId": 263,
+                                    "teamName": "Saint Lucia Kings",
+                                    "teamSName": "SLK",
+                                    "imageId": 825106
+                                },
+                                "venueInfo": {
+                                    "ground": "Warner Park",
+                                    "city": "Basseterre, St Kitts",
+                                    "country": "West Indies",
+                                    "timezone": "-04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12123,
+                        "seriesHomeCountry": 10,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1788480000000"
             },
             "category_type": "league"
         },
@@ -1114,6 +1271,32 @@
                         "seriesName": "County Championship Division Two 2026",
                         "matchInfo": [
                             {
+                                "matchId": 143141,
+                                "seriesId": 11416,
+                                "matchDesc": "40th Match, Day 4",
+                                "matchFormat": "TEST",
+                                "startDate": "1788084000000",
+                                "endDate": "1788134399000",
+                                "team1": {
+                                    "teamId": 141,
+                                    "teamName": "Durham",
+                                    "teamSName": "DUR",
+                                    "imageId": 172208
+                                },
+                                "team2": {
+                                    "teamId": 151,
+                                    "teamName": "Gloucestershire",
+                                    "teamSName": "GLOUCS",
+                                    "imageId": 172218
+                                },
+                                "venueInfo": {
+                                    "ground": "Riverside Ground",
+                                    "city": "Chester-le-Street",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
                                 "matchId": 143130,
                                 "seriesId": 11416,
                                 "matchDesc": "39th Match, Day 4",
@@ -1187,32 +1370,6 @@
                                 "venueInfo": {
                                     "ground": "County Ground",
                                     "city": "Derby",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 143141,
-                                "seriesId": 11416,
-                                "matchDesc": "40th Match, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1788084000000",
-                                "endDate": "1788134399000",
-                                "team1": {
-                                    "teamId": 141,
-                                    "teamName": "Durham",
-                                    "teamSName": "DUR",
-                                    "imageId": 172208
-                                },
-                                "team2": {
-                                    "teamId": 151,
-                                    "teamName": "Gloucestershire",
-                                    "teamSName": "GLOUCS",
-                                    "imageId": 172218
-                                },
-                                "venueInfo": {
-                                    "ground": "Riverside Ground",
-                                    "city": "Chester-le-Street",
                                     "country": "England",
                                     "timezone": "+01:00"
                                 }
@@ -1568,32 +1725,6 @@
                         "seriesName": "ACC Men's Premier Cup, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 170241,
-                                "seriesId": 12993,
-                                "matchDesc": "8th Match, Group B",
-                                "matchFormat": "ODI",
-                                "startDate": "1788312600000",
-                                "endDate": "1788393599000",
-                                "team1": {
-                                    "teamId": 304,
-                                    "teamName": "Oman",
-                                    "teamSName": "OMAN",
-                                    "imageId": 776328
-                                },
-                                "team2": {
-                                    "teamId": 525,
-                                    "teamName": "Qatar",
-                                    "teamSName": "QAT",
-                                    "imageId": 172575
-                                },
-                                "venueInfo": {
-                                    "ground": "YSD-UKM Cricket Oval",
-                                    "city": "Bangi",
-                                    "country": "Malaysia",
-                                    "timezone": "+08:00"
-                                }
-                            },
-                            {
                                 "matchId": 170231,
                                 "seriesId": 12993,
                                 "matchDesc": "7th Match, Group A",
@@ -1615,6 +1746,32 @@
                                 "venueInfo": {
                                     "ground": "Bayuemas Oval",
                                     "city": "Kuala Lumpur",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 170241,
+                                "seriesId": 12993,
+                                "matchDesc": "8th Match, Group B",
+                                "matchFormat": "ODI",
+                                "startDate": "1788312600000",
+                                "endDate": "1788393599000",
+                                "team1": {
+                                    "teamId": 304,
+                                    "teamName": "Oman",
+                                    "teamSName": "OMAN",
+                                    "imageId": 776328
+                                },
+                                "team2": {
+                                    "teamId": 525,
+                                    "teamName": "Qatar",
+                                    "teamSName": "QAT",
+                                    "imageId": 172575
+                                },
+                                "venueInfo": {
+                                    "ground": "YSD-UKM Cricket Oval",
+                                    "city": "Bangi",
                                     "country": "Malaysia",
                                     "timezone": "+08:00"
                                 }
@@ -1719,32 +1876,6 @@
                         "seriesName": "County Championship Division One 2026",
                         "matchInfo": [
                             {
-                                "matchId": 142583,
-                                "seriesId": 11408,
-                                "matchDesc": "55th Match, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1788343200000",
-                                "endDate": "1788652799000",
-                                "team1": {
-                                    "teamId": 153,
-                                    "teamName": "Hampshire",
-                                    "teamSName": "HAM",
-                                    "imageId": 172220
-                                },
-                                "team2": {
-                                    "teamId": 140,
-                                    "teamName": "Warwickshire",
-                                    "teamSName": "WARKS",
-                                    "imageId": 172207
-                                },
-                                "venueInfo": {
-                                    "ground": "The Rose Bowl",
-                                    "city": "Southampton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
                                 "matchId": 142572,
                                 "seriesId": 11408,
                                 "matchDesc": "54th Match, Day 1",
@@ -1766,6 +1897,32 @@
                                 "venueInfo": {
                                     "ground": "The Cooper Associates County Ground",
                                     "city": "Taunton",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 142583,
+                                "seriesId": 11408,
+                                "matchDesc": "55th Match, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1788343200000",
+                                "endDate": "1788652799000",
+                                "team1": {
+                                    "teamId": 153,
+                                    "teamName": "Hampshire",
+                                    "teamSName": "HAM",
+                                    "imageId": 172220
+                                },
+                                "team2": {
+                                    "teamId": 140,
+                                    "teamName": "Warwickshire",
+                                    "teamSName": "WARKS",
+                                    "imageId": 172207
+                                },
+                                "venueInfo": {
+                                    "ground": "The Rose Bowl",
+                                    "city": "Southampton",
                                     "country": "England",
                                     "timezone": "+01:00"
                                 }
@@ -2035,58 +2192,6 @@
                         "seriesName": "County Championship Division One 2026",
                         "matchInfo": [
                             {
-                                "matchId": 142583,
-                                "seriesId": 11408,
-                                "matchDesc": "55th Match, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1788429600000",
-                                "endDate": "1788652799000",
-                                "team1": {
-                                    "teamId": 153,
-                                    "teamName": "Hampshire",
-                                    "teamSName": "HAM",
-                                    "imageId": 172220
-                                },
-                                "team2": {
-                                    "teamId": 140,
-                                    "teamName": "Warwickshire",
-                                    "teamSName": "WARKS",
-                                    "imageId": 172207
-                                },
-                                "venueInfo": {
-                                    "ground": "The Rose Bowl",
-                                    "city": "Southampton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 142572,
-                                "seriesId": 11408,
-                                "matchDesc": "54th Match, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1788429600000",
-                                "endDate": "1788652799000",
-                                "team1": {
-                                    "teamId": 119,
-                                    "teamName": "Somerset",
-                                    "teamSName": "SOM",
-                                    "imageId": 172199
-                                },
-                                "team2": {
-                                    "teamId": 149,
-                                    "teamName": "Glamorgan",
-                                    "teamSName": "GLAM",
-                                    "imageId": 172216
-                                },
-                                "venueInfo": {
-                                    "ground": "The Cooper Associates County Ground",
-                                    "city": "Taunton",
-                                    "country": "England",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
                                 "matchId": 142561,
                                 "seriesId": 11408,
                                 "matchDesc": "53rd Match, Day 2",
@@ -2134,6 +2239,58 @@
                                 "venueInfo": {
                                     "ground": "Kennington Oval",
                                     "city": "London",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 142572,
+                                "seriesId": 11408,
+                                "matchDesc": "54th Match, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1788429600000",
+                                "endDate": "1788652799000",
+                                "team1": {
+                                    "teamId": 119,
+                                    "teamName": "Somerset",
+                                    "teamSName": "SOM",
+                                    "imageId": 172199
+                                },
+                                "team2": {
+                                    "teamId": 149,
+                                    "teamName": "Glamorgan",
+                                    "teamSName": "GLAM",
+                                    "imageId": 172216
+                                },
+                                "venueInfo": {
+                                    "ground": "The Cooper Associates County Ground",
+                                    "city": "Taunton",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 142583,
+                                "seriesId": 11408,
+                                "matchDesc": "55th Match, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1788429600000",
+                                "endDate": "1788652799000",
+                                "team1": {
+                                    "teamId": 153,
+                                    "teamName": "Hampshire",
+                                    "teamSName": "HAM",
+                                    "imageId": 172220
+                                },
+                                "team2": {
+                                    "teamId": 140,
+                                    "teamName": "Warwickshire",
+                                    "teamSName": "WARKS",
+                                    "imageId": 172207
+                                },
+                                "venueInfo": {
+                                    "ground": "The Rose Bowl",
+                                    "city": "Southampton",
                                     "country": "England",
                                     "timezone": "+01:00"
                                 }
@@ -2283,208 +2440,6 @@
                 "longDate": "1788393600000"
             },
             "category_type": "domestic"
-        },
-        {
-            "scheduleAdWrapper": {
-                "date": "SAT, AUG 29 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Women's Continental Cup 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 169631,
-                                "seriesId": 12901,
-                                "matchDesc": "10th Match, Group B",
-                                "matchFormat": "T20",
-                                "startDate": "1787981400000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 1055,
-                                    "teamName": "Norway Women",
-                                    "teamSName": "NOYW",
-                                    "imageId": 247202
-                                },
-                                "team2": {
-                                    "teamId": 1668,
-                                    "teamName": "Greece Women",
-                                    "teamSName": "GRCW",
-                                    "imageId": 338104
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground, Bucharest",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            },
-                            {
-                                "matchId": 169641,
-                                "seriesId": 12901,
-                                "matchDesc": "11th Match, Group A",
-                                "matchFormat": "T20",
-                                "startDate": "1787995800000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 1104,
-                                    "teamName": "Guernsey Women",
-                                    "teamSName": "GGYW",
-                                    "imageId": 539690
-                                },
-                                "team2": {
-                                    "teamId": 1987,
-                                    "teamName": "Czech Republic Women",
-                                    "teamSName": "CZEW",
-                                    "imageId": 501075
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground, Bucharest",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            },
-                            {
-                                "matchId": 169651,
-                                "seriesId": 12901,
-                                "matchDesc": "12th Match, Group B",
-                                "matchFormat": "T20",
-                                "startDate": "1788008400000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 1209,
-                                    "teamName": "Isle of Man Women",
-                                    "teamSName": "IOMW",
-                                    "imageId": 248416
-                                },
-                                "team2": {
-                                    "teamId": 1055,
-                                    "teamName": "Norway Women",
-                                    "teamSName": "NOYW",
-                                    "imageId": 247202
-                                },
-                                "venueInfo": {
-                                    "ground": "Moara Vlasiei Cricket Ground, Bucharest",
-                                    "city": "Ilfov County",
-                                    "country": "Romania",
-                                    "timezone": "+03:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12901,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "Nordic Women's T20I Cup 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 170407,
-                                "seriesId": 13003,
-                                "matchDesc": "3rd Match",
-                                "matchFormat": "T20",
-                                "startDate": "1787990400000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 504,
-                                    "teamName": "Germany Women",
-                                    "teamSName": "GERW",
-                                    "imageId": 776262
-                                },
-                                "team2": {
-                                    "teamId": 508,
-                                    "teamName": "Denmark Women",
-                                    "teamSName": "DENW",
-                                    "imageId": 776234
-                                },
-                                "venueInfo": {
-                                    "ground": "GelsenTrabPark",
-                                    "city": "Gelsenkirchen",
-                                    "country": "Germany",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 170411,
-                                "seriesId": 13003,
-                                "matchDesc": "4th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1788008400000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 504,
-                                    "teamName": "Germany Women",
-                                    "teamSName": "GERW",
-                                    "imageId": 776262
-                                },
-                                "team2": {
-                                    "teamId": 1048,
-                                    "teamName": "Sweden Women",
-                                    "teamSName": "SWEW",
-                                    "imageId": 248453
-                                },
-                                "venueInfo": {
-                                    "ground": "GelsenTrabPark",
-                                    "city": "Gelsenkirchen",
-                                    "country": "Germany",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13003,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "Women's Asia Cup 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 169807,
-                                "seriesId": 12927,
-                                "matchDesc": "Match 2, Group B",
-                                "matchFormat": "T20",
-                                "startDate": "1788013800000",
-                                "endDate": "1788047999000",
-                                "team1": {
-                                    "teamId": 258,
-                                    "teamName": "Sri Lanka Women",
-                                    "teamSName": "SLW",
-                                    "imageId": 776267
-                                },
-                                "team2": {
-                                    "teamId": 449,
-                                    "teamName": "United Arab Emirates Women",
-                                    "teamSName": "UAEW",
-                                    "imageId": 776246
-                                },
-                                "venueInfo": {
-                                    "ground": "Dubai International Cricket Stadium",
-                                    "city": "Dubai",
-                                    "country": "United Arab Emirates",
-                                    "timezone": "+04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 12927,
-                        "seriesCategory": "Women",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1787961600000"
-            },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
         },
         {
             "scheduleAdWrapper": {
@@ -2682,6 +2637,20 @@
             "category_type": "women"
         },
         {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
             "scheduleAdWrapper": {
                 "date": "MON, AUG 31 2026",
                 "matchScheduleList": [
@@ -2876,6 +2845,83 @@
                     }
                 ],
                 "longDate": "1788307200000"
+            },
+            "category_type": "women"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "THU, SEP 03 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Ireland Women tour of England 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 129535,
+                                "seriesId": 10548,
+                                "matchDesc": "2nd ODI",
+                                "matchFormat": "ODI",
+                                "startDate": "1788436800000",
+                                "endDate": "1788479999000",
+                                "team1": {
+                                    "teamId": 99,
+                                    "teamName": "England Women",
+                                    "teamSName": "ENGW",
+                                    "imageId": 776241
+                                },
+                                "team2": {
+                                    "teamId": 189,
+                                    "teamName": "Ireland Women",
+                                    "teamSName": "IREW",
+                                    "imageId": 839468
+                                },
+                                "venueInfo": {
+                                    "ground": "County Ground",
+                                    "city": "Derby",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 10548,
+                        "seriesCategory": "Women"
+                    },
+                    {
+                        "seriesName": "Women's Asia Cup 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 169841,
+                                "seriesId": 12927,
+                                "matchDesc": "Match 7, Group A",
+                                "matchFormat": "T20",
+                                "startDate": "1788445800000",
+                                "endDate": "1788479999000",
+                                "team1": {
+                                    "teamId": 97,
+                                    "teamName": "India Women",
+                                    "teamSName": "INDW",
+                                    "imageId": 776182
+                                },
+                                "team2": {
+                                    "teamId": 502,
+                                    "teamName": "Hong Kong, China Women",
+                                    "teamSName": "HKC W",
+                                    "imageId": 776276
+                                },
+                                "venueInfo": {
+                                    "ground": "Dubai International Cricket Stadium",
+                                    "city": "Dubai",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12927,
+                        "seriesCategory": "Women",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1788393600000"
             },
             "category_type": "women"
         }
