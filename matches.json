@@ -2,62 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "MON, SEP 14 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "United Arab Emirates tour of Malaysia, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 171671,
-                                "seriesId": 13131,
-                                "matchDesc": "1st T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1789351200000",
-                                "endDate": "1789430399000",
-                                "team1": {
-                                    "teamId": 71,
-                                    "teamName": "Malaysia",
-                                    "teamSName": "MLY",
-                                    "imageId": 776319
-                                },
-                                "team2": {
-                                    "teamId": 7,
-                                    "teamName": "United Arab Emirates",
-                                    "teamSName": "UAE",
-                                    "imageId": 776242
-                                },
-                                "venueInfo": {
-                                    "ground": "Bayuemas Oval",
-                                    "city": "Kuala Lumpur",
-                                    "country": "Malaysia",
-                                    "timezone": "+08:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13131,
-                        "seriesCategory": "International"
-                    }
-                ],
-                "longDate": "1789344000000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "TUE, SEP 15 2026",
                 "matchScheduleList": [
                     {
@@ -232,6 +176,20 @@
                 "longDate": "1789430400000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -609,6 +567,118 @@
                     }
                 ],
                 "longDate": "1789689600000"
+            },
+            "category_type": "international"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "SAT, SEP 19 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Hong Kong, China tour of Japan 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 171257,
+                                "seriesId": 13080,
+                                "matchDesc": "1st T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1789779600000",
+                                "endDate": "1789862399000",
+                                "team1": {
+                                    "teamId": 547,
+                                    "teamName": "Japan",
+                                    "teamSName": "JPN",
+                                    "imageId": 248418
+                                },
+                                "team2": {
+                                    "teamId": 8,
+                                    "teamName": "Hong Kong, China",
+                                    "teamSName": "HKC",
+                                    "imageId": 776271
+                                },
+                                "venueInfo": {
+                                    "ground": "Sano International Cricket Ground",
+                                    "city": "Sano, Kanto",
+                                    "country": "Japan",
+                                    "timezone": "+09:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13080,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Africa Continental Cup 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 171667,
+                                "seriesId": 13121,
+                                "matchDesc": "Final",
+                                "matchFormat": "T20",
+                                "startDate": "1789819200000",
+                                "endDate": "1789862399000",
+                                "team1": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "team2": {
+                                    "teamId": 106,
+                                    "teamName": "TBC",
+                                    "teamSName": "TBC",
+                                    "imageId": 172198
+                                },
+                                "venueInfo": {
+                                    "ground": "Gahanga International Cricket Stadium",
+                                    "city": "Kigali City",
+                                    "country": "Rwanda",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13121,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Sri Lanka tour of England, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 129623,
+                                "seriesId": 10576,
+                                "matchDesc": "3rd T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1789824600000",
+                                "endDate": "1789862399000",
+                                "team1": {
+                                    "teamId": 9,
+                                    "teamName": "England",
+                                    "teamSName": "ENG",
+                                    "isFullMember": true,
+                                    "imageId": 776237
+                                },
+                                "team2": {
+                                    "teamId": 5,
+                                    "teamName": "Sri Lanka",
+                                    "teamSName": "SL",
+                                    "isFullMember": true,
+                                    "imageId": 776254
+                                },
+                                "venueInfo": {
+                                    "ground": "Emirates Old Trafford",
+                                    "city": "Manchester",
+                                    "country": "England",
+                                    "timezone": "+01:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 10576,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1789776000000"
             },
             "category_type": "international"
         },
@@ -1104,7 +1174,7 @@
                                     "imageId": 172207
                                 },
                                 "venueInfo": {
-                                    "ground": "County Ground",
+                                    "ground": "The Ambassador Cruise Line Ground",
                                     "city": "Chelmsford",
                                     "country": "England",
                                     "timezone": "+01:00"
@@ -1271,7 +1341,7 @@
                                     "imageId": 172207
                                 },
                                 "venueInfo": {
-                                    "ground": "County Ground",
+                                    "ground": "The Ambassador Cruise Line Ground",
                                     "city": "Chelmsford",
                                     "country": "England",
                                     "timezone": "+01:00"
@@ -1830,7 +1900,7 @@
                                     "imageId": 172207
                                 },
                                 "venueInfo": {
-                                    "ground": "County Ground",
+                                    "ground": "The Ambassador Cruise Line Ground",
                                     "city": "Chelmsford",
                                     "country": "England",
                                     "timezone": "+01:00"
@@ -2352,7 +2422,7 @@
                                     "imageId": 172207
                                 },
                                 "venueInfo": {
-                                    "ground": "County Ground",
+                                    "ground": "The Ambassador Cruise Line Ground",
                                     "city": "Chelmsford",
                                     "country": "England",
                                     "timezone": "+01:00"
