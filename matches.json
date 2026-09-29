@@ -2,93 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "TUE, SEP 29 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Asian Games 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 171040,
-                                "seriesId": 12563,
-                                "matchDesc": "3rd Quarter-Final",
-                                "matchFormat": "T20",
-                                "startDate": "1790640000000",
-                                "endDate": "1790726399000",
-                                "team1": {
-                                    "teamId": 5,
-                                    "teamName": "Sri Lanka",
-                                    "teamSName": "SL",
-                                    "isFullMember": true,
-                                    "imageId": 776254
-                                },
-                                "team2": {
-                                    "teamId": 72,
-                                    "teamName": "Nepal",
-                                    "teamSName": "NEP",
-                                    "imageId": 776331
-                                },
-                                "venueInfo": {
-                                    "ground": "Korogi Sports Park",
-                                    "city": "Nisshin",
-                                    "country": "Japan",
-                                    "timezone": "+09:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
-                            {
-                                "matchId": 171041,
-                                "seriesId": 12563,
-                                "matchDesc": "4th Quarter-Final",
-                                "matchFormat": "T20",
-                                "startDate": "1790656200000",
-                                "endDate": "1790726399000",
-                                "team1": {
-                                    "teamId": 6,
-                                    "teamName": "Bangladesh",
-                                    "teamSName": "BAN",
-                                    "isFullMember": true,
-                                    "imageId": 776210
-                                },
-                                "team2": {
-                                    "teamId": 71,
-                                    "teamName": "Malaysia",
-                                    "teamSName": "MLY",
-                                    "imageId": 776319
-                                },
-                                "venueInfo": {
-                                    "ground": "Korogi Sports Park",
-                                    "city": "Nisshin",
-                                    "country": "Japan",
-                                    "timezone": "+09:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 12563,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1790640000000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, SEP 30 2026",
                 "matchScheduleList": [
                     {
@@ -171,6 +84,20 @@
             "category_type": "international"
         },
         {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
             "scheduleAdWrapper": {
                 "date": "THU, OCT 01 2026",
                 "matchScheduleList": [
@@ -192,10 +119,11 @@
                                     "imageId": 776308
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 6,
+                                    "teamName": "Bangladesh",
+                                    "teamSName": "BAN",
+                                    "isFullMember": true,
+                                    "imageId": 776210
                                 },
                                 "venueInfo": {
                                     "ground": "Korogi Sports Park",
@@ -220,10 +148,11 @@
                                     "imageId": 776162
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 5,
+                                    "teamName": "Sri Lanka",
+                                    "teamSName": "SL",
+                                    "isFullMember": true,
+                                    "imageId": 776254
                                 },
                                 "venueInfo": {
                                     "ground": "Korogi Sports Park",
@@ -462,60 +391,190 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "MON, SEP 28 2026",
+                "date": "MON, OCT 05 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "CSA T20 Challenge 2026",
+                        "seriesName": "Indonesia tour of South Korea, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 173031,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool A",
+                                "matchId": 174134,
+                                "seriesId": 13281,
+                                "matchDesc": "3rd T20I",
                                 "matchFormat": "T20",
-                                "startDate": "1790593200000",
-                                "endDate": "1790639999000",
+                                "startDate": "1791162000000",
+                                "endDate": "1791244799000",
                                 "team1": {
-                                    "teamId": 1775,
-                                    "teamName": "Border",
-                                    "teamSName": "BOR",
-                                    "imageId": 349602
+                                    "teamId": 299,
+                                    "teamName": "South Korea",
+                                    "teamSName": "SKR",
+                                    "imageId": 172348
                                 },
                                 "team2": {
-                                    "teamId": 922,
-                                    "teamName": "North West - Eastvaal Renault Dragons",
-                                    "teamSName": "NWEST",
-                                    "imageId": 248439
+                                    "teamId": 566,
+                                    "teamName": "Indonesia",
+                                    "teamSName": "IDN",
+                                    "imageId": 172618
                                 },
                                 "venueInfo": {
-                                    "ground": "Buffalo Park",
-                                    "city": "East London",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
+                                    "ground": "Yeonhui Cricket Ground ",
+                                    "city": "Incheon",
+                                    "country": "South Korea ",
+                                    "timezone": "+09:00"
+                                }
+                            },
+                            {
+                                "matchId": 174141,
+                                "seriesId": 13281,
+                                "matchDesc": "4th T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1791176400000",
+                                "endDate": "1791244799000",
+                                "team1": {
+                                    "teamId": 299,
+                                    "teamName": "South Korea",
+                                    "teamSName": "SKR",
+                                    "imageId": 172348
+                                },
+                                "team2": {
+                                    "teamId": 566,
+                                    "teamName": "Indonesia",
+                                    "teamSName": "IDN",
+                                    "imageId": 172618
+                                },
+                                "venueInfo": {
+                                    "ground": "Yeonhui Cricket Ground ",
+                                    "city": "Incheon",
+                                    "country": "South Korea ",
+                                    "timezone": "+09:00"
                                 }
                             }
                         ],
-                        "seriesId": 13180,
-                        "seriesHomeCountry": 11,
-                        "seriesCategory": "League"
+                        "seriesId": 13281,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": " ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 173701,
+                                "seriesId": 13253,
+                                "matchDesc": "2nd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791162900000",
+                                "endDate": "1791244799000",
+                                "team1": {
+                                    "teamId": 543,
+                                    "teamName": "Bahrain",
+                                    "teamSName": "BHR",
+                                    "imageId": 172594
+                                },
+                                "team2": {
+                                    "teamId": 384,
+                                    "teamName": "Thailand",
+                                    "teamSName": "THAI",
+                                    "imageId": 172437
+                                },
+                                "venueInfo": {
+                                    "ground": "YSD-UKM Cricket Oval",
+                                    "city": "Bangi",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 173691,
+                                "seriesId": 13253,
+                                "matchDesc": "1st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791162900000",
+                                "endDate": "1791244799000",
+                                "team1": {
+                                    "teamId": 555,
+                                    "teamName": "Bhutan",
+                                    "teamSName": "BTN",
+                                    "imageId": 172607
+                                },
+                                "team2": {
+                                    "teamId": 565,
+                                    "teamName": "Myanmar",
+                                    "teamSName": "MMR",
+                                    "imageId": 172617
+                                },
+                                "venueInfo": {
+                                    "ground": "Bayuemas Oval",
+                                    "city": "Kuala Lumpur",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 173711,
+                                "seriesId": 13253,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791180000000",
+                                "endDate": "1791244799000",
+                                "team1": {
+                                    "teamId": 298,
+                                    "teamName": "Kuwait",
+                                    "teamSName": "KUW",
+                                    "imageId": 776312
+                                },
+                                "team2": {
+                                    "teamId": 525,
+                                    "teamName": "Qatar",
+                                    "teamSName": "QAT",
+                                    "imageId": 172575
+                                },
+                                "venueInfo": {
+                                    "ground": "Bayuemas Oval",
+                                    "city": "Kuala Lumpur",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13253,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                        "matchInfo": [
+                            {
+                                "matchId": 174057,
+                                "seriesId": 7572,
+                                "matchDesc": "129th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1791212400000",
+                                "endDate": "1791244799000",
+                                "team1": {
+                                    "teamId": 15,
+                                    "teamName": "United States of America",
+                                    "teamSName": "USA",
+                                    "imageId": 776186
+                                },
+                                "team2": {
+                                    "teamId": 7,
+                                    "teamName": "United Arab Emirates",
+                                    "teamSName": "UAE",
+                                    "imageId": 776242
+                                },
+                                "venueInfo": {
+                                    "ground": "Grand Prairie Stadium",
+                                    "city": "Dallas",
+                                    "country": "United States",
+                                    "timezone": "-05:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 7572,
+                        "seriesHomeCountry": 1,
+                        "seriesCategory": "International"
                     }
                 ],
-                "longDate": "1790553600000"
+                "longDate": "1791158400000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
@@ -611,6 +670,20 @@
                 "longDate": "1790640000000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -816,6 +889,74 @@
                     }
                 ],
                 "longDate": "1790899200000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "SAT, OCT 03 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "World Championship of Legends 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 174313,
+                                "seriesId": 13300,
+                                "matchDesc": "1st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791027000000",
+                                "endDate": "1791071999000",
+                                "team1": {
+                                    "teamId": 2005,
+                                    "teamName": "India Champions",
+                                    "teamSName": "INDCH",
+                                    "imageId": 510027
+                                },
+                                "team2": {
+                                    "teamId": 2039,
+                                    "teamName": "Australia Champions",
+                                    "teamSName": "AUSCH",
+                                    "imageId": 510033
+                                },
+                                "venueInfo": {
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                }
+                            },
+                            {
+                                "matchId": 174320,
+                                "seriesId": 13300,
+                                "matchDesc": "2nd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791041400000",
+                                "endDate": "1791071999000",
+                                "team1": {
+                                    "teamId": 2046,
+                                    "teamName": "Pakistan Champions",
+                                    "teamSName": "PAKCH",
+                                    "imageId": 510034
+                                },
+                                "team2": {
+                                    "teamId": 3613,
+                                    "teamName": "Bangladesh Champions",
+                                    "teamSName": "BANCH",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13300,
+                        "seriesCategory": "League"
+                    }
+                ],
+                "longDate": "1790985600000"
             },
             "category_type": "league"
         },
