@@ -578,146 +578,11 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, SEP 29 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "CSA T20 Challenge 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173127,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool B",
-                                "matchFormat": "T20",
-                                "startDate": "1790679600000",
-                                "endDate": "1790726399000",
-                                "team1": {
-                                    "teamId": 1782,
-                                    "teamName": "South Africa Emerging Players",
-                                    "teamSName": "SAEP",
-                                    "imageId": 776290
-                                },
-                                "team2": {
-                                    "teamId": 1766,
-                                    "teamName": "KwaZulu-Natal Inland Tuskers",
-                                    "teamSName": "KZNIN",
-                                    "imageId": 349611
-                                },
-                                "venueInfo": {
-                                    "ground": "LC de Villiers Oval",
-                                    "city": "Pretoria",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 173133,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool A",
-                                "matchFormat": "T20",
-                                "startDate": "1790683200000",
-                                "endDate": "1790726399000",
-                                "team1": {
-                                    "teamId": 155,
-                                    "teamName": "Warriors",
-                                    "teamSName": "WAR",
-                                    "imageId": 172222
-                                },
-                                "team2": {
-                                    "teamId": 912,
-                                    "teamName": "Limpopo",
-                                    "teamSName": "LIMPO",
-                                    "imageId": 248430
-                                },
-                                "venueInfo": {
-                                    "ground": "St George's Park",
-                                    "city": "Gqeberha",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 173143,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool B",
-                                "matchFormat": "T20",
-                                "startDate": "1790697600000",
-                                "endDate": "1790726399000",
-                                "team1": {
-                                    "teamId": 1759,
-                                    "teamName": "Boland",
-                                    "teamSName": "BOL",
-                                    "imageId": 349610
-                                },
-                                "team2": {
-                                    "teamId": 281,
-                                    "teamName": "Knights",
-                                    "teamSName": "KNG",
-                                    "imageId": 172331
-                                },
-                                "venueInfo": {
-                                    "ground": "Boland Park",
-                                    "city": "Paarl",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13180,
-                        "seriesHomeCountry": 11,
-                        "seriesCategory": "League"
-                    }
-                ],
-                "longDate": "1790640000000"
-            },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, SEP 30 2026",
                 "matchScheduleList": [
                     {
                         "seriesName": "CSA T20 Challenge 2026",
                         "matchInfo": [
-                            {
-                                "matchId": 173163,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool B",
-                                "matchFormat": "T20",
-                                "startDate": "1790766000000",
-                                "endDate": "1790812799000",
-                                "team1": {
-                                    "teamId": 933,
-                                    "teamName": "Eastern Storm",
-                                    "teamSName": "ESTORM",
-                                    "imageId": 248407
-                                },
-                                "team2": {
-                                    "teamId": 903,
-                                    "teamName": "Mpumalanga Rhinos",
-                                    "teamSName": "MPR",
-                                    "imageId": 248434
-                                },
-                                "venueInfo": {
-                                    "ground": "Willowmoore Park",
-                                    "city": "Benoni",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            },
                             {
                                 "matchId": 173153,
                                 "seriesId": 13180,
@@ -743,6 +608,32 @@
                                     "country": "South Africa",
                                     "timezone": "+02:00"
                                 }
+                            },
+                            {
+                                "matchId": 173163,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1790784000000",
+                                "endDate": "1790812799000",
+                                "team1": {
+                                    "teamId": 933,
+                                    "teamName": "Eastern Storm",
+                                    "teamSName": "ESTORM",
+                                    "imageId": 248407
+                                },
+                                "team2": {
+                                    "teamId": 903,
+                                    "teamName": "Mpumalanga Rhinos",
+                                    "teamSName": "MPR",
+                                    "imageId": 248434
+                                },
+                                "venueInfo": {
+                                    "ground": "Willowmoore Park",
+                                    "city": "Benoni",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
                             }
                         ],
                         "seriesId": 13180,
@@ -753,6 +644,20 @@
                 "longDate": "1790726400000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -962,167 +867,183 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, SEP 29 2026",
+                "date": "SUN, OCT 04 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Australia U19 tour of India 2026",
+                        "seriesName": "CSA T20 Challenge 2026",
                         "matchInfo": [
                             {
-                                "matchId": 155499,
-                                "seriesId": 12191,
-                                "matchDesc": "1st unofficial Test, Day 3",
-                                "matchFormat": "TEST",
-                                "startDate": "1790654400000",
-                                "endDate": "1790812799000",
+                                "matchId": 173220,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1791111600000",
+                                "endDate": "1791158399000",
                                 "team1": {
-                                    "teamId": 54,
-                                    "teamName": "India U19",
-                                    "teamSName": "INDU19",
-                                    "imageId": 776180
+                                    "teamId": 1766,
+                                    "teamName": "KwaZulu-Natal Inland Tuskers",
+                                    "teamSName": "KZNIN",
+                                    "imageId": 349611
                                 },
                                 "team2": {
-                                    "teamId": 129,
-                                    "teamName": "Australia U19",
-                                    "teamSName": "AUSU19",
-                                    "imageId": 776206
+                                    "teamId": 1759,
+                                    "teamName": "Boland",
+                                    "teamSName": "BOL",
+                                    "imageId": 349610
                                 },
                                 "venueInfo": {
-                                    "ground": "Niranjan Shah Stadium, Khandheri",
-                                    "city": "Rajkot",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "City Oval",
+                                    "city": "Pietermaritzburg",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173191,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool A",
+                                "matchFormat": "T20",
+                                "startDate": "1791111600000",
+                                "endDate": "1791158399000",
+                                "team1": {
+                                    "teamId": 912,
+                                    "teamName": "Limpopo",
+                                    "teamSName": "LIMPO",
+                                    "imageId": 248430
+                                },
+                                "team2": {
+                                    "teamId": 90,
+                                    "teamName": "Dolphins",
+                                    "teamSName": "DOL",
+                                    "imageId": 172183
+                                },
+                                "venueInfo": {
+                                    "ground": "Polokwane Cricket Club",
+                                    "city": "Polokwane",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173207,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1791129600000",
+                                "endDate": "1791158399000",
+                                "team1": {
+                                    "teamId": 917,
+                                    "teamName": "Western Province",
+                                    "teamSName": "WPR",
+                                    "imageId": 1082447
+                                },
+                                "team2": {
+                                    "teamId": 1782,
+                                    "teamName": "South Africa Emerging Players",
+                                    "teamSName": "SAEP",
+                                    "imageId": 776290
+                                },
+                                "venueInfo": {
+                                    "ground": "Newlands",
+                                    "city": "Cape Town",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173217,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool A",
+                                "matchFormat": "T20",
+                                "startDate": "1791129600000",
+                                "endDate": "1791158399000",
+                                "team1": {
+                                    "teamId": 155,
+                                    "teamName": "Warriors",
+                                    "teamSName": "WAR",
+                                    "imageId": 172222
+                                },
+                                "team2": {
+                                    "teamId": 157,
+                                    "teamName": "Lions",
+                                    "teamSName": "LIONS",
+                                    "imageId": 172224
+                                },
+                                "venueInfo": {
+                                    "ground": "St George's Park",
+                                    "city": "Gqeberha",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
                                 }
                             }
                         ],
-                        "seriesId": 12191,
-                        "seriesCategory": "Domestic"
+                        "seriesId": 13180,
+                        "seriesHomeCountry": 11,
+                        "seriesCategory": "League"
                     },
                     {
-                        "seriesName": "Australia A tour of India 2026",
+                        "seriesName": "World Championship of Legends 2026",
                         "matchInfo": [
                             {
-                                "matchId": 155422,
-                                "seriesId": 12184,
-                                "matchDesc": "2nd unofficial Test, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1790654400000",
-                                "endDate": "1790985599000",
+                                "matchId": 174330,
+                                "seriesId": 13300,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791113400000",
+                                "endDate": "1791158399000",
                                 "team1": {
-                                    "teamId": 78,
-                                    "teamName": "India A",
-                                    "teamSName": "INDA",
-                                    "imageId": 776181
+                                    "teamId": 2014,
+                                    "teamName": "South Africa Champions",
+                                    "teamSName": "SACH",
+                                    "imageId": 510030
                                 },
                                 "team2": {
-                                    "teamId": 79,
-                                    "teamName": "Australia A",
-                                    "teamSName": "AUSA",
-                                    "imageId": 776204
+                                    "teamId": 2021,
+                                    "teamName": "West Indies Champions",
+                                    "teamSName": "WICH",
+                                    "imageId": 510031
                                 },
                                 "venueInfo": {
-                                    "ground": "Cricket Association Puducherry Siechem Ground",
-                                    "city": "Puducherry",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                }
+                            },
+                            {
+                                "matchId": 174340,
+                                "seriesId": 13300,
+                                "matchDesc": "4th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791127800000",
+                                "endDate": "1791158399000",
+                                "team1": {
+                                    "teamId": 2005,
+                                    "teamName": "India Champions",
+                                    "teamSName": "INDCH",
+                                    "imageId": 510027
+                                },
+                                "team2": {
+                                    "teamId": 2030,
+                                    "teamName": "England Champions",
+                                    "teamSName": "ENGCH",
+                                    "imageId": 510032
+                                },
+                                "venueInfo": {
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
                                 }
                             }
                         ],
-                        "seriesId": 12184,
-                        "seriesCategory": "Domestic"
+                        "seriesId": 13300,
+                        "seriesCategory": "League"
                     }
                 ],
-                "longDate": "1790640000000"
+                "longDate": "1791072000000"
             },
-            "category_type": "domestic"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
-                "date": "WED, SEP 30 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Australia U19 tour of India 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 155499,
-                                "seriesId": 12191,
-                                "matchDesc": "1st unofficial Test, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1790740800000",
-                                "endDate": "1790812799000",
-                                "team1": {
-                                    "teamId": 54,
-                                    "teamName": "India U19",
-                                    "teamSName": "INDU19",
-                                    "imageId": 776180
-                                },
-                                "team2": {
-                                    "teamId": 129,
-                                    "teamName": "Australia U19",
-                                    "teamSName": "AUSU19",
-                                    "imageId": 776206
-                                },
-                                "venueInfo": {
-                                    "ground": "Niranjan Shah Stadium, Khandheri",
-                                    "city": "Rajkot",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12191,
-                        "seriesCategory": "Domestic"
-                    },
-                    {
-                        "seriesName": "Australia A tour of India 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 155422,
-                                "seriesId": 12184,
-                                "matchDesc": "2nd unofficial Test, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1790740800000",
-                                "endDate": "1790985599000",
-                                "team1": {
-                                    "teamId": 78,
-                                    "teamName": "India A",
-                                    "teamSName": "INDA",
-                                    "imageId": 776181
-                                },
-                                "team2": {
-                                    "teamId": 79,
-                                    "teamName": "Australia A",
-                                    "teamSName": "AUSA",
-                                    "imageId": 776204
-                                },
-                                "venueInfo": {
-                                    "ground": "Cricket Association Puducherry Siechem Ground",
-                                    "city": "Puducherry",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12184,
-                        "seriesCategory": "Domestic"
-                    }
-                ],
-                "longDate": "1790726400000"
-            },
-            "category_type": "domestic"
+            "category_type": "league"
         },
         {
             "scheduleAdWrapper": {
@@ -1198,6 +1119,20 @@
                 "longDate": "1790812800000"
             },
             "category_type": "domestic"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1586,59 +1521,131 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, SEP 29 2026",
+                "date": "THU, OCT 08 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Australia A Women tour of India 2026",
+                        "seriesName": "Sheffield Shield 2026-27",
                         "matchInfo": [
                             {
-                                "matchId": 155650,
-                                "seriesId": 12210,
-                                "matchDesc": "Only unofficial Test, Day 1",
+                                "matchId": 166583,
+                                "seriesId": 12717,
+                                "matchDesc": "1st Match, Day 2",
                                 "matchFormat": "TEST",
-                                "startDate": "1790654400000",
-                                "endDate": "1790985599000",
+                                "startDate": "1791415800000",
+                                "endDate": "1791676799000",
                                 "team1": {
-                                    "teamId": 440,
-                                    "teamName": "India A Women",
-                                    "teamSName": "INDWA",
-                                    "imageId": 776184
+                                    "teamId": 52,
+                                    "teamName": "Victoria",
+                                    "teamSName": "VIC",
+                                    "imageId": 172153
                                 },
                                 "team2": {
-                                    "teamId": 2796,
-                                    "teamName": "Australia A Women",
-                                    "teamSName": "AUSWA",
-                                    "imageId": 776209
+                                    "teamId": 158,
+                                    "teamName": "South Australia",
+                                    "teamSName": "SAUS",
+                                    "imageId": 172225
                                 },
                                 "venueInfo": {
-                                    "ground": "Himachal Pradesh Cricket Association Stadium",
-                                    "city": "Dharamsala",
+                                    "ground": "Junction Oval",
+                                    "city": "Melbourne",
+                                    "country": "Australia",
+                                    "timezone": "+11:00"
+                                }
+                            },
+                            {
+                                "matchId": 166587,
+                                "seriesId": 12717,
+                                "matchDesc": "2nd Match, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1791415800000",
+                                "endDate": "1791763199000",
+                                "team1": {
+                                    "teamId": 104,
+                                    "teamName": "New South Wales",
+                                    "teamSName": "NSW",
+                                    "imageId": 172196
+                                },
+                                "team2": {
+                                    "teamId": 166,
+                                    "teamName": "Tasmania",
+                                    "teamSName": "TAS",
+                                    "imageId": 172235
+                                },
+                                "venueInfo": {
+                                    "ground": "Cricket Central",
+                                    "city": "Sydney",
+                                    "country": "Australia",
+                                    "timezone": "+11:00"
+                                }
+                            },
+                            {
+                                "matchId": 166600,
+                                "seriesId": 12717,
+                                "matchDesc": "3rd Match, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1791426600000",
+                                "endDate": "1791763199000",
+                                "team1": {
+                                    "teamId": 87,
+                                    "teamName": "Western Australia",
+                                    "teamSName": "WA",
+                                    "imageId": 172180
+                                },
+                                "team2": {
+                                    "teamId": 164,
+                                    "teamName": "Queensland",
+                                    "teamSName": "QL",
+                                    "imageId": 172233
+                                },
+                                "venueInfo": {
+                                    "ground": "W.A.C.A. Ground",
+                                    "city": "Perth",
+                                    "country": "Australia",
+                                    "timezone": "+08:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12717,
+                        "seriesHomeCountry": 4,
+                        "seriesCategory": "Domestic"
+                    },
+                    {
+                        "seriesName": "Australia U19 tour of India 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 155510,
+                                "seriesId": 12191,
+                                "matchDesc": "2nd unofficial Test, Day 4",
+                                "matchFormat": "TEST",
+                                "startDate": "1791430200000",
+                                "endDate": "1791503999000",
+                                "team1": {
+                                    "teamId": 54,
+                                    "teamName": "India U19",
+                                    "teamSName": "INDU19",
+                                    "imageId": 776180
+                                },
+                                "team2": {
+                                    "teamId": 129,
+                                    "teamName": "Australia U19",
+                                    "teamSName": "AUSU19",
+                                    "imageId": 776206
+                                },
+                                "venueInfo": {
+                                    "ground": "Narendra Modi Stadium B Ground",
+                                    "city": "Ahmedabad",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
                             }
                         ],
-                        "seriesId": 12210,
-                        "seriesCategory": "Women"
+                        "seriesId": 12191,
+                        "seriesCategory": "Domestic"
                     }
                 ],
-                "longDate": "1790640000000"
+                "longDate": "1791417600000"
             },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "domestic"
         },
         {
             "scheduleAdWrapper": {
@@ -1714,6 +1721,20 @@
                 "longDate": "1790726400000"
             },
             "category_type": "women"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1922,6 +1943,50 @@
                     }
                 ],
                 "longDate": "1791331200000"
+            },
+            "category_type": "women"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "FRI, OCT 09 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Bangladesh Women tour of Australia, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 151389,
+                                "seriesId": 11898,
+                                "matchDesc": "1st ODI",
+                                "matchFormat": "ODI",
+                                "startDate": "1791517800000",
+                                "endDate": "1791590399000",
+                                "team1": {
+                                    "teamId": 100,
+                                    "teamName": "Australia Women",
+                                    "teamSName": "AUSW",
+                                    "imageId": 776205
+                                },
+                                "team2": {
+                                    "teamId": 329,
+                                    "teamName": "Bangladesh Women",
+                                    "teamSName": "BANW",
+                                    "imageId": 776213
+                                },
+                                "venueInfo": {
+                                    "ground": "Allan Border Field",
+                                    "city": "Brisbane",
+                                    "country": "Australia",
+                                    "timezone": "+10:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11898,
+                        "seriesCategory": "Women",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1791504000000"
             },
             "category_type": "women"
         }
