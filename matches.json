@@ -5,37 +5,41 @@
                 "date": "SAT, OCT 03 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Asian Games 2026",
+                        "seriesName": "Indonesia tour of South Korea, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 171061,
-                                "seriesId": 12563,
-                                "matchDesc": "Bronze Medal Match",
+                                "matchId": 174108,
+                                "seriesId": 13281,
+                                "matchDesc": "1st T20I",
                                 "matchFormat": "T20",
-                                "startDate": "1790985600000",
+                                "startDate": "1790989200000",
                                 "endDate": "1791071999000",
                                 "team1": {
-                                    "teamId": 6,
-                                    "teamName": "Bangladesh",
-                                    "teamSName": "BAN",
-                                    "isFullMember": true,
-                                    "imageId": 776210
+                                    "teamId": 299,
+                                    "teamName": "South Korea",
+                                    "teamSName": "SKR",
+                                    "imageId": 172348
                                 },
                                 "team2": {
-                                    "teamId": 5,
-                                    "teamName": "Sri Lanka",
-                                    "teamSName": "SL",
-                                    "isFullMember": true,
-                                    "imageId": 776254
+                                    "teamId": 566,
+                                    "teamName": "Indonesia",
+                                    "teamSName": "IDN",
+                                    "imageId": 172618
                                 },
                                 "venueInfo": {
-                                    "ground": "Korogi Sports Park",
-                                    "city": "Nisshin",
-                                    "country": "Japan",
+                                    "ground": "Yeonhui Cricket Ground ",
+                                    "city": "Incheon",
+                                    "country": "South Korea ",
                                     "timezone": "+09:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            },
+                                }
+                            }
+                        ],
+                        "seriesId": 13281,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Asian Games 2026",
+                        "matchInfo": [
                             {
                                 "matchId": 171070,
                                 "seriesId": 12563,
@@ -69,39 +73,6 @@
                         "seriesId": 12563,
                         "seriesCategory": "International",
                         "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Indonesia tour of South Korea, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 174108,
-                                "seriesId": 13281,
-                                "matchDesc": "1st T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1790989200000",
-                                "endDate": "1791071999000",
-                                "team1": {
-                                    "teamId": 299,
-                                    "teamName": "South Korea",
-                                    "teamSName": "SKR",
-                                    "imageId": 172348
-                                },
-                                "team2": {
-                                    "teamId": 566,
-                                    "teamName": "Indonesia",
-                                    "teamSName": "IDN",
-                                    "imageId": 172618
-                                },
-                                "venueInfo": {
-                                    "ground": "Yeonhui Cricket Ground ",
-                                    "city": "Incheon",
-                                    "country": "South Korea ",
-                                    "timezone": "+09:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13281,
-                        "seriesCategory": "International"
                     },
                     {
                         "seriesName": "West Indies tour of India, 2026",
@@ -598,115 +569,6 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "FRI, OCT 02 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "CSA T20 Challenge 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173187,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool B",
-                                "matchFormat": "T20",
-                                "startDate": "1790938800000",
-                                "endDate": "1790985599000",
-                                "team1": {
-                                    "teamId": 903,
-                                    "teamName": "Mpumalanga Rhinos",
-                                    "teamSName": "MPR",
-                                    "imageId": 248434
-                                },
-                                "team2": {
-                                    "teamId": 1766,
-                                    "teamName": "KwaZulu-Natal Inland Tuskers",
-                                    "teamSName": "KZNIN",
-                                    "imageId": 349611
-                                },
-                                "venueInfo": {
-                                    "ground": "Uplands College, White River",
-                                    "city": "Mpumalanga",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 173180,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool B",
-                                "matchFormat": "T20",
-                                "startDate": "1790956800000",
-                                "endDate": "1790985599000",
-                                "team1": {
-                                    "teamId": 281,
-                                    "teamName": "Knights",
-                                    "teamSName": "KNG",
-                                    "imageId": 172331
-                                },
-                                "team2": {
-                                    "teamId": 89,
-                                    "teamName": "Titans",
-                                    "teamSName": "TIT",
-                                    "imageId": 172182
-                                },
-                                "venueInfo": {
-                                    "ground": "Mangaung Oval",
-                                    "city": "Bloemfontein",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 173197,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool A",
-                                "matchFormat": "T20",
-                                "startDate": "1790956800000",
-                                "endDate": "1790985599000",
-                                "team1": {
-                                    "teamId": 157,
-                                    "teamName": "Lions",
-                                    "teamSName": "LIONS",
-                                    "imageId": 172224
-                                },
-                                "team2": {
-                                    "teamId": 922,
-                                    "teamName": "North West - Eastvaal Renault Dragons",
-                                    "teamSName": "NWEST",
-                                    "imageId": 248439
-                                },
-                                "venueInfo": {
-                                    "ground": "The Wanderers Stadium",
-                                    "city": "Johannesburg",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13180,
-                        "seriesHomeCountry": 11,
-                        "seriesCategory": "League"
-                    }
-                ],
-                "longDate": "1790899200000"
-            },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SAT, OCT 03 2026",
                 "matchScheduleList": [
                     {
@@ -775,6 +637,20 @@
                 "longDate": "1790985600000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1166,6 +1042,163 @@
                     }
                 ],
                 "longDate": "1791244800000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "WED, OCT 07 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "CSA T20 Challenge 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 173257,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool A",
+                                "matchFormat": "T20",
+                                "startDate": "1791370800000",
+                                "endDate": "1791417599000",
+                                "team1": {
+                                    "teamId": 1768,
+                                    "teamName": "South Western Districts",
+                                    "teamSName": "SWD",
+                                    "imageId": 349609
+                                },
+                                "team2": {
+                                    "teamId": 157,
+                                    "teamName": "Lions",
+                                    "teamSName": "LIONS",
+                                    "imageId": 172224
+                                },
+                                "venueInfo": {
+                                    "ground": "Recreation Ground",
+                                    "city": "Oudtshoorn",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173247,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1791388800000",
+                                "endDate": "1791417599000",
+                                "team1": {
+                                    "teamId": 281,
+                                    "teamName": "Knights",
+                                    "teamSName": "KNG",
+                                    "imageId": 172331
+                                },
+                                "team2": {
+                                    "teamId": 1766,
+                                    "teamName": "KwaZulu-Natal Inland Tuskers",
+                                    "teamSName": "KZNIN",
+                                    "imageId": 349611
+                                },
+                                "venueInfo": {
+                                    "ground": "Mangaung Oval",
+                                    "city": "Bloemfontein",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173267,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1791388800000",
+                                "endDate": "1791417599000",
+                                "team1": {
+                                    "teamId": 89,
+                                    "teamName": "Titans",
+                                    "teamSName": "TIT",
+                                    "imageId": 172182
+                                },
+                                "team2": {
+                                    "teamId": 1782,
+                                    "teamName": "South Africa Emerging Players",
+                                    "teamSName": "SAEP",
+                                    "imageId": 776290
+                                },
+                                "venueInfo": {
+                                    "ground": "SuperSport Park",
+                                    "city": "Centurion",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13180,
+                        "seriesHomeCountry": 11,
+                        "seriesCategory": "League"
+                    },
+                    {
+                        "seriesName": "World Championship of Legends 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 174371,
+                                "seriesId": 13300,
+                                "matchDesc": "9th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791372600000",
+                                "endDate": "1791417599000",
+                                "team1": {
+                                    "teamId": 2039,
+                                    "teamName": "Australia Champions",
+                                    "teamSName": "AUSCH",
+                                    "imageId": 510033
+                                },
+                                "team2": {
+                                    "teamId": 3613,
+                                    "teamName": "Bangladesh Champions",
+                                    "teamSName": "BANCH",
+                                    "imageId": 174284
+                                },
+                                "venueInfo": {
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            },
+                            {
+                                "matchId": 174380,
+                                "seriesId": 13300,
+                                "matchDesc": "10th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791387000000",
+                                "endDate": "1791417599000",
+                                "team1": {
+                                    "teamId": 2030,
+                                    "teamName": "England Champions",
+                                    "teamSName": "ENGCH",
+                                    "imageId": 510032
+                                },
+                                "team2": {
+                                    "teamId": 2021,
+                                    "teamName": "West Indies Champions",
+                                    "teamSName": "WICH",
+                                    "imageId": 510031
+                                },
+                                "venueInfo": {
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 13300,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1791331200000"
             },
             "category_type": "league"
         },
@@ -1710,7 +1743,7 @@
                                 "seriesId": 13217,
                                 "matchDesc": "1st T20I",
                                 "matchFormat": "T20",
-                                "startDate": "1791021600000",
+                                "startDate": "1791025200000",
                                 "endDate": "1791071999000",
                                 "team1": {
                                     "teamId": 388,
