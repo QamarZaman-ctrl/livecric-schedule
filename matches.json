@@ -2,125 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "TUE, OCT 06 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173723,
-                                "seriesId": 13253,
-                                "matchDesc": "5th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1791266400000",
-                                "endDate": "1791331199000",
-                                "team1": {
-                                    "teamId": 543,
-                                    "teamName": "Bahrain",
-                                    "teamSName": "BHR",
-                                    "imageId": 172594
-                                },
-                                "team2": {
-                                    "teamId": 555,
-                                    "teamName": "Bhutan",
-                                    "teamSName": "BTN",
-                                    "imageId": 172607
-                                },
-                                "venueInfo": {
-                                    "ground": "YSD-UKM Cricket Oval",
-                                    "city": "Bangi",
-                                    "country": "Malaysia",
-                                    "timezone": "+08:00"
-                                }
-                            },
-                            {
-                                "matchId": 173727,
-                                "seriesId": 13253,
-                                "matchDesc": "6th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1791266400000",
-                                "endDate": "1791331199000",
-                                "team1": {
-                                    "teamId": 298,
-                                    "teamName": "Kuwait",
-                                    "teamSName": "KUW",
-                                    "imageId": 776312
-                                },
-                                "team2": {
-                                    "teamId": 1804,
-                                    "teamName": "Mongolia",
-                                    "teamSName": "MGL",
-                                    "imageId": 349598
-                                },
-                                "venueInfo": {
-                                    "ground": "Bayuemas Oval",
-                                    "city": "Kuala Lumpur",
-                                    "country": "Malaysia",
-                                    "timezone": "+08:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13253,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "West Indies tour of India, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 151565,
-                                "seriesId": 11902,
-                                "matchDesc": "1st T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1791293400000",
-                                "endDate": "1791331199000",
-                                "team1": {
-                                    "teamId": 2,
-                                    "teamName": "India",
-                                    "teamSName": "IND",
-                                    "isFullMember": true,
-                                    "imageId": 776162
-                                },
-                                "team2": {
-                                    "teamId": 10,
-                                    "teamName": "West Indies",
-                                    "teamSName": "WI",
-                                    "isFullMember": true,
-                                    "imageId": 776191
-                                },
-                                "venueInfo": {
-                                    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
-                                    "city": "Lucknow",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11902,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1791244800000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, OCT 07 2026",
                 "matchScheduleList": [
                     {
@@ -161,6 +42,20 @@
                 "longDate": "1791331200000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -819,27 +714,27 @@
                         "seriesName": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
                         "matchInfo": [
                             {
-                                "matchId": 173887,
+                                "matchId": 173891,
                                 "seriesId": 13257,
-                                "matchDesc": "7th Match",
+                                "matchDesc": "8th Match",
                                 "matchFormat": "T20",
                                 "startDate": "1791681300000",
                                 "endDate": "1791763199000",
                                 "team1": {
-                                    "teamId": 8,
-                                    "teamName": "Hong Kong, China",
-                                    "teamSName": "HKC",
-                                    "imageId": 776271
+                                    "teamId": 71,
+                                    "teamName": "Malaysia",
+                                    "teamSName": "MLY",
+                                    "imageId": 776319
                                 },
                                 "team2": {
-                                    "teamId": 571,
-                                    "teamName": "Saudi Arabia",
-                                    "teamSName": "SAU",
-                                    "imageId": 172623
+                                    "teamId": 563,
+                                    "teamName": "Maldives",
+                                    "teamSName": "MDV",
+                                    "imageId": 172615
                                 },
                                 "venueInfo": {
-                                    "ground": "Bayuemas Oval",
-                                    "city": "Kuala Lumpur",
+                                    "ground": "YSD-UKM Cricket Oval",
+                                    "city": "Bangi",
                                     "country": "Malaysia",
                                     "timezone": "+08:00"
                                 }
@@ -871,27 +766,27 @@
                                 }
                             },
                             {
-                                "matchId": 173891,
+                                "matchId": 173887,
                                 "seriesId": 13257,
-                                "matchDesc": "8th Match",
+                                "matchDesc": "7th Match",
                                 "matchFormat": "T20",
                                 "startDate": "1791681300000",
                                 "endDate": "1791763199000",
                                 "team1": {
-                                    "teamId": 71,
-                                    "teamName": "Malaysia",
-                                    "teamSName": "MLY",
-                                    "imageId": 776319
+                                    "teamId": 8,
+                                    "teamName": "Hong Kong, China",
+                                    "teamSName": "HKC",
+                                    "imageId": 776271
                                 },
                                 "team2": {
-                                    "teamId": 563,
-                                    "teamName": "Maldives",
-                                    "teamSName": "MDV",
-                                    "imageId": 172615
+                                    "teamId": 571,
+                                    "teamName": "Saudi Arabia",
+                                    "teamSName": "SAU",
+                                    "imageId": 172623
                                 },
                                 "venueInfo": {
-                                    "ground": "YSD-UKM Cricket Oval",
-                                    "city": "Bangi",
+                                    "ground": "Bayuemas Oval",
+                                    "city": "Kuala Lumpur",
                                     "country": "Malaysia",
                                     "timezone": "+08:00"
                                 }
@@ -1200,60 +1095,256 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, OCT 06 2026",
+                "date": "MON, OCT 12 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "CSA T20 Challenge 2026",
+                        "seriesName": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
                         "matchInfo": [
                             {
-                                "matchId": 173237,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool B",
+                                "matchId": 173913,
+                                "seriesId": 13257,
+                                "matchDesc": "11th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1791302400000",
-                                "endDate": "1791331199000",
+                                "startDate": "1791767700000",
+                                "endDate": "1791849599000",
                                 "team1": {
-                                    "teamId": 917,
-                                    "teamName": "Western Province",
-                                    "teamSName": "WPR",
-                                    "imageId": 1082447
+                                    "teamId": 8,
+                                    "teamName": "Hong Kong, China",
+                                    "teamSName": "HKC",
+                                    "imageId": 776271
                                 },
                                 "team2": {
-                                    "teamId": 933,
-                                    "teamName": "Eastern Storm",
-                                    "teamSName": "ESTORM",
-                                    "imageId": 248407
+                                    "teamId": 563,
+                                    "teamName": "Maldives",
+                                    "teamSName": "MDV",
+                                    "imageId": 172615
                                 },
                                 "venueInfo": {
-                                    "ground": "Newlands",
-                                    "city": "Cape Town",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
+                                    "ground": "YSD-UKM Cricket Oval",
+                                    "city": "Bangi",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 173923,
+                                "seriesId": 13257,
+                                "matchDesc": "12th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791767700000",
+                                "endDate": "1791849599000",
+                                "team1": {
+                                    "teamId": 524,
+                                    "teamName": "China",
+                                    "teamSName": "CHN",
+                                    "imageId": 172574
+                                },
+                                "team2": {
+                                    "teamId": 571,
+                                    "teamName": "Saudi Arabia",
+                                    "teamSName": "SAU",
+                                    "imageId": 172623
+                                },
+                                "venueInfo": {
+                                    "ground": "Selangor Turf Club",
+                                    "city": "Kuala Lumpur",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 173907,
+                                "seriesId": 13257,
+                                "matchDesc": "10th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791767700000",
+                                "endDate": "1791849599000",
+                                "team1": {
+                                    "teamId": 71,
+                                    "teamName": "Malaysia",
+                                    "teamSName": "MLY",
+                                    "imageId": 776319
+                                },
+                                "team2": {
+                                    "teamId": 190,
+                                    "teamName": "Singapore",
+                                    "teamSName": "SIN",
+                                    "imageId": 776275
+                                },
+                                "venueInfo": {
+                                    "ground": "Bayuemas Oval",
+                                    "city": "Kuala Lumpur",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
                                 }
                             }
                         ],
-                        "seriesId": 13180,
-                        "seriesHomeCountry": 11,
-                        "seriesCategory": "League"
+                        "seriesId": 13257,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Afghanistan vs Bangladesh in UAE, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 172671,
+                                "seriesId": 13187,
+                                "matchDesc": "One-off Test, Day 4",
+                                "matchFormat": "TEST",
+                                "startDate": "1791783000000",
+                                "endDate": "1791935999000",
+                                "team1": {
+                                    "teamId": 96,
+                                    "teamName": "Afghanistan",
+                                    "teamSName": "AFG",
+                                    "isFullMember": true,
+                                    "imageId": 776177
+                                },
+                                "team2": {
+                                    "teamId": 6,
+                                    "teamName": "Bangladesh",
+                                    "teamSName": "BAN",
+                                    "isFullMember": true,
+                                    "imageId": 776210
+                                },
+                                "venueInfo": {
+                                    "ground": "Sheikh Zayed Stadium",
+                                    "city": "Abu Dhabi",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 13187,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 173811,
+                                "seriesId": 13253,
+                                "matchDesc": "17th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791784800000",
+                                "endDate": "1791849599000",
+                                "team1": {
+                                    "teamId": 565,
+                                    "teamName": "Myanmar",
+                                    "teamSName": "MMR",
+                                    "imageId": 172617
+                                },
+                                "team2": {
+                                    "teamId": 384,
+                                    "teamName": "Thailand",
+                                    "teamSName": "THAI",
+                                    "imageId": 172437
+                                },
+                                "venueInfo": {
+                                    "ground": "YSD-UKM Cricket Oval",
+                                    "city": "Bangi",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 173813,
+                                "seriesId": 13253,
+                                "matchDesc": "18th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791784800000",
+                                "endDate": "1791849599000",
+                                "team1": {
+                                    "teamId": 555,
+                                    "teamName": "Bhutan",
+                                    "teamSName": "BTN",
+                                    "imageId": 172607
+                                },
+                                "team2": {
+                                    "teamId": 298,
+                                    "teamName": "Kuwait",
+                                    "teamSName": "KUW",
+                                    "imageId": 776312
+                                },
+                                "venueInfo": {
+                                    "ground": "Selangor Turf Club",
+                                    "city": "Kuala Lumpur",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            },
+                            {
+                                "matchId": 173801,
+                                "seriesId": 13253,
+                                "matchDesc": "16th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791784800000",
+                                "endDate": "1791849599000",
+                                "team1": {
+                                    "teamId": 525,
+                                    "teamName": "Qatar",
+                                    "teamSName": "QAT",
+                                    "imageId": 172575
+                                },
+                                "team2": {
+                                    "teamId": 1804,
+                                    "teamName": "Mongolia",
+                                    "teamSName": "MGL",
+                                    "imageId": 349598
+                                },
+                                "venueInfo": {
+                                    "ground": "Bayuemas Oval",
+                                    "city": "Kuala Lumpur",
+                                    "country": "Malaysia",
+                                    "timezone": "+08:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13253,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Australia tour of South Africa, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 147920,
+                                "seriesId": 11595,
+                                "matchDesc": "1st Test, Day 4",
+                                "matchFormat": "TEST",
+                                "startDate": "1791790200000",
+                                "endDate": "1791935999000",
+                                "team1": {
+                                    "teamId": 11,
+                                    "teamName": "South Africa",
+                                    "teamSName": "RSA",
+                                    "isFullMember": true,
+                                    "imageId": 776287
+                                },
+                                "team2": {
+                                    "teamId": 4,
+                                    "teamName": "Australia",
+                                    "teamSName": "AUS",
+                                    "isFullMember": true,
+                                    "imageId": 776202
+                                },
+                                "venueInfo": {
+                                    "ground": "Kingsmead",
+                                    "city": "Durban",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11595,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1791244800000"
+                "longDate": "1791763200000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
@@ -1411,6 +1502,20 @@
                 "longDate": "1791331200000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1692,92 +1797,134 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, OCT 06 2026",
+                "date": "SUN, OCT 11 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Australia U19 tour of India 2026",
+                        "seriesName": "CSA T20 Challenge 2026",
                         "matchInfo": [
                             {
-                                "matchId": 155510,
-                                "seriesId": 12191,
-                                "matchDesc": "2nd unofficial Test, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1791259200000",
-                                "endDate": "1791503999000",
+                                "matchId": 173327,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1791716400000",
+                                "endDate": "1791763199000",
                                 "team1": {
-                                    "teamId": 54,
-                                    "teamName": "India U19",
-                                    "teamSName": "INDU19",
-                                    "imageId": 776180
+                                    "teamId": 1782,
+                                    "teamName": "South Africa Emerging Players",
+                                    "teamSName": "SAEP",
+                                    "imageId": 776290
                                 },
                                 "team2": {
-                                    "teamId": 129,
-                                    "teamName": "Australia U19",
-                                    "teamSName": "AUSU19",
-                                    "imageId": 776206
+                                    "teamId": 1759,
+                                    "teamName": "Boland",
+                                    "teamSName": "BOL",
+                                    "imageId": 349610
                                 },
                                 "venueInfo": {
-                                    "ground": "Narendra Modi Stadium B Ground",
-                                    "city": "Ahmedabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "LC de Villiers Oval",
+                                    "city": "Pretoria",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173320,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1791716400000",
+                                "endDate": "1791763199000",
+                                "team1": {
+                                    "teamId": 89,
+                                    "teamName": "Titans",
+                                    "teamSName": "TIT",
+                                    "imageId": 172182
+                                },
+                                "team2": {
+                                    "teamId": 933,
+                                    "teamName": "Eastern Storm",
+                                    "teamSName": "ESTORM",
+                                    "imageId": 248407
+                                },
+                                "venueInfo": {
+                                    "ground": "SuperSport Park",
+                                    "city": "Centurion",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
                                 }
                             }
                         ],
-                        "seriesId": 12191,
-                        "seriesCategory": "Domestic"
+                        "seriesId": 13180,
+                        "seriesHomeCountry": 11,
+                        "seriesCategory": "League"
                     },
                     {
-                        "seriesName": "Australia A tour of India 2026",
+                        "seriesName": "World Championship of Legends 2026",
                         "matchInfo": [
                             {
-                                "matchId": 155433,
-                                "seriesId": 12184,
-                                "matchDesc": "1st unofficial ODI",
-                                "matchFormat": "ODI",
-                                "startDate": "1791275400000",
-                                "endDate": "1791331199000",
+                                "matchId": 175020,
+                                "seriesId": 13300,
+                                "matchDesc": "12th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791718200000",
+                                "endDate": "1791763199000",
                                 "team1": {
-                                    "teamId": 78,
-                                    "teamName": "India A",
-                                    "teamSName": "INDA",
-                                    "imageId": 776181
+                                    "teamId": 2039,
+                                    "teamName": "Australia Champions",
+                                    "teamSName": "AUSCH",
+                                    "imageId": 510033
                                 },
                                 "team2": {
-                                    "teamId": 79,
-                                    "teamName": "Australia A",
-                                    "teamSName": "AUSA",
-                                    "imageId": 776204
+                                    "teamId": 2021,
+                                    "teamName": "West Indies Champions",
+                                    "teamSName": "WICH",
+                                    "imageId": 510031
                                 },
                                 "venueInfo": {
-                                    "ground": "Cricket Association Puducherry Siechem Ground",
-                                    "city": "Puducherry",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            },
+                            {
+                                "matchId": 175030,
+                                "seriesId": 13300,
+                                "matchDesc": "13th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1791732600000",
+                                "endDate": "1791763199000",
+                                "team1": {
+                                    "teamId": 2005,
+                                    "teamName": "India Champions",
+                                    "teamSName": "INDCH",
+                                    "imageId": 510027
+                                },
+                                "team2": {
+                                    "teamId": 3613,
+                                    "teamName": "Bangladesh Champions",
+                                    "teamSName": "BANCH",
+                                    "imageId": 1090383
+                                },
+                                "venueInfo": {
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
                             }
                         ],
-                        "seriesId": 12184,
-                        "seriesCategory": "Domestic"
+                        "seriesId": 13300,
+                        "seriesCategory": "League",
+                        "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1791244800000"
+                "longDate": "1791676800000"
             },
-            "category_type": "domestic"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "league"
         },
         {
             "scheduleAdWrapper": {
@@ -1854,6 +2001,20 @@
                 "longDate": "1791331200000"
             },
             "category_type": "domestic"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -2307,27 +2468,53 @@
                         "seriesName": "Ranji Trophy Elite 2026-27",
                         "matchInfo": [
                             {
-                                "matchId": 163540,
+                                "matchId": 163531,
                                 "seriesId": 12398,
-                                "matchDesc": "Elite Group B, Day 1",
+                                "matchDesc": "Elite Group A, Day 1",
                                 "matchFormat": "TEST",
                                 "startDate": "1791691200000",
                                 "endDate": "1792022399000",
                                 "team1": {
-                                    "teamId": 242,
-                                    "teamName": "Hyderabad",
-                                    "teamSName": "HYD",
-                                    "imageId": 172295
+                                    "teamId": 248,
+                                    "teamName": "Vidarbha",
+                                    "teamSName": "VID",
+                                    "imageId": 172301
                                 },
                                 "team2": {
-                                    "teamId": 247,
-                                    "teamName": "Tripura",
-                                    "teamSName": "TRI",
-                                    "imageId": 172300
+                                    "teamId": 465,
+                                    "teamName": "Puducherry",
+                                    "teamSName": "PDC",
+                                    "imageId": 172513
                                 },
                                 "venueInfo": {
-                                    "ground": "Gymkhana Ground",
-                                    "city": "Hyderabad",
+                                    "ground": "Vidarbha Cricket Association Stadium",
+                                    "city": "Nagpur",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163521,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group A, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1791691200000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 460,
+                                    "teamName": "Bihar",
+                                    "teamSName": "BIH",
+                                    "imageId": 172508
+                                },
+                                "team2": {
+                                    "teamId": 93,
+                                    "teamName": "Uttar Pradesh",
+                                    "teamSName": "UP",
+                                    "imageId": 172185
+                                },
+                                "venueInfo": {
+                                    "ground": "Rajgir International Cricket Stadium",
+                                    "city": "Rajgir",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
@@ -2359,32 +2546,6 @@
                                 }
                             },
                             {
-                                "matchId": 163551,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group B, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1791691200000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 245,
-                                    "teamName": "Punjab",
-                                    "teamSName": "PUN",
-                                    "imageId": 172298
-                                },
-                                "team2": {
-                                    "teamId": 162,
-                                    "teamName": "Assam",
-                                    "teamSName": "ASM",
-                                    "imageId": 172230
-                                },
-                                "venueInfo": {
-                                    "ground": "PCA International Cricket Stadium, Ground A",
-                                    "city": "New Chandigarh",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
                                 "matchId": 163530,
                                 "seriesId": 12398,
                                 "matchDesc": "Elite Group A, Day 1",
@@ -2411,182 +2572,78 @@
                                 }
                             },
                             {
-                                "matchId": 163531,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group A, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1791691200000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 248,
-                                    "teamName": "Vidarbha",
-                                    "teamSName": "VID",
-                                    "imageId": 172301
-                                },
-                                "team2": {
-                                    "teamId": 465,
-                                    "teamName": "Puducherry",
-                                    "teamSName": "PDC",
-                                    "imageId": 172513
-                                },
-                                "venueInfo": {
-                                    "ground": "Vidarbha Cricket Association Stadium",
-                                    "city": "Nagpur",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163560,
+                                "matchId": 163540,
                                 "seriesId": 12398,
                                 "matchDesc": "Elite Group B, Day 1",
                                 "matchFormat": "TEST",
                                 "startDate": "1791691200000",
                                 "endDate": "1792022399000",
                                 "team1": {
-                                    "teamId": 94,
-                                    "teamName": "Saurashtra",
-                                    "teamSName": "SAUR",
-                                    "imageId": 172186
+                                    "teamId": 242,
+                                    "teamName": "Hyderabad",
+                                    "teamSName": "HYD",
+                                    "imageId": 172295
                                 },
                                 "team2": {
-                                    "teamId": 375,
-                                    "teamName": "Chhattisgarh",
-                                    "teamSName": "CG",
-                                    "imageId": 172428
+                                    "teamId": 247,
+                                    "teamName": "Tripura",
+                                    "teamSName": "TRI",
+                                    "imageId": 172300
                                 },
                                 "venueInfo": {
-                                    "ground": "Niranjan Shah Stadium, Khandheri",
-                                    "city": "Rajkot",
+                                    "ground": "Gymkhana Ground",
+                                    "city": "Hyderabad",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
                             },
                             {
-                                "matchId": 163561,
+                                "matchId": 163551,
                                 "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 1",
+                                "matchDesc": "Elite Group B, Day 1",
                                 "matchFormat": "TEST",
                                 "startDate": "1791691200000",
                                 "endDate": "1792022399000",
                                 "team1": {
-                                    "teamId": 243,
-                                    "teamName": "Jharkhand",
-                                    "teamSName": "JHKD",
-                                    "imageId": 172296
+                                    "teamId": 245,
+                                    "teamName": "Punjab",
+                                    "teamSName": "PUN",
+                                    "imageId": 172298
                                 },
                                 "team2": {
-                                    "teamId": 244,
-                                    "teamName": "Kerala",
-                                    "teamSName": "KER",
-                                    "imageId": 172297
+                                    "teamId": 162,
+                                    "teamName": "Assam",
+                                    "teamSName": "ASM",
+                                    "imageId": 172230
                                 },
                                 "venueInfo": {
-                                    "ground": "Keenan Stadium",
-                                    "city": "Jamshedpur",
+                                    "ground": "PCA International Cricket Stadium, Ground A",
+                                    "city": "New Chandigarh",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
                             },
                             {
-                                "matchId": 163563,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1791691200000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 163,
-                                    "teamName": "Gujarat",
-                                    "teamSName": "GUJ",
-                                    "imageId": 172232
-                                },
-                                "team2": {
-                                    "teamId": 249,
-                                    "teamName": "Odisha",
-                                    "teamSName": "ODSA",
-                                    "imageId": 776395
-                                },
-                                "venueInfo": {
-                                    "ground": "Narendra Modi Stadium B Ground",
-                                    "city": "Ahmedabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163581,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1791691200000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 250,
-                                    "teamName": "Services",
-                                    "teamSName": "SER",
-                                    "imageId": 172303
-                                },
-                                "team2": {
-                                    "teamId": 254,
-                                    "teamName": "Maharashtra",
-                                    "teamSName": "MAH",
-                                    "imageId": 172307
-                                },
-                                "venueInfo": {
-                                    "ground": "Palam A Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163591,
+                                "matchId": 163621,
                                 "seriesId": 12398,
                                 "matchDesc": "Elite Group D, Day 1",
                                 "matchFormat": "TEST",
                                 "startDate": "1791691200000",
                                 "endDate": "1792022399000",
                                 "team1": {
-                                    "teamId": 200,
-                                    "teamName": "Haryana",
-                                    "teamSName": "HAR",
-                                    "imageId": 172260
+                                    "teamId": 95,
+                                    "teamName": "Mumbai",
+                                    "teamSName": "MUM",
+                                    "imageId": 172187
                                 },
                                 "team2": {
-                                    "teamId": 251,
-                                    "teamName": "Himachal Pradesh",
-                                    "teamSName": "HP",
-                                    "imageId": 172304
+                                    "teamId": 595,
+                                    "teamName": "Chandigarh",
+                                    "teamSName": "CDG",
+                                    "imageId": 244269
                                 },
                                 "venueInfo": {
-                                    "ground": "Ch Bansi Lal Cricket Stadium",
-                                    "city": "Rohtak",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163601,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group D, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1791691200000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 246,
-                                    "teamName": "Railways",
-                                    "teamSName": "RLYS",
-                                    "imageId": 172299
-                                },
-                                "team2": {
-                                    "teamId": 467,
-                                    "teamName": "Uttarakhand",
-                                    "teamSName": "UTK",
-                                    "imageId": 172515
-                                },
-                                "venueInfo": {
-                                    "ground": "Brabourne Stadium",
+                                    "ground": "Wankhede Stadium",
                                     "city": "Mumbai",
                                     "country": "India",
                                     "timezone": "+05:30"
@@ -2619,53 +2676,157 @@
                                 }
                             },
                             {
-                                "matchId": 163621,
+                                "matchId": 163601,
                                 "seriesId": 12398,
                                 "matchDesc": "Elite Group D, Day 1",
                                 "matchFormat": "TEST",
                                 "startDate": "1791691200000",
                                 "endDate": "1792022399000",
                                 "team1": {
-                                    "teamId": 95,
-                                    "teamName": "Mumbai",
-                                    "teamSName": "MUM",
-                                    "imageId": 172187
+                                    "teamId": 246,
+                                    "teamName": "Railways",
+                                    "teamSName": "RLYS",
+                                    "imageId": 172299
                                 },
                                 "team2": {
-                                    "teamId": 595,
-                                    "teamName": "Chandigarh",
-                                    "teamSName": "CDG",
-                                    "imageId": 244269
+                                    "teamId": 467,
+                                    "teamName": "Uttarakhand",
+                                    "teamSName": "UTK",
+                                    "imageId": 172515
                                 },
                                 "venueInfo": {
-                                    "ground": "Wankhede Stadium",
+                                    "ground": "Brabourne Stadium",
                                     "city": "Mumbai",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
                             },
                             {
-                                "matchId": 163521,
+                                "matchId": 163591,
                                 "seriesId": 12398,
-                                "matchDesc": "Elite Group A, Day 1",
+                                "matchDesc": "Elite Group D, Day 1",
                                 "matchFormat": "TEST",
                                 "startDate": "1791691200000",
                                 "endDate": "1792022399000",
                                 "team1": {
-                                    "teamId": 460,
-                                    "teamName": "Bihar",
-                                    "teamSName": "BIH",
-                                    "imageId": 172508
+                                    "teamId": 200,
+                                    "teamName": "Haryana",
+                                    "teamSName": "HAR",
+                                    "imageId": 172260
                                 },
                                 "team2": {
-                                    "teamId": 93,
-                                    "teamName": "Uttar Pradesh",
-                                    "teamSName": "UP",
-                                    "imageId": 172185
+                                    "teamId": 251,
+                                    "teamName": "Himachal Pradesh",
+                                    "teamSName": "HP",
+                                    "imageId": 172304
                                 },
                                 "venueInfo": {
-                                    "ground": "Rajgir International Cricket Stadium",
-                                    "city": "Rajgir",
+                                    "ground": "Ch Bansi Lal Cricket Stadium",
+                                    "city": "Rohtak",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163581,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group C, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1791691200000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 250,
+                                    "teamName": "Services",
+                                    "teamSName": "SER",
+                                    "imageId": 172303
+                                },
+                                "team2": {
+                                    "teamId": 254,
+                                    "teamName": "Maharashtra",
+                                    "teamSName": "MAH",
+                                    "imageId": 172307
+                                },
+                                "venueInfo": {
+                                    "ground": "Palam A Stadium",
+                                    "city": "Delhi",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163563,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group C, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1791691200000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 163,
+                                    "teamName": "Gujarat",
+                                    "teamSName": "GUJ",
+                                    "imageId": 172232
+                                },
+                                "team2": {
+                                    "teamId": 249,
+                                    "teamName": "Odisha",
+                                    "teamSName": "ODSA",
+                                    "imageId": 776395
+                                },
+                                "venueInfo": {
+                                    "ground": "Narendra Modi Stadium B Ground",
+                                    "city": "Ahmedabad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163561,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group C, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1791691200000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 243,
+                                    "teamName": "Jharkhand",
+                                    "teamSName": "JHKD",
+                                    "imageId": 172296
+                                },
+                                "team2": {
+                                    "teamId": 244,
+                                    "teamName": "Kerala",
+                                    "teamSName": "KER",
+                                    "imageId": 172297
+                                },
+                                "venueInfo": {
+                                    "ground": "Keenan Stadium",
+                                    "city": "Jamshedpur",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163560,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group B, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1791691200000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 94,
+                                    "teamName": "Saurashtra",
+                                    "teamSName": "SAUR",
+                                    "imageId": 172186
+                                },
+                                "team2": {
+                                    "teamId": 375,
+                                    "teamName": "Chhattisgarh",
+                                    "teamSName": "CG",
+                                    "imageId": 172428
+                                },
+                                "venueInfo": {
+                                    "ground": "Niranjan Shah Stadium, Khandheri",
+                                    "city": "Rajkot",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
@@ -2820,6 +2981,559 @@
         },
         {
             "scheduleAdWrapper": {
+                "date": "MON, OCT 12 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Australia Domestic One-Day Cup 2026-27",
+                        "matchInfo": [
+                            {
+                                "matchId": 167077,
+                                "seriesId": 12723,
+                                "matchDesc": "7th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1791774000000",
+                                "endDate": "1791849599000",
+                                "team1": {
+                                    "teamId": 52,
+                                    "teamName": "Victoria",
+                                    "teamSName": "VIC",
+                                    "imageId": 172153
+                                },
+                                "team2": {
+                                    "teamId": 158,
+                                    "teamName": "South Australia",
+                                    "teamSName": "SAUS",
+                                    "imageId": 172225
+                                },
+                                "venueInfo": {
+                                    "ground": "Junction Oval",
+                                    "city": "Melbourne",
+                                    "country": "Australia",
+                                    "timezone": "+11:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 12723,
+                        "seriesHomeCountry": 4,
+                        "seriesCategory": "Domestic"
+                    },
+                    {
+                        "seriesName": "Ranji Trophy Elite 2026-27",
+                        "matchInfo": [
+                            {
+                                "matchId": 163531,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group A, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 248,
+                                    "teamName": "Vidarbha",
+                                    "teamSName": "VID",
+                                    "imageId": 172301
+                                },
+                                "team2": {
+                                    "teamId": 465,
+                                    "teamName": "Puducherry",
+                                    "teamSName": "PDC",
+                                    "imageId": 172513
+                                },
+                                "venueInfo": {
+                                    "ground": "Vidarbha Cricket Association Stadium",
+                                    "city": "Nagpur",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163530,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group A, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 252,
+                                    "teamName": "Jammu and Kashmir",
+                                    "teamSName": "JK",
+                                    "imageId": 172305
+                                },
+                                "team2": {
+                                    "teamId": 167,
+                                    "teamName": "Madhya Pradesh",
+                                    "teamSName": "MP",
+                                    "imageId": 172236
+                                },
+                                "venueInfo": {
+                                    "ground": "Sher-i-Kashmir Stadium",
+                                    "city": "Srinagar",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163521,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group A, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 460,
+                                    "teamName": "Bihar",
+                                    "teamSName": "BIH",
+                                    "imageId": 172508
+                                },
+                                "team2": {
+                                    "teamId": 93,
+                                    "teamName": "Uttar Pradesh",
+                                    "teamSName": "UP",
+                                    "imageId": 172185
+                                },
+                                "venueInfo": {
+                                    "ground": "Rajgir International Cricket Stadium",
+                                    "city": "Rajgir",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163520,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group A, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 253,
+                                    "teamName": "Goa",
+                                    "teamSName": "GOA",
+                                    "imageId": 172306
+                                },
+                                "team2": {
+                                    "teamId": 170,
+                                    "teamName": "Baroda",
+                                    "teamSName": "BRD",
+                                    "imageId": 172238
+                                },
+                                "venueInfo": {
+                                    "ground": "Bhausaheb Bandodkar Ground",
+                                    "city": "Goa",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163621,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group D, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 95,
+                                    "teamName": "Mumbai",
+                                    "teamSName": "MUM",
+                                    "imageId": 172187
+                                },
+                                "team2": {
+                                    "teamId": 595,
+                                    "teamName": "Chandigarh",
+                                    "teamSName": "CDG",
+                                    "imageId": 244269
+                                },
+                                "venueInfo": {
+                                    "ground": "Wankhede Stadium",
+                                    "city": "Mumbai",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163540,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group B, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 242,
+                                    "teamName": "Hyderabad",
+                                    "teamSName": "HYD",
+                                    "imageId": 172295
+                                },
+                                "team2": {
+                                    "teamId": 247,
+                                    "teamName": "Tripura",
+                                    "teamSName": "TRI",
+                                    "imageId": 172300
+                                },
+                                "venueInfo": {
+                                    "ground": "Gymkhana Ground",
+                                    "city": "Hyderabad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163550,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group B, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 241,
+                                    "teamName": "Andhra",
+                                    "teamSName": "AP",
+                                    "imageId": 172294
+                                },
+                                "team2": {
+                                    "teamId": 128,
+                                    "teamName": "Karnataka",
+                                    "teamSName": "KAR",
+                                    "imageId": 776345
+                                },
+                                "venueInfo": {
+                                    "ground": "Dr. Gokaraju Liala Gangaaraju ACA Cricket Ground",
+                                    "city": "Vijayawada",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163601,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group D, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 246,
+                                    "teamName": "Railways",
+                                    "teamSName": "RLYS",
+                                    "imageId": 172299
+                                },
+                                "team2": {
+                                    "teamId": 467,
+                                    "teamName": "Uttarakhand",
+                                    "teamSName": "UTK",
+                                    "imageId": 172515
+                                },
+                                "venueInfo": {
+                                    "ground": "Brabourne Stadium",
+                                    "city": "Mumbai",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163591,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group D, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 200,
+                                    "teamName": "Haryana",
+                                    "teamSName": "HAR",
+                                    "imageId": 172260
+                                },
+                                "team2": {
+                                    "teamId": 251,
+                                    "teamName": "Himachal Pradesh",
+                                    "teamSName": "HP",
+                                    "imageId": 172304
+                                },
+                                "venueInfo": {
+                                    "ground": "Ch Bansi Lal Cricket Stadium",
+                                    "city": "Rohtak",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163581,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group C, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 250,
+                                    "teamName": "Services",
+                                    "teamSName": "SER",
+                                    "imageId": 172303
+                                },
+                                "team2": {
+                                    "teamId": 254,
+                                    "teamName": "Maharashtra",
+                                    "teamSName": "MAH",
+                                    "imageId": 172307
+                                },
+                                "venueInfo": {
+                                    "ground": "Palam A Stadium",
+                                    "city": "Delhi",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163571,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group C, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 232,
+                                    "teamName": "Bengal",
+                                    "teamSName": "BEN",
+                                    "imageId": 172285
+                                },
+                                "team2": {
+                                    "teamId": 81,
+                                    "teamName": "Delhi",
+                                    "teamSName": "DEL",
+                                    "imageId": 172175
+                                },
+                                "venueInfo": {
+                                    "ground": "Bengal Cricket Academy Ground",
+                                    "city": "Kalyani",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163561,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group C, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 243,
+                                    "teamName": "Jharkhand",
+                                    "teamSName": "JHKD",
+                                    "imageId": 172296
+                                },
+                                "team2": {
+                                    "teamId": 244,
+                                    "teamName": "Kerala",
+                                    "teamSName": "KER",
+                                    "imageId": 172297
+                                },
+                                "venueInfo": {
+                                    "ground": "Keenan Stadium",
+                                    "city": "Jamshedpur",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163560,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group B, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 94,
+                                    "teamName": "Saurashtra",
+                                    "teamSName": "SAUR",
+                                    "imageId": 172186
+                                },
+                                "team2": {
+                                    "teamId": 375,
+                                    "teamName": "Chhattisgarh",
+                                    "teamSName": "CG",
+                                    "imageId": 172428
+                                },
+                                "venueInfo": {
+                                    "ground": "Niranjan Shah Stadium, Khandheri",
+                                    "city": "Rajkot",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163611,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group D, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 171,
+                                    "teamName": "Rajasthan",
+                                    "teamSName": "RAJ",
+                                    "imageId": 172239
+                                },
+                                "team2": {
+                                    "teamId": 92,
+                                    "teamName": "Tamil Nadu",
+                                    "teamSName": "TN",
+                                    "imageId": 172184
+                                },
+                                "venueInfo": {
+                                    "ground": "Sawai Mansingh Stadium",
+                                    "city": "Jaipur",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163551,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group B, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 245,
+                                    "teamName": "Punjab",
+                                    "teamSName": "PUN",
+                                    "imageId": 172298
+                                },
+                                "team2": {
+                                    "teamId": 162,
+                                    "teamName": "Assam",
+                                    "teamSName": "ASM",
+                                    "imageId": 172230
+                                },
+                                "venueInfo": {
+                                    "ground": "PCA International Cricket Stadium, Ground A",
+                                    "city": "New Chandigarh",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163563,
+                                "seriesId": 12398,
+                                "matchDesc": "Elite Group C, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 163,
+                                    "teamName": "Gujarat",
+                                    "teamSName": "GUJ",
+                                    "imageId": 172232
+                                },
+                                "team2": {
+                                    "teamId": 249,
+                                    "teamName": "Odisha",
+                                    "teamSName": "ODSA",
+                                    "imageId": 776395
+                                },
+                                "venueInfo": {
+                                    "ground": "Narendra Modi Stadium B Ground",
+                                    "city": "Ahmedabad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12398,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "Domestic"
+                    },
+                    {
+                        "seriesName": "Ranji Trophy Plate 2026-27",
+                        "matchInfo": [
+                            {
+                                "matchId": 163087,
+                                "seriesId": 12409,
+                                "matchDesc": "Plate, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 463,
+                                    "teamName": "Mizoram",
+                                    "teamSName": "MIZ",
+                                    "imageId": 776489
+                                },
+                                "team2": {
+                                    "teamId": 461,
+                                    "teamName": "Manipur",
+                                    "teamSName": "MNP",
+                                    "imageId": 172509
+                                },
+                                "venueInfo": {
+                                    "ground": "Gokulbhai Somabhai Patel Stadium",
+                                    "city": "Nadiad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163103,
+                                "seriesId": 12409,
+                                "matchDesc": "Plate, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 468,
+                                    "teamName": "Arunachal Pradesh",
+                                    "teamSName": "ARNP",
+                                    "imageId": 172516
+                                },
+                                "team2": {
+                                    "teamId": 464,
+                                    "teamName": "Nagaland",
+                                    "teamSName": "NGL",
+                                    "imageId": 776394
+                                },
+                                "venueInfo": {
+                                    "ground": "Gujarat College Ground",
+                                    "city": "Ahmedabad",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            },
+                            {
+                                "matchId": 163097,
+                                "seriesId": 12409,
+                                "matchDesc": "Plate, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1791777600000",
+                                "endDate": "1792022399000",
+                                "team1": {
+                                    "teamId": 466,
+                                    "teamName": "Sikkim",
+                                    "teamSName": "SKM",
+                                    "imageId": 172514
+                                },
+                                "team2": {
+                                    "teamId": 462,
+                                    "teamName": "Meghalaya",
+                                    "teamSName": "MGLY",
+                                    "imageId": 172510
+                                },
+                                "venueInfo": {
+                                    "ground": "SICA ground",
+                                    "city": "Rangpo",
+                                    "country": "India",
+                                    "timezone": "+05:30"
+                                }
+                            }
+                        ],
+                        "seriesId": 12409,
+                        "seriesHomeCountry": 2,
+                        "seriesCategory": "Domestic"
+                    }
+                ],
+                "longDate": "1791763200000"
+            },
+            "category_type": "domestic"
+        },
+        {
+            "scheduleAdWrapper": {
                 "date": "WED, OCT 07 2026",
                 "matchScheduleList": [
                     {
@@ -2886,7 +3600,7 @@
                                 "seriesId": 11898,
                                 "matchDesc": "1st ODI",
                                 "matchFormat": "ODI",
-                                "startDate": "1791517800000",
+                                "startDate": "1791519600000",
                                 "endDate": "1791590399000",
                                 "team1": {
                                     "teamId": 100,
@@ -2930,7 +3644,7 @@
                                 "seriesId": 11898,
                                 "matchDesc": "2nd ODI",
                                 "matchFormat": "ODI",
-                                "startDate": "1791690600000",
+                                "startDate": "1791692400000",
                                 "endDate": "1791763199000",
                                 "team1": {
                                     "teamId": 100,
