@@ -8,58 +8,6 @@
                         "seriesName": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
                         "matchInfo": [
                             {
-                                "matchId": 173901,
-                                "seriesId": 13257,
-                                "matchDesc": "9th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1791681300000",
-                                "endDate": "1791763199000",
-                                "team1": {
-                                    "teamId": 524,
-                                    "teamName": "China",
-                                    "teamSName": "CHN",
-                                    "imageId": 172574
-                                },
-                                "team2": {
-                                    "teamId": 190,
-                                    "teamName": "Singapore",
-                                    "teamSName": "SIN",
-                                    "imageId": 776275
-                                },
-                                "venueInfo": {
-                                    "ground": "Selangor Turf Club",
-                                    "city": "Kuala Lumpur",
-                                    "country": "Malaysia",
-                                    "timezone": "+08:00"
-                                }
-                            },
-                            {
-                                "matchId": 173891,
-                                "seriesId": 13257,
-                                "matchDesc": "8th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1791681300000",
-                                "endDate": "1791763199000",
-                                "team1": {
-                                    "teamId": 71,
-                                    "teamName": "Malaysia",
-                                    "teamSName": "MLY",
-                                    "imageId": 776319
-                                },
-                                "team2": {
-                                    "teamId": 563,
-                                    "teamName": "Maldives",
-                                    "teamSName": "MDV",
-                                    "imageId": 172615
-                                },
-                                "venueInfo": {
-                                    "ground": "YSD-UKM Cricket Oval",
-                                    "city": "Bangi",
-                                    "country": "Malaysia",
-                                    "timezone": "+08:00"
-                                }
-                            },
-                            {
                                 "matchId": 173887,
                                 "seriesId": 13257,
                                 "matchDesc": "7th Match",
@@ -1095,124 +1043,6 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "SAT, OCT 10 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "CSA T20 Challenge 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173307,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool B",
-                                "matchFormat": "T20",
-                                "startDate": "1791630000000",
-                                "endDate": "1791676799000",
-                                "team1": {
-                                    "teamId": 903,
-                                    "teamName": "Mpumalanga Rhinos",
-                                    "teamSName": "MPR",
-                                    "imageId": 248434
-                                },
-                                "team2": {
-                                    "teamId": 917,
-                                    "teamName": "Western Province",
-                                    "teamSName": "WPR",
-                                    "imageId": 1082447
-                                },
-                                "venueInfo": {
-                                    "ground": "Uplands College, White River",
-                                    "city": "Mpumalanga",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            },
-                            {
-                                "matchId": 173317,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool A",
-                                "matchFormat": "T20",
-                                "startDate": "1791648000000",
-                                "endDate": "1791676799000",
-                                "team1": {
-                                    "teamId": 922,
-                                    "teamName": "North West - Eastvaal Renault Dragons",
-                                    "teamSName": "NWEST",
-                                    "imageId": 248439
-                                },
-                                "team2": {
-                                    "teamId": 1768,
-                                    "teamName": "South Western Districts",
-                                    "teamSName": "SWD",
-                                    "imageId": 349609
-                                },
-                                "venueInfo": {
-                                    "ground": "Senwes Park",
-                                    "city": "Potchefstroom",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13180,
-                        "seriesHomeCountry": 11,
-                        "seriesCategory": "League"
-                    },
-                    {
-                        "seriesName": "World Championship of Legends 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 175010,
-                                "seriesId": 13300,
-                                "matchDesc": "11th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1791646200000",
-                                "endDate": "1791676799000",
-                                "team1": {
-                                    "teamId": 2005,
-                                    "teamName": "India Champions",
-                                    "teamSName": "INDCH",
-                                    "imageId": 510027
-                                },
-                                "team2": {
-                                    "teamId": 2014,
-                                    "teamName": "South Africa Champions",
-                                    "teamSName": "SACH",
-                                    "imageId": 510030
-                                },
-                                "venueInfo": {
-                                    "ground": "Sharjah Cricket Stadium",
-                                    "city": "Sharjah",
-                                    "country": "United Arab Emirates",
-                                    "timezone": "+04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 13300,
-                        "seriesCategory": "League",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1791590400000"
-            },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SUN, OCT 11 2026",
                 "matchScheduleList": [
                     {
@@ -1341,6 +1171,20 @@
                 "longDate": "1791676800000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1789,6 +1633,49 @@
         },
         {
             "scheduleAdWrapper": {
+                "date": "SAT, OCT 17 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "CSA T20 Challenge 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 173397,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1792252800000",
+                                "endDate": "1792281599000",
+                                "team1": {
+                                    "teamId": 1759,
+                                    "teamName": "Boland",
+                                    "teamSName": "BOL",
+                                    "imageId": 349610
+                                },
+                                "team2": {
+                                    "teamId": 903,
+                                    "teamName": "Mpumalanga Rhinos",
+                                    "teamSName": "MPR",
+                                    "imageId": 248434
+                                },
+                                "venueInfo": {
+                                    "ground": "Boland Park",
+                                    "city": "Paarl",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13180,
+                        "seriesHomeCountry": 11,
+                        "seriesCategory": "League"
+                    }
+                ],
+                "longDate": "1792195200000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
                 "date": "SUN, OCT 11 2026",
                 "matchScheduleList": [
                     {
@@ -1818,32 +1705,6 @@
                                     "city": "Sydney",
                                     "country": "Australia",
                                     "timezone": "+11:00"
-                                }
-                            },
-                            {
-                                "matchId": 166600,
-                                "seriesId": 12717,
-                                "matchDesc": "3rd Match, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1791685800000",
-                                "endDate": "1791763199000",
-                                "team1": {
-                                    "teamId": 87,
-                                    "teamName": "Western Australia",
-                                    "teamSName": "WA",
-                                    "imageId": 172180
-                                },
-                                "team2": {
-                                    "teamId": 164,
-                                    "teamName": "Queensland",
-                                    "teamSName": "QL",
-                                    "imageId": 172233
-                                },
-                                "venueInfo": {
-                                    "ground": "W.A.C.A. Ground",
-                                    "city": "Perth",
-                                    "country": "Australia",
-                                    "timezone": "+08:00"
                                 }
                             }
                         ],
@@ -1876,32 +1737,6 @@
                                 "venueInfo": {
                                     "ground": "SICA ground",
                                     "city": "Rangpo",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163103,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1791691200000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 468,
-                                    "teamName": "Arunachal Pradesh",
-                                    "teamSName": "ARNP",
-                                    "imageId": 172516
-                                },
-                                "team2": {
-                                    "teamId": 464,
-                                    "teamName": "Nagaland",
-                                    "teamSName": "NGL",
-                                    "imageId": 776394
-                                },
-                                "venueInfo": {
-                                    "ground": "Narendra Modi Stadium A Ground",
-                                    "city": "Ahmedabad",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
@@ -2442,32 +2277,6 @@
                                 "venueInfo": {
                                     "ground": "SICA ground",
                                     "city": "Rangpo",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163103,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1791777600000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 468,
-                                    "teamName": "Arunachal Pradesh",
-                                    "teamSName": "ARNP",
-                                    "imageId": 172516
-                                },
-                                "team2": {
-                                    "teamId": 464,
-                                    "teamName": "Nagaland",
-                                    "teamSName": "NGL",
-                                    "imageId": 776394
-                                },
-                                "venueInfo": {
-                                    "ground": "Narendra Modi Stadium A Ground",
-                                    "city": "Ahmedabad",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
@@ -3060,32 +2869,6 @@
                                 }
                             },
                             {
-                                "matchId": 163103,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 3",
-                                "matchFormat": "TEST",
-                                "startDate": "1791864000000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 468,
-                                    "teamName": "Arunachal Pradesh",
-                                    "teamSName": "ARNP",
-                                    "imageId": 172516
-                                },
-                                "team2": {
-                                    "teamId": 464,
-                                    "teamName": "Nagaland",
-                                    "teamSName": "NGL",
-                                    "imageId": 776394
-                                },
-                                "venueInfo": {
-                                    "ground": "Narendra Modi Stadium A Ground",
-                                    "city": "Ahmedabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
                                 "matchId": 163087,
                                 "seriesId": 12409,
                                 "matchDesc": "Plate, Day 3",
@@ -3600,32 +3383,6 @@
                                 "venueInfo": {
                                     "ground": "Gokulbhai Somabhai Patel Stadium",
                                     "city": "Nadiad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163103,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1791950400000",
-                                "endDate": "1792022399000",
-                                "team1": {
-                                    "teamId": 468,
-                                    "teamName": "Arunachal Pradesh",
-                                    "teamSName": "ARNP",
-                                    "imageId": 172516
-                                },
-                                "team2": {
-                                    "teamId": 464,
-                                    "teamName": "Nagaland",
-                                    "teamSName": "NGL",
-                                    "imageId": 776394
-                                },
-                                "venueInfo": {
-                                    "ground": "Narendra Modi Stadium A Ground",
-                                    "city": "Ahmedabad",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
