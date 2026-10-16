@@ -2,63 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "THU, OCT 15 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
-                        "matchInfo": [
-                            {
-                                "matchId": 169940,
-                                "seriesId": 7572,
-                                "matchDesc": "137th Match",
-                                "matchFormat": "ODI",
-                                "startDate": "1792044000000",
-                                "endDate": "1792108799000",
-                                "team1": {
-                                    "teamId": 304,
-                                    "teamName": "Oman",
-                                    "teamSName": "OMAN",
-                                    "imageId": 776328
-                                },
-                                "team2": {
-                                    "teamId": 26,
-                                    "teamName": "Canada",
-                                    "teamSName": "CAN",
-                                    "imageId": 776227
-                                },
-                                "venueInfo": {
-                                    "ground": "Al Amerat Cricket Ground (Ministry Turf 1)",
-                                    "city": "Al Amerat",
-                                    "country": "Oman",
-                                    "timezone": "+04:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 7572,
-                        "seriesHomeCountry": 1,
-                        "seriesCategory": "International"
-                    }
-                ],
-                "longDate": "1792022400000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SAT, OCT 17 2026",
                 "matchScheduleList": [
                     {
@@ -173,6 +116,20 @@
                 "longDate": "1792195200000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -539,6 +496,174 @@
                     }
                 ],
                 "longDate": "1792454400000"
+            },
+            "category_type": "international"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "WED, OCT 21 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Australia tour of South Africa, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 147931,
+                                "seriesId": 11595,
+                                "matchDesc": "2nd Test, Day 4",
+                                "matchFormat": "TEST",
+                                "startDate": "1792569600000",
+                                "endDate": "1792713599000",
+                                "team1": {
+                                    "teamId": 11,
+                                    "teamName": "South Africa",
+                                    "teamSName": "RSA",
+                                    "isFullMember": true,
+                                    "imageId": 776287
+                                },
+                                "team2": {
+                                    "teamId": 4,
+                                    "teamName": "Australia",
+                                    "teamSName": "AUS",
+                                    "isFullMember": true,
+                                    "imageId": 776202
+                                },
+                                "venueInfo": {
+                                    "ground": "St George's Park",
+                                    "city": "Gqeberha",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11595,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 173971,
+                                "seriesId": 13267,
+                                "matchDesc": "5th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1792573200000",
+                                "endDate": "1792627199000",
+                                "team1": {
+                                    "teamId": 570,
+                                    "teamName": "Lesotho",
+                                    "teamSName": "LSO",
+                                    "imageId": 172622
+                                },
+                                "team2": {
+                                    "teamId": 44,
+                                    "teamName": "Uganda",
+                                    "teamSName": "UGA",
+                                    "imageId": 776233
+                                },
+                                "venueInfo": {
+                                    "ground": "Nigeria Cricket Federation Oval 2",
+                                    "city": "Abuja",
+                                    "country": "Nigeria",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 173967,
+                                "seriesId": 13267,
+                                "matchDesc": "4th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1792573200000",
+                                "endDate": "1792627199000",
+                                "team1": {
+                                    "teamId": 551,
+                                    "teamName": "Mozambique",
+                                    "teamSName": "MOZ",
+                                    "imageId": 172603
+                                },
+                                "team2": {
+                                    "teamId": 567,
+                                    "teamName": "Gambia",
+                                    "teamSName": "GM",
+                                    "imageId": 172619
+                                },
+                                "venueInfo": {
+                                    "ground": "Nigeria Cricket Federation Oval 1",
+                                    "city": "Abuja",
+                                    "country": "Nigeria",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 173973,
+                                "seriesId": 13267,
+                                "matchDesc": "6th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1792587600000",
+                                "endDate": "1792627199000",
+                                "team1": {
+                                    "teamId": 2001,
+                                    "teamName": "Zambia",
+                                    "teamSName": "ZMB",
+                                    "imageId": 506188
+                                },
+                                "team2": {
+                                    "teamId": 536,
+                                    "teamName": "Nigeria",
+                                    "teamSName": "NGA",
+                                    "imageId": 248436
+                                },
+                                "venueInfo": {
+                                    "ground": "Nigeria Cricket Federation Oval 1",
+                                    "city": "Abuja",
+                                    "country": "Nigeria",
+                                    "timezone": "+01:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13267,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "ODI Tri-Nation Series in UAE, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 172681,
+                                "seriesId": 13197,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1792584000000",
+                                "endDate": "1792627199000",
+                                "team1": {
+                                    "teamId": 96,
+                                    "teamName": "Afghanistan",
+                                    "teamSName": "AFG",
+                                    "isFullMember": true,
+                                    "imageId": 776177
+                                },
+                                "team2": {
+                                    "teamId": 6,
+                                    "teamName": "Bangladesh",
+                                    "teamSName": "BAN",
+                                    "isFullMember": true,
+                                    "imageId": 776210
+                                },
+                                "venueInfo": {
+                                    "ground": "Sheikh Zayed Stadium",
+                                    "city": "Abu Dhabi",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 13197,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1792540800000"
             },
             "category_type": "international"
         },
@@ -3536,7 +3661,7 @@
                                 "seriesId": 12747,
                                 "matchDesc": "10th Match",
                                 "matchFormat": "T20",
-                                "startDate": "1792105200000",
+                                "startDate": "1792121400000",
                                 "endDate": "1792195199000",
                                 "team1": {
                                     "teamId": 356,
@@ -3551,10 +3676,10 @@
                                     "imageId": 773022
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Raby Oval No. 1",
+                                    "city": "Sydney",
+                                    "country": "Australia",
+                                    "timezone": "+11:00"
                                 }
                             }
                         ],
