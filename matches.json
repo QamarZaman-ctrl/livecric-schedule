@@ -2,188 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "TUE, OCT 20 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "Australia tour of South Africa, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 147931,
-                                "seriesId": 11595,
-                                "matchDesc": "2nd Test, Day 3",
-                                "matchFormat": "TEST",
-                                "startDate": "1792483200000",
-                                "endDate": "1792713599000",
-                                "team1": {
-                                    "teamId": 11,
-                                    "teamName": "South Africa",
-                                    "teamSName": "RSA",
-                                    "isFullMember": true,
-                                    "imageId": 776287
-                                },
-                                "team2": {
-                                    "teamId": 4,
-                                    "teamName": "Australia",
-                                    "teamSName": "AUS",
-                                    "isFullMember": true,
-                                    "imageId": 776202
-                                },
-                                "venueInfo": {
-                                    "ground": "St George's Park",
-                                    "city": "Gqeberha",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11595,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Pakistan ODI Tri-Series, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 170723,
-                                "seriesId": 13047,
-                                "matchDesc": "2nd Match",
-                                "matchFormat": "ODI",
-                                "startDate": "1792483200000",
-                                "endDate": "1792540799000",
-                                "team1": {
-                                    "teamId": 3,
-                                    "teamName": "Pakistan",
-                                    "teamSName": "PAK",
-                                    "isFullMember": true,
-                                    "imageId": 776308
-                                },
-                                "team2": {
-                                    "teamId": 9,
-                                    "teamName": "England",
-                                    "teamSName": "ENG",
-                                    "isFullMember": true,
-                                    "imageId": 776237
-                                },
-                                "venueInfo": {
-                                    "ground": "Rawalpindi Cricket Stadium",
-                                    "city": "Rawalpindi",
-                                    "country": "Pakistan",
-                                    "timezone": "+05:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 13047,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173941,
-                                "seriesId": 13267,
-                                "matchDesc": "1st Match",
-                                "matchFormat": "T20",
-                                "startDate": "1792486800000",
-                                "endDate": "1792540799000",
-                                "team1": {
-                                    "teamId": 44,
-                                    "teamName": "Uganda",
-                                    "teamSName": "UGA",
-                                    "imageId": 776233
-                                },
-                                "team2": {
-                                    "teamId": 2001,
-                                    "teamName": "Zambia",
-                                    "teamSName": "ZMB",
-                                    "imageId": 506188
-                                },
-                                "venueInfo": {
-                                    "ground": "Nigeria Cricket Federation Oval 1",
-                                    "city": "Abuja",
-                                    "country": "Nigeria",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 173957,
-                                "seriesId": 13267,
-                                "matchDesc": "3rd Match",
-                                "matchFormat": "T20",
-                                "startDate": "1792501200000",
-                                "endDate": "1792540799000",
-                                "team1": {
-                                    "teamId": 536,
-                                    "teamName": "Nigeria",
-                                    "teamSName": "NGA",
-                                    "imageId": 248436
-                                },
-                                "team2": {
-                                    "teamId": 567,
-                                    "teamName": "Gambia",
-                                    "teamSName": "GM",
-                                    "imageId": 172619
-                                },
-                                "venueInfo": {
-                                    "ground": "Nigeria Cricket Federation Oval 2",
-                                    "city": "Abuja",
-                                    "country": "Nigeria",
-                                    "timezone": "+01:00"
-                                }
-                            },
-                            {
-                                "matchId": 173950,
-                                "seriesId": 13267,
-                                "matchDesc": "2nd Match",
-                                "matchFormat": "T20",
-                                "startDate": "1792501200000",
-                                "endDate": "1792540799000",
-                                "team1": {
-                                    "teamId": 570,
-                                    "teamName": "Lesotho",
-                                    "teamSName": "LSO",
-                                    "imageId": 172622
-                                },
-                                "team2": {
-                                    "teamId": 551,
-                                    "teamName": "Mozambique",
-                                    "teamSName": "MOZ",
-                                    "imageId": 172603
-                                },
-                                "venueInfo": {
-                                    "ground": "Nigeria Cricket Federation Oval 1",
-                                    "city": "Abuja",
-                                    "country": "Nigeria",
-                                    "timezone": "+01:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13267,
-                        "seriesCategory": "International"
-                    }
-                ],
-                "longDate": "1792454400000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, OCT 21 2026",
                 "matchScheduleList": [
                     {
@@ -349,6 +167,20 @@
                 "longDate": "1792540800000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -902,60 +734,168 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, OCT 20 2026",
+                "date": "SUN, OCT 25 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "CSA T20 Challenge 2026",
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
                         "matchInfo": [
                             {
-                                "matchId": 173411,
-                                "seriesId": 13180,
-                                "matchDesc": "Pool A",
-                                "matchFormat": "T20",
-                                "startDate": "1792512000000",
-                                "endDate": "1792540799000",
+                                "matchId": 176331,
+                                "seriesId": 7572,
+                                "matchDesc": "140th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1792908000000",
+                                "endDate": "1792972799000",
                                 "team1": {
-                                    "teamId": 90,
-                                    "teamName": "Dolphins",
-                                    "teamSName": "DOL",
-                                    "imageId": 172183
+                                    "teamId": 7,
+                                    "teamName": "United Arab Emirates",
+                                    "teamSName": "UAE",
+                                    "imageId": 776242
                                 },
                                 "team2": {
-                                    "teamId": 155,
-                                    "teamName": "Warriors",
-                                    "teamSName": "WAR",
-                                    "imageId": 172222
+                                    "teamId": 24,
+                                    "teamName": "Netherlands",
+                                    "teamSName": "NED",
+                                    "imageId": 776335
                                 },
                                 "venueInfo": {
-                                    "ground": "Kingsmead",
-                                    "city": "Durban",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
+                                    "ground": "ICC Academy Ground",
+                                    "city": "Dubai",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
                                 }
                             }
                         ],
-                        "seriesId": 13180,
-                        "seriesHomeCountry": 11,
-                        "seriesCategory": "League"
+                        "seriesId": 7572,
+                        "seriesHomeCountry": 1,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Pakistan ODI Tri-Series, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 170733,
+                                "seriesId": 13047,
+                                "matchDesc": "4th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1792915200000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 3,
+                                    "teamName": "Pakistan",
+                                    "teamSName": "PAK",
+                                    "isFullMember": true,
+                                    "imageId": 776308
+                                },
+                                "team2": {
+                                    "teamId": 9,
+                                    "teamName": "England",
+                                    "teamSName": "ENG",
+                                    "isFullMember": true,
+                                    "imageId": 776237
+                                },
+                                "venueInfo": {
+                                    "ground": "Gaddafi Stadium",
+                                    "city": "Lahore",
+                                    "country": "Pakistan",
+                                    "timezone": "+05:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 13047,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "ICC Men's T20 World Cup Africa Sub Regional Qualifier C 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 174027,
+                                "seriesId": 13267,
+                                "matchDesc": "13th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1792918800000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 567,
+                                    "teamName": "Gambia",
+                                    "teamSName": "GM",
+                                    "imageId": 172619
+                                },
+                                "team2": {
+                                    "teamId": 570,
+                                    "teamName": "Lesotho",
+                                    "teamSName": "LSO",
+                                    "imageId": 172622
+                                },
+                                "venueInfo": {
+                                    "ground": "Nigeria Cricket Federation Oval 1",
+                                    "city": "Abuja",
+                                    "country": "Nigeria",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 174031,
+                                "seriesId": 13267,
+                                "matchDesc": "14th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1792918800000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 551,
+                                    "teamName": "Mozambique",
+                                    "teamSName": "MOZ",
+                                    "imageId": 172603
+                                },
+                                "team2": {
+                                    "teamId": 2001,
+                                    "teamName": "Zambia",
+                                    "teamSName": "ZMB",
+                                    "imageId": 506188
+                                },
+                                "venueInfo": {
+                                    "ground": "Nigeria Cricket Federation Oval 2",
+                                    "city": "Abuja",
+                                    "country": "Nigeria",
+                                    "timezone": "+01:00"
+                                }
+                            },
+                            {
+                                "matchId": 174037,
+                                "seriesId": 13267,
+                                "matchDesc": "15th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1792933200000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 536,
+                                    "teamName": "Nigeria",
+                                    "teamSName": "NGA",
+                                    "imageId": 248436
+                                },
+                                "team2": {
+                                    "teamId": 44,
+                                    "teamName": "Uganda",
+                                    "teamSName": "UGA",
+                                    "imageId": 776233
+                                },
+                                "venueInfo": {
+                                    "ground": "Nigeria Cricket Federation Oval 1",
+                                    "city": "Abuja",
+                                    "country": "Nigeria",
+                                    "timezone": "+01:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13267,
+                        "seriesCategory": "International"
                     }
                 ],
-                "longDate": "1792454400000"
+                "longDate": "1792886400000"
             },
-            "category_type": "league"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
@@ -1025,6 +965,20 @@
                 "longDate": "1792540800000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1235,6 +1189,127 @@
         },
         {
             "scheduleAdWrapper": {
+                "date": "SUN, OCT 25 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "CSA T20 Challenge 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 173511,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1792926000000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 933,
+                                    "teamName": "Eastern Storm",
+                                    "teamSName": "ESTORM",
+                                    "imageId": 248407
+                                },
+                                "team2": {
+                                    "teamId": 1782,
+                                    "teamName": "South Africa Emerging Players",
+                                    "teamSName": "SAEP",
+                                    "imageId": 776290
+                                },
+                                "venueInfo": {
+                                    "ground": "Willowmoore Park",
+                                    "city": "Benoni",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173507,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1792926000000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 1766,
+                                    "teamName": "KwaZulu-Natal Inland Tuskers",
+                                    "teamSName": "KZNIN",
+                                    "imageId": 349611
+                                },
+                                "team2": {
+                                    "teamId": 917,
+                                    "teamName": "Western Province",
+                                    "teamSName": "WPR",
+                                    "imageId": 1082447
+                                },
+                                "venueInfo": {
+                                    "ground": "City Oval",
+                                    "city": "Pietermaritzburg",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173487,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool B",
+                                "matchFormat": "T20",
+                                "startDate": "1792926000000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 1759,
+                                    "teamName": "Boland",
+                                    "teamSName": "BOL",
+                                    "imageId": 349610
+                                },
+                                "team2": {
+                                    "teamId": 89,
+                                    "teamName": "Titans",
+                                    "teamSName": "TIT",
+                                    "imageId": 172182
+                                },
+                                "venueInfo": {
+                                    "ground": "Boland Park",
+                                    "city": "Paarl",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 173497,
+                                "seriesId": 13180,
+                                "matchDesc": "Pool A",
+                                "matchFormat": "T20",
+                                "startDate": "1792926000000",
+                                "endDate": "1792972799000",
+                                "team1": {
+                                    "teamId": 922,
+                                    "teamName": "North West - Eastvaal Renault Dragons",
+                                    "teamSName": "NWEST",
+                                    "imageId": 248439
+                                },
+                                "team2": {
+                                    "teamId": 923,
+                                    "teamName": "Northern Cape",
+                                    "teamSName": "NCAPE",
+                                    "imageId": 248438
+                                },
+                                "venueInfo": {
+                                    "ground": "Senwes Park",
+                                    "city": "Potchefstroom",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13180,
+                        "seriesHomeCountry": 11,
+                        "seriesCategory": "League"
+                    }
+                ],
+                "longDate": "1792886400000"
+            },
+            "category_type": "league"
+        },
+        {
+            "scheduleAdWrapper": {
                 "date": "WED, OCT 21 2026",
                 "matchScheduleList": [
                     {
@@ -1377,32 +1452,6 @@
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
-                            },
-                            {
-                                "matchId": 163121,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1792555200000",
-                                "endDate": "1792627199000",
-                                "team1": {
-                                    "teamId": 468,
-                                    "teamName": "Arunachal Pradesh",
-                                    "teamSName": "ARNP",
-                                    "imageId": 172516
-                                },
-                                "team2": {
-                                    "teamId": 466,
-                                    "teamName": "Sikkim",
-                                    "teamSName": "SKM",
-                                    "imageId": 172514
-                                },
-                                "venueInfo": {
-                                    "ground": "Gokulbhai Somabhai Patel Stadium",
-                                    "city": "Nadiad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
                             }
                         ],
                         "seriesId": 12409,
@@ -1412,32 +1461,6 @@
                     {
                         "seriesName": "Ranji Trophy Elite 2026-27",
                         "matchInfo": [
-                            {
-                                "matchId": 163691,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group B, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1792552500000",
-                                "endDate": "1792627199000",
-                                "team1": {
-                                    "teamId": 162,
-                                    "teamName": "Assam",
-                                    "teamSName": "ASM",
-                                    "imageId": 172230
-                                },
-                                "team2": {
-                                    "teamId": 247,
-                                    "teamName": "Tripura",
-                                    "teamSName": "TRI",
-                                    "imageId": 172300
-                                },
-                                "venueInfo": {
-                                    "ground": "Barsapara Cricket Stadium",
-                                    "city": "Guwahati",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
                             {
                                 "matchId": 163701,
                                 "seriesId": 12398,
@@ -1486,58 +1509,6 @@
                                 "venueInfo": {
                                     "ground": "Cricket Association Puducherry Siechem Ground",
                                     "city": "Puducherry",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163643,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group A, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1792555200000",
-                                "endDate": "1792627199000",
-                                "team1": {
-                                    "teamId": 252,
-                                    "teamName": "Jammu and Kashmir",
-                                    "teamSName": "JK",
-                                    "imageId": 172305
-                                },
-                                "team2": {
-                                    "teamId": 248,
-                                    "teamName": "Vidarbha",
-                                    "teamSName": "VID",
-                                    "imageId": 172301
-                                },
-                                "venueInfo": {
-                                    "ground": "Sher-i-Kashmir Stadium",
-                                    "city": "Srinagar",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163653,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group A, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1792555200000",
-                                "endDate": "1792627199000",
-                                "team1": {
-                                    "teamId": 93,
-                                    "teamName": "Uttar Pradesh",
-                                    "teamSName": "UP",
-                                    "imageId": 172185
-                                },
-                                "team2": {
-                                    "teamId": 253,
-                                    "teamName": "Goa",
-                                    "teamSName": "GOA",
-                                    "imageId": 172306
-                                },
-                                "venueInfo": {
-                                    "ground": "Green Park",
-                                    "city": "Kanpur",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
@@ -1621,58 +1592,6 @@
                                 }
                             },
                             {
-                                "matchId": 163721,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1792555200000",
-                                "endDate": "1792627199000",
-                                "team1": {
-                                    "teamId": 250,
-                                    "teamName": "Services",
-                                    "teamSName": "SER",
-                                    "imageId": 172303
-                                },
-                                "team2": {
-                                    "teamId": 232,
-                                    "teamName": "Bengal",
-                                    "teamSName": "BEN",
-                                    "imageId": 172285
-                                },
-                                "venueInfo": {
-                                    "ground": "Palam A Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163631,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group A, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1792555200000",
-                                "endDate": "1792627199000",
-                                "team1": {
-                                    "teamId": 170,
-                                    "teamName": "Baroda",
-                                    "teamSName": "BRD",
-                                    "imageId": 172238
-                                },
-                                "team2": {
-                                    "teamId": 460,
-                                    "teamName": "Bihar",
-                                    "teamSName": "BIH",
-                                    "imageId": 172508
-                                },
-                                "venueInfo": {
-                                    "ground": "Reliance Stadium",
-                                    "city": "Vadodara",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
                                 "matchId": 163763,
                                 "seriesId": 12398,
                                 "matchDesc": "Elite Group D, Day 4",
@@ -1694,32 +1613,6 @@
                                 "venueInfo": {
                                     "ground": "Sawai Mansingh Stadium",
                                     "city": "Jaipur",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163761,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group D, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1792555200000",
-                                "endDate": "1792627199000",
-                                "team1": {
-                                    "teamId": 92,
-                                    "teamName": "Tamil Nadu",
-                                    "teamSName": "TN",
-                                    "imageId": 172184
-                                },
-                                "team2": {
-                                    "teamId": 467,
-                                    "teamName": "Uttarakhand",
-                                    "teamSName": "UTK",
-                                    "imageId": 172515
-                                },
-                                "venueInfo": {
-                                    "ground": "MA Chidambaram Stadium",
-                                    "city": "Chennai",
                                     "country": "India",
                                     "timezone": "+05:30"
                                 }
@@ -1815,7 +1708,7 @@
                                 "seriesId": 8993,
                                 "matchDesc": "31st Match",
                                 "matchFormat": "ODI",
-                                "startDate": "1792560600000",
+                                "startDate": "1792564200000",
                                 "endDate": "1792627199000",
                                 "team1": {
                                     "teamId": 14,
@@ -1830,10 +1723,10 @@
                                     "imageId": 776232
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Gymkhana Club Ground",
+                                    "city": "Nairobi",
+                                    "country": "Kenya",
+                                    "timezone": "+03:00"
                                 }
                             }
                         ],
@@ -1957,7 +1850,7 @@
                                 "seriesId": 8993,
                                 "matchDesc": "33rd Match",
                                 "matchFormat": "ODI",
-                                "startDate": "1792647000000",
+                                "startDate": "1792650600000",
                                 "endDate": "1792713599000",
                                 "team1": {
                                     "teamId": 525,
@@ -1972,10 +1865,10 @@
                                     "imageId": 776312
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Ruaraka Sports Club Ground",
+                                    "city": "Nairobi",
+                                    "country": "Kenya",
+                                    "timezone": "+03:00"
                                 }
                             },
                             {
@@ -1983,7 +1876,7 @@
                                 "seriesId": 8993,
                                 "matchDesc": "32nd Match",
                                 "matchFormat": "ODI",
-                                "startDate": "1792647000000",
+                                "startDate": "1792650600000",
                                 "endDate": "1792713599000",
                                 "team1": {
                                     "teamId": 287,
@@ -1998,10 +1891,10 @@
                                     "imageId": 776300
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Gymkhana Club Ground",
+                                    "city": "Nairobi",
+                                    "country": "Kenya",
+                                    "timezone": "+03:00"
                                 }
                             }
                         ],
@@ -2118,7 +2011,7 @@
                                 "seriesId": 8993,
                                 "matchDesc": "35th Match",
                                 "matchFormat": "ODI",
-                                "startDate": "1792819800000",
+                                "startDate": "1792823400000",
                                 "endDate": "1792886399000",
                                 "team1": {
                                     "teamId": 525,
@@ -2133,10 +2026,10 @@
                                     "imageId": 776303
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Ruaraka Sports Club Ground",
+                                    "city": "Nairobi",
+                                    "country": "Kenya",
+                                    "timezone": "+03:00"
                                 }
                             },
                             {
@@ -2144,7 +2037,7 @@
                                 "seriesId": 8993,
                                 "matchDesc": "34th Match",
                                 "matchFormat": "ODI",
-                                "startDate": "1792819800000",
+                                "startDate": "1792823400000",
                                 "endDate": "1792886399000",
                                 "team1": {
                                     "teamId": 185,
@@ -2159,10 +2052,10 @@
                                     "imageId": 776312
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Gymkhana Club Ground",
+                                    "city": "Nairobi",
+                                    "country": "Kenya",
+                                    "timezone": "+03:00"
                                 }
                             }
                         ],
@@ -2219,7 +2112,7 @@
                                 "seriesId": 8993,
                                 "matchDesc": "37th Match",
                                 "matchFormat": "ODI",
-                                "startDate": "1792906200000",
+                                "startDate": "1792909800000",
                                 "endDate": "1792972799000",
                                 "team1": {
                                     "teamId": 185,
@@ -2234,10 +2127,10 @@
                                     "imageId": 776304
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Ruaraka Sports Club Ground",
+                                    "city": "Nairobi",
+                                    "country": "Kenya",
+                                    "timezone": "+03:00"
                                 }
                             },
                             {
@@ -2245,7 +2138,7 @@
                                 "seriesId": 8993,
                                 "matchDesc": "36th Match",
                                 "matchFormat": "ODI",
-                                "startDate": "1792906200000",
+                                "startDate": "1792909800000",
                                 "endDate": "1792972799000",
                                 "team1": {
                                     "teamId": 303,
@@ -2260,10 +2153,10 @@
                                     "imageId": 776303
                                 },
                                 "venueInfo": {
-                                    "ground": "TBC",
-                                    "city": "TBC",
-                                    "country": "TBC",
-                                    "timezone": "+05:30"
+                                    "ground": "Gymkhana Club Ground",
+                                    "city": "Nairobi",
+                                    "country": "Kenya",
+                                    "timezone": "+03:00"
                                 }
                             }
                         ],
@@ -2829,133 +2722,6 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "TUE, OCT 20 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "T20 Spring Challenge 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 168090,
-                                "seriesId": 12747,
-                                "matchDesc": "Semi Final 2",
-                                "matchFormat": "T20",
-                                "startDate": "1792467000000",
-                                "endDate": "1792540799000",
-                                "team1": {
-                                    "teamId": 362,
-                                    "teamName": "Sydney Thunder Women",
-                                    "teamSName": "SYTW",
-                                    "imageId": 824992
-                                },
-                                "team2": {
-                                    "teamId": 361,
-                                    "teamName": "Sydney Sixers Women",
-                                    "teamSName": "SYSW",
-                                    "imageId": 824990
-                                },
-                                "venueInfo": {
-                                    "ground": "Cricket Central",
-                                    "city": "Sydney",
-                                    "country": "Australia",
-                                    "timezone": "+11:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 12747,
-                        "seriesHomeCountry": 4,
-                        "seriesCategory": "Women"
-                    },
-                    {
-                        "seriesName": "New Zealand Women tour of Australia, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 151262,
-                                "seriesId": 11859,
-                                "matchDesc": "2nd T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1792484100000",
-                                "endDate": "1792540799000",
-                                "team1": {
-                                    "teamId": 100,
-                                    "teamName": "Australia Women",
-                                    "teamSName": "AUSW",
-                                    "imageId": 776205
-                                },
-                                "team2": {
-                                    "teamId": 98,
-                                    "teamName": "New Zealand Women",
-                                    "teamSName": "NZW",
-                                    "imageId": 776338
-                                },
-                                "venueInfo": {
-                                    "ground": "North Sydney Oval",
-                                    "city": "Sydney",
-                                    "country": "Australia",
-                                    "timezone": "+11:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 11859,
-                        "seriesCategory": "Women",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Zimbabwe Women tour of India, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 155541,
-                                "seriesId": 12200,
-                                "matchDesc": "3rd T20I",
-                                "matchFormat": "T20",
-                                "startDate": "1792503000000",
-                                "endDate": "1792540799000",
-                                "team1": {
-                                    "teamId": 97,
-                                    "teamName": "India Women",
-                                    "teamSName": "INDW",
-                                    "imageId": 776182
-                                },
-                                "team2": {
-                                    "teamId": 388,
-                                    "teamName": "Zimbabwe Women",
-                                    "teamSName": "ZIMW",
-                                    "imageId": 776203
-                                },
-                                "venueInfo": {
-                                    "ground": "Shaheed Veer Narayan Singh International Stadium",
-                                    "city": "Raipur",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 12200,
-                        "seriesCategory": "Women",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1792454400000"
-            },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "WED, OCT 21 2026",
                 "matchScheduleList": [
                     {
@@ -2975,10 +2741,10 @@
                                     "imageId": 824984
                                 },
                                 "team2": {
-                                    "teamId": 106,
-                                    "teamName": "TBC",
-                                    "teamSName": "TBC",
-                                    "imageId": 172198
+                                    "teamId": 361,
+                                    "teamName": "Sydney Sixers Women",
+                                    "teamSName": "SYSW",
+                                    "imageId": 824990
                                 },
                                 "venueInfo": {
                                     "ground": "Cricket Central",
@@ -2996,6 +2762,20 @@
                 "longDate": "1792540800000"
             },
             "category_type": "women"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
