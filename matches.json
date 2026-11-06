@@ -2,254 +2,6 @@
     "matchScheduleMap": [
         {
             "scheduleAdWrapper": {
-                "date": "THU, NOV 05 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "West Indies tour of Bangladesh, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173060,
-                                "seriesId": 13211,
-                                "matchDesc": "2nd Test, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1793849400000",
-                                "endDate": "1794268799000",
-                                "team1": {
-                                    "teamId": 6,
-                                    "teamName": "Bangladesh",
-                                    "teamSName": "BAN",
-                                    "isFullMember": true,
-                                    "imageId": 776210
-                                },
-                                "team2": {
-                                    "teamId": 10,
-                                    "teamName": "West Indies",
-                                    "teamSName": "WI",
-                                    "isFullMember": true,
-                                    "imageId": 776191
-                                },
-                                "venueInfo": {
-                                    "ground": "Sylhet International Cricket Stadium",
-                                    "city": "Sylhet",
-                                    "country": "Bangladesh",
-                                    "timezone": "+06:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13211,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "Sri Lanka tour of Pakistan, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 170700,
-                                "seriesId": 13037,
-                                "matchDesc": "3-Day Warm-up Match, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1793853000000",
-                                "endDate": "1794009599000",
-                                "team1": {
-                                    "teamId": 374,
-                                    "teamName": "Pakistan Cricket Board Patrons XI",
-                                    "teamSName": "PCBPXI",
-                                    "imageId": 172427
-                                },
-                                "team2": {
-                                    "teamId": 5,
-                                    "teamName": "Sri Lanka",
-                                    "teamSName": "SL",
-                                    "isFullMember": true,
-                                    "imageId": 776254
-                                },
-                                "venueInfo": {
-                                    "ground": "Islamabad Club Cricket Oval",
-                                    "city": "Islamabad",
-                                    "country": "Pakistan",
-                                    "timezone": "+05:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 13037,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Afghanistan vs Zimbabwe in UAE, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 172727,
-                                "seriesId": 13201,
-                                "matchDesc": "1st Test, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1793858400000",
-                                "endDate": "1794268799000",
-                                "team1": {
-                                    "teamId": 96,
-                                    "teamName": "Afghanistan",
-                                    "teamSName": "AFG",
-                                    "isFullMember": true,
-                                    "imageId": 776177
-                                },
-                                "team2": {
-                                    "teamId": 12,
-                                    "teamName": "Zimbabwe",
-                                    "teamSName": "ZIM",
-                                    "isFullMember": true,
-                                    "imageId": 776198
-                                },
-                                "venueInfo": {
-                                    "ground": "Sharjah Cricket Stadium",
-                                    "city": "Sharjah",
-                                    "country": "United Arab Emirates",
-                                    "timezone": "+04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 13201,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1793836800000"
-            },
-            "category_type": "international"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "scheduleAdWrapper": {
-                "date": "FRI, NOV 06 2026",
-                "matchScheduleList": [
-                    {
-                        "seriesName": "West Indies tour of Bangladesh, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173060,
-                                "seriesId": 13211,
-                                "matchDesc": "2nd Test, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1793935800000",
-                                "endDate": "1794268799000",
-                                "team1": {
-                                    "teamId": 6,
-                                    "teamName": "Bangladesh",
-                                    "teamSName": "BAN",
-                                    "isFullMember": true,
-                                    "imageId": 776210
-                                },
-                                "team2": {
-                                    "teamId": 10,
-                                    "teamName": "West Indies",
-                                    "teamSName": "WI",
-                                    "isFullMember": true,
-                                    "imageId": 776191
-                                },
-                                "venueInfo": {
-                                    "ground": "Sylhet International Cricket Stadium",
-                                    "city": "Sylhet",
-                                    "country": "Bangladesh",
-                                    "timezone": "+06:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13211,
-                        "seriesCategory": "International"
-                    },
-                    {
-                        "seriesName": "Sri Lanka tour of Pakistan, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 170700,
-                                "seriesId": 13037,
-                                "matchDesc": "3-Day Warm-up Match, Day 3",
-                                "matchFormat": "TEST",
-                                "startDate": "1793939400000",
-                                "endDate": "1794009599000",
-                                "team1": {
-                                    "teamId": 374,
-                                    "teamName": "Pakistan Cricket Board Patrons XI",
-                                    "teamSName": "PCBPXI",
-                                    "imageId": 172427
-                                },
-                                "team2": {
-                                    "teamId": 5,
-                                    "teamName": "Sri Lanka",
-                                    "teamSName": "SL",
-                                    "isFullMember": true,
-                                    "imageId": 776254
-                                },
-                                "venueInfo": {
-                                    "ground": "Islamabad Club Cricket Oval",
-                                    "city": "Islamabad",
-                                    "country": "Pakistan",
-                                    "timezone": "+05:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 13037,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    },
-                    {
-                        "seriesName": "Afghanistan vs Zimbabwe in UAE, 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 172727,
-                                "seriesId": 13201,
-                                "matchDesc": "1st Test, Day 2",
-                                "matchFormat": "TEST",
-                                "startDate": "1793944800000",
-                                "endDate": "1794268799000",
-                                "team1": {
-                                    "teamId": 96,
-                                    "teamName": "Afghanistan",
-                                    "teamSName": "AFG",
-                                    "isFullMember": true,
-                                    "imageId": 776177
-                                },
-                                "team2": {
-                                    "teamId": 12,
-                                    "teamName": "Zimbabwe",
-                                    "teamSName": "ZIM",
-                                    "isFullMember": true,
-                                    "imageId": 776198
-                                },
-                                "venueInfo": {
-                                    "ground": "Sharjah Cricket Stadium",
-                                    "city": "Sharjah",
-                                    "country": "United Arab Emirates",
-                                    "timezone": "+04:00"
-                                },
-                                "isLiveStreamEnabled": true
-                            }
-                        ],
-                        "seriesId": 13201,
-                        "seriesCategory": "International",
-                        "isLiveStreamEnabled": true
-                    }
-                ],
-                "longDate": "1793923200000"
-            },
-            "category_type": "international"
-        },
-        {
-            "scheduleAdWrapper": {
                 "date": "SAT, NOV 07 2026",
                 "matchScheduleList": [
                     {
@@ -325,6 +77,42 @@
                         "seriesCategory": "International"
                     },
                     {
+                        "seriesName": "England tour of Australia, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 178111,
+                                "seriesId": 11876,
+                                "matchDesc": "Tour Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1794022200000",
+                                "endDate": "1794095999000",
+                                "team1": {
+                                    "teamId": 87,
+                                    "teamName": "Western Australia",
+                                    "teamSName": "WA",
+                                    "imageId": 172180
+                                },
+                                "team2": {
+                                    "teamId": 9,
+                                    "teamName": "England",
+                                    "teamSName": "ENG",
+                                    "isFullMember": true,
+                                    "imageId": 776237
+                                },
+                                "venueInfo": {
+                                    "ground": "W.A.C.A. Ground",
+                                    "city": "Perth",
+                                    "country": "Australia",
+                                    "timezone": "+08:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11876,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
                         "seriesName": "Afghanistan vs Zimbabwe in UAE, 2026",
                         "matchInfo": [
                             {
@@ -365,6 +153,20 @@
                 "longDate": "1794009600000"
             },
             "category_type": "international"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -863,7 +665,7 @@
                                 "seriesId": 13201,
                                 "matchDesc": "2nd Test, Day 1",
                                 "matchFormat": "TEST",
-                                "startDate": "1794547800000",
+                                "startDate": "1794549600000",
                                 "endDate": "1794959999000",
                                 "team1": {
                                     "teamId": 96,
@@ -899,119 +701,206 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "THU, NOV 05 2026",
+                "date": "SAT, NOV 14 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Nepal Premier League 2026",
+                        "seriesName": "Afghanistan vs Zimbabwe in UAE, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 177701,
-                                "seriesId": 13430,
-                                "matchDesc": "14th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1793861100000",
-                                "endDate": "1793923199000",
+                                "matchId": 172731,
+                                "seriesId": 13201,
+                                "matchDesc": "2nd Test, Day 2",
+                                "matchFormat": "TEST",
+                                "startDate": "1794636000000",
+                                "endDate": "1794959999000",
                                 "team1": {
-                                    "teamId": 2918,
-                                    "teamName": "Janakpur Bolts",
-                                    "teamSName": "JAB",
-                                    "imageId": 784132
+                                    "teamId": 96,
+                                    "teamName": "Afghanistan",
+                                    "teamSName": "AFG",
+                                    "isFullMember": true,
+                                    "imageId": 776177
                                 },
                                 "team2": {
-                                    "teamId": 2940,
-                                    "teamName": "Lumbini Lions",
-                                    "teamSName": "LUL",
-                                    "imageId": 784131
+                                    "teamId": 12,
+                                    "teamName": "Zimbabwe",
+                                    "teamSName": "ZIM",
+                                    "isFullMember": true,
+                                    "imageId": 776198
                                 },
                                 "venueInfo": {
-                                    "ground": "Tribhuvan University International Cricket Ground",
-                                    "city": "Kirtipur",
-                                    "country": "Nepal",
-                                    "timezone": "+05:45"
-                                }
-                            },
-                            {
-                                "matchId": 177710,
-                                "seriesId": 13430,
-                                "matchDesc": "15th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1793877300000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 2904,
-                                    "teamName": "Biratnagar Kings",
-                                    "teamSName": "BIK",
-                                    "imageId": 784129
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
                                 },
-                                "team2": {
-                                    "teamId": 2937,
-                                    "teamName": "Kathmandu Gorkhas",
-                                    "teamSName": "KAG",
-                                    "imageId": 784125
-                                },
-                                "venueInfo": {
-                                    "ground": "Tribhuvan University International Cricket Ground",
-                                    "city": "Kirtipur",
-                                    "country": "Nepal",
-                                    "timezone": "+05:45"
-                                }
+                                "isLiveStreamEnabled": true
                             }
                         ],
-                        "seriesId": 13430,
-                        "seriesCategory": "League"
-                    },
-                    {
-                        "seriesName": "CSA T20 Challenge 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 173587,
-                                "seriesId": 13180,
-                                "matchDesc": "Super Eights",
-                                "matchFormat": "T20",
-                                "startDate": "1793894400000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 155,
-                                    "teamName": "Warriors",
-                                    "teamSName": "WAR",
-                                    "imageId": 172222
-                                },
-                                "team2": {
-                                    "teamId": 1759,
-                                    "teamName": "Boland",
-                                    "teamSName": "BOL",
-                                    "imageId": 349610
-                                },
-                                "venueInfo": {
-                                    "ground": "St George's Park",
-                                    "city": "Gqeberha",
-                                    "country": "South Africa",
-                                    "timezone": "+02:00"
-                                }
-                            }
-                        ],
-                        "seriesId": 13180,
-                        "seriesHomeCountry": 11,
-                        "seriesCategory": "League"
+                        "seriesId": 13201,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1793836800000"
+                "longDate": "1794614400000"
             },
-            "category_type": "league"
+            "category_type": "international"
         },
         {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "scheduleAdWrapper": {
+                "date": "SUN, NOV 15 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "India tour of New Zealand 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 161282,
+                                "seriesId": 12543,
+                                "matchDesc": "5th ODI",
+                                "matchFormat": "ODI",
+                                "startDate": "1794708000000",
+                                "endDate": "1794787199000",
+                                "team1": {
+                                    "teamId": 13,
+                                    "teamName": "New Zealand",
+                                    "teamSName": "NZ",
+                                    "isFullMember": true,
+                                    "imageId": 776333
+                                },
+                                "team2": {
+                                    "teamId": 2,
+                                    "teamName": "India",
+                                    "teamSName": "IND",
+                                    "isFullMember": true,
+                                    "imageId": 776162
+                                },
+                                "venueInfo": {
+                                    "ground": "Bay Oval",
+                                    "city": "Mount Maunganui",
+                                    "country": "New Zealand",
+                                    "timezone": "+13:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12543,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "England tour of Australia, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 151323,
+                                "seriesId": 11876,
+                                "matchDesc": "2nd ODI",
+                                "matchFormat": "ODI",
+                                "startDate": "1794713400000",
+                                "endDate": "1794787199000",
+                                "team1": {
+                                    "teamId": 4,
+                                    "teamName": "Australia",
+                                    "teamSName": "AUS",
+                                    "isFullMember": true,
+                                    "imageId": 776202
+                                },
+                                "team2": {
+                                    "teamId": 9,
+                                    "teamName": "England",
+                                    "teamSName": "ENG",
+                                    "isFullMember": true,
+                                    "imageId": 776237
+                                },
+                                "venueInfo": {
+                                    "ground": "Adelaide Oval",
+                                    "city": "Adelaide",
+                                    "country": "Australia",
+                                    "timezone": "+10:30"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11876,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Afghanistan vs Zimbabwe in UAE, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 172731,
+                                "seriesId": 13201,
+                                "matchDesc": "2nd Test, Day 3",
+                                "matchFormat": "TEST",
+                                "startDate": "1794722400000",
+                                "endDate": "1794959999000",
+                                "team1": {
+                                    "teamId": 96,
+                                    "teamName": "Afghanistan",
+                                    "teamSName": "AFG",
+                                    "isFullMember": true,
+                                    "imageId": 776177
+                                },
+                                "team2": {
+                                    "teamId": 12,
+                                    "teamName": "Zimbabwe",
+                                    "teamSName": "ZIM",
+                                    "isFullMember": true,
+                                    "imageId": 776198
+                                },
+                                "venueInfo": {
+                                    "ground": "Sharjah Cricket Stadium",
+                                    "city": "Sharjah",
+                                    "country": "United Arab Emirates",
+                                    "timezone": "+04:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 13201,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    },
+                    {
+                        "seriesName": "Bangladesh tour of South Africa, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 147953,
+                                "seriesId": 11606,
+                                "matchDesc": "1st Test, Day 1",
+                                "matchFormat": "TEST",
+                                "startDate": "1794729600000",
+                                "endDate": "1795132799000",
+                                "team1": {
+                                    "teamId": 11,
+                                    "teamName": "South Africa",
+                                    "teamSName": "RSA",
+                                    "isFullMember": true,
+                                    "imageId": 776287
+                                },
+                                "team2": {
+                                    "teamId": 6,
+                                    "teamName": "Bangladesh",
+                                    "teamSName": "BAN",
+                                    "isFullMember": true,
+                                    "imageId": 776210
+                                },
+                                "venueInfo": {
+                                    "ground": "The Wanderers Stadium",
+                                    "city": "Johannesburg",
+                                    "country": "South Africa",
+                                    "timezone": "+02:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 11606,
+                        "seriesCategory": "International",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1794700800000"
+            },
+            "category_type": "international"
         },
         {
             "scheduleAdWrapper": {
@@ -1114,6 +1003,20 @@
                 "longDate": "1793923200000"
             },
             "category_type": "league"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -1596,527 +1499,141 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "THU, NOV 05 2026",
+                "date": "TUE, NOV 10 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Ranji Trophy Plate 2026-27",
+                        "seriesName": "Nepal Premier League 2026",
                         "matchInfo": [
                             {
-                                "matchId": 163153,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793847600000",
-                                "endDate": "1793923199000",
+                                "matchId": 177753,
+                                "seriesId": 13430,
+                                "matchDesc": "21st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1794309300000",
+                                "endDate": "1794355199000",
                                 "team1": {
-                                    "teamId": 462,
-                                    "teamName": "Meghalaya",
-                                    "teamSName": "MGLY",
-                                    "imageId": 172510
+                                    "teamId": 2918,
+                                    "teamName": "Janakpur Bolts",
+                                    "teamSName": "JAB",
+                                    "imageId": 784132
                                 },
                                 "team2": {
-                                    "teamId": 464,
-                                    "teamName": "Nagaland",
-                                    "teamSName": "NGL",
-                                    "imageId": 776394
+                                    "teamId": 2960,
+                                    "teamName": "Sudur Paschim Royals",
+                                    "teamSName": "SPR",
+                                    "imageId": 784128
                                 },
                                 "venueInfo": {
-                                    "ground": "Meghalaya Cricket Association Cricket Ground",
-                                    "city": "Shillong",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163161,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 463,
-                                    "teamName": "Mizoram",
-                                    "teamSName": "MIZ",
-                                    "imageId": 776489
-                                },
-                                "team2": {
-                                    "teamId": 468,
-                                    "teamName": "Arunachal Pradesh",
-                                    "teamSName": "ARNP",
-                                    "imageId": 172516
-                                },
-                                "venueInfo": {
-                                    "ground": "Lal Bahadur Shastri Stadium",
-                                    "city": "Vallabh Vidyanagar, Anand",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163151,
-                                "seriesId": 12409,
-                                "matchDesc": "Plate, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 461,
-                                    "teamName": "Manipur",
-                                    "teamSName": "MNP",
-                                    "imageId": 172509
-                                },
-                                "team2": {
-                                    "teamId": 466,
-                                    "teamName": "Sikkim",
-                                    "teamSName": "SKM",
-                                    "imageId": 172514
-                                },
-                                "venueInfo": {
-                                    "ground": "Gujarat College Ground",
-                                    "city": "Ahmedabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
+                                    "ground": "Tribhuvan University International Cricket Ground",
+                                    "city": "Kirtipur",
+                                    "country": "Nepal",
+                                    "timezone": "+05:45"
                                 }
                             }
                         ],
-                        "seriesId": 12409,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "Domestic"
+                        "seriesId": 13430,
+                        "seriesCategory": "League"
                     },
                     {
-                        "seriesName": "Ranji Trophy Elite 2026-27",
+                        "seriesName": "Abu Dhabi T10 League 2026",
                         "matchInfo": [
                             {
-                                "matchId": 163960,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group B, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793848500000",
-                                "endDate": "1793923199000",
+                                "matchId": 176154,
+                                "seriesId": 13307,
+                                "matchDesc": "9th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1794318300000",
+                                "endDate": "1794355199000",
                                 "team1": {
-                                    "teamId": 247,
-                                    "teamName": "Tripura",
-                                    "teamSName": "TRI",
-                                    "imageId": 172300
+                                    "teamId": 3640,
+                                    "teamName": "Yas Lions",
+                                    "teamSName": "YL",
+                                    "imageId": 174284
                                 },
                                 "team2": {
-                                    "teamId": 94,
-                                    "teamName": "Saurashtra",
-                                    "teamSName": "SAUR",
-                                    "imageId": 172186
+                                    "teamId": 3647,
+                                    "teamName": "United Tigers",
+                                    "teamSName": "UT",
+                                    "imageId": 174284
                                 },
                                 "venueInfo": {
-                                    "ground": "Maharaja Bir Bikram College Stadium",
-                                    "city": "Agartala",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163961,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793849400000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 249,
-                                    "teamName": "Odisha",
-                                    "teamSName": "ODSA",
-                                    "imageId": 776395
-                                },
-                                "team2": {
-                                    "teamId": 243,
-                                    "teamName": "Jharkhand",
-                                    "teamSName": "JHKD",
-                                    "imageId": 172296
-                                },
-                                "venueInfo": {
-                                    "ground": "KIIT Stadium",
-                                    "city": "Bhubaneswar",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163911,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group A, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 93,
-                                    "teamName": "Uttar Pradesh",
-                                    "teamSName": "UP",
-                                    "imageId": 172185
-                                },
-                                "team2": {
-                                    "teamId": 170,
-                                    "teamName": "Baroda",
-                                    "teamSName": "BRD",
-                                    "imageId": 172238
-                                },
-                                "venueInfo": {
-                                    "ground": "Green Park",
-                                    "city": "Kanpur",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163940,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group A, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 252,
-                                    "teamName": "Jammu and Kashmir",
-                                    "teamSName": "JK",
-                                    "imageId": 172305
-                                },
-                                "team2": {
-                                    "teamId": 465,
-                                    "teamName": "Puducherry",
-                                    "teamSName": "PDC",
-                                    "imageId": 172513
-                                },
-                                "venueInfo": {
-                                    "ground": "Sher-i-Kashmir Stadium",
-                                    "city": "Srinagar",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163941,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group B, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 375,
-                                    "teamName": "Chhattisgarh",
-                                    "teamSName": "CG",
-                                    "imageId": 172428
-                                },
-                                "team2": {
-                                    "teamId": 242,
-                                    "teamName": "Hyderabad",
-                                    "teamSName": "HYD",
-                                    "imageId": 172295
-                                },
-                                "venueInfo": {
-                                    "ground": "Gymkhana Ground",
-                                    "city": "Secunderabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163973,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 81,
-                                    "teamName": "Delhi",
-                                    "teamSName": "DEL",
-                                    "imageId": 172175
-                                },
-                                "team2": {
-                                    "teamId": 250,
-                                    "teamName": "Services",
-                                    "teamSName": "SER",
-                                    "imageId": 172303
-                                },
-                                "venueInfo": {
-                                    "ground": "Palam A Stadium",
-                                    "city": "Delhi",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163953,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group B, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 245,
-                                    "teamName": "Punjab",
-                                    "teamSName": "PUN",
-                                    "imageId": 172298
-                                },
-                                "team2": {
-                                    "teamId": 241,
-                                    "teamName": "Andhra",
-                                    "teamSName": "AP",
-                                    "imageId": 172294
-                                },
-                                "venueInfo": {
-                                    "ground": "PCA International Cricket Stadium, Ground B",
-                                    "city": "New Chandigarh",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 164011,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group D, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 595,
-                                    "teamName": "Chandigarh",
-                                    "teamSName": "CDG",
-                                    "imageId": 244269
-                                },
-                                "team2": {
-                                    "teamId": 92,
-                                    "teamName": "Tamil Nadu",
-                                    "teamSName": "TN",
-                                    "imageId": 172184
-                                },
-                                "venueInfo": {
-                                    "ground": "Sector 16 Stadium",
-                                    "city": "Chandigarh",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163970,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 163,
-                                    "teamName": "Gujarat",
-                                    "teamSName": "GUJ",
-                                    "imageId": 172232
-                                },
-                                "team2": {
-                                    "teamId": 244,
-                                    "teamName": "Kerala",
-                                    "teamSName": "KER",
-                                    "imageId": 172297
-                                },
-                                "venueInfo": {
-                                    "ground": "Narendra Modi Stadium",
-                                    "city": "Ahmedabad",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 164010,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group D, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 246,
-                                    "teamName": "Railways",
-                                    "teamSName": "RLYS",
-                                    "imageId": 172299
-                                },
-                                "team2": {
-                                    "teamId": 95,
-                                    "teamName": "Mumbai",
-                                    "teamSName": "MUM",
-                                    "imageId": 172187
-                                },
-                                "venueInfo": {
-                                    "ground": "Brabourne Stadium",
-                                    "city": "Mumbai",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 164003,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group D, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 251,
-                                    "teamName": "Himachal Pradesh",
-                                    "teamSName": "HP",
-                                    "imageId": 172304
-                                },
-                                "team2": {
-                                    "teamId": 171,
-                                    "teamName": "Rajasthan",
-                                    "teamSName": "RAJ",
-                                    "imageId": 172239
-                                },
-                                "venueInfo": {
-                                    "ground": "Himachal Pradesh Cricket Association Stadium",
-                                    "city": "Dharamsala",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            },
-                            {
-                                "matchId": 163981,
-                                "seriesId": 12398,
-                                "matchDesc": "Elite Group C, Day 4",
-                                "matchFormat": "TEST",
-                                "startDate": "1793851200000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 232,
-                                    "teamName": "Bengal",
-                                    "teamSName": "BEN",
-                                    "imageId": 172285
-                                },
-                                "team2": {
-                                    "teamId": 254,
-                                    "teamName": "Maharashtra",
-                                    "teamSName": "MAH",
-                                    "imageId": 172307
-                                },
-                                "venueInfo": {
-                                    "ground": "Eden Gardens",
-                                    "city": "Kolkata",
-                                    "country": "India",
-                                    "timezone": "+05:30"
-                                }
-                            }
-                        ],
-                        "seriesId": 12398,
-                        "seriesHomeCountry": 2,
-                        "seriesCategory": "Domestic"
-                    },
-                    {
-                        "seriesName": "ACC Men's U19 Asia Cup 2026",
-                        "matchInfo": [
-                            {
-                                "matchId": 175610,
-                                "seriesId": 13333,
-                                "matchDesc": "2nd Match, Group B",
-                                "matchFormat": "ODI",
-                                "startDate": "1793854800000",
-                                "endDate": "1793923199000",
-                                "team1": {
-                                    "teamId": 224,
-                                    "teamName": "Bangladesh U19",
-                                    "teamSName": "BANU19",
-                                    "imageId": 776211
-                                },
-                                "team2": {
-                                    "teamId": 223,
-                                    "teamName": "Afghanistan U19",
-                                    "teamSName": "AFGU19",
-                                    "imageId": 172278
-                                },
-                                "venueInfo": {
-                                    "ground": "Al Amerat Cricket Ground (Ministry Turf 1)",
-                                    "city": "Al Amerat",
-                                    "country": "Oman",
+                                    "ground": "Sheikh Zayed Stadium",
+                                    "city": "Abu Dhabi",
+                                    "country": "United Arab Emirates",
                                     "timezone": "+04:00"
                                 },
                                 "isLiveStreamEnabled": true
                             },
                             {
-                                "matchId": 175603,
-                                "seriesId": 13333,
-                                "matchDesc": "1st Match, Group B",
-                                "matchFormat": "ODI",
-                                "startDate": "1793854800000",
-                                "endDate": "1793923199000",
+                                "matchId": 176155,
+                                "seriesId": 13307,
+                                "matchDesc": "10th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1794326400000",
+                                "endDate": "1794355199000",
                                 "team1": {
-                                    "teamId": 172,
-                                    "teamName": "Sri Lanka U19",
-                                    "teamSName": "SLU19",
-                                    "imageId": 776266
+                                    "teamId": 598,
+                                    "teamName": "UAE Bulls",
+                                    "teamSName": "UBL",
+                                    "imageId": 784133
                                 },
                                 "team2": {
-                                    "teamId": 386,
-                                    "teamName": "Malaysia U19",
-                                    "teamSName": "MLYU19",
-                                    "imageId": 776321
+                                    "teamId": 3631,
+                                    "teamName": "Emirates Eagles",
+                                    "teamSName": "EE",
+                                    "imageId": 174284
                                 },
                                 "venueInfo": {
-                                    "ground": "Al Amerat Cricket Ground (Ministry Turf 2)",
-                                    "city": "Al Amerat",
-                                    "country": "Oman",
+                                    "ground": "Sheikh Zayed Stadium",
+                                    "city": "Abu Dhabi",
+                                    "country": "United Arab Emirates",
                                     "timezone": "+04:00"
                                 },
                                 "isLiveStreamEnabled": true
                             }
                         ],
-                        "seriesId": 13333,
-                        "seriesCategory": "Domestic",
+                        "seriesId": 13307,
+                        "seriesCategory": "League",
                         "isLiveStreamEnabled": true
                     },
                     {
-                        "seriesName": "Ireland A tour of Zimbabwe, 2026",
+                        "seriesName": "CSA T20 Challenge 2026",
                         "matchInfo": [
                             {
-                                "matchId": 175811,
-                                "seriesId": 13337,
-                                "matchDesc": "1st unofficial Test, Day 1",
-                                "matchFormat": "TEST",
-                                "startDate": "1793863800000",
-                                "endDate": "1794182399000",
+                                "matchId": 177233,
+                                "seriesId": 13180,
+                                "matchDesc": "Super Eights",
+                                "matchFormat": "T20",
+                                "startDate": "1794326400000",
+                                "endDate": "1794355199000",
                                 "team1": {
-                                    "teamId": 342,
-                                    "teamName": "Zimbabwe A",
-                                    "teamSName": "ZIMA",
-                                    "imageId": 776201
+                                    "teamId": 917,
+                                    "teamName": "Western Province",
+                                    "teamSName": "WPR",
+                                    "imageId": 1082447
                                 },
                                 "team2": {
-                                    "teamId": 435,
-                                    "teamName": "Ireland A",
-                                    "teamSName": "IREA",
-                                    "imageId": 839474
+                                    "teamId": 1768,
+                                    "teamName": "South Western Districts",
+                                    "teamSName": "SWD",
+                                    "imageId": 349609
                                 },
                                 "venueInfo": {
-                                    "ground": "Harare Sports Club",
-                                    "city": "Harare",
-                                    "country": "Zimbabwe",
+                                    "ground": "Newlands",
+                                    "city": "Cape Town",
+                                    "country": "South Africa",
                                     "timezone": "+02:00"
                                 }
                             }
                         ],
-                        "seriesId": 13337,
-                        "seriesCategory": "Domestic"
+                        "seriesId": 13180,
+                        "seriesHomeCountry": 11,
+                        "seriesCategory": "League"
                     }
                 ],
-                "longDate": "1793836800000"
+                "longDate": "1794268800000"
             },
-            "category_type": "domestic"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "league"
         },
         {
             "scheduleAdWrapper": {
@@ -2192,7 +1709,7 @@
                                 "seriesId": 13337,
                                 "matchDesc": "1st unofficial Test, Day 2",
                                 "matchFormat": "TEST",
-                                "startDate": "1793950200000",
+                                "startDate": "1793952000000",
                                 "endDate": "1794182399000",
                                 "team1": {
                                     "teamId": 342,
@@ -2221,6 +1738,20 @@
                 "longDate": "1793923200000"
             },
             "category_type": "domestic"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -2329,7 +1860,7 @@
                                 "seriesId": 13337,
                                 "matchDesc": "1st unofficial Test, Day 3",
                                 "matchFormat": "TEST",
-                                "startDate": "1794036600000",
+                                "startDate": "1794038400000",
                                 "endDate": "1794182399000",
                                 "team1": {
                                     "teamId": 342,
@@ -2426,32 +1957,6 @@
                                 }
                             },
                             {
-                                "matchId": 170493,
-                                "seriesId": 13020,
-                                "matchDesc": "10th Match",
-                                "matchFormat": "ODI",
-                                "startDate": "1794087000000",
-                                "endDate": "1794182399000",
-                                "team1": {
-                                    "teamId": 294,
-                                    "teamName": "Northern Districts",
-                                    "teamSName": "ND",
-                                    "imageId": 172343
-                                },
-                                "team2": {
-                                    "teamId": 105,
-                                    "teamName": "Otago",
-                                    "teamSName": "OTG",
-                                    "imageId": 172197
-                                },
-                                "venueInfo": {
-                                    "ground": "Cobham Oval",
-                                    "city": "Whangarei",
-                                    "country": "New Zealand",
-                                    "timezone": "+13:00"
-                                }
-                            },
-                            {
                                 "matchId": 170497,
                                 "seriesId": 13020,
                                 "matchDesc": "11th Match",
@@ -2473,6 +1978,32 @@
                                 "venueInfo": {
                                     "ground": "Basin Reserve",
                                     "city": "Wellington",
+                                    "country": "New Zealand",
+                                    "timezone": "+13:00"
+                                }
+                            },
+                            {
+                                "matchId": 170493,
+                                "seriesId": 13020,
+                                "matchDesc": "10th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1794087000000",
+                                "endDate": "1794182399000",
+                                "team1": {
+                                    "teamId": 294,
+                                    "teamName": "Northern Districts",
+                                    "teamSName": "ND",
+                                    "imageId": 172343
+                                },
+                                "team2": {
+                                    "teamId": 105,
+                                    "teamName": "Otago",
+                                    "teamSName": "OTG",
+                                    "imageId": 172197
+                                },
+                                "venueInfo": {
+                                    "ground": "Cobham Oval",
+                                    "city": "Whangarei",
                                     "country": "New Zealand",
                                     "timezone": "+13:00"
                                 }
@@ -2585,7 +2116,7 @@
                                 "seriesId": 13337,
                                 "matchDesc": "1st unofficial Test, Day 4",
                                 "matchFormat": "TEST",
-                                "startDate": "1794123000000",
+                                "startDate": "1794124800000",
                                 "endDate": "1794182399000",
                                 "team1": {
                                     "teamId": 342,
@@ -2754,89 +2285,107 @@
         },
         {
             "scheduleAdWrapper": {
-                "date": "THU, NOV 05 2026",
+                "date": "TUE, NOV 10 2026",
                 "matchScheduleList": [
                     {
-                        "seriesName": "Womens Big Bash League 2026",
+                        "seriesName": "India A tour of New Zealand, 2026",
                         "matchInfo": [
                             {
-                                "matchId": 162773,
-                                "seriesId": 12677,
-                                "matchDesc": "10th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1793853600000",
-                                "endDate": "1793923199000",
+                                "matchId": 171307,
+                                "seriesId": 13091,
+                                "matchDesc": "3rd Unofficial Test, Day 4",
+                                "matchFormat": "TEST",
+                                "startDate": "1794261600000",
+                                "endDate": "1794355199000",
                                 "team1": {
-                                    "teamId": 355,
-                                    "teamName": "Adelaide Strikers Women",
-                                    "teamSName": "ADSW",
-                                    "imageId": 824978
+                                    "teamId": 80,
+                                    "teamName": "New Zealand A",
+                                    "teamSName": "NZA",
+                                    "imageId": 776336
                                 },
                                 "team2": {
-                                    "teamId": 356,
-                                    "teamName": "Brisbane Heat Women",
-                                    "teamSName": "BRHW",
-                                    "imageId": 824980
+                                    "teamId": 78,
+                                    "teamName": "India A",
+                                    "teamSName": "INDA",
+                                    "imageId": 776181
                                 },
                                 "venueInfo": {
-                                    "ground": "Drummoyne Oval",
-                                    "city": "Sydney",
-                                    "country": "Australia",
-                                    "timezone": "+11:00"
+                                    "ground": "Bert Sutcliffe Oval",
+                                    "city": "Lincoln",
+                                    "country": "New Zealand",
+                                    "timezone": "+13:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13091,
+                        "seriesCategory": "Domestic"
+                    },
+                    {
+                        "seriesName": "ACC Men's U19 Asia Cup 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 175693,
+                                "seriesId": 13333,
+                                "matchDesc": "12th Match, Group A",
+                                "matchFormat": "ODI",
+                                "startDate": "1794286800000",
+                                "endDate": "1794355199000",
+                                "team1": {
+                                    "teamId": 56,
+                                    "teamName": "Pakistan U19",
+                                    "teamSName": "PAKU19",
+                                    "imageId": 776309
+                                },
+                                "team2": {
+                                    "teamId": 229,
+                                    "teamName": "Nepal U19",
+                                    "teamSName": "NPLU19",
+                                    "imageId": 776188
+                                },
+                                "venueInfo": {
+                                    "ground": "Al Amerat Cricket Ground (Ministry Turf 1)",
+                                    "city": "Al Amerat",
+                                    "country": "Oman",
+                                    "timezone": "+04:00"
                                 },
                                 "isLiveStreamEnabled": true
                             },
                             {
-                                "matchId": 162783,
-                                "seriesId": 12677,
-                                "matchDesc": "11th Match",
-                                "matchFormat": "T20",
-                                "startDate": "1793866200000",
-                                "endDate": "1793923199000",
+                                "matchId": 175690,
+                                "seriesId": 13333,
+                                "matchDesc": "11th Match, Group A",
+                                "matchFormat": "ODI",
+                                "startDate": "1794286800000",
+                                "endDate": "1794355199000",
                                 "team1": {
-                                    "teamId": 362,
-                                    "teamName": "Sydney Thunder Women",
-                                    "teamSName": "SYTW",
-                                    "imageId": 824992
+                                    "teamId": 54,
+                                    "teamName": "India U19",
+                                    "teamSName": "INDU19",
+                                    "imageId": 776180
                                 },
                                 "team2": {
-                                    "teamId": 360,
-                                    "teamName": "Perth Scorchers Women",
-                                    "teamSName": "PRSW",
-                                    "imageId": 824984
+                                    "teamId": 283,
+                                    "teamName": "United Arab Emirates U19",
+                                    "teamSName": "UAEU19",
+                                    "imageId": 776244
                                 },
                                 "venueInfo": {
-                                    "ground": "Drummoyne Oval",
-                                    "city": "Sydney",
-                                    "country": "Australia",
-                                    "timezone": "+11:00"
+                                    "ground": "Al Amerat Cricket Ground (Ministry Turf 2)",
+                                    "city": "Al Amerat",
+                                    "country": "Oman",
+                                    "timezone": "+04:00"
                                 },
                                 "isLiveStreamEnabled": true
                             }
                         ],
-                        "seriesId": 12677,
-                        "seriesHomeCountry": 4,
-                        "seriesCategory": "Women",
+                        "seriesId": 13333,
+                        "seriesCategory": "Domestic",
                         "isLiveStreamEnabled": true
                     }
                 ],
-                "longDate": "1793836800000"
+                "longDate": "1794268800000"
             },
-            "category_type": "women"
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
-        },
-        {
-            "adDetail": {
-                "name": "native_news_index_random_1",
-                "layout": "native_large",
-                "position": 1
-            }
+            "category_type": "domestic"
         },
         {
             "scheduleAdWrapper": {
@@ -2941,6 +2490,20 @@
                 "longDate": "1793923200000"
             },
             "category_type": "women"
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
             "scheduleAdWrapper": {
@@ -3305,6 +2868,110 @@
                     }
                 ],
                 "longDate": "1794268800000"
+            },
+            "category_type": "women"
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "WED, NOV 11 2026",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Women's Victoria T20I Series, 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 177335,
+                                "seriesId": 13413,
+                                "matchDesc": "9th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1794378600000",
+                                "endDate": "1794441599000",
+                                "team1": {
+                                    "teamId": 448,
+                                    "teamName": "Uganda Women",
+                                    "teamSName": "UGAW",
+                                    "imageId": 776236
+                                },
+                                "team2": {
+                                    "teamId": 720,
+                                    "teamName": "Rwanda Women",
+                                    "teamSName": "RWAW",
+                                    "imageId": 248448
+                                },
+                                "venueInfo": {
+                                    "ground": "Entebbe Cricket Oval",
+                                    "city": "Entebbe",
+                                    "country": "Uganda",
+                                    "timezone": "+03:00"
+                                }
+                            },
+                            {
+                                "matchId": 177339,
+                                "seriesId": 13413,
+                                "matchDesc": "10th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1794394800000",
+                                "endDate": "1794441599000",
+                                "team1": {
+                                    "teamId": 503,
+                                    "teamName": "Namibia Women",
+                                    "teamSName": "NAMW",
+                                    "imageId": 776329
+                                },
+                                "team2": {
+                                    "teamId": 592,
+                                    "teamName": "United States of America Women",
+                                    "teamSName": "USAW",
+                                    "imageId": 776222
+                                },
+                                "venueInfo": {
+                                    "ground": "Entebbe Cricket Oval",
+                                    "city": "Entebbe",
+                                    "country": "Uganda",
+                                    "timezone": "+03:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 13413,
+                        "seriesCategory": "Women"
+                    },
+                    {
+                        "seriesName": "Womens Big Bash League 2026",
+                        "matchInfo": [
+                            {
+                                "matchId": 162827,
+                                "seriesId": 12677,
+                                "matchDesc": "18th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1794384600000",
+                                "endDate": "1794441599000",
+                                "team1": {
+                                    "teamId": 360,
+                                    "teamName": "Perth Scorchers Women",
+                                    "teamSName": "PRSW",
+                                    "imageId": 824984
+                                },
+                                "team2": {
+                                    "teamId": 362,
+                                    "teamName": "Sydney Thunder Women",
+                                    "teamSName": "SYTW",
+                                    "imageId": 824992
+                                },
+                                "venueInfo": {
+                                    "ground": "W.A.C.A. Ground",
+                                    "city": "Perth",
+                                    "country": "Australia",
+                                    "timezone": "+08:00"
+                                },
+                                "isLiveStreamEnabled": true
+                            }
+                        ],
+                        "seriesId": 12677,
+                        "seriesHomeCountry": 4,
+                        "seriesCategory": "Women",
+                        "isLiveStreamEnabled": true
+                    }
+                ],
+                "longDate": "1794355200000"
             },
             "category_type": "women"
         }
